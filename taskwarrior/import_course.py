@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emery-only resume-safe importer for the 21-task Pebble C course.
+"""Emery-only resume-safe importer for the 26-task Pebble C course.
 
 Platform: Pebble Time 2, Emery, 200x228 rectangular display.
 Every starting example is Emery-targeted: verified emery platform in its
@@ -607,6 +607,533 @@ for lesson in TASKS:
         lesson["instructions"]
     )
 
+# --- Course version 2: eight C modules, exact lesson folders, 26 tasks. ---
+COURSE_V2 = {
+  "2A": {
+    "key": "2A",
+    "description": "2A Explore Pebble examples",
+    "skill": "Idea Generation",
+    "difficulty": "L",
+    "estimated": "20m",
+    "priority": "H",
+    "depends": [],
+    "instructions": "Inspect the three included Emery-only projects under lessons/2A. Brainstorm five modifications and note what SDK feature each might require. No coding or debugging-project spoilers.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "None",
+    "starting_example_title": "Lesson 2A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A",
+    "starting_example_note": "Open lessons/2A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "7A": {
+    "key": "7A",
+    "description": "7A Build and run a time-only C watchface",
+    "skill": "Development Tools and Workflow",
+    "difficulty": "L",
+    "estimated": "30m",
+    "priority": "H",
+    "depends": [],
+    "instructions": "",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "None",
+    "starting_example_title": "Lesson 7A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7A",
+    "starting_example_note": "Open lessons/7A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4A": {
+    "key": "4A",
+    "description": "4A Variables, Data Types, and Operators",
+    "skill": "C Programming",
+    "difficulty": "L",
+    "estimated": "120m",
+    "priority": "H",
+    "depends": [
+      "7A"
+    ],
+    "instructions": "Read variables, types, operators and casts. Complete the bouncing ball and orbiting-letter projects, modifying expressions and interpreting their behavior.",
+    "done": "Demonstrate both Emery apps, explain types and arithmetic, and supply code diffs plus boundary tests.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4A-variables-data-types-operators.md",
+    "prereq_note": "7A",
+    "starting_example_title": "Lesson 4A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4A",
+    "starting_example_note": "Open lessons/4A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "5A": {
+    "key": "5A",
+    "description": "5A Find and document a Pebble API function",
+    "skill": "Resource Literacy",
+    "difficulty": "L",
+    "estimated": "20m",
+    "priority": "H",
+    "depends": [
+      "4A"
+    ],
+    "instructions": "",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4A",
+    "starting_example_title": "Lesson 5A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A",
+    "starting_example_note": "Open lessons/5A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "1A": {
+    "key": "1A",
+    "description": "1A Change one visual property of a time-only watchface",
+    "skill": "UI Design",
+    "difficulty": "L",
+    "estimated": "30m",
+    "priority": "H",
+    "depends": [
+      "4A",
+      "5A",
+      "7A"
+    ],
+    "instructions": "Use lessons/1A/starter with only one time TextLayer. Change exactly one of font, color, alignment or position; verify that the clock still updates.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4A, 5A, 7A",
+    "starting_example_title": "Lesson 1A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A",
+    "starting_example_note": "Open lessons/1A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "6A": {
+    "key": "6A",
+    "description": "6A Diagnose a simple compiler error",
+    "skill": "Debugging and Testing",
+    "difficulty": "L",
+    "estimated": "20m",
+    "priority": "H",
+    "depends": [
+      "4A",
+      "7A"
+    ],
+    "instructions": "Use the deliberately flawed local lessons/6A/starter project. Capture the first compiler diagnostic, make the minimal syntax correction, then build and run on Emery.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4A, 7A",
+    "starting_example_title": "Lesson 6A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A",
+    "starting_example_note": "Open lessons/6A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "7B": {
+    "key": "7B",
+    "description": "7B Create a Git-based modification workflow",
+    "skill": "Development Tools and Workflow",
+    "difficulty": "M",
+    "estimated": "45m",
+    "priority": "H",
+    "depends": [
+      "7A",
+      "1A",
+      "6A"
+    ],
+    "instructions": "Make a personal Git branch or working copy of lessons/7B/starter, commit a baseline, change one visual property, build/test and commit the improvement.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "7A, 1A, 6A",
+    "starting_example_title": "Lesson 7B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B",
+    "starting_example_note": "Open lessons/7B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4B": {
+    "key": "4B",
+    "description": "4B Conditional Execution and Decision Making",
+    "skill": "C Programming",
+    "difficulty": "M",
+    "estimated": "120m",
+    "priority": "H",
+    "depends": [
+      "4A"
+    ],
+    "instructions": "Read if/else, switch, logical operators and short-circuiting. Complete the sweeping-seconds and digital-clock decision exercises.",
+    "done": "Two modified Emery builds plus an explanation of each branch and tests at decision boundaries.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4B-conditionals-decision-making.md",
+    "prereq_note": "4A",
+    "starting_example_title": "Lesson 4B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4B",
+    "starting_example_note": "Open lessons/4B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4C": {
+    "key": "4C",
+    "description": "4C Loops and Iteration",
+    "skill": "C Programming",
+    "difficulty": "M",
+    "estimated": "135m",
+    "priority": "H",
+    "depends": [
+      "4B"
+    ],
+    "instructions": "Study for, while, do/while and nested loops. Complete decimal-to-binary, color-grid replacement and screen-filling text exercises.",
+    "done": "All three exercises run on Emery; the loop bounds and termination conditions are explained and verified.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4C-loops-iteration.md",
+    "prereq_note": "4B",
+    "starting_example_title": "Lesson 4C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4C",
+    "starting_example_note": "Open lessons/4C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4D": {
+    "key": "4D",
+    "description": "4D Functions and Program Structure",
+    "skill": "C Programming",
+    "difficulty": "M",
+    "estimated": "150m",
+    "priority": "H",
+    "depends": [
+      "4C"
+    ],
+    "instructions": "Study signatures, parameters, return values, callbacks and recursion. Complete the clock-helper, bit-pattern, rectangle and concentric-circle projects.",
+    "done": "Four project artifacts show correct function contracts, a terminating recursive function and a working build.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4D ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4D-functions-program-structure.md",
+    "prereq_note": "4C",
+    "starting_example_title": "Lesson 4D: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4D",
+    "starting_example_note": "Open lessons/4D/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "3A": {
+    "key": "3A",
+    "description": "3A Trace the watchface lifecycle",
+    "skill": "Algorithmic Thinking",
+    "difficulty": "L",
+    "estimated": "30m",
+    "priority": "H",
+    "depends": [
+      "4D",
+      "7A"
+    ],
+    "instructions": "",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4D, 7A",
+    "starting_example_title": "Lesson 3A: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A",
+    "starting_example_note": "Open lessons/3A/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "1B": {
+    "key": "1B",
+    "description": "1B Add and style a date TextLayer",
+    "skill": "UI Design",
+    "difficulty": "M",
+    "estimated": "45m",
+    "priority": "M",
+    "depends": [
+      "1A",
+      "4D",
+      "5A"
+    ],
+    "instructions": "Start from the time-only watchface in lessons/1B/starter and add a separate date TextLayer, observing creation, layout, minute updates and cleanup on Emery.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "1A, 4D, 5A",
+    "starting_example_title": "Lesson 1B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1B",
+    "starting_example_note": "Open lessons/1B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "5B": {
+    "key": "5B",
+    "description": "5B Trace an existing feature through source code",
+    "skill": "Resource Literacy",
+    "difficulty": "M",
+    "estimated": "45m",
+    "priority": "M",
+    "depends": [
+      "3A",
+      "4D",
+      "5A"
+    ],
+    "instructions": "Inspect the local lessons/5B/starter font selector. Trace the Up/Down event from callback through index update to apply_font; document API signatures and state updates.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "3A, 4D, 5A",
+    "starting_example_title": "Lesson 5B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5B",
+    "starting_example_note": "Open lessons/5B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "3B": {
+    "key": "3B",
+    "description": "3B Design a font-cycling algorithm",
+    "skill": "Algorithmic Thinking",
+    "difficulty": "M",
+    "estimated": "30m",
+    "priority": "M",
+    "depends": [
+      "3A",
+      "5B"
+    ],
+    "instructions": "Using the local lessons/3B/starter font selector, write original pseudocode for moving through fonts in both directions, including first/last and a one-item edge case.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "3A, 5B",
+    "starting_example_title": "Lesson 3B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3B",
+    "starting_example_note": "Open lessons/3B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "2B": {
+    "key": "2B",
+    "description": "2B Write a two-example remix brief",
+    "skill": "Idea Generation",
+    "difficulty": "M",
+    "estimated": "30m",
+    "priority": "M",
+    "depends": [
+      "2A",
+      "5B"
+    ],
+    "instructions": "Choose components from the two complete local projects in lessons/2B, write a remix brief with core behavior, sources, minimal implementation and technical unknowns.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "2A, 5B",
+    "starting_example_title": "Lesson 2B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2B",
+    "starting_example_note": "Open lessons/2B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4E": {
+    "key": "4E",
+    "description": "4E Arrays, Strings, and Bounds",
+    "skill": "C Programming",
+    "difficulty": "M",
+    "estimated": "90m",
+    "priority": "H",
+    "depends": [
+      "4D"
+    ],
+    "instructions": "Read arrays, indices, strings and bounded buffers. Extend the Emery word-selector starter to six choices and test wraparound and long labels.",
+    "done": "Build works; selections wrap correctly, strings remain terminated and storage is valid throughout display lifetime.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4E ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4E-arrays-strings.md",
+    "prereq_note": "4D",
+    "starting_example_title": "Lesson 4E: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4E",
+    "starting_example_note": "Open lessons/4E/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4F": {
+    "key": "4F",
+    "description": "4F Pointers, Indirection, and Memory Lifetime",
+    "skill": "C Programming",
+    "difficulty": "H",
+    "estimated": "105m",
+    "priority": "H",
+    "depends": [
+      "4E"
+    ],
+    "instructions": "Read pointer parameters, indirection, ownership and lifetime. Extend the coordinate-pointer app with a safe helper, and document Pebble resource cleanup.",
+    "done": "Working application, pointer trace, NULL handling and ownership/lifetime explanation.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4F ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4F-pointers-memory.md",
+    "prereq_note": "4E",
+    "starting_example_title": "Lesson 4F: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4F",
+    "starting_example_note": "Open lessons/4F/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4G": {
+    "key": "4G",
+    "description": "4G Structures, Enums, and Program State",
+    "skill": "C Programming",
+    "difficulty": "H",
+    "estimated": "105m",
+    "priority": "M",
+    "depends": [
+      "4F"
+    ],
+    "instructions": "Read structs, enums, static scope and state transitions. Extend the local mode app with PAUSED and mode-specific behavior.",
+    "done": "Mode transition table plus running app demonstrating valid transitions, protected operations and fallback handling.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4G ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4G-structs-enums-state.md",
+    "prereq_note": "4F",
+    "starting_example_title": "Lesson 4G: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4G",
+    "starting_example_note": "Open lessons/4G/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "5C": {
+    "key": "5C",
+    "description": "5C Research an unfamiliar Pebble capability",
+    "skill": "Resource Literacy",
+    "difficulty": "H",
+    "estimated": "60m",
+    "priority": "M",
+    "depends": [
+      "4E",
+      "5B"
+    ],
+    "instructions": "Research persistence from lessons/5C/starter, trace persist_exists/read/write and write an implementation plan using the current SDK documentation.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4E, 5B",
+    "starting_example_title": "Lesson 5C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5C",
+    "starting_example_note": "Open lessons/5C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "6B": {
+    "key": "6B",
+    "description": "6B Diagnose a font-selection boundary bug",
+    "skill": "Debugging and Testing",
+    "difficulty": "M",
+    "estimated": "45m",
+    "priority": "M",
+    "depends": [
+      "4E",
+      "6A",
+      "3B"
+    ],
+    "instructions": "Use lessons/6B/starter with its deliberate index bug. Reproduce Up/Down behavior, inspect APP_LOG index traces, fix the faulty transition and retest every boundary.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4E, 6A, 3B",
+    "starting_example_title": "Lesson 6B: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6B",
+    "starting_example_note": "Open lessons/6B/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "2C": {
+    "key": "2C",
+    "description": "2C Develop an original Pebble app concept",
+    "skill": "Idea Generation",
+    "difficulty": "H",
+    "estimated": "60m",
+    "priority": "M",
+    "depends": [
+      "2B",
+      "5C"
+    ],
+    "instructions": "Inspect the three complete local Emery examples in lessons/2C and develop three original ideas; compare feasibility, select one and write a minimal specification.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "2B, 5C",
+    "starting_example_title": "Lesson 2C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2C",
+    "starting_example_note": "Open lessons/2C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "3C": {
+    "key": "3C",
+    "description": "3C Design a state machine for an app",
+    "skill": "Algorithmic Thinking",
+    "difficulty": "H",
+    "estimated": "60m",
+    "priority": "M",
+    "depends": [
+      "2C",
+      "3B",
+      "4G"
+    ],
+    "instructions": "Use lessons/3C/starter and your 2C app concept to specify a state machine: states, inputs, transitions, visible outputs, default cases and invalid events.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "2C, 3B, 4G",
+    "starting_example_title": "Lesson 3C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3C",
+    "starting_example_note": "Open lessons/3C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "4H": {
+    "key": "4H",
+    "description": "4H Event-Driven Integration and Application Lifecycle",
+    "skill": "C Programming",
+    "difficulty": "H",
+    "estimated": "150m",
+    "priority": "M",
+    "depends": [
+      "4G",
+      "3C"
+    ],
+    "instructions": "Read callback lifecycle, event subscriptions and persistence. Extend the local app with a second mode and show event-driven updates and correct cleanup.",
+    "done": "Emery program demonstrates button/tick callbacks, persisted state, mode-dependent actions and safe teardown.",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4H ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md ; C reading: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/c-programming/4H-events-lifecycle.md",
+    "prereq_note": "4G, 3C",
+    "starting_example_title": "Lesson 4H: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4H",
+    "starting_example_note": "Open lessons/4H/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "1C": {
+    "key": "1C",
+    "description": "1C Design a multi-mode Pebble interface",
+    "skill": "UI Design",
+    "difficulty": "H",
+    "estimated": "90m",
+    "priority": "M",
+    "depends": [
+      "1B",
+      "2C",
+      "3C",
+      "4H"
+    ],
+    "instructions": "Use lessons/1C/starter (the licensed Simplicity C layout) to sketch multiple Emery screens/modes, navigation and button outcomes for your own concept.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "1B, 2C, 3C, 4H",
+    "starting_example_title": "Lesson 1C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1C",
+    "starting_example_note": "Open lessons/1C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "7C": {
+    "key": "7C",
+    "description": "7C Integrate font browsing with persistent selection",
+    "skill": "Development Tools and Workflow",
+    "difficulty": "H",
+    "estimated": "150m",
+    "priority": "M",
+    "depends": [
+      "1C",
+      "4H",
+      "5B",
+      "7B"
+    ],
+    "instructions": "Combine the two complete but separate projects in lessons/7C (font selector and persistent counter). Implement saved font selection yourself, validate indices and verify restart behavior.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "1C, 4H, 5B, 7B",
+    "starting_example_title": "Lesson 7C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7C",
+    "starting_example_note": "Open lessons/7C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  },
+  "6C": {
+    "key": "6C",
+    "description": "6C Diagnose a persistent-state integration bug",
+    "skill": "Debugging and Testing",
+    "difficulty": "H",
+    "estimated": "90m",
+    "priority": "L",
+    "depends": [
+      "4H",
+      "6B",
+      "7C"
+    ],
+    "instructions": "Use lessons/6C/starter with its deliberate persistence fault. Select a nondefault font, restart, trace save/restore logs, correct the mismatch and retest.",
+    "done": "",
+    "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
+    "prereq_note": "4H, 6B, 7C",
+    "starting_example_title": "Lesson 6C: exact local Emery starter(s)",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6C",
+    "starting_example_note": "Open lessons/6C/README.md. The complete source and instructions are in this repository; no external example download.",
+    "emery_rule": "Only emery (Pebble Time 2), 200x228 rectangular, Pebble SDK 4.33.1."
+  }
+}
+COURSE_SEQUENCE = ["2A","7A","4A","5A","1A","6A","7B","4B","4C","4D","3A","1B","5B","3B","2B","4E","4F","4G","5C","6B","2C","3C","4H","1C","7C","6C"]
+for item in TASKS:
+    item.update(COURSE_V2[item["key"]])
+for key in ("4D", "4E", "4F", "4G", "4H"):
+    TASKS.append(dict(COURSE_V2[key]))
+TASKS.sort(key=lambda item: COURSE_SEQUENCE.index(item["key"]))
+
 SHORT = {"H": "High", "M": "Medium", "L": "Low"}
 
 
@@ -698,8 +1225,10 @@ def annotations_for(t):
 
 
 def get_record_by_description(description):
+    key = description.split(" ", 1)[0]
     matches = [r for r in course_export()
-               if r.get("description") == description and r.get("status") != "deleted"]
+               if r.get("description", "").split(" ", 1)[0] == key
+               and r.get("status") != "deleted"]
     if len(matches) > 1:
         raise RuntimeError(
             f"Found {len(matches)} duplicate tasks with description {description!r}. "
@@ -736,8 +1265,8 @@ def ensure_fields(uuid, item, existing):
     for k, v in required.items():
         # Taskwarrior may export duration UDAs as seconds rather than '30m'.
         if k == "estimated":
-            if not existing.get(k):
-                changes.append(f"{k}:{v}")
+            # The revised curriculum has new time estimates: update pending tasks.
+            changes.append(f"{k}:{v}")
         elif existing.get(k) != v:
             changes.append(f"{k}:{v}")
     if changes and existing.get("status") == "pending":
@@ -761,7 +1290,8 @@ def main():
         before = course_export()
         existing = {t["description"]: t for t in before
                     if t.get("status") != "deleted"}
-        matched = sum(1 for t in TASKS if t["description"] in existing)
+        known_ids = {name.split(" ", 1)[0] for name in existing}
+        matched = sum(1 for t in TASKS if t["key"] in known_ids)
         estimated_type = get_config("uda.estimated.type")
         effort_type = get_config("uda.effort.type")
         print(f"Project: {PROJECT} | Activities: {len(TASKS)} | Target: emery (Pebble Time 2) only")
@@ -801,21 +1331,21 @@ def main():
             if not uuid:
                 raise RuntimeError(f"Export for {item['key']} has no UUID: {old!r}")
             uuids[item["key"]] = uuid
+            if old.get("description") != item["description"] and old.get("status") == "pending":
+                task_cmd(uuid, "modify", "description:" + item["description"])
             ensure_fields(uuid, item, old)
             ensure_annotations(uuid, item, old)
             print(f"{action}: {item['key']} — {item['description']}")
 
         for item in TASKS:
             expected = [uuids[k] for k in item["depends"]]
-            if not expected:
-                continue
             old = get_record_by_description(item["description"])
             current = normalize_depends(old.get("depends"))
-            all_deps = list(dict.fromkeys(current + expected))
-            if set(expected) - set(current):
+            if set(expected) != set(current):
                 if old.get("status") == "pending":
-                    task_cmd(uuids[item["key"]], "modify", "depends:" + ",".join(all_deps))
-                    print(f"Linked: {item['key']} depends on {', '.join(item['depends'])}")
+                    # Replace stale old-course dependencies; do not merely append them.
+                    task_cmd(uuids[item["key"]], "modify", "depends:" + ",".join(expected))
+                    print(f"Linked: {item['key']} depends on {', '.join(item['depends']) or 'none'}")
                 else:
                     print(f"Skipped dependency change for completed task {item['key']}.")
 

@@ -1,39 +1,30 @@
 # C for Pebble Programmers Course
 
-A 21-activity, self-directed **Pebble Time 2 (Emery-only)** C programming course organized by seven core skills and real prerequisites.
+A self-directed, **26-activity**, **Emery-only** C programming course: seven developer competencies and an eight-module C track (4A–4H), with real dependency links and evidence-based completion.
+
+**Estimated focused time:** 31h 15m. No prescribed calendar deadlines.
 
 ## Start here
 
-- [Full syllabus — all 21 activities](SYLLABUS.md) ([PDF edition](SYLLABUS.pdf))
-- [All 21 individual lesson folders](lessons/README.md) — three clean starters plus three deliberately flawed debugging projects
-- [Taskwarrior importer](taskwarrior/README.md) — 21 tasks with estimates, effort, priorities, dependencies, and detailed repository-linked annotations
+- [Complete syllabus](SYLLABUS.md) ([PDF edition](SYLLABUS.pdf))
+- [All 26 lesson folders and local examples](lessons/README.md)
+- [Eight C programming reading modules](curriculum/c-programming/README.md)
+- [Taskwarrior importer](taskwarrior/README.md)
 
-## Build any included project
+## Examples and assignments
+
+Every lesson begins from source included in this repository. The original C textbook exercises in Chapters 3–6 have **eleven working-intended, Emery-targeted starter projects** with TODOs (not finished solutions). For example:
 
 ```sh
-cd examples/time-only
+cd lessons/4A/projects/project-3-2
 pebble build
 pebble install --emulator emery
 ```
 
-The debug-6a source is **intentionally unbuildable** until you locate the syntax error. Debug-6b and debug-6c compile but contain deliberate defects; their READMEs explain how to collect the provided diagnostic evidence without giving away a solution.
+4E–4H additionally include complete base watchapps under `lessons/<ID>/starter`. The watchapps are deliberately simple so you can investigate and extend them yourself.
 
-**No AI during the learning exercises.** The source and challenges are scaffolding, not solutions to student deliverables. Keep your experiments in a separate copy or branch. All course starting examples are locally authored and targeted at `emery`.
+The developer skills remain UI Design, Idea Generation, Algorithmic Thinking, C Programming, Resource Literacy, Debugging and Testing, and Development Tools and Workflow.
 
-The course has no calendar deadline; estimated workload is **19 h 15 m** of focused work.
+**No AI-generated solutions during exercises.** Use the included source, SDK docs, compiler messages, emulator and Git; preserve evidence of your own work.
 
-## Per-lesson source folders
-
-Every lesson has a local complete starter under [lessons/](lessons/), including official MIT-licensed SDK source excerpts where redistribution is authorized. For example, see [7A](lessons/7A/), [1B](lessons/1B/), [6B](lessons/6B/) or [7C](lessons/7C/). No external example clone is required while completing an exercise.
-
-## C programming reading modules
-
-The new proposed **4A–4D** C-language progression is being developed separately from the original 21-activity task IDs, so existing lessons are preserved for now.
-
-- [C Programming module index](curriculum/c-programming/README.md)
-- [4A — Variables, data types, and operators](curriculum/c-programming/4A-variables-data-types-operators.md)
-- [4B — Conditional execution and decision making](curriculum/c-programming/4B-conditionals-decision-making.md)
-- [4C — Loops and iteration](curriculum/c-programming/4C-loops-iteration.md)
-- [4D — Functions and program structure](curriculum/c-programming/4D-functions-program-structure.md)
-
-These are adapted from Mike Jipping's *Learning C with Pebble*, with the minimum SDK 4.33.1 / Emery changes documented in the module index. Legacy hosted-IDE project links are removed; the associated project starters still need to be made local before those exercises are assigned.
+**Build verification:** Source and manifests have been checked for Emery; compilation on the Pebble SDK remains to be performed on a configured development machine.
