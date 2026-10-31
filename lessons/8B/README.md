@@ -1,32 +1,30 @@
-# 8B — Menus and scrolling
+# 8B — Conditional Execution and Decision Making
 
-**Primary competency:** UI Design · **Supporting competency:** Algorithmic Thinking · **Estimate:** 75m · **Prerequisites:** 4E, 4H · **Platform:** Emery, SDK 4.33.1
+**Core skill:** C Programming · **Time:** 120m · **Difficulty:** Medium · **Priority:** High · **Dependencies:** 3A
 
-## Exact local example
+## Competency checkpoint
 
-The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/c/main.c` and any extra resources needed. It is a **prior-stage checkpoint**, not the solution to the current exercise. Start here instead of cloning an external repository.
+**Primary:** C Programming · **Supporting:** Algorithmic Thinking. Explain which C data/functions produce the behavior, identify ownership or bounds as relevant, and verify a failing/edge case. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
 
-**Project history:** 7A → 8B → 8D. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
 
-## SDK APIs
+> **Before the exercises:** [Pebble SDK scaffolding for C lessons 3A–10D](../../curriculum/c-programming/sdk-scaffolding.md). Framework drawing, timers and event registration are *provided* code here; the assessed topic is C. Later 12A, 27C, 28D and 37K teach those APIs directly.
 
-`MenuLayer, MenuLayerCallbacks` — [Official C API reference](https://developer.repebble.com/docs/c/User_Interface/Layers/MenuLayer/).
+## Reading
 
-## Activity
+[**Complete 8B reading module**](../../curriculum/c-programming/8B-conditionals-decision-making.md).
 
-Build a six-entry scrolling Field Guide menu; implement draw_row and select_click; test the first, middle, and last rows.
+## Exercises (complete local Emery projects)
 
-## Evidence-based completion
+1. [Project 4.1](projects/project-4-1/) — read its README, build, modify and test.
+2. [Project 4.2](projects/project-4-2/) — read its README, build, modify and test.
 
-Six entries scroll smoothly and selecting a row changes the visible species. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
+These are separate C projects. No external sample or answer key is required.
 
-## Run
+## Completion criteria
 
-```sh
-cd lessons/8B/starter
-pebble build
-pebble install --emulator emery
-pebble logs --emulator emery
-```
+Finish each linked exercise, demonstrate the intended behavior in the Emery emulator, submit a source diff and a brief explanation of the C feature you applied, and test at least one boundary case. Avoid AI assistance during exercises.
 
-**Compatibility:** These are watchapps, since watchfaces cannot receive button events. The watchface in lesson 7A remains unchanged. Sensor fidelity and phone-to-watch connection may require a real device; emulator launch alone does not prove physical sensor or phone communication functionality.
+## Legacy task note
+
+The previous activity used a different objective. Its original starter project is preserved in `starter/` for compatibility; the **new C programming activities above are authoritative**.
+

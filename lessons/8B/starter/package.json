@@ -1,11 +1,11 @@
 {
-  "name": "emery-api-8b",
+  "name": "course-lessons-4b-starter",
   "version": "1.0.0",
   "private": true,
   "author": "C for Pebble Programmers Course",
   "pebble": {
-    "displayName": "API 8B C",
-    "uuid": "c0dec0de-8000-4000-8000-000000000002",
+    "displayName": "lessons 8B starter",
+    "uuid": "c0dec0de-2000-4000-8000-000000000016",
     "sdkVersion": "3",
     "targetPlatforms": [
       "emery"
