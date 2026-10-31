@@ -14,18 +14,12 @@ class DeterministicCheck:
 
 
 @dataclass
-class SpacyCriterion:
-    required_phrases: list[str] = field(default_factory=list)
-    exemplar_tag: str | None = None
-
-
-@dataclass
 class Criterion:
     id: str
     text: str
     source: str = "lesson"
     deterministic: list[DeterministicCheck] = field(default_factory=list)
-    spacy: SpacyCriterion | None = None
+    llm_assess: bool = True
 
 
 @dataclass
@@ -35,26 +29,18 @@ class Rubric:
     paths: list[str]
     evidence_sections: list[str]
     criteria: list[Criterion]
-    spacy_global: dict[str, Any] = field(default_factory=dict)
+    llm_global: dict[str, Any] = field(default_factory=dict)
     evidence_template: str = "templates/EVIDENCE.md.tpl"
 
     @property
     def exemplar_meets(self) -> Path | None:
-        rel = self.spacy_global.get("exemplar_dirs", {}).get("meets")
+        rel = self.llm_global.get("exemplar_dirs", {}).get("meets")
         return Path(rel) if rel else None
 
     @property
     def exemplar_below(self) -> Path | None:
-        rel = self.spacy_global.get("exemplar_dirs", {}).get("below")
+        rel = self.llm_global.get("exemplar_dirs", {}).get("below")
         return Path(rel) if rel else None
-
-    @property
-    def meets_min_margin(self) -> float:
-        return float(self.spacy_global.get("meets_min_margin", 0.05))
-
-    @property
-    def uncertain_band(self) -> float:
-        return float(self.spacy_global.get("uncertain_band", 0.02))
 
 
 def _parse_check(raw: dict[str, Any]) -> DeterministicCheck:
@@ -62,17 +48,29 @@ def _parse_check(raw: dict[str, Any]) -> DeterministicCheck:
     return DeterministicCheck(kind=kind, params=raw)
 
 
+def _parse_llm_global(data: dict[str, Any]) -> dict[str, Any]:
+    if "llm" in data:
+        return dict(data["llm"])
+    if "spacy" in data:
+        # Legacy pilot YAML on other branches
+        legacy = dict(data["spacy"])
+        legacy.pop("meets_min_margin", None)
+        legacy.pop("uncertain_band", None)
+        return legacy
+    return {}
+
+
 def load_rubric(path: Path) -> Rubric:
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     criteria: list[Criterion] = []
     for item in data.get("criteria", []):
-        spacy_raw = item.get("spacy")
-        spacy = None
-        if spacy_raw:
-            spacy = SpacyCriterion(
-                required_phrases=list(spacy_raw.get("required_phrases", [])),
-                exemplar_tag=spacy_raw.get("exemplar_tag"),
-            )
+        llm_flag = item.get("llm", True)
+        if "spacy" in item and "llm" not in item:
+            llm_flag = True
+        if llm_flag is False or llm_flag == "false":
+            assess = False
+        else:
+            assess = True
         det = [_parse_check(dict(c)) for c in item.get("deterministic", [])]
         criteria.append(
             Criterion(
@@ -80,7 +78,7 @@ def load_rubric(path: Path) -> Rubric:
                 text=item["text"],
                 source=item.get("source", "lesson"),
                 deterministic=det,
-                spacy=spacy,
+                llm_assess=assess,
             )
         )
     return Rubric(
@@ -89,6 +87,6 @@ def load_rubric(path: Path) -> Rubric:
         paths=list(data.get("paths", [])),
         evidence_sections=list(data.get("evidence_sections", [])),
         criteria=criteria,
-        spacy_global=dict(data.get("spacy", {})),
+        llm_global=_parse_llm_global(data),
         evidence_template=data.get("evidence_template", "templates/EVIDENCE.md.tpl"),
     )

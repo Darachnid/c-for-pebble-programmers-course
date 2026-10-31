@@ -11,9 +11,7 @@ evidence_sections:
   - "## Boundary case tested"
   - "## Explain in your own words"
   - "## Source diff"
-spacy:
-  meets_min_margin: 0.05
-  uncertain_band: 0.02
+llm:
   exemplar_dirs:
     meets: examples/7A/meets
     below: examples/7A/below
@@ -27,11 +25,7 @@ criteria:
         evidence_pattern: "(?i)pebble build|build.*success|install.*emery"
       - kind: regex_in_evidence
         pattern: "(?i)emery"
-    spacy:
-      required_phrases:
-        - build
-        - emulator
-        - emery
+    llm: true
 
   - id: time_only_face
     text: Displays current time, updates by minute, with no date TextLayer
@@ -43,10 +37,7 @@ criteria:
         pattern: "(?i)added a date|second textlayer for the date|date textlayer for"
       - kind: max_textlayer_create_in_diff
         max: 1
-    spacy:
-      required_phrases:
-        - TextLayer
-        - minute
+    llm: true
 
   - id: workflow_artifacts
     text: Tangible artifact under lesson paths and honest evidence of your work
@@ -58,6 +49,4 @@ criteria:
         section: "## Explain in your own words"
       - kind: regex_in_evidence
         pattern: "(?i)boundary"
-    spacy:
-      required_phrases:
-        - boundary
+    llm: true

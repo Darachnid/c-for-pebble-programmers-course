@@ -13,9 +13,7 @@ evidence_sections:
   - "## Boundary case tested"
   - "## Explain in your own words"
   - "## Source diff"
-spacy:
-  meets_min_margin: 0.04
-  uncertain_band: 0.02
+llm:
   exemplar_dirs:
     meets: examples/4A/meets
     below: examples/4A/below
@@ -32,10 +30,7 @@ criteria:
         min: 1
       - kind: regex_in_evidence
         pattern: "(?i)emulator|pebble install"
-    spacy:
-      required_phrases:
-        - project-3-1
-        - project-3-2
+    llm: true
 
   - id: c_feature_and_diff
     text: Source diff plus brief explanation of the C feature you applied
@@ -45,9 +40,7 @@ criteria:
         pattern: "(?i)diff|git|changed|modified"
       - kind: require_section
         section: "## Explain in your own words"
-    spacy:
-      required_phrases:
-        - variable
+    llm: true
 
   - id: boundary_cases
     text: At least one boundary case tested per exercise
@@ -56,6 +49,4 @@ criteria:
       - kind: require_phrase_count
         phrase: boundary
         min: 2
-    spacy:
-      required_phrases:
-        - boundary
+    llm: true

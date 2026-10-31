@@ -18,7 +18,7 @@ class SubmitBundle:
     build_log_text: str | None = None
 
     @property
-    def combined_text_for_spacy(self) -> str:
+    def combined_text_for_assessment(self) -> str:
         parts = [self.evidence_text]
         if self.build_log_text:
             parts.append(self.build_log_text)

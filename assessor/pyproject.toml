@@ -4,13 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "c-for-pebble-assessor"
-version = "0.1.0"
-description = "Post-submit evidence assessor for the C for Pebble Programmers course"
+version = "0.2.0"
+description = "Post-submit evidence assessor for the C for Pebble Programmers course (local Ollama)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "PyYAML>=6.0",
-  "spacy>=3.7,<4",
 ]
 
 [project.optional-dependencies]
@@ -25,11 +24,8 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 markers = [
-  "spacy: tests that require en_core_web_md",
+  "ollama: tests that call Ollama (mocked or live)",
 ]
 
 [dependency-groups]
 dev = ["pytest>=7.0"]
-model = [
-  "en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl",
-]

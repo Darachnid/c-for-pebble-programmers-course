@@ -7,6 +7,7 @@ from pathlib import Path
 
 from assessor.bundle import build_bundle, evidence_path_for, render_bundle_preview
 from assessor.paths import assessor_dir, find_course_root, rubric_path
+from assessor.ollama_client import OllamaConfig
 from assessor.report import assess_rubric, format_report_text, save_report
 from assessor.rubric import load_rubric
 
@@ -77,7 +78,11 @@ def cmd_submit(args: argparse.Namespace) -> int:
         rubric.evidence_sections,
         baseline=args.baseline,
     )
-    report = assess_rubric(rubric, bundle, assessor_dir(course_root))
+    ollama = OllamaConfig(
+        base_url=args.ollama_url or OllamaConfig.from_env().base_url,
+        model=args.model or OllamaConfig.from_env().model,
+    )
+    report = assess_rubric(rubric, bundle, assessor_dir(course_root), ollama)
     report_path = save_report(course_root, report)
 
     if args.json:
@@ -145,7 +150,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for name, help_text in (
         ("diff", "Preview git bundle without scoring"),
-        ("submit", "Run deterministic + spaCy assessment"),
+        ("submit", "Run deterministic + local Ollama assessment"),
     ):
         p = sub.add_parser(name, help=help_text)
         p.add_argument("activity_id")
@@ -156,6 +161,16 @@ def main(argv: list[str] | None = None) -> int:
         )
         if name == "submit":
             p.add_argument("--json", action="store_true", help="Print JSON summary to stdout")
+            p.add_argument(
+                "--model",
+                default=None,
+                help="Ollama model name (default: ASSESSOR_OLLAMA_MODEL or llama3.2)",
+            )
+            p.add_argument(
+                "--ollama-url",
+                default=None,
+                help="Ollama base URL (default: OLLAMA_HOST or http://127.0.0.1:11434)",
+            )
         p.set_defaults(func=cmd_diff if name == "diff" else cmd_submit)
 
     p_ex = sub.add_parser("examples", help="List meets vs below exemplar folders")
