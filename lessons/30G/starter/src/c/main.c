@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 /* Field Instrument B0: use hardware to corroborate emulator traces. */
 static Window *s_window;static TextLayer *s_title,*s_data;
 static char s_text[100];static int s_x,s_y,s_z,s_heading=-1;
@@ -11,8 +12,11 @@ static void show(void){
 
 static void load(Window *w){
  Layer *root=window_get_root_layer(w);GRect b=layer_get_bounds(root);
- s_title=text_layer_create(GRect(8,20,b.size.w-16,45));
- s_data=text_layer_create(GRect(8,75,b.size.w-16,130));
+ GRect safe=course_content_rect(b);
+ s_title=text_layer_create(GRect(safe.origin.x, safe.origin.y+3,
+     safe.size.w, 36));
+ s_data=text_layer_create(GRect(safe.origin.x, safe.origin.y+46,
+     safe.size.w, safe.size.h-46));
  text_layer_set_text(s_title,"FIELD INSTRUMENT");
  text_layer_set_font(s_title,fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
  text_layer_set_text(s_data,"Sensor lab: start here.");
