@@ -148,6 +148,8 @@ Each new lesson starts from a *completed prior-stage reference checkpoint*, not 
 
 ## Reading and exercises
 
+**C/SDK prerequisite policy:** [The 4A–4D framework-scaffolding guide](curriculum/c-programming/sdk-scaffolding.md) explains graphics/timer callbacks already given to novices. These are not hidden prerequisites or additional tasks; 8A/8C/8D/8K assess those APIs later. **Project continuity:** [A/B/C checkpoint matrix](curriculum/pebble-api/checkpoint-continuity.md) identifies behavior each next-stage starter must preserve.
+
 **4A–4D:** Read the local chapters adapting *Learning C with Pebble* (Jipping, 2016), including the 11 distinct local Chapter 3–6 starter projects. **4E–4H:** Read the original C-focused course notes on arrays, pointers, structs and event-driven lifecycles. **8A–8N:** Consult each lesson's specific C API reference before editing its checkpoint. Keep coding exercises distinct from the written ideation, UI, tracing, resource-research and debugging exercises; none of these are optional simply because they produce no executable code.
 
 **Optional debugging challenges:** 8C/debug (button navigation), 8I/debug (bad Light API call), 8L/debug (resource extraction); the original compulsory 6A/6B/6C remain. Optional challenges do not increase the required activity count or estimated total.

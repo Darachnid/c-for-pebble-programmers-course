@@ -7,6 +7,8 @@
 **Primary:** C Programming · **Supporting:** Algorithmic Thinking. Explain which C data/functions produce the behavior, identify ownership or bounds as relevant, and verify a failing/edge case. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
 
 
+> **Before the exercises:** [Pebble SDK scaffolding for C lessons 4A–4D](../../curriculum/c-programming/sdk-scaffolding.md). Framework drawing, timers and event registration are *provided* code here; the assessed topic is C. Later 8A, 8C, 8D and 8K teach those APIs directly.
+
 ## Reading
 
 [**Complete 4C reading module**](../../curriculum/c-programming/4C-loops-iteration.md).

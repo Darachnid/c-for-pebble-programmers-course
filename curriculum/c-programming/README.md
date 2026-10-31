@@ -29,6 +29,13 @@ All builds use `targetPlatforms: ["emery"]`, SDK 4.33.1, and `pebble install --e
 
 Meet the acceptance criteria in [the syllabus](../../SYLLABUS.md) and in each [lesson README](../../lessons/README.md), show the resulting code or design evidence, and explain the solution without AI assistance.
 
+
+## Why these C lessons come before the Pebble API labs
+
+Projects 3.1–6.4 include existing Window, Layer, drawing, tick and timer callbacks. Students **do not** need independent mastery of those APIs to complete the early C exercises. The [framework-scaffolding guide](sdk-scaffolding.md) explains their flow and identifies exactly which C expressions, branches, loops and helpers the learner should modify. Each of the eleven project READMEs separates the *given API* from the *required C change*.
+
+This is deliberately a **just-in-time reading**, not a new assessed activity or a dependency on 8A–8K. Formal teaching of those SDK APIs occurs in their named capability lessons.
+
 ## Continue into the C SDK
 
 The [14-lab Pebble API track](../pebble-api/README.md) extends this C track with three recurring Emery projects, introducing missing chapters on graphics, sensors, resources and communication.
