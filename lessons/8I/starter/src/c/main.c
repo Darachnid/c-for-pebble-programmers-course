@@ -2,6 +2,7 @@
 /* Field Instrument B2: use hardware to corroborate emulator traces. */
 static Window *s_window;static TextLayer *s_title,*s_data;
 static char s_text[100];static int s_x,s_y,s_z,s_heading=-1;
+static const char *s_compass_status="Unavailable";
 static void show(void){
  snprintf(s_text,sizeof(s_text),"X %d\nY %d\nZ %d\nHeading %d",s_x,s_y,s_z,s_heading);
  text_layer_set_text(s_data,s_text);
@@ -12,9 +13,14 @@ static void acceleration(AccelData *data,uint32_t count){
 }
 #ifdef PBL_COMPASS
 static void heading(CompassHeadingData d){
- if(d.compass_status==CompassStatusUnavailable||d.compass_status==CompassStatusDataInvalid)
-   s_heading=-1;
- else s_heading=TRIGANGLE_TO_DEG(TRIG_MAX_ANGLE-d.magnetic_heading)%360;
+ if(d.compass_status==CompassStatusUnavailable) {
+   s_heading=-1;s_compass_status="Unavailable";
+ } else if(d.compass_status==CompassStatusDataInvalid) {
+   s_heading=-1;s_compass_status="Calibrating (invalid)";
+ } else {
+   s_heading=TRIGANGLE_TO_DEG(TRIG_MAX_ANGLE-d.magnetic_heading)%360;
+   s_compass_status=(d.compass_status==CompassStatusCalibrating)?"Calibrating":"Calibrated";
+ }
  show();
 }
 #endif
