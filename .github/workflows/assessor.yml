@@ -16,5 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
-      - name: Run assessor smoke (pytest + CLI)
+      - name: Run assessor smoke (pytest mocked LLM + examples)
         run: bash assessor/scripts/smoke.sh

@@ -25,6 +25,7 @@ where = ["src"]
 testpaths = ["tests"]
 markers = [
   "ollama: tests that call Ollama (mocked or live)",
+  "ollama_live: tests that require a running Ollama server",
 ]
 
 [dependency-groups]
