@@ -50,9 +50,19 @@ Optional: save `submit/7A/build.log` for stronger build evidence.
 
 ## Tests
 
+**Full smoke** (pytest + exemplar CLI checks):
+
+```bash
+bash assessor/scripts/smoke.sh
+```
+
+With `uv`, the script runs `uv sync --group dev --group model` inside `assessor/` first.
+
+**Unit tests only:**
+
 ```bash
 pip install -e "./assessor[dev]"
 pytest assessor/tests
 ```
 
-spaCy smoke tests skip unless `en_core_web_md` is installed (`pytest -m spacy` to run only those).
+spaCy tests skip without `en_core_web_md` (`pytest assessor/tests -m "not spacy"` for deterministic-only).

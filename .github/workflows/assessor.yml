@@ -1,0 +1,20 @@
+name: Assessor (pilot)
+
+on:
+  push:
+    paths:
+      - "assessor/**"
+      - ".github/workflows/assessor.yml"
+  pull_request:
+    paths:
+      - "assessor/**"
+      - ".github/workflows/assessor.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Run assessor smoke (pytest + CLI)
+        run: bash assessor/scripts/smoke.sh
