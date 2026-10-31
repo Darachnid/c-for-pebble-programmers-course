@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 8 /Kids [5 0 R 7 0 R 9 0 R 20 0 R 35 0 R 50 0 R 58 0 R 64 0 R] >>
+<< /Type /Pages /Count 8 /Kids [5 0 R 7 0 R 9 0 R 20 0 R 35 0 R 50 0 R 58 0 R 63 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -13,884 +13,883 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 6 0 R /Annots [] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R /Annots [] >>
 endobj
 6 0 obj
-<< /Length 4213 >>
+<< /Length 4236 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 1) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 17.8 Tf 45 721.0 Td (C for Pebble Programmers - Emery course syllabus) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  1) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 17 Tf 47 723.0 Td (C for Pebble Programmers - Emery course syllabus) Tj ET
 0.06 0.41 0.68 rg
-45 687.00 523 2.00 re f
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 672.0 Td (Version: revised 41-activity self-directed syllabus - Target: Pebble Time 2 \(Emery, 200 x 228\) - Language: C - SDK: 4.33.1 -) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 659.0 Td (Focused study estimate: 52h 35m - Schedule: self-paced with prerequisite gates.) Tj ET
-0.1 0.18 0.25 rg
-44 619.90 524 29.00 re f
+46 697.0 522 2.0 re f
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 678.0 Td (Version: revised 41-activity self-directed syllabus - Target: Pebble Time 2 \(Emery, 200 x 228\) - Language: C - SDK: 4.33.1 -) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 664.7 Td (Focused study estimate: 52h 35m - Schedule: self-paced with prerequisite gates.) Tj ET
+0.11 0.18 0.27 rg
+44 622.4 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 630.9 Td (Course purpose) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 590.9 Td (Learn to design, implement, understand, test and independently extend Pebble apps. This is not merely a catalog of SDK) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 577.9 Td (functions: the technical capabilities support seven essential competencies, revisited throughout the course. You progress) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 564.8 Td (from a time-only watchface to three evolving watchapps and finally to an independently conceived and built app. No university) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 551.8 Td (enrollment, attendance, grade, or fixed deadline is implied.) Tj ET
-0.1 0.18 0.25 rg
-44 512.70 524 29.00 re f
+BT /F2 11.3 Tf 51 633.4 Td (Course purpose) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 595.4 Td (Learn to design, implement, understand, test and independently extend Pebble apps. This is not merely a catalog of SDK functions:) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 582.0 Td (the technical capabilities support seven essential competencies, revisited throughout the course. You progress from a) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 568.7 Td (time-only watchface to three evolving watchapps and finally to an independently conceived and built app. No university) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 555.4 Td (enrollment, attendance, grade, or fixed deadline is implied.) Tj ET
+0.11 0.18 0.27 rg
+44 513.1 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 523.7 Td (Seven learning outcomes) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 483.7 Td (By the end of the course, demonstrate all seven abilities independently:) Tj ET
-0.93 0.96 0.97 rg
-45 433.75 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 462.7 Td (UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 450.2 Td (Measurable outcome: Create legible Emery layouts, navigate between screens, and communicate states and actions clearly.) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 428.8 Td (Idea Generation) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 416.3 Td (Measurable outcome: Develop alternatives, evaluate constraints, and justify an original app concept or representation.) Tj ET
-0.93 0.96 0.97 rg
-45 365.95 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 394.9 Td (Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 382.4 Td (Measurable outcome: Trace execution, specify state/loop logic, and validate state transitions and boundary conditions.) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 361.0 Td (C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 348.5 Td (Measurable outcome: Write and explain C data/control flow, pointers, callback functions, object ownership, and resource safety.) Tj ET
-0.93 0.96 0.97 rg
-45 298.15 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 327.1 Td (Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 314.6 Td (Measurable outcome: Interpret SDK signatures and limits, locate sources, and make evidence-based API choices.) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 293.2 Td (Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 280.7 Td (Measurable outcome: Reproduce issues, form hypotheses, make minimal fixes, and verify regression and negative tests.) Tj ET
-0.93 0.96 0.97 rg
-45 230.35 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 259.3 Td (Development Tools and Workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 246.8 Td (Measurable outcome: Build, test, log, use Git, manage integration artifacts, and reproduce results independently.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 214.4 Td (Each of the 40 preparatory activities has a primary and supporting competency; the capstone is evaluated against all seven.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 201.3 Td (Primary task distribution: 10 C programming; 5 each in the other six competencies. Hours may vary by task; equal task counts) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 188.3 Td (do not imply equal time.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 167.2 Td (Complete outcomes, evidence and capstone rubric - All 41 activities mapped to competencies) Tj ET
-0.1 0.18 0.25 rg
-44 128.15 524 29.00 re f
+BT /F2 11.3 Tf 51 524.1 Td (Seven learning outcomes) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 486.1 Td (By the end of the course, demonstrate all seven abilities independently:) Tj ET
+0.945 0.963 0.973 rg
+45 438.8 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 463.8 Td (UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 451.8 Td (Measurable outcome: Create legible Emery layouts, navigate between screens, and communicate states and actions clearly.) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 430.8 Td (Idea Generation) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 418.8 Td (Measurable outcome: Develop alternatives, evaluate constraints, and justify an original app concept or representation.) Tj ET
+0.945 0.963 0.973 rg
+45 372.8 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 397.8 Td (Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 385.8 Td (Measurable outcome: Trace execution, specify state/loop logic, and validate state transitions and boundary conditions.) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 364.8 Td (C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 352.8 Td (Measurable outcome: Write and explain C data/control flow, pointers, callback functions, object ownership, and resource safety.) Tj ET
+0.945 0.963 0.973 rg
+45 306.8 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 331.8 Td (Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 319.8 Td (Measurable outcome: Interpret SDK signatures and limits, locate sources, and make evidence-based API choices.) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 298.8 Td (Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 286.8 Td (Measurable outcome: Reproduce issues, form hypotheses, make minimal fixes, and verify regression and negative tests.) Tj ET
+0.945 0.963 0.973 rg
+45 240.8 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 265.8 Td (Development Tools and Workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 253.8 Td (Measurable outcome: Build, test, log, use Git, manage integration artifacts, and reproduce results independently.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 222.8 Td (Each of the 40 preparatory activities has a primary and supporting competency; the capstone is evaluated against all seven.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 209.4 Td (Primary task distribution: 10 C programming; 5 each in the other six competencies. Hours may vary by task; equal task counts do) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 196.1 Td (not imply equal time.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 173.8 Td (Complete outcomes, evidence and capstone rubric - All 41 activities mapped to competencies) Tj ET
+0.11 0.18 0.27 rg
+44 131.5 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 139.2 Td (What you need) Tj ET
+BT /F2 11.3 Tf 51 142.5 Td (What you need) Tj ET
 endstream
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 8 0 R /Annots [] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R /Annots [] >>
 endobj
 8 0 obj
-<< /Length 5068 >>
+<< /Length 5060 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 2) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 728.0 Td (Pebble SDK 4.33.1, the Emery emulator, C build tools, Git, editor, and local source files. Use an actual Pebble Time 2 where) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 715.0 Td (sensor calibration, vibration, backlight or physical device behavior must be confirmed; phone communications also need a) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 701.9 Td (connected compatible Pebble mobile environment. Do not present an emulator result as physical hardware verification. Official) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 688.9 Td (C reference.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 667.8 Td (Start here: Lesson index - C readings 4A-4H - Pebble API track - Taskwarrior instructions.) Tj ET
-0.1 0.18 0.25 rg
-44 628.75 524 29.00 re f
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  2) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 729.0 Td (Pebble SDK 4.33.1, the Emery emulator, C build tools, Git, editor, and local source files. Use an actual Pebble Time 2 where) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 715.7 Td (sensor calibration, vibration, backlight or physical device behavior must be confirmed; phone communications also need a) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 702.4 Td (connected compatible Pebble mobile environment. Do not present an emulator result as physical hardware verification. Official C) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 689.0 Td (reference.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 666.7 Td (Start here: Lesson index - C readings 3A-24H - Pebble API track - Taskwarrior instructions.) Tj ET
+0.11 0.18 0.27 rg
+44 624.4 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 639.8 Td (Learning method and assessment) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 599.8 Td (For every lesson: \(1\) Read and plan: study the linked local reading/SDK signatures and express the intended change in your) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 586.7 Td (own words. \(2\) Implement and test: work from the local starter, commit your change, build/run, and test a normal plus a) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 573.7 Td (boundary/failure case. \(3\) Reflect and transfer: explain state and resource ownership, record a problem or trade-off, and) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 560.6 Td (name one additional use. Existing activities already specify their deliverables; these steps organize rather than replace) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 547.6 Td (them.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 526.5 Td (Score the activity's primary and supporting competency at 0-3 using the common rubric. Both must reach 2 or 3, and the) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 513.5 Td (stated acceptance criteria must pass, before marking the activity complete. Do not conflate unverified hardware behavior) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 500.4 Td (with an implemented fallback.) Tj ET
-0.93 0.96 0.97 rg
-45 450.45 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 479.4 Td (0 - Not demonstrated) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 466.9 Td (Standard: No functional evidence or intelligible explanation) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 445.5 Td (1 - Developing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 433.0 Td (Standard: Partially demonstrated, with critical understanding/test gaps) Tj ET
-0.93 0.96 0.97 rg
-45 382.65 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 411.6 Td (2 - Competent) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 399.1 Td (Standard: Correct or appropriately scoped result, independent explanation, normal and boundary tests, and saved evidence) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 377.7 Td (3 - Transferable) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 365.2 Td (Standard: Competent plus independent generalization to a new context with justified trade-offs) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 332.8 Td (Independent-work policy: Do not use AI-generated source, solutions, code explanations, diagrams or debugging fixes to) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 319.7 Td (complete exercises. Consult included starters, official SDK documentation, logs, compiler diagnostics and your own notes.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 306.7 Td (Versioned evidence is required. Detailed scoring and readiness gates.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 285.6 Td (Optional self-check \(pilot\): After you finish selected activities \(7A, 4A in v1\), you may run the local assessor tool \(assess) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 272.6 Td (submit <ID>\) to compare your Git-backed evidence and EVIDENCE.md against course criteria and meets/below exemplars. It uses) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 259.5 Td (spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.) Tj ET
-0.1 0.18 0.25 rg
-44 220.45 524 29.00 re f
+BT /F2 11.3 Tf 51 635.4 Td (Learning method and assessment) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 597.4 Td (For every lesson: \(1\) Read and plan: study the linked local reading/SDK signatures and express the intended change in your own) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 584.1 Td (words. \(2\) Implement and test: work from the local starter, commit your change, build/run, and test a normal plus a) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 570.8 Td (boundary/failure case. \(3\) Reflect and transfer: explain state and resource ownership, record a problem or trade-off, and) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 557.4 Td (name one additional use. Existing activities already specify their deliverables; these steps organize rather than replace them.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 535.1 Td (Score the activity's primary and supporting competency at 0-3 using the common rubric. Both must reach 2 or 3, and the stated) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 521.8 Td (acceptance criteria must pass, before marking the activity complete. Do not conflate unverified hardware behavior with an) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 508.5 Td (implemented fallback.) Tj ET
+0.945 0.963 0.973 rg
+45 461.2 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 486.2 Td (0 - Not demonstrated) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 474.2 Td (Standard: No functional evidence or intelligible explanation) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 453.2 Td (1 - Developing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 441.2 Td (Standard: Partially demonstrated, with critical understanding/test gaps) Tj ET
+0.945 0.963 0.973 rg
+45 395.2 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 420.2 Td (2 - Competent) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 408.2 Td (Standard: Correct or appropriately scoped result, independent explanation, normal and boundary tests, and saved evidence) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 387.2 Td (3 - Transferable) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 375.2 Td (Standard: Competent plus independent generalization to a new context with justified trade-offs) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 344.2 Td (Independent-work policy: Do not use AI-generated source, solutions, code explanations, diagrams or debugging fixes to complete) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 330.8 Td (exercises. Consult included starters, official SDK documentation, logs, compiler diagnostics and your own notes. Versioned) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 317.5 Td (evidence is required. Detailed scoring and readiness gates.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 295.2 Td (Optional self-check \(pilot\): After you finish selected activities \(2A, 3A in v1\), you may run the local assessor tool \(assess) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 281.9 Td (submit <ID>\) to compare your Git-backed evidence and EVIDENCE.md against course criteria and meets/below exemplars. It uses) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 268.6 Td (spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.) Tj ET
+0.11 0.18 0.27 rg
+44 226.2 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 231.5 Td (Recommended integrated course progression) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 191.5 Td (The sequence interleaves C learning with UI work, ideation, algorithm design, research, debugging and tools. The API material no) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 178.4 Td (longer sits as a detached final block. Preserve all original IDs, and use the "Depends on" column and Taskwarrior to work out) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 165.4 Td (of order safely.) Tj ET
-0.93 0.96 0.97 rg
-45 115.40 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 144.3 Td (I Orientation and fundamentals) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 131.8 Td (7 | 4h 45m) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 110.4 Td (II Control flow, code reading and first window) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 97.9 Td (9 | 10h 45m) Tj ET
+BT /F2 11.3 Tf 51 237.2 Td (Recommended integrated course progression) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 199.2 Td (The sequence interleaves C learning with UI work, ideation, algorithm design, research, debugging and tools. The API material no) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 185.9 Td (longer sits as a detached final block. Preserve all original IDs, and use the "Depends on" column and Taskwarrior to work out of) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 172.6 Td (order safely.) Tj ET
+0.945 0.963 0.973 rg
+45 125.3 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 150.3 Td (I Orientation and fundamentals) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 138.3 Td (7 | 4h 45m) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 117.3 Td (II Control flow, code reading and first window) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 105.3 Td (9 | 10h 45m) Tj ET
 endstream
 endobj
 9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 10 0 R /Annots [11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R /Annots [11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R] >>
 endobj
 10 0 obj
-<< /Length 4184 >>
+<< /Length 4232 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 3) Tj ET
-0.93 0.96 0.97 rg
-45 699.10 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 728.0 Td (III Memory, design, events and interactive foundations) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 715.5 Td (14 | 19h 00m) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 694.1 Td (IV Graphics, hardware, validation and integration) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 681.6 Td (10 | 14h 05m) Tj ET
-0.93 0.96 0.97 rg
-45 631.30 522 39.90 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 660.2 Td (V Independent application capstone) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 647.7 Td (1 | 4h 00m) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  3) Tj ET
+0.945 0.963 0.973 rg
+45 704.0 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 729.0 Td (III Memory, design, events and interactive foundations) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 717.0 Td (14 | 19h 00m) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 696.0 Td (IV Graphics, hardware, validation and integration) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 684.0 Td (10 | 14h 05m) Tj ET
+0.945 0.963 0.973 rg
+45 638.0 522 34.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 663.0 Td (V Independent application capstone) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 651.0 Td (1 | 4h 00m) Tj ET
 0.06 0.41 0.68 rg
-BT /FB 10 Tf 47 609.3 Td (Phase I - Orientation and fundamentals) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 584.3 Td (Readiness checkpoint: Working time-only watchface, baseline Git workflow and independent diagnostic explanation.) Tj ET
-0.93 0.96 0.97 rg
-44 523.75 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 563.3 Td (2A Explore Pebble examples) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 550.9 Td (Time 20m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 540.3 Td (Prerequisites: None) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 517.8 Td (7A Build and run a time-only C watchface) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 505.4 Td (Time 30m | Primary: Development Tools and Workflow | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 494.8 Td (Prerequisites: None) Tj ET
-0.93 0.96 0.97 rg
-44 432.75 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 472.3 Td (4A Variables, Data Types, and Operators) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 459.9 Td (Time 120m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 449.3 Td (Prerequisites: 7A) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 426.8 Td (5A Find and document a Pebble API function) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 414.4 Td (Time 20m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 403.8 Td (Prerequisites: 4A) Tj ET
-0.93 0.96 0.97 rg
-44 341.75 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 381.3 Td (1A Change one visual property of a time-only watchface) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 368.9 Td (Time 30m | Primary: UI Design | Supporting: Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 358.3 Td (Prerequisites: 4A, 5A, 7A) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 335.8 Td (6A Diagnose a simple compiler error) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 323.4 Td (Time 20m | Primary: Debugging and Testing | Supporting: Development Tools and Workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 312.8 Td (Prerequisites: 4A, 7A) Tj ET
-0.93 0.96 0.97 rg
-44 250.75 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 290.3 Td (7B Create a Git-based modification workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 277.9 Td (Time 45m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 267.3 Td (Prerequisites: 7A, 1A, 6A) Tj ET
+BT /F2 10.4 Tf 47 615.0 Td (Phase I - Orientation and fundamentals) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 589.0 Td (Readiness checkpoint: Working time-only watchface, baseline Git workflow and independent diagnostic explanation.) Tj ET
+0.945 0.963 0.973 rg
+45 528.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 566.7 Td (1A Explore Pebble examples) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 554.7 Td (Duration: 20m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 543.7 Td (Depends on: None) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 521.7 Td (2A Build and run a time-only C watchface) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 509.7 Td (Duration: 30m | Primary: Development Tools and Workflow | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 498.7 Td (Depends on: None) Tj ET
+0.945 0.963 0.973 rg
+45 438.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 476.7 Td (3A Variables, Data Types, and Operators) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 464.7 Td (Duration: 120m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 453.7 Td (Depends on: 2A) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 431.7 Td (4A Find and document a Pebble API function) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 419.7 Td (Duration: 20m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 408.7 Td (Depends on: 3A) Tj ET
+0.945 0.963 0.973 rg
+45 348.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 386.7 Td (5A Change one visual property of a time-only watchface) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 374.7 Td (Duration: 30m | Primary: UI Design | Supporting: Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 363.7 Td (Depends on: 3A, 4A, 2A) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 341.7 Td (6A Diagnose a simple compiler error) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 329.7 Td (Duration: 20m | Primary: Debugging and Testing | Supporting: Development Tools and Workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 318.7 Td (Depends on: 3A, 2A) Tj ET
+0.945 0.963 0.973 rg
+45 258.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 296.7 Td (7B Create a Git-based modification workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 284.7 Td (Duration: 45m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 273.7 Td (Depends on: 2A, 5A, 6A) Tj ET
 0.06 0.41 0.68 rg
-BT /FB 10 Tf 47 229.8 Td (Phase II - Control flow, code reading and first window) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 204.8 Td (Readiness checkpoint: Explain control flow, trace callbacks, design an initial UI and articulate a bounded algorithm.) Tj ET
-0.93 0.96 0.97 rg
-44 144.20 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 183.7 Td (4B Conditional Execution and Decision Making) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 171.3 Td (Time 120m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 160.7 Td (Prerequisites: 4A) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 138.2 Td (4C Loops and Iteration) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 125.8 Td (Time 135m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 115.2 Td (Prerequisites: 4B) Tj ET
+BT /F2 10.4 Tf 47 238.7 Td (Phase II - Control flow, code reading and first window) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 212.7 Td (Readiness checkpoint: Explain control flow, trace callbacks, design an initial UI and articulate a bounded algorithm.) Tj ET
+0.945 0.963 0.973 rg
+45 152.4 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 190.4 Td (8B Conditional Execution and Decision Making) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 178.4 Td (Duration: 120m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 167.4 Td (Depends on: 3A) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 145.4 Td (9C Loops and Iteration) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 133.4 Td (Duration: 135m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 122.4 Td (Depends on: 8B) Tj ET
 endstream
 endobj
 11 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 523.8 566.0 570.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 525.7 567.0 574.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A) >> >>
 endobj
 12 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 478.3 566.0 524.8] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 480.7 567.0 529.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A) >> >>
 endobj
 13 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 432.8 566.0 479.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 435.7 567.0 484.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A) >> >>
 endobj
 14 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 387.3 566.0 433.8] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 390.7 567.0 439.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4A) >> >>
 endobj
 15 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 341.8 566.0 388.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 345.7 567.0 394.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A) >> >>
 endobj
 16 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 296.3 566.0 342.8] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 300.7 567.0 349.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A) >> >>
 endobj
 17 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 250.8 566.0 297.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 255.7 567.0 304.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B) >> >>
 endobj
 18 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 144.2 566.0 190.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 149.4 567.0 198.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8B) >> >>
 endobj
 19 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 98.7 566.0 145.2] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 104.4 567.0 153.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/9C) >> >>
 endobj
 20 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 21 0 R /Annots [22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 21 0 R /Annots [22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R] >>
 endobj
 21 0 obj
-<< /Length 4510 >>
+<< /Length 4599 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 4) Tj ET
-0.93 0.96 0.97 rg
-44 688.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 728.0 Td (4D Functions and Program Structure) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 715.6 Td (Time 150m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 705.0 Td (Prerequisites: 4C) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 682.5 Td (3A Trace the watchface lifecycle) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 670.1 Td (Time 30m | Primary: Algorithmic Thinking | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 659.5 Td (Prerequisites: 4D, 7A) Tj ET
-0.93 0.96 0.97 rg
-44 597.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 637.0 Td (8A Windows and layers) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 624.6 Td (Time 60m | Primary: UI Design | Supporting: Development Tools and Workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 614.0 Td (Prerequisites: 7A, 3A) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 591.5 Td (1B Add and style a date TextLayer) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 579.1 Td (Time 45m | Primary: UI Design | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 568.5 Td (Prerequisites: 1A, 4D, 5A) Tj ET
-0.93 0.96 0.97 rg
-44 506.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 546.0 Td (5B Trace an existing feature through source code) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 533.6 Td (Time 45m | Primary: Resource Literacy | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 523.0 Td (Prerequisites: 3A, 4D, 5A) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 500.5 Td (3B Design a font-cycling algorithm) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 488.1 Td (Time 30m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 477.5 Td (Prerequisites: 3A, 5B) Tj ET
-0.93 0.96 0.97 rg
-44 415.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 455.0 Td (2B Write a two-example remix brief) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 442.6 Td (Time 30m | Primary: Idea Generation | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 432.0 Td (Prerequisites: 2A, 5B) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  4) Tj ET
+0.945 0.963 0.973 rg
+45 691.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 729.0 Td (10D Functions and Program Structure) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 717.0 Td (Duration: 150m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 706.0 Td (Depends on: 9C) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 684.0 Td (11A Trace the watchface lifecycle) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 672.0 Td (Duration: 30m | Primary: Algorithmic Thinking | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 661.0 Td (Depends on: 10D, 2A) Tj ET
+0.945 0.963 0.973 rg
+45 601.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 639.0 Td (12A Windows and layers) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 627.0 Td (Duration: 60m | Primary: UI Design | Supporting: Development Tools and Workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 616.0 Td (Depends on: 2A, 11A) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 594.0 Td (13B Add and style a date TextLayer) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 582.0 Td (Duration: 45m | Primary: UI Design | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 571.0 Td (Depends on: 5A, 10D, 4A) Tj ET
+0.945 0.963 0.973 rg
+45 511.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 549.0 Td (14B Trace an existing feature through source code) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 537.0 Td (Duration: 45m | Primary: Resource Literacy | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 526.0 Td (Depends on: 11A, 10D, 4A) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 504.0 Td (15B Design a font-cycling algorithm) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 492.0 Td (Duration: 30m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 481.0 Td (Depends on: 11A, 14B) Tj ET
+0.945 0.963 0.973 rg
+45 421.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 459.0 Td (16B Write a two-example remix brief) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 447.0 Td (Duration: 30m | Primary: Idea Generation | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 436.0 Td (Depends on: 1A, 14B) Tj ET
 0.06 0.41 0.68 rg
-BT /FB 10 Tf 47 394.5 Td (Phase III - Memory, design, events and interactive foundations) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 369.5 Td (Readiness checkpoint: Demonstrate C memory/state, original concept and interactive app behavior with tests.) Tj ET
-0.93 0.96 0.97 rg
-44 308.95 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 348.4 Td (4E Arrays, Strings, and Bounds) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 336.1 Td (Time 90m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 325.4 Td (Prerequisites: 4D) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 302.9 Td (4F Pointers, Indirection, and Memory Lifetime) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 290.6 Td (Time 105m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 279.9 Td (Prerequisites: 4E) Tj ET
-0.93 0.96 0.97 rg
-44 217.95 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 257.4 Td (4G Structures, Enums, and Program State) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 245.0 Td (Time 105m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 234.4 Td (Prerequisites: 4F) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 211.9 Td (5C Research an unfamiliar Pebble capability) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 199.5 Td (Time 60m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 188.9 Td (Prerequisites: 4E, 5B) Tj ET
-0.93 0.96 0.97 rg
-44 126.95 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 166.4 Td (6B Diagnose a font-selection boundary bug) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 154.0 Td (Time 45m | Primary: Debugging and Testing | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 143.4 Td (Prerequisites: 4E, 6A, 3B) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 120.9 Td (2C Develop an original Pebble app concept) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 108.5 Td (Time 60m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 97.9 Td (Prerequisites: 2B, 5C) Tj ET
+BT /F2 10.4 Tf 47 401.0 Td (Phase III - Memory, design, events and interactive foundations) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 375.0 Td (Readiness checkpoint: Demonstrate C memory/state, original concept and interactive app behavior with tests.) Tj ET
+0.945 0.963 0.973 rg
+45 314.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 352.7 Td (17E Arrays, Strings, and Bounds) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 340.7 Td (Duration: 90m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 329.7 Td (Depends on: 10D) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 307.7 Td (18F Pointers, Indirection, and Memory Lifetime) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 295.7 Td (Duration: 105m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 284.7 Td (Depends on: 17E) Tj ET
+0.945 0.963 0.973 rg
+45 224.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 262.7 Td (19G Structures, Enums, and Program State) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 250.7 Td (Duration: 105m | Primary: C Programming | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 239.7 Td (Depends on: 18F) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 217.7 Td (20C Research an unfamiliar Pebble capability) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 205.7 Td (Duration: 60m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 194.7 Td (Depends on: 17E, 14B) Tj ET
+0.945 0.963 0.973 rg
+45 134.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 172.7 Td (21B Diagnose a font-selection boundary bug) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 160.7 Td (Duration: 45m | Primary: Debugging and Testing | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 149.7 Td (Depends on: 17E, 6A, 15B) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 127.7 Td (22C Develop an original Pebble app concept) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 115.7 Td (Duration: 60m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 104.7 Td (Depends on: 16B, 20C) Tj ET
 endstream
 endobj
 22 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 688.5 566.0 735.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4D) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 688.0 567.0 737.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/10D) >> >>
 endobj
 23 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 643.0 566.0 689.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 643.0 567.0 692.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/11A) >> >>
 endobj
 24 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 597.5 566.0 644.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 598.0 567.0 647.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/12A) >> >>
 endobj
 25 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 552.0 566.0 598.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 553.0 567.0 602.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/13B) >> >>
 endobj
 26 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 506.5 566.0 553.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 508.0 567.0 557.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/14B) >> >>
 endobj
 27 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 461.0 566.0 507.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 463.0 567.0 512.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/15B) >> >>
 endobj
 28 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 415.5 566.0 462.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 418.0 567.0 467.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/16B) >> >>
 endobj
 29 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 308.9 566.0 355.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4E) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 311.7 567.0 360.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/17E) >> >>
 endobj
 30 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 263.4 566.0 309.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4F) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 266.7 567.0 315.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/18F) >> >>
 endobj
 31 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 217.9 566.0 264.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4G) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 221.7 567.0 270.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/19G) >> >>
 endobj
 32 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 172.4 566.0 218.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 176.7 567.0 225.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/20C) >> >>
 endobj
 33 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 126.9 566.0 173.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 131.7 567.0 180.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/21B) >> >>
 endobj
 34 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 81.4 566.0 127.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 86.7 567.0 135.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/22C) >> >>
 endobj
 35 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 36 0 R /Annots [37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 36 0 R /Annots [37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R] >>
 endobj
 36 0 obj
-<< /Length 4478 >>
+<< /Length 4580 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 5) Tj ET
-0.93 0.96 0.97 rg
-44 688.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 728.0 Td (3C Design a state machine for an app) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 715.6 Td (Time 60m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 705.0 Td (Prerequisites: 2C, 3B, 4G) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 682.5 Td (4H Event-Driven Integration and Application Lifecycle) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 670.1 Td (Time 150m | Primary: C Programming | Supporting: Development Tools and Workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 659.5 Td (Prerequisites: 4G, 3C) Tj ET
-0.93 0.96 0.97 rg
-44 597.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 637.0 Td (1C Design a multi-mode Pebble interface) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 624.6 Td (Time 90m | Primary: UI Design | Supporting: Idea Generation) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 614.0 Td (Prerequisites: 1B, 2C, 3C, 4H) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 591.5 Td (8B Menus and scrolling) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 579.1 Td (Time 75m | Primary: UI Design | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 568.5 Td (Prerequisites: 4E, 4H) Tj ET
-0.93 0.96 0.97 rg
-44 506.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 546.0 Td (8C Button interactions) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 533.6 Td (Time 60m | Primary: Algorithmic Thinking | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 523.0 Td (Prerequisites: 8A, 4H) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 500.5 Td (8D Custom drawing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 488.1 Td (Time 75m | Primary: Idea Generation | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 477.5 Td (Prerequisites: 8B, 4D) Tj ET
-0.93 0.96 0.97 rg
-44 415.50 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 455.0 Td (8E Graphics paths) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 442.6 Td (Time 75m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 432.0 Td (Prerequisites: 8D, 4F) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 409.5 Td (8G Accelerometer) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 397.1 Td (Time 90m | Primary: C Programming | Supporting: Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 386.5 Td (Prerequisites: 4H, 5C) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  5) Tj ET
+0.945 0.963 0.973 rg
+45 691.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 729.0 Td (23C Design a state machine for an app) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 717.0 Td (Duration: 60m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 706.0 Td (Depends on: 22C, 15B, 19G) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 684.0 Td (24H Event-Driven Integration and Application Lifecycle) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 672.0 Td (Duration: 150m | Primary: C Programming | Supporting: Development Tools and Workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 661.0 Td (Depends on: 19G, 23C) Tj ET
+0.945 0.963 0.973 rg
+45 601.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 639.0 Td (25C Design a multi-mode Pebble interface) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 627.0 Td (Duration: 90m | Primary: UI Design | Supporting: Idea Generation) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 616.0 Td (Depends on: 13B, 22C, 23C, 24H) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 594.0 Td (26B Menus and scrolling) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 582.0 Td (Duration: 75m | Primary: UI Design | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 571.0 Td (Depends on: 17E, 24H) Tj ET
+0.945 0.963 0.973 rg
+45 511.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 549.0 Td (27C Button interactions) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 537.0 Td (Duration: 60m | Primary: Algorithmic Thinking | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 526.0 Td (Depends on: 12A, 24H) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 504.0 Td (28D Custom drawing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 492.0 Td (Duration: 75m | Primary: Idea Generation | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 481.0 Td (Depends on: 26B, 10D) Tj ET
+0.945 0.963 0.973 rg
+45 421.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 459.0 Td (29E Graphics paths) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 447.0 Td (Duration: 75m | Primary: Algorithmic Thinking | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 436.0 Td (Depends on: 28D, 18F) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 414.0 Td (30G Accelerometer) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 402.0 Td (Duration: 90m | Primary: C Programming | Supporting: Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 391.0 Td (Depends on: 24H, 20C) Tj ET
 0.06 0.41 0.68 rg
-BT /FB 10 Tf 47 349.0 Td (Phase IV - Graphics, hardware, validation and integration) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 324.0 Td (Readiness checkpoint: Verify the three recurring projects, record limitations and diagnose integration faults.) Tj ET
-0.93 0.96 0.97 rg
-44 263.45 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 302.9 Td (7C Integrate font browsing with persistent selection) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 290.6 Td (Time 150m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 279.9 Td (Prerequisites: 1C, 4H, 5B, 7B) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 257.4 Td (6C Diagnose a persistent-state integration bug) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 245.0 Td (Time 90m | Primary: Debugging and Testing | Supporting: Development Tools and Workflow) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 234.4 Td (Prerequisites: 4H, 6B, 7C) Tj ET
-0.93 0.96 0.97 rg
-44 172.45 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 211.9 Td (8F Bitmap manipulation) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 199.5 Td (Time 90m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 188.9 Td (Prerequisites: 8E, 4F) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 166.4 Td (8H Magnetometer / compass) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 154.0 Td (Time 90m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 143.4 Td (Prerequisites: 8G) Tj ET
-0.93 0.96 0.97 rg
-44 81.45 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 120.9 Td (8I Ambient-light limits and backlight) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 108.5 Td (Time 45m | Primary: Resource Literacy | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 97.9 Td (Prerequisites: 8G, 5C) Tj ET
+BT /F2 10.4 Tf 47 356.0 Td (Phase IV - Graphics, hardware, validation and integration) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 330.0 Td (Readiness checkpoint: Verify the three recurring projects, record limitations and diagnose integration faults.) Tj ET
+0.945 0.963 0.973 rg
+45 269.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 307.7 Td (31C Integrate font browsing with persistent selection) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 295.7 Td (Duration: 150m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 284.7 Td (Depends on: 25C, 24H, 14B, 7B) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 262.7 Td (32C Diagnose a persistent-state integration bug) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 250.7 Td (Duration: 90m | Primary: Debugging and Testing | Supporting: Development Tools and Workflow) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 239.7 Td (Depends on: 24H, 21B, 31C) Tj ET
+0.945 0.963 0.973 rg
+45 179.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 217.7 Td (33F Bitmap manipulation) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 205.7 Td (Duration: 90m | Primary: C Programming | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 194.7 Td (Depends on: 29E, 18F) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 172.7 Td (34H Magnetometer / compass) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 160.7 Td (Duration: 90m | Primary: Resource Literacy | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 149.7 Td (Depends on: 30G) Tj ET
+0.945 0.963 0.973 rg
+45 89.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 127.7 Td (35I Ambient-light limits and backlight) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 115.7 Td (Duration: 45m | Primary: Resource Literacy | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 104.7 Td (Depends on: 30G, 20C) Tj ET
 endstream
 endobj
 37 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 688.5 566.0 735.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 688.0 567.0 737.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/23C) >> >>
 endobj
 38 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 643.0 566.0 689.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4H) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 643.0 567.0 692.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/24H) >> >>
 endobj
 39 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 597.5 566.0 644.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 598.0 567.0 647.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/25C) >> >>
 endobj
 40 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 552.0 566.0 598.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8B) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 553.0 567.0 602.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/26B) >> >>
 endobj
 41 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 506.5 566.0 553.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 508.0 567.0 557.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/27C) >> >>
 endobj
 42 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 461.0 566.0 507.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8D) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 463.0 567.0 512.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/28D) >> >>
 endobj
 43 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 415.5 566.0 462.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8E) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 418.0 567.0 467.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/29E) >> >>
 endobj
 44 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 370.0 566.0 416.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8G) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 373.0 567.0 422.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/30G) >> >>
 endobj
 45 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 263.4 566.0 309.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 266.7 567.0 315.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/31C) >> >>
 endobj
 46 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 217.9 566.0 264.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6C) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 221.7 567.0 270.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/32C) >> >>
 endobj
 47 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 172.4 566.0 218.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8F) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 176.7 567.0 225.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F) >> >>
 endobj
 48 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 126.9 566.0 173.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8H) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 131.7 567.0 180.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/34H) >> >>
 endobj
 49 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 81.4 566.0 127.9] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8I) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 86.7 567.0 135.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/35I) >> >>
 endobj
 50 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 51 0 R /Annots [52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 51 0 R /Annots [52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R] >>
 endobj
 51 0 obj
-<< /Length 4291 >>
+<< /Length 4471 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 6) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 728.0 Td (8J Vibration) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 715.6 Td (Time 45m | Primary: Debugging and Testing | Supporting: UI Design) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 705.0 Td (Prerequisites: 8G, 4H) Tj ET
-0.93 0.96 0.97 rg
-44 643.00 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 682.5 Td (8K App timers) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 670.1 Td (Time 75m | Primary: Debugging and Testing | Supporting: Algorithmic Thinking) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 659.5 Td (Prerequisites: 8C, 4H) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 637.0 Td (8L Resource files) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 624.6 Td (Time 65m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 614.0 Td (Prerequisites: 8F, 5C) Tj ET
-0.93 0.96 0.97 rg
-44 552.00 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 591.5 Td (8M Persistent storage) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 579.1 Td (Time 75m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 568.5 Td (Prerequisites: 8K, 4H) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 546.0 Td (8N Phone communication) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 533.6 Td (Time 120m | Primary: Development Tools and Workflow | Supporting: C Programming) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 523.0 Td (Prerequisites: 8L, 4H, 7B) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  6) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 729.0 Td (36J Vibration) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 717.0 Td (Duration: 45m | Primary: Debugging and Testing | Supporting: UI Design) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 706.0 Td (Depends on: 30G, 24H) Tj ET
+0.945 0.963 0.973 rg
+45 646.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 684.0 Td (37K App timers) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 672.0 Td (Duration: 75m | Primary: Debugging and Testing | Supporting: Algorithmic Thinking) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 661.0 Td (Depends on: 27C, 24H) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 639.0 Td (38L Resource files) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 627.0 Td (Duration: 65m | Primary: Idea Generation | Supporting: Resource Literacy) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 616.0 Td (Depends on: 33F, 20C) Tj ET
+0.945 0.963 0.973 rg
+45 556.0 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 594.0 Td (39M Persistent storage) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 582.0 Td (Duration: 75m | Primary: Development Tools and Workflow | Supporting: Debugging and Testing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 571.0 Td (Depends on: 37K, 24H) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 549.0 Td (40N Phone communication) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 537.0 Td (Duration: 120m | Primary: Development Tools and Workflow | Supporting: C Programming) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 526.0 Td (Depends on: 38L, 24H, 7B) Tj ET
 0.06 0.41 0.68 rg
-BT /FB 10 Tf 47 485.5 Td (Phase V - Independent application capstone) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 460.5 Td (Readiness checkpoint: Build and defend an original working app using all seven competencies.) Tj ET
-0.93 0.96 0.97 rg
-44 399.95 523 52.50 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 50 439.4 Td (9A Build and demonstrate an original Emery app) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 50 427.1 Td (Time 240m | Primary: Integrated capstone \(all seven competencies\) | Supporting: All seven competencies) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 7.8 Tf 50 416.4 Td (Prerequisites: 2C, 1C, 6C, 8J, 8M, 8N) Tj ET
-0.1 0.18 0.25 rg
-44 363.95 524 29.00 re f
+BT /F2 10.4 Tf 47 491.0 Td (Phase V - Independent application capstone) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 465.0 Td (Readiness checkpoint: Build and defend an original working app using all seven competencies.) Tj ET
+0.945 0.963 0.973 rg
+45 404.7 522 48.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9.1 Tf 52 442.7 Td (41A Build and demonstrate an original Emery app) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 430.7 Td (Duration: 240m | Primary: Integrated capstone \(all seven competencies\) | Supporting: All seven competencies) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 419.7 Td (Depends on: 22C, 25C, 32C, 36J, 39M, 40N) Tj ET
+0.11 0.18 0.27 rg
+44 366.7 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 374.9 Td (Three evolving project strands) Tj ET
-0.93 0.96 0.97 rg
-45 294.65 522 51.30 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 334.9 Td (Clock Workshop) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 322.4 Td (Continuously revised lesson checkpoints: 7A -> 8A -> 8C -> 8K -> 8M | Learning trajectory: Time-only watchface reference ->) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 311.1 Td (two-window watchapp -> button behavior -> AppTimer -> persisted setting and recovery) Tj ET
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 289.7 Td (Field Instrument) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 277.2 Td (Continuously revised lesson checkpoints: 8G -> 8H -> 8I -> 8J | Learning trajectory: Accelerometer -> magnetic heading and) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 265.8 Td (calibration -> light API limitations -> intentional vibration and negative tests) Tj ET
-0.93 0.96 0.97 rg
-45 204.05 522 51.30 re f
-0.1 0.18 0.25 rg
-BT /FB 9.2 Tf 51 244.4 Td (Pocket Field Guide) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 231.9 Td (Continuously revised lesson checkpoints: 8B -> 8D -> 8E -> 8F -> 8L -> 8N | Learning trajectory: Menu/scrolling -> custom drawing) Tj ET
-0.35 0.39 0.44 rg
-BT /FR 8.3 Tf 51 220.5 Td (-> GPath -> writable bitmap -> raw resource -> phone messaging) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 188.1 Td (Each new lesson starts from a completed prior-stage reference checkpoint, not a solution to its current exercise. Changes) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 175.0 Td (completed in a previous lesson should remain present in later examples. The 7A time-only watchface remains a watchface; the) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 162.0 Td (new interactive projects are watchapps. No dependency is imposed between unrelated project strands unless shared) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 148.9 Td (prerequisites truly require it. See the API coverage matrix.) Tj ET
+BT /F2 11.3 Tf 51 377.7 Td (Three evolving project strands) Tj ET
+0.945 0.963 0.973 rg
+45 303.7 522 45.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 339.7 Td (Clock Workshop) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 327.7 Td (Continuously revised lesson checkpoints: 2A -> 12A -> 27C -> 37K -> 39M | Learning trajectory: Time-only watchface reference ->) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 316.7 Td (two-window watchapp -> button behavior -> AppTimer -> persisted setting and recovery) Tj ET
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 295.7 Td (Field Instrument) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 283.7 Td (Continuously revised lesson checkpoints: 30G -> 34H -> 35I -> 36J | Learning trajectory: Accelerometer -> magnetic heading and) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 272.7 Td (calibration -> light API limitations -> intentional vibration and negative tests) Tj ET
+0.945 0.963 0.973 rg
+45 215.7 522 45.0 re f
+0.11 0.18 0.27 rg
+BT /F2 9 Tf 52 251.7 Td (Pocket Field Guide) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 239.7 Td (Continuously revised lesson checkpoints: 26B -> 28D -> 29E -> 33F -> 38L -> 40N | Learning trajectory: Menu/scrolling -> custom drawing) Tj ET
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 52 228.7 Td (-> GPath -> writable bitmap -> raw resource -> phone messaging) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 197.7 Td (Each new lesson starts from a completed prior-stage reference checkpoint, not a solution to its current exercise. Changes) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 184.4 Td (completed in a previous lesson should remain present in later examples. The 2A time-only watchface remains a watchface; the new) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 171.0 Td (interactive projects are watchapps. No dependency is imposed between unrelated project strands unless shared prerequisites) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 157.7 Td (truly require it. See the API coverage matrix.) Tj ET
+0.11 0.18 0.27 rg
+44 115.4 524 28.0 re f
+1 1 1 rg
+BT /F2 11.3 Tf 51 126.4 Td (Reading and exercises) Tj ET
 endstream
 endobj
 52 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 688.5 566.0 735.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8J) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 688.0 567.0 737.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/36J) >> >>
 endobj
 53 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 643.0 566.0 689.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8K) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 643.0 567.0 692.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/37K) >> >>
 endobj
 54 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 597.5 566.0 644.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8L) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 598.0 567.0 647.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/38L) >> >>
 endobj
 55 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 552.0 566.0 598.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8M) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 553.0 567.0 602.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/39M) >> >>
 endobj
 56 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 506.5 566.0 553.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8N) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 508.0 567.0 557.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/40N) >> >>
 endobj
 57 0 obj
-<< /Type /Annot /Subtype /Link /Rect [44.0 399.9 566.0 446.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/9A) >> >>
+<< /Type /Annot /Subtype /Link /Rect [45.0 401.7 567.0 450.7] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/41A) >> >>
 endobj
 58 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 59 0 R /Annots [60 0 R 61 0 R 62 0 R 63 0 R] >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 59 0 R /Annots [60 0 R 61 0 R 62 0 R] >>
 endobj
 59 0 obj
-<< /Length 4911 >>
+<< /Length 5199 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 7) Tj ET
-0.1 0.18 0.25 rg
-44 710.00 524 29.00 re f
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  7) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 729.0 Td (C/SDK prerequisite policy: The 3A-10D framework-scaffolding guide explains graphics/timer callbacks already given to novices.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 715.7 Td (These are not hidden prerequisites or additional tasks; 12A/27C/28D/37K assess those APIs later. Project continuity: A/B/C) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 702.4 Td (checkpoint matrix identifies behavior each next-stage starter must preserve.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 680.0 Td (3A-10D: Read the local chapters adapting Learning C with Pebble \(Jipping, 2016\), including the 11 distinct local Chapter 3-6) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 666.7 Td (starter projects. 17E-24H: Read the original C-focused course notes on arrays, pointers, structs and event-driven) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 653.4 Td (lifecycles. 12A-40N: Consult each lesson's specific C API reference before editing its checkpoint. Keep coding exercises) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 640.1 Td (distinct from the written ideation, UI, tracing, resource-research and debugging exercises; none of these are optional simply) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 626.8 Td (because they produce no executable code.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 604.4 Td (Optional debugging challenges: 27C/debug \(button navigation\), 35I/debug \(bad Light API call\), 38L/debug \(resource) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 591.1 Td (extraction\); the original compulsory 6A/21B/32C remain. Optional challenges do not increase the required activity count or) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 577.8 Td (estimated total.) Tj ET
+0.11 0.18 0.27 rg
+44 535.5 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 721.0 Td (Reading and exercises) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 681.0 Td (4A-4D: Read the local chapters adapting Learning C with Pebble \(Jipping, 2016\), including the 11 distinct local Chapter 3-6) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 668.0 Td (starter projects. 4E-4H: Read the original C-focused course notes on arrays, pointers, structs and event-driven lifecycles.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 654.9 Td (8A-8N: Consult each lesson's specific C API reference before editing its checkpoint. Keep coding exercises distinct from the) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 641.9 Td (written ideation, UI, tracing, resource-research and debugging exercises; none of these are optional simply because they) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 628.8 Td (produce no executable code.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 607.8 Td (Optional debugging challenges: 8C/debug \(button navigation\), 8I/debug \(bad Light API call\), 8L/debug \(resource extraction\);) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 594.7 Td (the original compulsory 6A/6B/6C remain. Optional challenges do not increase the required activity count or estimated total.) Tj ET
-0.1 0.18 0.25 rg
-44 555.65 524 29.00 re f
+BT /F2 11.3 Tf 51 546.5 Td (Independent demonstration - 41A) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 508.5 Td (The capstone implements the original concept developed in 22C and UI groundwork in 25C. You must deliver a working, original) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 495.2 Td (Emery app, integrating at least two cross-strand capabilities \(or an equivalent justified integration\), and defend) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 481.8 Td (implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 468.5 Td (competencies 0-3; every competency must reach 2+. Detailed capstone directions.) Tj ET
+0.11 0.18 0.27 rg
+44 426.2 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 566.7 Td (Independent demonstration - 9A) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 526.7 Td (The capstone implements the original concept developed in 2C and UI groundwork in 1C. You must deliver a working, original) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 513.6 Td (Emery app, integrating at least two cross-strand capabilities \(or an equivalent justified integration\), and defend) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 500.6 Td (implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 487.5 Td (competencies 0-3; every competency must reach 2+. Detailed capstone directions.) Tj ET
-0.1 0.18 0.25 rg
-44 448.45 524 29.00 re f
+BT /F2 11.3 Tf 51 437.2 Td (Course management and validation status) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 399.2 Td (Use python3 taskwarrior/import_course.py to synchronize activities, prerequisites and learning objectives, preserving) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 385.9 Td (existing completed tasks and personal annotations. To inspect: task project:pebble.course list, task project:pebble.course) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 372.6 Td (unblocked, and task <ID> info. Always work in a personal branch/copy, with a known-good baseline.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 350.2 Td (Source/status transparency: All local lesson/project paths and Emery target manifests should be checked, but C code and) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 336.9 Td (phone integrations have not been fully compiled or physically validated in this editing environment. Do not treat a passing) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 323.6 Td (manifest audit as a passing SDK build. Maintain separate statuses: source supplied, build passed, emulator passed, real-device) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 310.3 Td (passed. Hardware-only validation can remain pending while continuing other independently unlocked tasks.) Tj ET
+0.11 0.18 0.27 rg
+44 268.0 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 459.5 Td (Course management and validation status) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 419.5 Td (Use python3 taskwarrior/import_course.py to synchronize activities, prerequisites and learning objectives, preserving) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 406.4 Td (existing completed tasks and personal annotations. To inspect: task project:pebble.course list, task project:pebble.course) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 393.4 Td (unblocked, and task <ID> info. Always work in a personal branch/copy, with a known-good baseline.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 372.3 Td (Source/status transparency: All local lesson/project paths and Emery target manifests should be checked, but C code and) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 359.3 Td (phone integrations have not been fully compiled or physically validated in this editing environment. Do not treat a passing) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 346.2 Td (manifest audit as a passing SDK build. Maintain separate statuses: source supplied, build passed, emulator passed, real-device) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 333.2 Td (passed. Hardware-only validation can remain pending while continuing other independently unlocked tasks.) Tj ET
-0.1 0.18 0.25 rg
-44 294.10 524 29.00 re f
+BT /F2 11.3 Tf 51 279.0 Td (References) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 241.0 Td (Jipping, M. \(2016\). Learning C with Pebble. GitBook. Local C course reading index.) Tj ET
+0.11 0.18 0.27 rg
+BT /F1 9 Tf 47 218.6 Td (Pebble Developers. \(n.d.\). C SDK documentation. https://developer.repebble.com/docs/c/) Tj ET
+0.11 0.18 0.27 rg
+44 176.3 524 28.0 re f
 1 1 1 rg
-BT /FB 11.4 Tf 52 305.1 Td (References) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 265.1 Td (Jipping, M. \(2016\). Learning C with Pebble. GitBook. Local C course reading index.) Tj ET
-0.1 0.18 0.25 rg
-BT /FR 9 Tf 46 244.1 Td (Pebble Developers. \(n.d.\). C SDK documentation. https://developer.repebble.com/docs/c/) Tj ET
-0.1 0.18 0.25 rg
-44 205.00 524 29.00 re f
-1 1 1 rg
-BT /FB 11.4 Tf 52 216.0 Td (Reference links) Tj ET
+BT /F2 11.3 Tf 51 187.3 Td (Reference links) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 179.0 Td (Complete lessons : https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons) Tj ET
+BT /F1 8.2 Tf 48 152.3 Td (Lesson directory and all 41 updated numbers : https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 162.3 Td (Seven-competency rubric :) Tj ET
+BT /F1 8.2 Tf 48 136.2 Td (Legacy-to-sequential ID map : https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/taskwarrior/legacy-id-map.json) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 150.5 Td (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessmen-) Tj ET
+BT /F1 8.2 Tf 48 120.0 Td (Competency and assessment rubric :) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 138.8 Td (t.md) Tj ET
+BT /F1 8.2 Tf 48 107.9 Td (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment-) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 122.0 Td (Integrated sequence :) Tj ET
-0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 110.3 Td (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/integrated-sequence.md) Tj ET
-0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 93.5 Td (Course evidence assessor \(pilot\) : https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/assessor) Tj ET
+BT /F1 8.2 Tf 48 95.8 Td (.md) Tj ET
 endstream
 endobj
 60 0 obj
-<< /Type /Annot /Subtype /Link /Rect [45.0 162.3 568.0 188.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons) >> >>
+<< /Type /Annot /Subtype /Link /Rect [48.0 136.2 566.0 162.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons) >> >>
 endobj
 61 0 obj
-<< /Type /Annot /Subtype /Link /Rect [45.0 122.0 568.0 171.3] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment.md) >> >>
+<< /Type /Annot /Subtype /Link /Rect [48.0 120.0 566.0 146.2] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/taskwarrior/legacy-id-map.json) >> >>
 endobj
 62 0 obj
-<< /Type /Annot /Subtype /Link /Rect [45.0 93.5 568.0 131.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/integrated-sequence.md) >> >>
+<< /Type /Annot /Subtype /Link /Rect [48.0 79.6 566.0 130.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment.md) >> >>
 endobj
 63 0 obj
-<< /Type /Annot /Subtype /Link /Rect [45.0 76.8 568.0 102.5] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/assessor) >> >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 64 0 R /Annots [65 0 R] >>
 endobj
 64 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R >> >> /Contents 65 0 R /Annots [66 0 R] >>
-endobj
-65 0 obj
-<< /Length 410 >>
+<< /Length 453 >>
 stream
 1 1 1 rg
-0 0.00 612 792.00 re f
-0.1 0.18 0.25 rg
-0 769.00 612 23.00 re f
+0 0.0 612 792.0 re f
+0.11 0.18 0.27 rg
+0 765.0 612 27.0 re f
 1 1 1 rg
-BT /FB 9 Tf 43 777.0 Td (C FOR PEBBLE PROGRAMMERS  |  41 ACTIVITIES  |  EMERY) Tj ET
-0.81 0.85 0.89 rg
-42 55.00 528 0.70 re f
-0.35 0.39 0.44 rg
-BT /FR 8 Tf 43 39.0 Td (7 competencies  |  52h 35m  |  Page 8) Tj ET
+BT /F2 9 Tf 44 774.0 Td (C FOR PEBBLE PROGRAMMERS  /  SEQUENTIAL COURSE  /  41 LESSONS) Tj ET
+0.84 0.87 0.9 rg
+45 55.0 522 0.7 re f
+0.37 0.42 0.49 rg
+BT /F1 8 Tf 45 39.0 Td (Emery \(Pebble Time 2\)  |  Seven core competencies  |  52h 35m  |  8) Tj ET
 0.06 0.41 0.68 rg
-BT /FR 8.1 Tf 47 728.0 Td (Official Pebble C SDK : https://developer.repebble.com/docs/c/) Tj ET
+BT /F1 8.2 Tf 48 729.0 Td (Official Pebble SDK reference : https://developer.repebble.com/docs/c/) Tj ET
 endstream
 endobj
-66 0 obj
-<< /Type /Annot /Subtype /Link /Rect [45.0 711.3 568.0 737.0] /Border [0 0 0] /A << /S /URI /URI (https://developer.repebble.com/docs/c/) >> >>
+65 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48.0 712.9 566.0 739.0] /Border [0 0 0] /A << /S /URI /URI (https://developer.repebble.com/docs/c/) >> >>
 endobj
-67 0 obj
-<< /Title (C for Pebble Programmers - Revised 41 Activity Syllabus) /Author (C for Pebble Programmers Course) >>
+66 0 obj
+<< /Title (C for Pebble Programmers - Sequential 41 Lessons) /Author (C for Pebble Programmers Course) >>
 endobj
 xref
-0 68
+0 67
 0000000000 65535 f 
 0000000016 00000 n 
 0000000065 00000 n 
@@ -898,69 +897,68 @@ xref
 0000000239 00000 n 
 0000000314 00000 n 
 0000000461 00000 n 
-0000004725 00000 n 
-0000004872 00000 n 
-0000009991 00000 n 
-0000010201 00000 n 
-0000014437 00000 n 
-0000014640 00000 n 
-0000014843 00000 n 
-0000015046 00000 n 
-0000015249 00000 n 
-0000015452 00000 n 
-0000015655 00000 n 
-0000015858 00000 n 
-0000016061 00000 n 
-0000016263 00000 n 
-0000016502 00000 n 
-0000021064 00000 n 
-0000021267 00000 n 
-0000021470 00000 n 
-0000021673 00000 n 
-0000021876 00000 n 
-0000022079 00000 n 
-0000022282 00000 n 
-0000022485 00000 n 
-0000022688 00000 n 
-0000022891 00000 n 
-0000023094 00000 n 
-0000023297 00000 n 
-0000023500 00000 n 
-0000023702 00000 n 
-0000023941 00000 n 
-0000028471 00000 n 
-0000028674 00000 n 
-0000028877 00000 n 
-0000029080 00000 n 
-0000029283 00000 n 
-0000029486 00000 n 
-0000029689 00000 n 
-0000029892 00000 n 
-0000030095 00000 n 
-0000030298 00000 n 
-0000030501 00000 n 
-0000030704 00000 n 
-0000030907 00000 n 
-0000031109 00000 n 
-0000031299 00000 n 
-0000035642 00000 n 
-0000035845 00000 n 
-0000036048 00000 n 
-0000036251 00000 n 
-0000036454 00000 n 
-0000036657 00000 n 
-0000036860 00000 n 
-0000037036 00000 n 
-0000041999 00000 n 
-0000042199 00000 n 
-0000042452 00000 n 
-0000042691 00000 n 
-0000042891 00000 n 
-0000043046 00000 n 
-0000043507 00000 n 
-0000043667 00000 n 
+0000004748 00000 n 
+0000004895 00000 n 
+0000010006 00000 n 
+0000010216 00000 n 
+0000014500 00000 n 
+0000014703 00000 n 
+0000014906 00000 n 
+0000015109 00000 n 
+0000015312 00000 n 
+0000015515 00000 n 
+0000015718 00000 n 
+0000015921 00000 n 
+0000016124 00000 n 
+0000016327 00000 n 
+0000016566 00000 n 
+0000021217 00000 n 
+0000021421 00000 n 
+0000021625 00000 n 
+0000021829 00000 n 
+0000022033 00000 n 
+0000022237 00000 n 
+0000022441 00000 n 
+0000022645 00000 n 
+0000022849 00000 n 
+0000023053 00000 n 
+0000023257 00000 n 
+0000023461 00000 n 
+0000023665 00000 n 
+0000023868 00000 n 
+0000024107 00000 n 
+0000028739 00000 n 
+0000028943 00000 n 
+0000029147 00000 n 
+0000029351 00000 n 
+0000029555 00000 n 
+0000029759 00000 n 
+0000029963 00000 n 
+0000030167 00000 n 
+0000030371 00000 n 
+0000030575 00000 n 
+0000030779 00000 n 
+0000030983 00000 n 
+0000031187 00000 n 
+0000031390 00000 n 
+0000031580 00000 n 
+0000036103 00000 n 
+0000036307 00000 n 
+0000036511 00000 n 
+0000036715 00000 n 
+0000036919 00000 n 
+0000037123 00000 n 
+0000037327 00000 n 
+0000037496 00000 n 
+0000042747 00000 n 
+0000042947 00000 n 
+0000043170 00000 n 
+0000043422 00000 n 
+0000043577 00000 n 
+0000044081 00000 n 
+0000044241 00000 n 
 trailer
-<< /Size 68 /Root 1 0 R /Info 67 0 R >>
+<< /Size 67 /Root 1 0 R /Info 66 0 R >>
 startxref
-43796
+44363
 %%EOF
