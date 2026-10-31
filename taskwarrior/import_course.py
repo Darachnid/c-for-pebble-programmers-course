@@ -1145,7 +1145,7 @@ with (Path(__file__).parent / "extension_8_api.json").open(encoding="utf-8") as 
 LEGACY_MAP = json.loads((Path(__file__).parent / "legacy-id-map.json").read_text(encoding="utf-8"))
 LEGACY_TO_CURRENT = LEGACY_MAP["old_to_new"]
 LEGACY_TITLES = LEGACY_MAP["old_titles"]
-TASKS.sort(key=lambda task: int(re.match(r"^\\d+", task["key"]).group()))
+TASKS.sort(key=lambda task: int(re.match(r"^\d+", task["key"]).group()))
 
 # Core activities also explicitly develop a second competency.
 FOUNDATION_SUPPORTING = {"5A":"Resource Literacy","13B":"C Programming","25C":"Idea Generation","1A":"Resource Literacy","16B":"UI Design","22C":"Resource Literacy","11A":"C Programming","15B":"UI Design","23C":"UI Design","3A":"Debugging and Testing","8B":"Algorithmic Thinking","9C":"Algorithmic Thinking","10D":"Algorithmic Thinking","17E":"Debugging and Testing","18F":"Debugging and Testing","19G":"Algorithmic Thinking","24H":"Development Tools and Workflow","4A":"C Programming","14B":"Algorithmic Thinking","20C":"C Programming","6A":"Development Tools and Workflow","21B":"C Programming","32C":"Development Tools and Workflow","2A":"C Programming","7B":"Debugging and Testing","31C":"Debugging and Testing"}
@@ -1324,7 +1324,7 @@ def legacy_migration_plan(records):
                     break
         if old_id is None:
             for note in annotation:
-                match = re.match(r"^Course ID: (\\d+[A-Z])\\s*\\|", note)
+                match = re.match(r"^Course ID: (\d+[A-Z])\s*\|", note)
                 if match:
                     candidate = match.group(1)
                     if candidate not in LEGACY_TO_CURRENT:
@@ -1336,7 +1336,7 @@ def legacy_migration_plan(records):
                     old_id = candidate
                     break
         if old_id is None:
-            match = re.match(r"^(\\d+[A-Z])\\s+(.*)$", desc)
+            match = re.match(r"^(\d+[A-Z])\s+(.*)$", desc)
             if match:
                 candidate, title = match.groups()
                 if candidate in LEGACY_TITLES and title == LEGACY_TITLES[candidate]:
@@ -1347,7 +1347,7 @@ def legacy_migration_plan(records):
             continue
         new_id = LEGACY_TO_CURRENT[old_id]
         wanted = by_current[new_id]["description"]
-        if old_id == new_id and desc == wanted:
+        if desc == wanted and (old_id == new_id or f"Legacy lesson ID: {old_id}" in annotation):
             continue
         if not uuid:
             raise RuntimeError(f"Legacy course record {old_id} is missing UUID")
@@ -1386,7 +1386,7 @@ def apply_legacy_id_migration(before, plan):
     while destination.exists():
         destination = directory / f"before-id-renumber-{stamp}-{suffix}.json"
         suffix += 1
-    destination.write_text(json.dumps(before, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    destination.write_text(json.dumps(before, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Backup: {destination}")
     for row in plan:
         uuid = row["uuid"]
