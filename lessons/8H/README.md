@@ -1,6 +1,6 @@
 # 8H — Magnetometer / compass
 
-**Project:** Field Instrument · **Estimate:** 90m · **Prerequisites:** 8G · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Resource Literacy · **Supporting competency:** C Programming · **Estimate:** 90m · **Prerequisites:** 8G · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Add magnetic heading with CompassService; show unavailable/calibrating/valid sta
 
 ## Evidence-based completion
 
-Heading/calibration on supported hardware, otherwise a guarded unavailable report. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Heading/calibration on supported hardware, otherwise a guarded unavailable report. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emery-only resume-safe importer for the 40-task Pebble C course.
+"""Emery-only resume-safe importer for the 41-task Pebble C course.
 
 Platform: Pebble Time 2, Emery, 200x228 rectangular display.
 Every starting example is Emery-targeted: verified emery platform in its
@@ -1140,6 +1140,12 @@ from pathlib import Path
 with (Path(__file__).parent / "extension_8_api.json").open(encoding="utf-8") as extension_file:
     TASKS.extend(json.load(extension_file))
 
+# Core activities also explicitly develop a second competency.
+FOUNDATION_SUPPORTING = {"1A":"Resource Literacy","1B":"C Programming","1C":"Idea Generation","2A":"Resource Literacy","2B":"UI Design","2C":"Resource Literacy","3A":"C Programming","3B":"UI Design","3C":"UI Design","4A":"Debugging and Testing","4B":"Algorithmic Thinking","4C":"Algorithmic Thinking","4D":"Algorithmic Thinking","4E":"Debugging and Testing","4F":"Debugging and Testing","4G":"Algorithmic Thinking","4H":"Development Tools and Workflow","5A":"C Programming","5B":"Algorithmic Thinking","5C":"C Programming","6A":"Development Tools and Workflow","6B":"C Programming","6C":"Development Tools and Workflow","7A":"C Programming","7B":"Debugging and Testing","7C":"Debugging and Testing"}
+for _task in TASKS:
+    if _task["key"] in FOUNDATION_SUPPORTING:
+        _task["supporting_competency"] = FOUNDATION_SUPPORTING[_task["key"]]
+
 SHORT = {"H": "High", "M": "Medium", "L": "Low"}
 
 
@@ -1215,6 +1221,7 @@ def annotation_texts(record):
 
 def annotations_for(t):
     return [
+        f"Supporting competency: {t.get('supporting_competency', 'See course map')}",
         f"Course ID: {t['key']} | Skill: {t['skill']} | "
         f"Difficulty: {SHORT[t['difficulty']]} | Estimated: {t['estimated']} | "
         f"Priority: {SHORT[t['priority']]}",
@@ -1248,7 +1255,7 @@ def ensure_annotations(uuid, item, existing):
     old = annotation_texts(existing)
     wanted = annotations_for(item)
     prefixes = (
-        "Course ID:", "Starting example:", "Starting example guidance:",
+        "Course ID:", "Supporting competency:", "Starting example:", "Starting example guidance:",
         "Instructions:", "Done when:", "Supporting resources:", "Resources:",
         "Prerequisites:", "Target platform:", "Course rule:",
     )

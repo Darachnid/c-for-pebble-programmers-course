@@ -1,6 +1,6 @@
 # 8D — Custom drawing
 
-**Project:** Pocket Field Guide · **Estimate:** 75m · **Prerequisites:** 8B, 4D · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Idea Generation · **Supporting competency:** UI Design · **Estimate:** 75m · **Prerequisites:** 8B, 4D · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Use a custom Field Guide Layer to draw a symbol using primitives; change its output on a menu selection and mark dirty.
+Compare two original field-symbol designs and justify one for legibility at Emery size. Implement it with primitive drawing and a menu-triggered redraw.
 
 ## Evidence-based completion
 
-A visible non-clipped drawing changes on demand and you can explain the drawing callback. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Two original visual alternatives are compared; a chosen symbol redraws on selection and its layout is readable. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

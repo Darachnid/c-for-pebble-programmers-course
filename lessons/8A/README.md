@@ -1,6 +1,6 @@
 # 8A — Windows and layers
 
-**Project:** Clock Workshop · **Estimate:** 60m · **Prerequisites:** 7A, 3A · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** UI Design · **Supporting competency:** Development Tools and Workflow · **Estimate:** 60m · **Prerequisites:** 7A, 3A · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Extend the time-only watchapp with a second Window and root/child layers; trace 
 
 ## Evidence-based completion
 
-Both screens can be displayed; illustrate layer hierarchy and clean teardown. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Both screens can be displayed; illustrate layer hierarchy and clean teardown. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

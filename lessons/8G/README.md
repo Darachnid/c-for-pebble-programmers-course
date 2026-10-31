@@ -1,6 +1,6 @@
 # 8G — Accelerometer
 
-**Project:** Field Instrument · **Estimate:** 90m · **Prerequisites:** 8C, 4H · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** C Programming · **Supporting competency:** Resource Literacy · **Estimate:** 90m · **Prerequisites:** 4H, 5C · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Subscribe to batched XYZ motion samples, rate-limit display and unsubscribe duri
 
 ## Evidence-based completion
 
-Hardware data or a documented emulator limitation with sample logs, rate, and cleanup. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Hardware data or a documented emulator limitation with sample logs, rate, and cleanup. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

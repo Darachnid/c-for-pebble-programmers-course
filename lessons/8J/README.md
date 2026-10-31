@@ -1,6 +1,6 @@
 # 8J — Vibration
 
-**Project:** Field Instrument · **Estimate:** 45m · **Prerequisites:** 8I, 8C · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Debugging and Testing · **Supporting competency:** UI Design · **Estimate:** 45m · **Prerequisites:** 8G, 4H · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Add optional vibration to a deliberate user action; never vibrate on startup or continuously for sensor data.
+Hypothesize and test false or repeated vibration triggers, then add opt-in feedback for a deliberate user action and an off mode.
 
 ## Evidence-based completion
 
-Explicit trigger and off mode are demonstrated; no repeated unintended feedback. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+A written negative test demonstrates no unintended continuous vibration; deliberate and off states both work. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

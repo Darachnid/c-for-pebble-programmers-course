@@ -1,6 +1,6 @@
 # 8C — Button interactions
 
-**Project:** Clock Workshop · **Estimate:** 60m · **Prerequisites:** 8A, 4H · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Algorithmic Thinking · **Supporting competency:** C Programming · **Estimate:** 60m · **Prerequisites:** 8A, 4H · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Add Select to open Clock Workshop details and Up/Down to adjust a bounded counte
 
 ## Evidence-based completion
 
-Three buttons and Back behave correctly, including minimum/maximum boundary cases. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Three buttons and Back behave correctly, including minimum/maximum boundary cases. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

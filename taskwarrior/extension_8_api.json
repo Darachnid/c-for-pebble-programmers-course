@@ -2,7 +2,7 @@
   {
     "key": "8A",
     "description": "8A Windows and layers",
-    "skill": "C Programming",
+    "skill": "UI Design",
     "difficulty": "L",
     "estimated": "60m",
     "priority": "M",
@@ -17,32 +17,34 @@
     "starting_example_title": "Exact in-repository Emery checkpoint 8A",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8A/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Development Tools and Workflow"
   },
   {
     "key": "8B",
     "description": "8B Menus and scrolling",
-    "skill": "C Programming",
+    "skill": "UI Design",
     "difficulty": "M",
     "estimated": "75m",
     "priority": "M",
     "depends": [
-      "8A",
-      "4E"
+      "4E",
+      "4H"
     ],
     "instructions": "Build a six-entry scrolling Field Guide menu; implement draw_row and select_click; test the first, middle, and last rows.",
     "done": "Six entries scroll smoothly and selecting a row changes the visible species.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8B ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/MenuLayer/",
-    "prereq_note": "8A, 4E",
+    "prereq_note": "4E, 4H",
     "starting_example_title": "Exact in-repository Emery checkpoint 8B",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8B/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Algorithmic Thinking"
   },
   {
     "key": "8C",
     "description": "8C Button interactions",
-    "skill": "C Programming",
+    "skill": "Algorithmic Thinking",
     "difficulty": "M",
     "estimated": "60m",
     "priority": "M",
@@ -57,12 +59,13 @@
     "starting_example_title": "Exact in-repository Emery checkpoint 8C",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8C/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "C Programming"
   },
   {
     "key": "8D",
     "description": "8D Custom drawing",
-    "skill": "C Programming",
+    "skill": "Idea Generation",
     "difficulty": "M",
     "estimated": "75m",
     "priority": "M",
@@ -70,19 +73,20 @@
       "8B",
       "4D"
     ],
-    "instructions": "Use a custom Field Guide Layer to draw a symbol using primitives; change its output on a menu selection and mark dirty.",
-    "done": "A visible non-clipped drawing changes on demand and you can explain the drawing callback.",
+    "instructions": "Compare two original field-symbol designs and justify one for legibility at Emery size. Implement it with primitive drawing and a menu-triggered redraw.",
+    "done": "Two original visual alternatives are compared; a chosen symbol redraws on selection and its layout is readable.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8D ; SDK https://developer.repebble.com/docs/c/Graphics/Drawing_Primitives/",
     "prereq_note": "8B, 4D",
     "starting_example_title": "Exact in-repository Emery checkpoint 8D",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8D/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "UI Design"
   },
   {
     "key": "8E",
     "description": "8E Graphics paths",
-    "skill": "C Programming",
+    "skill": "Algorithmic Thinking",
     "difficulty": "M",
     "estimated": "75m",
     "priority": "M",
@@ -97,7 +101,8 @@
     "starting_example_title": "Exact in-repository Emery checkpoint 8E",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8E/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "UI Design"
   },
   {
     "key": "8F",
@@ -117,7 +122,8 @@
     "starting_example_title": "Exact in-repository Emery checkpoint 8F",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8F/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Debugging and Testing"
   },
   {
     "key": "8G",
@@ -127,22 +133,23 @@
     "estimated": "90m",
     "priority": "M",
     "depends": [
-      "8C",
-      "4H"
+      "4H",
+      "5C"
     ],
     "instructions": "Subscribe to batched XYZ motion samples, rate-limit display and unsubscribe during shutdown.",
     "done": "Hardware data or a documented emulator limitation with sample logs, rate, and cleanup.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8G ; SDK https://developer.repebble.com/docs/c/Foundation/Event_Service/AccelerometerService/",
-    "prereq_note": "8C, 4H",
+    "prereq_note": "4H, 5C",
     "starting_example_title": "Exact in-repository Emery checkpoint 8G",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8G/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Resource Literacy"
   },
   {
     "key": "8H",
     "description": "8H Magnetometer / compass",
-    "skill": "C Programming",
+    "skill": "Resource Literacy",
     "difficulty": "H",
     "estimated": "90m",
     "priority": "M",
@@ -156,52 +163,55 @@
     "starting_example_title": "Exact in-repository Emery checkpoint 8H",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8H/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "C Programming"
   },
   {
     "key": "8I",
     "description": "8I Ambient-light limits and backlight",
-    "skill": "C Programming",
+    "skill": "Resource Literacy",
     "difficulty": "L",
     "estimated": "45m",
     "priority": "M",
     "depends": [
-      "8H",
+      "8G",
       "5C"
     ],
     "instructions": "Add user-triggered backlight interaction. Explicitly distinguish the public backlight API from unavailable raw lux readings.",
     "done": "Backlight interaction works and API note explains the ambient-light measurement limitation.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8I ; SDK https://developer.repebble.com/docs/c/User_Interface/Light/",
-    "prereq_note": "8H, 5C",
+    "prereq_note": "8G, 5C",
     "starting_example_title": "Exact in-repository Emery checkpoint 8I",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8I/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "UI Design"
   },
   {
     "key": "8J",
     "description": "8J Vibration",
-    "skill": "C Programming",
+    "skill": "Debugging and Testing",
     "difficulty": "M",
     "estimated": "45m",
     "priority": "M",
     "depends": [
-      "8I",
-      "8C"
+      "8G",
+      "4H"
     ],
-    "instructions": "Add optional vibration to a deliberate user action; never vibrate on startup or continuously for sensor data.",
-    "done": "Explicit trigger and off mode are demonstrated; no repeated unintended feedback.",
+    "instructions": "Hypothesize and test false or repeated vibration triggers, then add opt-in feedback for a deliberate user action and an off mode.",
+    "done": "A written negative test demonstrates no unintended continuous vibration; deliberate and off states both work.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8J ; SDK https://developer.repebble.com/docs/c/User_Interface/Vibes/",
-    "prereq_note": "8I, 8C",
+    "prereq_note": "8G, 4H",
     "starting_example_title": "Exact in-repository Emery checkpoint 8J",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8J/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "UI Design"
   },
   {
     "key": "8K",
     "description": "8K App timers",
-    "skill": "C Programming",
+    "skill": "Debugging and Testing",
     "difficulty": "M",
     "estimated": "75m",
     "priority": "M",
@@ -209,19 +219,20 @@
       "8C",
       "4H"
     ],
-    "instructions": "Add a one-second elapsed counter to Clock Workshop while retaining minute tick for clock time. Reschedule/cancel safely.",
-    "done": "One running timer, correct elapsed output, and no callback after cleanup.",
+    "instructions": "Investigate re-entrancy and timer-lifetime risks while adding a one-second elapsed counter beside minute tick updates.",
+    "done": "One active AppTimer, correct output, canceled teardown, and a rapid-navigation or restart regression test.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8K ; SDK https://developer.repebble.com/docs/c/Foundation/Timer/",
     "prereq_note": "8C, 4H",
     "starting_example_title": "Exact in-repository Emery checkpoint 8K",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8K/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Algorithmic Thinking"
   },
   {
     "key": "8L",
     "description": "8L Resource files",
-    "skill": "C Programming",
+    "skill": "Idea Generation",
     "difficulty": "M",
     "estimated": "65m",
     "priority": "M",
@@ -229,39 +240,41 @@
       "8F",
       "5C"
     ],
-    "instructions": "Bundle a raw field-note resource and read it with bounded NUL-terminated storage; compare read-only resources and persistent data.",
-    "done": "Raw file is loaded without overflow; truncation and empty cases are considered.",
+    "instructions": "Design an original field-note data format and explain which information belongs in bundled read-only resources, then implement bounded loading.",
+    "done": "A justified original content format is loaded, with empty/truncated file handling and clear resource-versus-persistence explanation.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8L ; SDK https://developer.repebble.com/docs/c/Foundation/Resources/",
     "prereq_note": "8F, 5C",
     "starting_example_title": "Exact in-repository Emery checkpoint 8L",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8L/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Resource Literacy"
   },
   {
     "key": "8M",
     "description": "8M Persistent storage",
-    "skill": "C Programming",
+    "skill": "Development Tools and Workflow",
     "difficulty": "M",
     "estimated": "75m",
     "priority": "M",
     "depends": [
       "8K",
-      "7C"
+      "4H"
     ],
-    "instructions": "Save Clock Workshop's user-defined setting and restore safely on restart; reset invalid data, do not persist live seconds.",
-    "done": "Persistent, absent and invalid cases all behave as specified.",
+    "instructions": "Version and test persistent Clock Workshop settings with a documented clean/restart/corruption matrix and milestone commits.",
+    "done": "Absent, valid, invalid, restart and reset scenarios pass; source and logs are versioned without per-second writes.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8M ; SDK https://developer.repebble.com/docs/c/Foundation/Storage/",
-    "prereq_note": "8K, 7C",
+    "prereq_note": "8K, 4H",
     "starting_example_title": "Exact in-repository Emery checkpoint 8M",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8M/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Debugging and Testing"
   },
   {
     "key": "8N",
     "description": "8N Phone communication",
-    "skill": "C Programming",
+    "skill": "Development Tools and Workflow",
     "difficulty": "H",
     "estimated": "120m",
     "priority": "M",
@@ -270,13 +283,39 @@
       "4H",
       "7B"
     ],
-    "instructions": "Implement watch-to-phone request and phone-to-watch reply starting from src/js/app.js and the messageKeys manifest; keep offline fallback.",
-    "done": "Two-way log with success, failure and invalid payload behavior; no required continuous connection.",
+    "instructions": "Implement reproducible two-way AppMessage/PebbleKit JS with watch/phone logs, documented message-key contracts and offline fallback.",
+    "done": "A verified two-way round trip, failure handling and reproducible setup/log record.",
     "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8N ; SDK https://developer.repebble.com/docs/c/Foundation/AppMessage/",
     "prereq_note": "8L, 4H, 7B",
     "starting_example_title": "Exact in-repository Emery checkpoint 8N",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/8N/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1."
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "C Programming"
+  },
+  {
+    "key": "9A",
+    "description": "9A Build and demonstrate an original Emery app",
+    "skill": "Integrated capstone (all seven competencies)",
+    "supporting_competency": "All seven competencies",
+    "difficulty": "H",
+    "estimated": "240m",
+    "priority": "H",
+    "depends": [
+      "2C",
+      "1C",
+      "6C",
+      "8J",
+      "8M",
+      "8N"
+    ],
+    "instructions": "Build an original C watchapp from your 2C concept and 1C design, integrating at least two capabilities from different project strands; deliver code, demo, test evidence and seven-competency self-assessment.",
+    "done": "Working original Emery app; each of seven outcomes rated at least 2 under documented rubric and substantiated by artifacts.",
+    "resources": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/9A ; https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment.md",
+    "prereq_note": "2C, 1C, 6C, 8J, 8M, 8N",
+    "starting_example_title": "Minimal independent app shell",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/9A/starter",
+    "starting_example_note": "A blank C application scaffold, NOT a generated solution; use your own 2C/1C design.",
+    "emery_rule": "Emery (Pebble Time 2), 200x228, SDK 4.33.1; hardware evidence distinguished from emulator."
   }
 ]

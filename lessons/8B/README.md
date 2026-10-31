@@ -1,6 +1,6 @@
 # 8B — Menus and scrolling
 
-**Project:** Pocket Field Guide · **Estimate:** 75m · **Prerequisites:** 8A, 4E · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** UI Design · **Supporting competency:** Algorithmic Thinking · **Estimate:** 75m · **Prerequisites:** 4E, 4H · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Build a six-entry scrolling Field Guide menu; implement draw_row and select_clic
 
 ## Evidence-based completion
 
-Six entries scroll smoothly and selecting a row changes the visible species. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Six entries scroll smoothly and selecting a row changes the visible species. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 
