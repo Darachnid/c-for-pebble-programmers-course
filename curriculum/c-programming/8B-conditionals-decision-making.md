@@ -1,5 +1,8 @@
 # 8B — Conditional Execution and Decision Making
 
+
+> **Dual-platform note (course, not a textbook quotation):** The same C concepts and local exercises apply to Pebble Time 2 (`emery`, 200×228 rectangle) and Pebble Round 2 (`gabbro`, 260×260 circle). Source displays near the circular edge may need repositioning, but those geometry changes are SDK scaffolding—not additional C-language exercises. Build/check on both targets and consult the [platform guide](../dual-platform/README.md).
+
 > **Source:** Mike Jipping, *Learning C with Pebble*, Chapter 4 (2016). This is a source-derived adaptation, not a replacement textbook. The original explanations, progression, terminology, and examples are retained wherever they remain applicable.
 >
 > **Target:** Pebble Time 2 (**Emery**) · Pebble SDK **4.33.1** · C.
@@ -28,7 +31,7 @@
 - [**Project 4.1** — starter, README, and C source](../../lessons/8B/projects/project-4-1/)
 - [**Project 4.2** — starter, README, and C source](../../lessons/8B/projects/project-4-2/)
 
-These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+These are newly authored Emery/Gabbro implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
 
 There is a theorem in programming language theory that states that there are only three types of statements needed for programming.  In a 1966 paper, Corrado Böhm and Giuseppe Jacopini show that we only need sequential execution, conditional execution of statements, and looping repeated execution of statements to write a program. 
 

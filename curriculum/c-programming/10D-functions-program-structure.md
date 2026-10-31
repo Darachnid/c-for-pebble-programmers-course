@@ -1,5 +1,8 @@
 # 10D — Functions and Program Structure
 
+
+> **Dual-platform note (course, not a textbook quotation):** The same C concepts and local exercises apply to Pebble Time 2 (`emery`, 200×228 rectangle) and Pebble Round 2 (`gabbro`, 260×260 circle). Source displays near the circular edge may need repositioning, but those geometry changes are SDK scaffolding—not additional C-language exercises. Build/check on both targets and consult the [platform guide](../dual-platform/README.md).
+
 > **Source:** Mike Jipping, *Learning C with Pebble*, Chapter 6 (2016). This is a source-derived adaptation, not a replacement textbook. The original explanations, progression, terminology, and examples are retained wherever they remain applicable.
 >
 > **Target:** Pebble Time 2 (**Emery**) · Pebble SDK **4.33.1** · C.
@@ -30,7 +33,7 @@
 - [**Project 6.3** — starter, README, and C source](../../lessons/10D/projects/project-6-3/)
 - [**Project 6.4** — starter, README, and C source](../../lessons/10D/projects/project-6-4/)
 
-These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+These are newly authored Emery/Gabbro implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
 
 Abstraction is one of the most powerful tools used by a software developer.  We have seen basic abstractions already: variables are abstractions of memory and statements are abstractions of machine instructions.  When we use abstractions, we want to see the big picture, to use something that just works, and we want to ignore the details of how it works. 
 

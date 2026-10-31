@@ -1,5 +1,8 @@
 # 18F — Pointers, Indirection, and Memory Lifetime
 
+
+> **Dual-platform note (course, not a textbook quotation):** The same C concepts and local exercises apply to Pebble Time 2 (`emery`, 200×228 rectangle) and Pebble Round 2 (`gabbro`, 260×260 circle). Source displays near the circular edge may need repositioning, but those geometry changes are SDK scaffolding—not additional C-language exercises. Build/check on both targets and consult the [platform guide](../dual-platform/README.md).
+
 > **Scope and provenance:** Original course learning notes, organized around themes from Mike Jipping's *Learning C with Pebble*, Chapters 8 (Pointers and Memory Allocation) and 11 (How C Programs Execute). These are **not verbatim extracts** from the book. Source-derived material from Chapters 3–6 remains in modules 3A–10D.
 >
 > **Target:** Pebble Time 2 (Emery), SDK 4.33.1, C. Required local starter: [lessons/18F/starter/](../../lessons/18F/starter/).

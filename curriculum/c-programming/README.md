@@ -1,5 +1,8 @@
 # Eight C programming modules interleaved through the course
 
+
+> **Dual-platform note (course, not a textbook quotation):** The same C concepts and local exercises apply to Pebble Time 2 (`emery`, 200×228 rectangle) and Pebble Round 2 (`gabbro`, 260×260 circle). Source displays near the circular edge may need repositioning, but those geometry changes are SDK scaffolding—not additional C-language exercises. Build/check on both targets and consult the [platform guide](../dual-platform/README.md).
+
 This track contains eight progressively dependent C programming activities. The first four modules (3A, 8B, 9C, 10D) preserve the organization and substantial instructional text of Mike Jipping's *Learning C with Pebble* (Chapters 3–6); their eleven book exercise concepts now have local modern Emery-compatible C projects. The later four modules (17E, 18F, 19G, 24H) are original course notes drawing on additional book chapter themes.
 
 | ID | Topic | Source emphasis | Required local code | Prerequisite |
