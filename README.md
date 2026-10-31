@@ -33,4 +33,4 @@ The developer skills remain UI Design, Idea Generation, Algorithmic Thinking, C 
 
 Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressively on **three Emery watchapps**: Clock Workshop (windows/buttons/timers/persistence), Field Instrument (accelerometer/compass/backlight/vibration), and Pocket Field Guide (menus/drawing/paths/bitmaps/resources/phone messages). Consult the [chapter coverage matrix](curriculum/pebble-api/capability-matrix.md). Every activity includes its own local starter project.
 
-**Syllabus editions:** `SYLLABUS.md` is the current 40-activity authority. The existing `SYLLABUS.pdf` is the earlier 26-activity edition and has not yet been regenerated.
+**Syllabus editions:** Both `SYLLABUS.md` and the regenerated `SYLLABUS.pdf` cover all 40 activities.

@@ -538,4 +538,4 @@ Official C SDK documentation: https://developer.repebble.com/docs/c/
 
 **Compatibility note:** The C samples are authored/port-adapted for Emery, but the Pebble SDK was not available for automated compilation in this environment. Students must validate builds with SDK 4.33.1 and the Emery emulator.
 
-**Edition note:** The previously committed `SYLLABUS.pdf` is the archived 26-activity edition. This Markdown document supersedes it for the full 40-activity course until the PDF is regenerated.
+**Edition note:** `SYLLABUS.pdf` has been regenerated to include the 40-activity course.
