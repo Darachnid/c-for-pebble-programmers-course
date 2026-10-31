@@ -2,6 +2,11 @@
 
 **Skill:** Debugging and Testing · **Estimate:** 90m · **Difficulty:** High · **Priority:** Low · **Prerequisites:** 4H, 6B, 7C
 
+## Competency checkpoint
+
+**Primary:** Debugging and Testing · **Supporting:** Development Tools and Workflow. Reproduce the symptom, form a root-cause hypothesis, make a minimal change and run a new regression case. Independently explain both competencies and self-score them at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). The original exercise and its completion evidence remain unchanged.
+
+
 **Companion reading:** [6C in the debugging testing guide](../../curriculum/debugging-testing/README.md). Test fresh start, save and restart separately; no spoiler is provided here. Complete the assignment using its provided local Emery project.
 
 ## Exact local example

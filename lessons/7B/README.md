@@ -2,6 +2,11 @@
 
 **Skill:** Development Tools and Workflow · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 7A, 1A, 6A
 
+## Competency checkpoint
+
+**Primary:** Development Tools and Workflow · **Supporting:** Debugging and Testing. Preserve a known-good baseline, make verifiable commits, and explain how logs/Git make the change reproducible. Independently explain both competencies and self-score them at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). The original exercise and its completion evidence remain unchanged.
+
+
 **Companion reading:** [7B in the tools workflow guide](../../curriculum/tools-workflow/README.md). Keep baseline and edited commits distinct and inspect the diff. Complete the assignment using its provided local Emery project.
 
 ## Exact local example
