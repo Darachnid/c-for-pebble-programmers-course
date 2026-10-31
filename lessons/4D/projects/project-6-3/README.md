@@ -2,6 +2,16 @@
 
 **Emery-only runnable starter (Pebble SDK 4.33.1, C).** This is a modernized, course-authored equivalent of the activity in Mike Jipping's *Learning C with Pebble*; it is not a byte-for-byte copy of the historic sample.
 
+## API scaffolding: provided, not assessed here
+
+The project uses Pebble SDK facilities you will study in later API labs. **You are not expected to write those facilities from scratch in this C-language lesson.**
+
+- **Already provided:** Window and Layer are created; a GRect is drawn and passed to fill_the_rectangle().
+- **Your C-language edit surface:** Implement fill_the_rectangle() using the supplied ctx and box arguments; focus on signatures and parameter use.
+- **Observable check:** Centered readable label remains within the rectangle; verify after changing the rectangle size.
+
+For a short call-flow diagram and explanations of the supplied SDK functions, read the [Pebble scaffold guide](../../../../curriculum/c-programming/sdk-scaffolding.md). This is a language exercise first; changing unrelated Window, Layer, timer or subscription code is unnecessary.
+
 ## What to do
 
 Complete fill_the_rectangle() using the supplied GContext and GRect parameters to draw the provided label centered within a box.

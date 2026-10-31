@@ -2,6 +2,16 @@
 
 **Emery-only runnable starter (Pebble SDK 4.33.1, C).** This is a modernized, course-authored equivalent of the activity in Mike Jipping's *Learning C with Pebble*; it is not a byte-for-byte copy of the historic sample.
 
+## API scaffolding: provided, not assessed here
+
+The project uses Pebble SDK facilities you will study in later API labs. **You are not expected to write those facilities from scratch in this C-language lesson.**
+
+- **Already provided:** A Layer draws a 3×5 digit pattern using small filled rectangles; Window and update callback are supplied.
+- **Your C-language edit surface:** Extract the repeated/dense drawing logic into functions accepting the pattern, position and dimensions. No need to redesign the SDK drawing API.
+- **Observable check:** The digit remains legible after refactor; varied dimensions still produce correct cells.
+
+For a short call-flow diagram and explanations of the supplied SDK functions, read the [Pebble scaffold guide](../../../../curriculum/c-programming/sdk-scaffolding.md). This is a language exercise first; changing unrelated Window, Layer, timer or subscription code is unnecessary.
+
 ## What to do
 
 Refactor the provided drawing logic into reusable functions accepting the pattern, row, column, and size. Do not merely duplicate draw calls.
