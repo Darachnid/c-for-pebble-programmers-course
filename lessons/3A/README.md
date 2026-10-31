@@ -1,39 +1,30 @@
-# 3A — Trace the watchface lifecycle
+# 3A — Variables, Data Types, and Operators
 
-**Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4D, 7A
+**Core skill:** C Programming · **Time:** 120m · **Difficulty:** Low · **Priority:** High · **Dependencies:** 2A
 
 ## Competency checkpoint
 
-**Primary:** Algorithmic Thinking · **Supporting:** C Programming. Before implementation or diagramming, specify inputs, states, output changes and boundary conditions. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+**Primary:** C Programming · **Supporting:** Debugging and Testing. Explain which C data/functions produce the behavior, identify ownership or bounds as relevant, and verify a failing/edge case. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
 
 
-**Companion reading:** [3A in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Distinguish direct calls from framework-triggered callbacks. Use this lesson's local starter; the reading is preparation, not a completed answer.
+> **Before the exercises:** [Pebble SDK scaffolding for C lessons 3A–10D](../../curriculum/c-programming/sdk-scaffolding.md). Framework drawing, timers and event registration are *provided* code here; the assessed topic is C. Later 12A, 27C, 28D and 37K teach those APIs directly.
 
-## Exact local example
+## Reading
 
-- [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
+[**Complete 3A reading module**](../../curriculum/c-programming/3A-variables-data-types-operators.md).
 
-Use the local example as a reference. Make your own decisions and retain the evidence requested by this lesson.
+## Exercises (complete local Emery projects)
 
-## Your task
+1. [Project 3.1](projects/project-3-1/) — read its README, build, modify and test.
+2. [Project 3.2](projects/project-3-2/) — read its README, build, modify and test.
 
-Draw the execution flow for the time-only watchface. Include main(), init(), window_stack_push(), main_window_load(), update_time(), tick_handler(), app_event_loop(), main_window_unload(), and deinit() where applicable. Show which functions call other functions and which are callbacks. Show the separate path for a minute tick after startup.
+These are separate C projects. No external sample or answer key is required.
 
-## Completion evidence
+## Completion criteria
 
-A flow diagram shows startup, initial display, minute updates, and cleanup, with direct calls distinguished from callbacks.
+Finish each linked exercise, demonstrate the intended behavior in the Emery emulator, submit a source diff and a brief explanation of the C feature you applied, and test at least one boundary case. Avoid AI assistance during exercises.
 
-## Build the starter
+## Legacy task note
 
-From the repository root:
+The previous activity used a different objective. Its original starter project is preserved in `starter/` for compatibility; the **new C programming activities above are authoritative**.
 
-```sh
-cd lessons/3A/starter
-pebble build
-pebble install --emulator emery
-pebble logs --emulator emery
-```
-
-## Source and permissions
-
-The complete required starter C source and build files are in this folder. Official Pebble SDK source copies are included only when their license authorizes redistribution, with the MIT license preserved. Other starter code is independently written for this course. Use **Emery only** and follow the no-AI coursework rule.
