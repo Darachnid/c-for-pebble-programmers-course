@@ -17,7 +17,7 @@ This watchface has only the time; do not add a date yet.
 
 ## Your task
 
-Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery", "gabbro"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.
+Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery", "gabbro"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build, then install on both --emulator emery and --emulator gabbro; confirm time updates and only one TextLayer exists. Identify project structure and build output.
 
 ## Completion evidence
 

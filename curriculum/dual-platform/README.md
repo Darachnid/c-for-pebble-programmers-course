@@ -34,7 +34,7 @@ A passing manifest audit does **not** prove a successful compiler build, on-scre
 
 ## Rectangular versus circular UI
 
-The 260×260 circle is **not** a full 260×260 content rectangle. Text and selectable rows near its corners can disappear. The recurring starter apps now include **their own local** `src/c/course_display.h`: `course_content_rect()` uses a conservative centered square on a round watch and small rectangular margins on Emery. The students can read the helper early, without being asked to invent round geometry before their C and layout lessons.
+The 260×260 circle is **not** an unobstructed 260×260 content rectangle. Text and selectable rows near its corners can disappear. The recurring starter apps now include **their own local** `src/c/course_display.h`: `course_content_rect()` uses a conservative centered square on a round watch and small rectangular margins on Emery. The students can read the helper early, without being asked to invent round geometry before their C and layout lessons.
 
 For your own edits, use `layer_get_bounds()` and `PBL_ROUND`/`PBL_IF_ROUND_ELSE()` rather than assuming a fixed width/height. Center text and short labels. Use a round-safe menu inset and verify the first/last items scroll into view. Recalculate graphics-path centers, draw bounds, bitmap positions and physical hit regions for each platform. For **framebuffer** manipulation, the firmware reports a circular 8-bit framebuffer on Gabbro; use its row metadata and valid pixel spans rather than assuming Emery's rectangular framebuffer layout. See the dedicated SDK documentation above.
 

@@ -17,7 +17,7 @@ Add the date TextLayer yourself; the date is deliberately omitted from the start
 
 ## Your task
 
-From YOUR time-only emery code, follow the Adding the Date section of the current C tutorial to create, style, position, update, and unload a second TextLayer. Arrange time and date for the Emery 200×228 rectangular and Gabbro 260×260 circular screens. Build and install on Emery and Gabbro. Do not switch to a completed repository.
+From YOUR time-only Emery/Gabbro code, follow the Adding the Date section of the current C tutorial to create, style, position, update, and unload a second TextLayer. Arrange time and date for the Emery 200×228 rectangular and Gabbro 260×260 circular screens. Build and install on Emery and Gabbro. Do not switch to a completed repository.
 
 ## Completion evidence
 

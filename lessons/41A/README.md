@@ -1,6 +1,6 @@
-# 41A — Independently build, test, and present an original Emery app
+# 41A — Independently build, test, and present an original dual-platform Pebble app
 
-**Primary assessment:** Integrated demonstration of all **seven core competencies** · **Estimate:** 240m (4h focused) · **Prerequisites:** 22C, 25C, 32C, 36J, 39M, 40N · **Platform:** Emery/Gabbro, SDK 4.33.1
+**Primary assessment:** Integrated demonstration of all **seven core competencies** · **Estimate:** 240m (4h focused) · **Prerequisites:** 22C, 25C, 32C, 36J, 39M, 40N · **Platform:** Emery and Gabbro, SDK 4.33.1
 
 ## Starting point
 

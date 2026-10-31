@@ -6,7 +6,7 @@ A self-directed, **41-activity**, **Emery + Gabbro** C programming course: seven
 
 ## Start here
 
-- [Complete syllabus](SYLLABUS.md) ([PDF snapshot](SYLLABUS.pdf); Markdown contains the newest companion-reading links)
+- [Complete syllabus](SYLLABUS.md) ([up-to-date PDF syllabus](SYLLABUS.pdf))
 - [All 41 lesson folders and local examples](lessons/README.md)
 - [Learning materials for all seven competencies and the API labs](curriculum/README.md) (including [C modules](curriculum/c-programming/README.md))
 - [Taskwarrior importer](taskwarrior/README.md)
@@ -35,7 +35,7 @@ The developer skills remain UI Design, Idea Generation, Algorithmic Thinking, C 
 
 Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressively on **three Emery/Gabbro watchapps**: Clock Workshop (windows/buttons/timers/persistence), Field Instrument (accelerometer/compass/backlight/vibration), and Pocket Field Guide (menus/drawing/paths/bitmaps/resources/phone messages). Consult the [chapter coverage matrix](curriculum/pebble-api/capability-matrix.md). Every activity includes its own local starter project.
 
-**Syllabus editions:** Both files cover the 41 activities. The Markdown now also includes companion-reading links introduced after the latest PDF generation.
+**Syllabus editions:** Both Markdown and PDF have been updated for the dual-platform 41-activity course; Markdown remains the editable source of truth.
 
 ## How to contribute
 
