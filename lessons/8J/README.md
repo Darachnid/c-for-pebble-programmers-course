@@ -8,6 +8,10 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 **Project history:** 8I → 8J → independent capstone. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
 
+## Implemented vs. assigned
+
+**Inherited checkpoint:** XYZ throttling, explicit compass statuses and Up-requested backlight are implemented. **Your work:** opt-in vibration with an off mode and negative tests. This starter contains prior 8H/8I work for project continuity even though those lessons are not formal Taskwarrior prerequisites.
+
 ## SDK APIs
 
 `vibes_short_pulse, VibePattern` — [Official C API reference](https://developer.repebble.com/docs/c/User_Interface/Vibes/).

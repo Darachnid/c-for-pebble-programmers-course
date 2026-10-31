@@ -39,7 +39,10 @@ static void init(void){
  window_set_window_handlers(s_main,(WindowHandlers){.load=load_main,.unload=unload_main});
  window_set_window_handlers(s_detail,(WindowHandlers){.load=load_detail,.unload=unload_detail});
  
- window_stack_push(s_main,true);
+ /* 8A completed checkpoint: preview details on launch, Back returns to clock.
+    8C student task: wire Select to reopen details from the clock. */
+ window_stack_push(s_main,false);
+ window_stack_push(s_detail,true);
  tick_timer_service_subscribe(MINUTE_UNIT,tick);
  
 }

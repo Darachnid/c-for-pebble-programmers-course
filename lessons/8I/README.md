@@ -8,6 +8,10 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 **Project history:** 8H → 8I → 8J. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
 
+## Implemented vs. assigned
+
+**Inherited 8G/8H checkpoint:** XYZ refresh is throttled. Compass status distinguishes unavailable, calibrating with invalid data, calibrating with usable data, and calibrated/valid under `PBL_COMPASS`. **Your work:** research the Light API and add a deliberate backlight action; no backlight handler is in this starter.
+
 ## SDK APIs
 
 `light_enable_interaction, light_is_on` — [Official C API reference](https://developer.repebble.com/docs/c/User_Interface/Light/).

@@ -8,6 +8,10 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 **Project history:** 8A → 8C → 8K. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
 
+## Implemented vs. assigned
+
+**Inherited 8A checkpoint:** The starter opens the *detail window first*. **Back** reveals the main clock, proving both windows are viewable without implementing this lesson's Select button. **Your work:** wire Select to reopen details and implement Up/Down with counter bounds 0–99. The preview is not a shortcut for your button solution.
+
 ## SDK APIs
 
 `window_single_click_subscribe, BUTTON_ID_SELECT` — [Official C API reference](https://developer.repebble.com/docs/c/User_Interface/Clicks/).

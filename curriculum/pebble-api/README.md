@@ -27,7 +27,7 @@
 
 **C — Pocket Field Guide:** 8B menus → 8D primitive drawing → 8E graphics paths → 8F mutable bitmap → 8L bundled data → 8N PebbleKit JS phone messaging.
 
-All starter directories are independent local builds. The next lesson's starter illustrates how the previous lesson's capability can be completed, without giving away the current lesson's task. Retain Git diffs, a normal and an edge test, API notes and evidence of cleanup.
+All starter directories are independent local builds. A later stage is an *example checkpoint* for previous skills, not the solution to the current assignment. Use [the source-continuity matrix](checkpoint-continuity.md) to distinguish inherited code, current TODOs and optional cross-strand examples. Retain Git diffs, a normal and an edge test, API notes and evidence of cleanup.
 
 **Caveats:** Watchfaces cannot receive click events; all 8X code is watchapp code. Compass requires `PBL_COMPASS` and calibration; the Light API does not expose ambient lux. No actual Emery device, phone link or SDK compilation was available in this editing session. The source is authored for SDK 4.33.1 but needs compilation/field verification.
 

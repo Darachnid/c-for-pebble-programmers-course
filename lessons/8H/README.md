@@ -8,6 +8,10 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 **Project history:** 8G → 8H → 8I. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
 
+## Implemented vs. assigned
+
+**Inherited 8G checkpoint:** Latest XYZ samples are retained but accelerometer-driven display refresh occurs at most **once per clock second**. Unsubscription is implemented. **Your work:** implement CompassService and distinguish unavailable, calibrating and valid states. Preserve the throttle.
+
 ## SDK APIs
 
 `PBL_COMPASS, CompassService` — [Official C API reference](https://developer.repebble.com/docs/c/Foundation/Event_Service/CompassService/).
