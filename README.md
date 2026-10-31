@@ -6,9 +6,9 @@ A self-directed, **40-activity**, **Emery-only** C programming course: seven dev
 
 ## Start here
 
-- [Complete syllabus](SYLLABUS.md) ([PDF edition](SYLLABUS.pdf))
+- [Complete syllabus](SYLLABUS.md) ([PDF snapshot](SYLLABUS.pdf); Markdown contains the newest companion-reading links)
 - [All 40 lesson folders and local examples](lessons/README.md)
-- [Eight C programming reading modules](curriculum/c-programming/README.md)
+- [Learning materials for all seven competencies and the API labs](curriculum/README.md) (including [C modules](curriculum/c-programming/README.md))
 - [Taskwarrior importer](taskwarrior/README.md)
 
 ## Examples and assignments
@@ -33,4 +33,30 @@ The developer skills remain UI Design, Idea Generation, Algorithmic Thinking, C 
 
 Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressively on **three Emery watchapps**: Clock Workshop (windows/buttons/timers/persistence), Field Instrument (accelerometer/compass/backlight/vibration), and Pocket Field Guide (menus/drawing/paths/bitmaps/resources/phone messages). Consult the [chapter coverage matrix](curriculum/pebble-api/capability-matrix.md). Every activity includes its own local starter project.
 
-**Syllabus editions:** Both `SYLLABUS.md` and the regenerated `SYLLABUS.pdf` cover all 40 activities.
+**Syllabus editions:** Both files cover the 40 activities. The Markdown now also includes companion-reading links introduced after the latest PDF generation.
+
+## How to contribute
+
+**No Git experience needed.** To suggest a documentation edit: (1) sign in to GitHub; (2) click **Fork** on this repository to make your own copy; (3) open the file in your fork and click the pencil icon; (4) **Commit changes** on a new branch; (5) click **Contribute → Open pull request** and explain the change. A pull request is a proposal: it does not directly overwrite the course. Report testing and preserve the intentional faults in debugging lessons.
+
+For C or larger changes, clone your fork, make a named branch, build and install the local example on `emery`, commit and push the change, then open a pull request. The **[complete beginner guide](CONTRIBUTING.md)** explains every Git term, browser click and terminal command.
+
+## License options (not yet selected)
+
+There is **no root `LICENSE` file** yet, so the repository's original material is **not automatically open-source licensed** just because it is public. Here are possible licenses for **new material owned by the course contributors**:
+
+| Material | Candidate | Tradeoff |
+|---|---|---|
+| Original C/examples | **MIT (recommended)** | Short, permissive, widely compatible with bundled Pebble MIT source; preserve notices. |
+| Original C/examples | **Apache-2.0** | Permissive plus explicit patent-grant terms and notice requirements. |
+| Original C/examples | **GPL-3.0-or-later** | Copyleft for redistributed derivative programs; review compatibility/obligations. |
+| Original educational writing | **CC BY 4.0 (recommended)** | Allows adaptations with attribution and license conditions. |
+| Original educational writing | **CC BY-SA 4.0** | Requires adapted material to remain under a compatible share-alike license. |
+
+**Rights warning:** Bundled Pebble examples have their *own* MIT notices (for example `lessons/1C/starter/LICENSE`). The 4A–4D readings contain substantial source-derived passages from *Learning C with Pebble*. Verify their copyright and redistribution permissions **before** applying a blanket license or claiming that all course material is freely reusable. A new repository license cannot grant rights to third-party text, code or artwork. Creative Commons licenses are for the original instructional text here, **not** for the C code.
+
+This is a **proposal**, not a license grant. See [GitHub's licensing explanation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and [Choose a License](https://choosealicense.com/).
+
+## Syllabus formats
+
+[SYLLABUS.md](SYLLABUS.md) is the up-to-date authoritative syllabus. [SYLLABUS.pdf](SYLLABUS.pdf) covers the 40 activities but **has not yet been regenerated** with the newest companion-reading links. The Markdown version should be used for current assignments and links.

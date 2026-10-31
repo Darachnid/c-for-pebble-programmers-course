@@ -2,6 +2,8 @@
 
 **Skill:** Idea Generation · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2B, 5C
 
+**Companion reading:** [2C in the idea generation guide](../../curriculum/idea-generation/README.md). Compare feasibility and uncertainty before choosing the smallest app. Use the local starter below; the reading is preparation, not a replacement project.
+
 ## Exact local examples
 
 - [`layout/`](./layout/) — Exact C source from official MIT-licensed Pebble Simplicity example, adapted Emery-only manifest.

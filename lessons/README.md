@@ -1,6 +1,6 @@
 # Emery lesson directory — 40 activities
 
-Every activity has a numbered folder and an exact local starting project. All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
+Every activity has a numbered folder and an exact local starting project. All seven competencies now have [companion readings](../curriculum/README.md), alongside the [14-lab API track](../curriculum/pebble-api/README.md). All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
 
 | ID | Activity | Time | Depends on | Source |
 |---|---|---:|---|---|

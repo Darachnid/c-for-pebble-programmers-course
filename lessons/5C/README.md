@@ -2,6 +2,8 @@
 
 **Skill:** Resource Literacy · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 4E, 5B
 
+**Companion reading:** [5C in the resource literacy guide](../../curriculum/resource-literacy/README.md). Record persistence constraints and startup fallbacks before coding. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Independent Emery counter showing the Pebble persist_exists/read/write API.

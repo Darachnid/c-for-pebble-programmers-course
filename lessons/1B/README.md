@@ -2,6 +2,8 @@
 
 **Skill:** UI Design · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 1A, 4D, 5A
 
+**Companion reading:** [1B in the ui design guide](../../curriculum/ui-design/README.md). Sketch both text-layer rectangles before choosing their positions. Use the local starter below; the reading is preparation, not a replacement project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

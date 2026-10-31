@@ -2,6 +2,8 @@
 
 **Skill:** Development Tools and Workflow · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
+**Companion reading:** [7A in the tools workflow guide](../../curriculum/tools-workflow/README.md). Identify the project root and distinguish build, install and observation. Complete the assignment using its provided local Emery project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

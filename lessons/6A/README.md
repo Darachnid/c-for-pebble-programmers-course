@@ -2,6 +2,8 @@
 
 **Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
+**Companion reading:** [6A in the debugging testing guide](../../curriculum/debugging-testing/README.md). Capture the first compiler diagnostic before touching source; no error solution is given here. Complete the assignment using its provided local Emery project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Deliberately malformed time-only C source. Initial compilation is supposed to fail.

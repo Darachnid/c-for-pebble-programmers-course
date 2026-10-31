@@ -2,6 +2,8 @@
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 5B
 
+**Companion reading:** [3B in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Define wrapping rules and trace both ends of the selector. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.

@@ -2,6 +2,8 @@
 
 **Skill:** Resource Literacy · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 4D, 5A
 
+**Companion reading:** [5B in the resource literacy guide](../../curriculum/resource-literacy/README.md). Trace the event handler through state change to visible result. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.

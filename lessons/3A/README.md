@@ -2,6 +2,8 @@
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4D, 7A
 
+**Companion reading:** [3A in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Distinguish direct calls from framework-triggered callbacks. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

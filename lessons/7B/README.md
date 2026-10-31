@@ -2,6 +2,8 @@
 
 **Skill:** Development Tools and Workflow · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 7A, 1A, 6A
 
+**Companion reading:** [7B in the tools workflow guide](../../curriculum/tools-workflow/README.md). Keep baseline and edited commits distinct and inspect the diff. Complete the assignment using its provided local Emery project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
