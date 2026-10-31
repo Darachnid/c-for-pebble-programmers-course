@@ -2,6 +2,11 @@
 
 **Skill:** C Programming · **Estimate:** 150m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 4G
 
+## Competency checkpoint
+
+**Primary:** C Programming · **Supporting:** Development Tools and Workflow. Explain the C state or pointer/callback lifetime and test normal, boundary, and cleanup behavior. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+
+
 **Read:** [4H learning module](../../curriculum/c-programming/4H-events-lifecycle.md)
 
 **Use exactly:** [starter/](starter/) — an original Pebble SDK C watchapp targeting only Emery (200 × 228).

@@ -2,6 +2,11 @@
 
 **Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
+## Competency checkpoint
+
+**Primary:** Debugging and Testing · **Supporting:** Development Tools and Workflow. Separate symptom from cause, record a reproducible hypothesis and a minimal correction, and run a regression test. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+
+
 **Companion reading:** [6A in the debugging testing guide](../../curriculum/debugging-testing/README.md). Capture the first compiler diagnostic before touching source; no error solution is given here. Complete the assignment using its provided local Emery project.
 
 ## Exact local example

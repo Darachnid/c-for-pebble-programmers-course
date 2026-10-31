@@ -2,6 +2,11 @@
 
 **Skill:** Resource Literacy · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 4D, 5A
 
+## Competency checkpoint
+
+**Primary:** Resource Literacy · **Supporting:** Algorithmic Thinking. Find and interpret relevant authoritative SDK documentation, then justify what the API can and cannot guarantee. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+
+
 **Companion reading:** [5B in the resource literacy guide](../../curriculum/resource-literacy/README.md). Trace the event handler through state change to visible result. Use this lesson's local starter; the reading is preparation, not a completed answer.
 
 ## Exact local example

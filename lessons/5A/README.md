@@ -2,6 +2,11 @@
 
 **Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
 
+## Competency checkpoint
+
+**Primary:** Resource Literacy · **Supporting:** C Programming. Find and interpret relevant authoritative SDK documentation, then justify what the API can and cannot guarantee. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+
+
 **Companion reading:** [5A in the resource literacy guide](../../curriculum/resource-literacy/README.md). Record the API function contract and local usage in your own words. Use this lesson's local starter; the reading is preparation, not a completed answer.
 
 ## Exact local example

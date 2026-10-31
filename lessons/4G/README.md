@@ -2,6 +2,11 @@
 
 **Skill:** C Programming · **Estimate:** 105m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 4F
 
+## Competency checkpoint
+
+**Primary:** C Programming · **Supporting:** Algorithmic Thinking. Explain the C state or pointer/callback lifetime and test normal, boundary, and cleanup behavior. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+
+
 **Read:** [4G learning module](../../curriculum/c-programming/4G-structs-enums-state.md)
 
 **Use exactly:** [starter/](starter/) — an original Pebble SDK C watchapp targeting only Emery (200 × 228).
