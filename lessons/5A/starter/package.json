@@ -1,11 +1,11 @@
 {
-  "name": "course-lessons-5a-starter",
+  "name": "course-lessons-1a-starter",
   "version": "1.0.0",
   "private": true,
   "author": "C for Pebble Programmers Course",
   "pebble": {
     "displayName": "lessons 5A starter",
-    "uuid": "c0dec0de-2000-4000-8000-000000000006",
+    "uuid": "c0dec0de-2000-4000-8000-000000000008",
     "sdkVersion": "3",
     "targetPlatforms": [
       "emery"

@@ -1,27 +1,27 @@
-# 5A — Find and document a Pebble API function
+# 5A — Change one visual property of a time-only watchface
 
-**Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
+**Skill:** UI Design · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 3A, 4A, 2A
 
 ## Competency checkpoint
 
-**Primary:** Resource Literacy · **Supporting:** C Programming. Find and interpret relevant authoritative SDK documentation, then justify what the API can and cannot guarantee. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
+**Primary:** UI Design · **Supporting:** Resource Literacy. Before editing, predict how the design supports glanceability and button/navigation clarity; then verify on the 200x228 canvas. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
 
 
-**Companion reading:** [5A in the resource literacy guide](../../curriculum/resource-literacy/README.md). Record the API function contract and local usage in your own words. Use this lesson's local starter; the reading is preparation, not a completed answer.
+**Companion reading:** [5A in the ui design guide](../../curriculum/ui-design/README.md). Before editing, predict how one visual property affects glance readability. Use the local starter below; the reading is preparation, not a replacement project.
 
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
 
-Use the local example as a reference. Make your own decisions and retain the evidence requested by this lesson.
+Change exactly one visual property. The source contains no date TextLayer; that feature belongs to lesson 13B.
 
 ## Your task
 
-Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.
+Start from the time-only checkpoint of the C watchface tutorial: the code after 'Displaying the Time' and before 'Adding the Date'. Choose exactly one visual property to change: font, position, alignment, text color, or background color. Make the change, build, and inspect it in the emulator. Keep the time working and do not add the date or other functionality.
 
 ## Completion evidence
 
-A concise API note contains purpose, signature, argument meanings, return type, and a usage example.
+The app builds and runs, the time still updates, and one intentional visual change is visible. The watchface still has no date layer.
 
 ## Build the starter
 
