@@ -32,3 +32,7 @@ pebble logs --emulator emery
 **Compatibility:** These are watchapps, since watchfaces cannot receive button events. The watchface in lesson 7A remains unchanged. Sensor fidelity and phone-to-watch connection may require a real device; emulator launch alone does not prove physical sensor or phone communication functionality.
 
 **Limit:** The documented C Light API controls the backlight; it does not return ambient lux.
+
+## Optional debugging checkpoint
+
+After finishing this lesson, open [debug/](debug/) for an **intentionally defective complete Emery project**. Reproduce its symptom, record diagnostics, repair the minimum cause, and add a regression test. The defect is not revealed here; do not treat the debug version as the next lesson starter.

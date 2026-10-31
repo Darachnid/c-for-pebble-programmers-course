@@ -32,3 +32,11 @@ All starter directories are independent local builds. The next lesson's starter 
 **Caveats:** Watchfaces cannot receive click events; all 8X code is watchapp code. Compass requires `PBL_COMPASS` and calibration; the Light API does not expose ambient lux. No actual Emery device, phone link or SDK compilation was available in this editing session. The source is authored for SDK 4.33.1 but needs compilation/field verification.
 
 [Chapter-to-capability matrix](capability-matrix.md) · [Official C SDK reference](https://developer.repebble.com/docs/c/)
+
+## Optional fault-finding checkpoints (not extra required tasks)
+
+- [8C button/navigation debugging](../../lessons/8C/debug/) — observable input bug
+- [8I Light API debugging](../../lessons/8I/debug/) — compiler/linker diagnostic
+- [8L raw-resource debugging](../../lessons/8L/debug/) — valid build, incorrect resource content
+
+All three are separate **intentionally faulty** Emery projects. No answers are included. They should only be attempted after the corresponding capability lab.
