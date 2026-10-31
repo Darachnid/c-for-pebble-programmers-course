@@ -1,10 +1,10 @@
-# Development Tools and Workflow — read alongside 7A, 7B and 7C
+# Development Tools and Workflow — read alongside 2A, 7B and 31C
 
 **Goal:** build repeatable, recoverable software work. A working watch app is not sufficient if you cannot reconstruct how it was built, what changed, and how you verified it.
 
-## 7A · Build and observe one known program
+## 2A · Build and observe one known program
 
-[Local time-only watchface](../../lessons/7A/)
+[Local time-only watchface](../../lessons/2A/)
 
 **Read first.** A Pebble C project normally includes `package.json` (target/configuration), `wscript` (build instructions), and `src/c/main.c` (entry point and callbacks). The project root is the folder that contains `package.json`; run `pebble build` there rather than one level above or inside `src/c`. For this course the only target is `emery`; SDK version 4.33.1 is assumed.
 
@@ -22,20 +22,20 @@
 
 **Evidence:** two commits with meaningful messages, a build test, and a comparison of the snapshots.
 
-## 7C · Integrate two separate programs
+## 31C · Integrate two separate programs
 
-[Local font selector and persistent counter](../../lessons/7C/)
+[Local font selector and persistent counter](../../lessons/31C/)
 
 **Read first.** Combining programs involves more than copying functions. Inventory each program's state, startup, event subscriptions, UI elements and cleanup. The integration must decide which single component owns the selected font index; when it is loaded; what writes it; and how invalid saved data is handled. Work incrementally, with a successful Emery build after each meaningful checkpoint.
 
-**Practice:** make an integration checklist with: baseline font selector works; saved data researched; startup fallback designed; save action added; restart verified; invalid state verified; new code reviewed. Create small commits for each passing checkpoint. Do not start by copying the intentionally defective 6C sample.
+**Practice:** make an integration checklist with: baseline font selector works; saved data researched; startup fallback designed; save action added; restart verified; invalid state verified; new code reviewed. Create small commits for each passing checkpoint. Do not start by copying the intentionally defective 32C sample.
 
 **Evidence:** code history, test results for first run and restart, explanation of state ownership, and a short integration retrospective.
 
 ## Core command reference
 
 ```sh
-# Run from an actual Pebble project directory, e.g. lessons/7A/starter
+# Run from an actual Pebble project directory, e.g. lessons/2A/starter
 pebble build
 pebble install --emulator emery
 pebble logs --emulator emery

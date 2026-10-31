@@ -72,7 +72,7 @@ def _apply_check(check: DeterministicCheck, criterion: Criterion, bundle: Submit
             kind,
             "fail",
             f"Too many TextLayer create calls in diff ({count} > {maximum}). "
-            "7A requires a time-only face with no date layer.",
+            "2A requires a time-only face with no date layer.",
         )
 
     if kind == "require_phrase_count":

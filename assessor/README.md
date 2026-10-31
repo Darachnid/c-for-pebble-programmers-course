@@ -1,6 +1,6 @@
 # Course evidence assessor (pilot)
 
-Student-local, post-submit checker for **7A** and **4A**. See [POLICY.md](POLICY.md).
+Student-local, post-submit checker for **2A** and **3A**. See [POLICY.md](POLICY.md).
 
 ## Install
 
@@ -17,21 +17,21 @@ With [uv](https://docs.astral.sh/uv/) (recommended on some Linux setups):
 
 ```bash
 cd assessor && uv sync --group dev --group model
-uv run assess init 7A   # from course root: uv run --directory assessor assess …
+uv run assess init 2A   # from course root: uv run --directory assessor assess …
 ```
 
 ## Quick workflow
 
 ```bash
-assess init 7A
-# … complete the lesson, commit changes under lessons/7A/ …
-# … fill submit/7A/EVIDENCE.md …
-assess diff 7A          # preview git capture
-assess examples 7A      # meets vs below exemplars
-assess submit 7A        # exit 1 if any criterion fails
+assess init 2A
+# … complete the lesson, commit changes under lessons/2A/ …
+# … fill submit/2A/EVIDENCE.md …
+assess diff 2A          # preview git capture
+assess examples 2A      # meets vs below exemplars
+assess submit 2A        # exit 1 if any criterion fails
 ```
 
-Optional: save `submit/7A/build.log` for stronger build evidence.
+Optional: save `submit/2A/build.log` for stronger build evidence.
 
 ## Commands
 

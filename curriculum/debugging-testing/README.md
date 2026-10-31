@@ -1,4 +1,4 @@
-# Debugging and Testing — read alongside 6A, 6B and 6C
+# Debugging and Testing — read alongside 6A, 21B and 32C
 
 **Goal:** work from observable evidence to a small, justified correction. These lessons contain **intentional defects**. The reading teaches the investigation method without naming the erroneous line, expression or key.
 
@@ -20,9 +20,9 @@
 
 **Evidence:** failing compiler excerpt, diagnosis, minimal diff and a working emulator run.
 
-## 6B · Logic, invariants and boundaries
+## 21B · Logic, invariants and boundaries
 
-[Deliberately faulty font-navigation lesson](../../lessons/6B/)
+[Deliberately faulty font-navigation lesson](../../lessons/21B/)
 
 **Read first.** A program may compile and still violate its specification. Define an **invariant** before searching for a line to change: every selected index must represent a valid item. Probe both directions and both ends of a finite list. Compare observed index logs against a transition table rather than relying on a vague impression that "Up feels wrong."
 
@@ -30,9 +30,9 @@
 
 **Evidence:** before/after input table, log excerpts, explanation and regression test. This guide does not disclose the deliberate fault.
 
-## 6C · Persistence, restarts and temporal behavior
+## 32C · Persistence, restarts and temporal behavior
 
-[Deliberately faulty save/restore lesson](../../lessons/6C/)
+[Deliberately faulty save/restore lesson](../../lessons/32C/)
 
 **Read first.** Restart bugs require examining **time and lifetime**. In-memory state disappears when the app exits; persistent state should survive it. A test that never closes the app cannot establish successful persistence. Distinguish first install (no stored key), saving a non-default value, restarting, and reading an invalid/outdated value. A correct log can still describe the wrong variable unless you trace the data path.
 

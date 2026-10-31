@@ -1,0 +1,20 @@
+{
+  "name": "emery-api-8i-debug",
+  "version": "1.0.0",
+  "private": true,
+  "author": "C for Pebble Programmers Course",
+  "pebble": {
+    "displayName": "Debug 35I",
+    "uuid": "c0dec0de-8000-4000-8000-000000000102",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}

@@ -1,6 +1,6 @@
 #include <pebble.h>
 
-/* Independent persistence pattern for integration activity 7C.
+/* Independent persistence pattern for integration activity 31C.
    Up increments, Down resets; value survives watchapp restart. */
 #define STORAGE_KEY 202
 static Window *s_window;

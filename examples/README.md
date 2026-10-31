@@ -4,12 +4,12 @@ These **original course-owned** starter projects target **only** `emery` (Pebble
 
 | Folder | Working? | Use |
 |---|---|---|
-| [time-only](time-only/) | Yes | 7A, 4A, 5A, 3A, 1A, 1B, 7B — *one TextLayer, no date* |
-| [font-selector](font-selector/) | Yes | 5B, 3B, 4B, 4C and 7C — Up/Down font selection |
-| [persist-counter](persist-counter/) | Yes | 5C and 7C — persistent integer state |
+| [time-only](time-only/) | Yes | 2A, 3A, 4A, 11A, 5A, 13B, 7B — *one TextLayer, no date* |
+| [font-selector](font-selector/) | Yes | 14B, 15B, 8B, 9C and 31C — Up/Down font selection |
+| [persist-counter](persist-counter/) | Yes | 20C and 31C — persistent integer state |
 | [debug-6a](debug-6a/) | **No, deliberate compiler error** | Low — use compiler diagnostics |
-| [debug-6b](debug-6b/) | Builds, misbehaves | Medium — use runtime APP_LOG index traces |
-| [debug-6c](debug-6c/) | Builds, fails after restart | High — trace saved versus restored state |
+| [debug-21b](debug-21b/) | Builds, misbehaves | Medium — use runtime APP_LOG index traces |
+| [debug-32c](debug-32c/) | Builds, fails after restart | High — trace saved versus restored state |
 
 ## Use
 

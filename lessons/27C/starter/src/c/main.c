@@ -1,0 +1,53 @@
+#include <pebble.h>
+/* Clock Workshop, snapshot A1. Prior stages are included; extend this one. */
+static Window *s_main, *s_detail;
+static TextLayer *s_time, *s_status, *s_detail_text;
+static char s_time_buf[12], s_status_buf[48];
+static int s_count;
+
+static void refresh(void) {
+ time_t now=time(NULL); struct tm *tm_now=localtime(&now);
+ strftime(s_time_buf,sizeof(s_time_buf),clock_is_24h_style()?"%H:%M":"%I:%M",tm_now);
+ text_layer_set_text(s_time,s_time_buf);
+ snprintf(s_status_buf,sizeof(s_status_buf),"Count %d",s_count);
+ text_layer_set_text(s_status,s_status_buf);
+}
+static void tick(struct tm *t,TimeUnits u){(void)t;(void)u;refresh();}
+
+
+static void load_main(Window *w){
+ Layer *root=window_get_root_layer(w); GRect b=layer_get_bounds(root);
+ s_time=text_layer_create(GRect(0,50,b.size.w,65));
+ s_status=text_layer_create(GRect(8,132,b.size.w-16,45));
+ text_layer_set_text_alignment(s_time,GTextAlignmentCenter);
+ text_layer_set_text_alignment(s_status,GTextAlignmentCenter);
+ text_layer_set_font(s_time,fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+ layer_add_child(root,text_layer_get_layer(s_time));
+ layer_add_child(root,text_layer_get_layer(s_status));refresh();
+}
+static void unload_main(Window *w){(void)w;text_layer_destroy(s_status);text_layer_destroy(s_time);}
+static void load_detail(Window *w){
+ GRect b=layer_get_bounds(window_get_root_layer(w));
+ s_detail_text=text_layer_create(GRect(6,68,b.size.w-12,80));
+ text_layer_set_text(s_detail_text,"Clock details\nBack to return");
+ text_layer_set_text_alignment(s_detail_text,GTextAlignmentCenter);
+ layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_detail_text));
+}
+static void unload_detail(Window *w){(void)w;text_layer_destroy(s_detail_text);}
+static void init(void){
+ s_main=window_create();s_detail=window_create();
+ window_set_window_handlers(s_main,(WindowHandlers){.load=load_main,.unload=unload_main});
+ window_set_window_handlers(s_detail,(WindowHandlers){.load=load_detail,.unload=unload_detail});
+ 
+ /* 12A completed checkpoint: preview details on launch, Back returns to clock.
+    27C student task: wire Select to reopen details from the clock. */
+ window_stack_push(s_main,false);
+ window_stack_push(s_detail,true);
+ tick_timer_service_subscribe(MINUTE_UNIT,tick);
+ 
+}
+static void deinit(void){
+ 
+ tick_timer_service_unsubscribe();window_destroy(s_detail);window_destroy(s_main);
+}
+int main(void){init();app_event_loop();deinit();}

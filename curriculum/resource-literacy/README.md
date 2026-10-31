@@ -1,10 +1,10 @@
-# Resource Literacy — read alongside 5A, 5B and 5C
+# Resource Literacy — read alongside 4A, 14B and 20C
 
 **Goal:** find trustworthy technical information, determine what it actually promises, and connect it to code under test. Being able to locate an example is not the same as understanding an API contract or its limits.
 
-## 5A · Read an API contract
+## 4A · Read an API contract
 
-[Local time-only watchface](../../lessons/5A/)
+[Local time-only watchface](../../lessons/4A/)
 
 **Read first.** Official API documentation is a specification, not simply a snippet to paste. For each function identify: return type, argument types and ownership, required setup, invalid input, relevant side effects and matching cleanup. A `void` return means there is no return value; it does **not** mean the function can never fail. Distinguish a documented guarantee from an inference based on one example.
 
@@ -12,9 +12,9 @@
 
 **Evidence:** the card with exact source file/function and a direct documentation URL; label any uncertainty explicitly.
 
-## 5B · Follow behavior across functions
+## 14B · Follow behavior across functions
 
-[Local font browser](../../lessons/5B/)
+[Local font browser](../../lessons/14B/)
 
 **Read first.** You rarely understand an application from a single line. Start with an observable event (Up/Down press), find its handler and follow control flow through state mutation to the screen update. Ask what owns the data and which function refreshes the visible result. Ignore irrelevant functions until the path is clear. This is code reading with a falsifiable claim: "pressing Up changes X, which triggers Y."
 
@@ -22,9 +22,9 @@
 
 **Evidence:** annotated source trace, one predicted behavior, the actual result and any discrepancy.
 
-## 5C · Research an unfamiliar capability responsibly
+## 20C · Research an unfamiliar capability responsibly
 
-[Local persistent counter](../../lessons/5C/)
+[Local persistent counter](../../lessons/20C/)
 
 **Read first.** A feasible implementation plan must identify *constraints*, not just function names. Persistence raises questions about key identifiers, data types, startup defaults, failure cases and state validity across versions. Resource ownership and limited storage may also matter. The same research discipline later applies to phone messaging, resources and sensors, but a capability's mention does not mean it is already implemented in this repo.
 

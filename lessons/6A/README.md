@@ -1,6 +1,6 @@
 # 6A — Diagnose a simple compiler error
 
-**Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
+**Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 3A, 2A
 
 ## Competency checkpoint
 

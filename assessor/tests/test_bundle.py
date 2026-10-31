@@ -29,7 +29,7 @@ def test_count_textlayer_create_in_diff():
 
 def test_combined_text_for_spacy():
     b = SubmitBundle(
-        activity_id="7A",
+        activity_id="2A",
         course_root=Path("/tmp"),
         evidence_path=Path("/tmp/e"),
         evidence_text="hello",

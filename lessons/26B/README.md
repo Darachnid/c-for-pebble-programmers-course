@@ -1,0 +1,32 @@
+# 26B — Menus and scrolling
+
+**Primary competency:** UI Design · **Supporting competency:** Algorithmic Thinking · **Estimate:** 75m · **Prerequisites:** 17E, 24H · **Platform:** Emery, SDK 4.33.1
+
+## Exact local example
+
+The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/c/main.c` and any extra resources needed. It is a **prior-stage checkpoint**, not the solution to the current exercise. Start here instead of cloning an external repository.
+
+**Project history:** 2A → 26B → 28D. Commit your own solution in a separate Git working branch/copy. Later reference checkpoints illustrate completed earlier features; do not simply copy them backwards.
+
+## SDK APIs
+
+`MenuLayer, MenuLayerCallbacks` — [Official C API reference](https://developer.repebble.com/docs/c/User_Interface/Layers/MenuLayer/).
+
+## Activity
+
+Build a six-entry scrolling Field Guide menu; implement draw_row and select_click; test the first, middle, and last rows.
+
+## Evidence-based completion
+
+Six entries scroll smoothly and selecting a row changes the visible species. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
+
+## Run
+
+```sh
+cd lessons/26B/starter
+pebble build
+pebble install --emulator emery
+pebble logs --emulator emery
+```
+
+**Compatibility:** These are watchapps, since watchfaces cannot receive button events. The watchface in lesson 2A remains unchanged. Sensor fidelity and phone-to-watch connection may require a real device; emulator launch alone does not prove physical sensor or phone communication functionality.

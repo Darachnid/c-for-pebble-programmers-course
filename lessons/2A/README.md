@@ -1,42 +1,38 @@
-# 2A — Explore Pebble examples
+# 2A — Build and run a time-only C watchface
 
-**Skill:** Idea Generation · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
+**Skill:** Development Tools and Workflow · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
 ## Competency checkpoint
 
-**Primary:** Idea Generation · **Supporting:** Resource Literacy. Before choosing an idea, explicitly compare alternatives against feasibility, user benefit and technical uncertainty. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+**Primary:** Development Tools and Workflow · **Supporting:** C Programming. Preserve a known-good baseline, make verifiable commits, and explain how logs/Git make the change reproducible. Independently explain both competencies and self-score them at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). The original exercise and its completion evidence remain unchanged.
 
 
-**Companion reading:** [2A in the idea generation guide](../../curriculum/idea-generation/README.md). Observe input, state and output before proposing new features. Use the local starter below; the reading is preparation, not a replacement project.
+**Companion reading:** [2A in the tools workflow guide](../../curriculum/tools-workflow/README.md). Identify the project root and distinguish build, install and observation. Complete the assignment using its provided local Emery project.
 
-## Exact local examples
+## Exact local example
 
-- [`clock/`](./clock/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
-- [`fonts/`](./fonts/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.
-- [`storage/`](./storage/) — Independent Emery counter showing the Pebble persist_exists/read/write API.
+- [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
 
-Three locally stored, self-contained projects to inspect; no external examples are needed.
+This watchface has only the time; do not add a date yet.
 
 ## Your task
 
-Browse only the included Emery-targeted projects under examples/, initially time-only, font-selector, and persist-counter. Choose one and brainstorm five creative variations; describe what changes and what new API each might require. Do not browse or solve the debugging challenges yet.
+Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.
 
 ## Completion evidence
 
-Five distinct ideas are recorded, each describes a possible change, and one idea is marked as the most interesting to investigate.
+The project builds and runs in the emulator, displays the current time, updates by minute, and has no date TextLayer.
 
 ## Build the starter
 
 From the repository root:
 
 ```sh
-cd lessons/2A/clock
+cd lessons/2A/starter
 pebble build
 pebble install --emulator emery
 pebble logs --emulator emery
 ```
-
-Each included subdirectory is a **separate complete C project**. Run its commands from that subdirectory; it is not an already integrated answer.
 
 ## Source and permissions
 

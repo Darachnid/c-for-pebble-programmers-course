@@ -1,10 +1,10 @@
-# Algorithmic Thinking — read alongside 3A, 3B and 3C
+# Algorithmic Thinking — read alongside 11A, 15B and 23C
 
 **Goal:** be able to predict and specify behavior *before* writing code. Pebble is event-driven: startup, ticks, button presses and shutdown occur at different times, and callbacks are invoked by the framework rather than simply read in source-file order.
 
-## 3A · Trace execution, not just function definitions
+## 11A · Trace execution, not just function definitions
 
-[Local time-only watchface](../../lessons/3A/)
+[Local time-only watchface](../../lessons/11A/)
 
 **Read first.** A **call graph** shows which functions can call others; an **execution trace** shows which functions actually run in a particular scenario. These are different. A callback registration is not a call to the callback. The framework can invoke a handler after registration. In a watchface, distinguish startup initial rendering, a later minute tick, and teardown. An important test is whether a diagram falsely implies that `app_event_loop()` calls every handler directly.
 
@@ -12,9 +12,9 @@
 
 **Evidence:** a correctly labeled graph/trace and an explanation of how a scheduled minute update differs from the initial update.
 
-## 3B · Specify bounded iteration and wraparound
+## 15B · Specify bounded iteration and wraparound
 
-[Local font browser](../../lessons/3B/)
+[Local font browser](../../lessons/15B/)
 
 **Read first.** A discrete selector has a state variable such as an index and a legal set of values. For a list of length `N`, valid indices are `0` through `N - 1` only when `N > 0`. Your design must decide whether movement **wraps** or **stops** at either end. Off-by-one errors come from mixing the item count with the last valid index. A correct algorithm also states what happens when there is one item, or no selectable item.
 
@@ -22,13 +22,13 @@
 
 **Evidence:** pseudocode, a compact table of inputs and indices, and a flowchart with all boundary decisions.
 
-## 3C · Model modes as a state machine
+## 23C · Model modes as a state machine
 
-[Local font browser + your 2C concept](../../lessons/3C/)
+[Local font browser + your 22C concept](../../lessons/23C/)
 
 **Read first.** A finite-state model names (a) states, (b) events, (c) transition rules and (d) resulting output/actions. A screen is not automatically identical to a state: one screen can represent several modes with different button meanings. A transition table is more testable than a casual drawing because every state/event pair can be examined. Include invalid input and default state explicitly.
 
-**Practice:** define three or fewer essential modes from your 2C concept. Draw directed transitions; then construct a table with columns Current state, Input, Guard/condition, Next state, Display or side effect. Simulate a normal path, an unexpected Back press, and reopening with missing state. State which transitions should be refused, ignored or redirected.
+**Practice:** define three or fewer essential modes from your 22C concept. Draw directed transitions; then construct a table with columns Current state, Input, Guard/condition, Next state, Display or side effect. Simulate a normal path, an unexpected Back press, and reopening with missing state. State which transitions should be refused, ignored or redirected.
 
 **Evidence:** state graph, complete table for the events you support, and manual traces for at least two edge cases.
 
@@ -40,4 +40,4 @@
 - **Boundary case:** what happens at zero, one, last or missing?
 - **Event provenance:** what caused this callback and when?
 
-Use these when designing arrays (4E), enum states (4G), event handling (4H), and regression tests (6B/6C). [Course index](../README.md).
+Use these when designing arrays (17E), enum states (19G), event handling (24H), and regression tests (21B/32C). [Course index](../README.md).

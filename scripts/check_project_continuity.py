@@ -21,78 +21,78 @@ def check(condition: bool, message: str) -> None:
         raise AssertionError(message)
 
 # Clock Workshop — inherited two-window access, bounded interaction, safe timer.
-clock_c = starter("8C")
+clock_c = starter("27C")
 check("window_stack_push(s_main,false)" in clock_c and
       "window_stack_push(s_detail,true)" in clock_c,
-      "8C must allow opening both windows without already implementing Select")
+      "27C must allow opening both windows without already implementing Select")
 check("window_single_click_subscribe(" not in clock_c,
-      "8C must leave its button implementation to the student")
-for lesson in ("8K", "8M"):
+      "27C must leave its button implementation to the student")
+for lesson in ("37K", "39M"):
     src = starter(lesson)
     check("s_count<99" in src and "if(s_count>0)" in src,
           f"{lesson} lost the previously bounded counter")
     check("BUTTON_ID_UP" in src and "BUTTON_ID_SELECT" in src,
-          f"{lesson} lost the three 8C button callbacks")
-check("app_timer_register(" not in starter("8K"),
-      "8K's AppTimer assignment was accidentally completed in the starter")
-check("app_timer_register(" in starter("8M") and
-      "app_timer_cancel(" in starter("8M"),
-      "8M lost the prior AppTimer lifecycle")
-check("persist_write_int(" not in starter("8M"),
-      "8M's persistence assignment must remain the student's work")
+          f"{lesson} lost the three 27C button callbacks")
+check("app_timer_register(" not in starter("37K"),
+      "37K's AppTimer assignment was accidentally completed in the starter")
+check("app_timer_register(" in starter("39M") and
+      "app_timer_cancel(" in starter("39M"),
+      "39M lost the prior AppTimer lifecycle")
+check("persist_write_int(" not in starter("39M"),
+      "39M's persistence assignment must remain the student's work")
 
 # Field Instrument — retain rate-limited accel and explicit compass status.
-for lesson in ("8H", "8I", "8J"):
+for lesson in ("34H", "35I", "36J"):
     src = starter(lesson)
     check("s_last_accel_draw" in src and
           re.search(r"if\s*\(\s*now\s*!=\s*s_last_accel_draw\s*\)", src) is not None,
-          f"{lesson} lost 8G accelerometer display throttling")
+          f"{lesson} lost 30G accelerometer display throttling")
     check("accel_data_service_unsubscribe();" in src,
           f"{lesson} lost accelerometer cleanup")
-check("compass_service_subscribe(" not in starter("8H"),
-      "8H's compass assignment must remain open")
-for lesson in ("8I", "8J"):
+check("compass_service_subscribe(" not in starter("34H"),
+      "34H's compass assignment must remain open")
+for lesson in ("35I", "36J"):
     src = starter(lesson)
     for status in ("CompassStatusUnavailable","CompassStatusDataInvalid",
                    "CompassStatusCalibrating","CompassStatusCalibrated"):
         check(status in src, f"{lesson} fails to preserve {status}")
     check("#ifdef PBL_COMPASS" in src and "compass_service_unsubscribe();" in src,
           f"{lesson} lost guarded compass service lifecycle")
-check("light_enable_interaction(" not in starter("8I"),
-      "8I's backlight task must remain open")
-check("light_enable_interaction(" in starter("8J"),
-      "8J lost prior backlight behavior")
-check("vibes_short_pulse(" not in starter("8J") and
-      "vibes_enqueue_custom_pattern(" not in starter("8J"),
-      "8J's vibration task must remain open")
+check("light_enable_interaction(" not in starter("35I"),
+      "35I's backlight task must remain open")
+check("light_enable_interaction(" in starter("36J"),
+      "36J lost prior backlight behavior")
+check("vibes_short_pulse(" not in starter("36J") and
+      "vibes_enqueue_custom_pattern(" not in starter("36J"),
+      "36J's vibration task must remain open")
 
 # Pocket Field Guide — selection must drive display; later layers accumulate.
-for lesson in ("8E","8F","8L","8N"):
+for lesson in ("29E","33F","38L","40N"):
     src = starter(lesson)
     check("s_selected=i->row;" in src and "layer_mark_dirty(s_canvas)" in src,
           f"{lesson} lost selection-driven canvas redraw")
     check("18+(s_selected%3)*4" in src,
-          f"{lesson} lost the changing primitive from 8D")
-check("gpath_create(" not in starter("8E"),
-      "8E's graphics-path assignment must remain open")
-for lesson in ("8F", "8L", "8N"):
+          f"{lesson} lost the changing primitive from 28D")
+check("gpath_create(" not in starter("29E"),
+      "29E's graphics-path assignment must remain open")
+for lesson in ("33F", "38L", "40N"):
     check("gpath_move_to(" in starter(lesson),
-          f"{lesson} lost 8E graphics-path movement")
-check("gbitmap_create_blank(" not in starter("8F"),
-      "8F's bitmap assignment must remain open")
-for lesson in ("8L", "8N"):
+          f"{lesson} lost 29E graphics-path movement")
+check("gbitmap_create_blank(" not in starter("33F"),
+      "33F's bitmap assignment must remain open")
+for lesson in ("38L", "40N"):
     check("gbitmap_create_blank(" in starter(lesson) and
           "paint_bitmap();" in starter(lesson),
-          f"{lesson} lost 8F bitmap pattern")
-check("resource_get_handle(" not in starter("8L"),
-      "8L's resource-loading task must remain open")
-check("resource_get_handle(" in starter("8N"),
-      "8N lost the earlier bundled-resource pattern")
-check("app_message_open(" not in starter("8N"),
-      "8N's phone protocol must remain the student's task")
+          f"{lesson} lost 33F bitmap pattern")
+check("resource_get_handle(" not in starter("38L"),
+      "38L's resource-loading task must remain open")
+check("resource_get_handle(" in starter("40N"),
+      "40N lost the earlier bundled-resource pattern")
+check("app_message_open(" not in starter("40N"),
+      "40N's phone protocol must remain the student's task")
 
 # Early C course: each exercise distinguishes SDK scaffolding and C edits.
-for prefix, count in (("4A",2),("4B",2),("4C",3),("4D",4)):
+for prefix, count in (("3A",2),("8B",2),("9C",3),("10D",4)):
     folders = sorted((LESSONS/prefix/"projects").glob("project-*"))
     check(len(folders) == count, f"{prefix} has {len(folders)} projects, expected {count}")
     for project in folders:

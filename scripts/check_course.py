@@ -41,10 +41,10 @@ for manifest in (ROOT / "lessons").glob("*/*/package.json"):
     projects += 1
 
 books = {
-    "4A": ("3-1","3-2"),
-    "4B": ("4-1","4-2"),
-    "4C": ("5-1","5-2","5-3"),
-    "4D": ("6-1","6-2","6-3","6-4")
+    "3A": ("3-1","3-2"),
+    "8B": ("4-1","4-2"),
+    "9C": ("5-1","5-2","5-3"),
+    "10D": ("6-1","6-2","6-3","6-4")
 }
 for skill, project_ids in books.items():
     chapter = next((ROOT / "curriculum/c-programming").glob(skill + "-*.md"))

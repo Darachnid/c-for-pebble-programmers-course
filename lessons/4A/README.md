@@ -1,30 +1,39 @@
-# 4A — Variables, Data Types, and Operators
+# 4A — Find and document a Pebble API function
 
-**Core skill:** C Programming · **Time:** 120m · **Difficulty:** Low · **Priority:** High · **Dependencies:** 7A
+**Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 3A
 
 ## Competency checkpoint
 
-**Primary:** C Programming · **Supporting:** Debugging and Testing. Explain which C data/functions produce the behavior, identify ownership or bounds as relevant, and verify a failing/edge case. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
+**Primary:** Resource Literacy · **Supporting:** C Programming. Find and interpret relevant authoritative SDK documentation, then justify what the API can and cannot guarantee. Retain the original assignment's required output, and self-score **both competencies** at 0–3 using the [common rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This check adds no new independent activity.
 
 
-> **Before the exercises:** [Pebble SDK scaffolding for C lessons 4A–4D](../../curriculum/c-programming/sdk-scaffolding.md). Framework drawing, timers and event registration are *provided* code here; the assessed topic is C. Later 8A, 8C, 8D and 8K teach those APIs directly.
+**Companion reading:** [4A in the resource literacy guide](../../curriculum/resource-literacy/README.md). Record the API function contract and local usage in your own words. Use this lesson's local starter; the reading is preparation, not a completed answer.
 
-## Reading
+## Exact local example
 
-[**Complete 4A reading module**](../../curriculum/c-programming/4A-variables-data-types-operators.md).
+- [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
 
-## Exercises (complete local Emery projects)
+Use the local example as a reference. Make your own decisions and retain the evidence requested by this lesson.
 
-1. [Project 3.1](projects/project-3-1/) — read its README, build, modify and test.
-2. [Project 3.2](projects/project-3-2/) — read its README, build, modify and test.
+## Your task
 
-These are separate C projects. No external sample or answer key is required.
+Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.
 
-## Completion criteria
+## Completion evidence
 
-Finish each linked exercise, demonstrate the intended behavior in the Emery emulator, submit a source diff and a brief explanation of the C feature you applied, and test at least one boundary case. Avoid AI assistance during exercises.
+A concise API note contains purpose, signature, argument meanings, return type, and a usage example.
 
-## Legacy task note
+## Build the starter
 
-The previous activity used a different objective. Its original starter project is preserved in `starter/` for compatibility; the **new C programming activities above are authoritative**.
+From the repository root:
 
+```sh
+cd lessons/4A/starter
+pebble build
+pebble install --emulator emery
+pebble logs --emulator emery
+```
+
+## Source and permissions
+
+The complete required starter C source and build files are in this folder. Official Pebble SDK source copies are included only when their license authorizes redistribution, with the MIT license preserved. Other starter code is independently written for this course. Use **Emery only** and follow the no-AI coursework rule.

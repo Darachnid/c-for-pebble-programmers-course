@@ -6,13 +6,13 @@ This is a **self-directed Emery-only C programming course**, not a university cr
 
 | Competency | Observable outcome | Primary-competency labs |
 |---|---|---|
-| **UI Design** | Design readable, navigable interfaces for Emery's 200×228 display, justify layout and interaction choices, and implement feedback and accessible states. | 1A, 1B, 1C, 8A, 8B |
-| **Idea Generation** | Generate alternatives, identify feasible constraints, remix examples ethically, and make a justified design choice for a real user or use case. | 2A, 2B, 2C, 8D, 8L |
-| **Algorithmic Thinking** | Represent transformations, loops, state machines, and event sequences with pseudocode/diagrams and verify boundary cases. | 3A, 3B, 3C, 8C, 8E |
-| **C Programming** | Read/write well-scoped C with validated data, memory lifetimes, callbacks, and structured state. | 4A–4H, 8F, 8G |
-| **Resource Literacy** | Find authoritative APIs, read signatures/constraints, distinguish supported/unsupported features, and justify technical decisions from sources. | 5A, 5B, 5C, 8H, 8I |
-| **Debugging and Testing** | Form a hypothesis, reproduce a failure, inspect logs/bounds, apply a minimal fix, and run regression/failure tests. | 6A, 6B, 6C, 8J, 8K |
-| **Development Tools and Workflow** | Use a repeatable build/test/version-control process, manage artifacts and external integrations, and retain evidence of independent progress. | 7A, 7B, 7C, 8M, 8N |
+| **UI Design** | Design readable, navigable interfaces for Emery's 200×228 display, justify layout and interaction choices, and implement feedback and accessible states. | 5A, 13B, 25C, 12A, 26B |
+| **Idea Generation** | Generate alternatives, identify feasible constraints, remix examples ethically, and make a justified design choice for a real user or use case. | 1A, 16B, 22C, 28D, 38L |
+| **Algorithmic Thinking** | Represent transformations, loops, state machines, and event sequences with pseudocode/diagrams and verify boundary cases. | 11A, 15B, 23C, 27C, 29E |
+| **C Programming** | Read/write well-scoped C with validated data, memory lifetimes, callbacks, and structured state. | 3A–24H, 33F, 30G |
+| **Resource Literacy** | Find authoritative APIs, read signatures/constraints, distinguish supported/unsupported features, and justify technical decisions from sources. | 4A, 14B, 20C, 34H, 35I |
+| **Debugging and Testing** | Form a hypothesis, reproduce a failure, inspect logs/bounds, apply a minimal fix, and run regression/failure tests. | 6A, 21B, 32C, 36J, 37K |
+| **Development Tools and Workflow** | Use a repeatable build/test/version-control process, manage artifacts and external integrations, and retain evidence of independent progress. | 2A, 7B, 31C, 39M, 40N |
 
 **Primary** describes the lens through which work is assessed, **not** an exclusive category. Every lab must also exercise at least one supporting competency. The 14 API lessons are intentionally distributed **two apiece** across the seven competencies. With the original activities, the 40 non-capstone tasks have 10 C-primary and 5 primary in each other competency. The final capstone assesses all seven equally. This allocation is an instructional balance, not a claim that all tasks require the same amount of time or are equally difficult.
 
@@ -39,11 +39,11 @@ The three steps are a workflow, not three new assignments. No AI-generated solut
 
 | Gate | Before advancing | Check |
 |---|---|---|
-| **After Phase I** | Working 7A watchface and Git baseline | Can explain startup, use compiler diagnostics, and restore known-good code |
+| **After Phase I** | Working 2A watchface and Git baseline | Can explain startup, use compiler diagnostics, and restore known-good code |
 | **After Phase II** | C control-flow modules and initial UI design | Can trace callbacks and produce an original small algorithm with bounds |
 | **After Phase III** | C pointers/state plus core integration | Can explain allocation/callback lifetime, failure cases, and an original app specification |
 | **After Phase IV** | Three recurring projects; optional fault labs | Can build/run required features, demonstrate failure recovery, and state hardware validation limitations |
-| **Final capstone (9A)** | Independent application grounded in 2C and 1C | Seven outcomes each scored 2+ with artifact and demo; no template-generated solution |
+| **Final capstone (41A)** | Independent application grounded in 22C and 25C | Seven outcomes each scored 2+ with artifact and demo; no template-generated solution |
 
 ## Independent capstone rubric
 

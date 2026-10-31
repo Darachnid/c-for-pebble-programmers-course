@@ -1,6 +1,6 @@
 #include <pebble.h>
 
-/* Time-only watchface. Stop here before the date exercise (1B). */
+/* Time-only watchface. Stop here before the date exercise (13B). */
 static Window *s_main_window;
 static TextLayer *s_time_layer;
 static char s_time_buffer[8];

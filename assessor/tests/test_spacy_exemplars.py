@@ -20,12 +20,12 @@ def _nlp_available() -> bool:
 @pytest.mark.skipif(not _nlp_available(), reason="en_core_web_md not installed")
 def test_meets_exemplar_beats_below_on_margin():
     root = find_course_root()
-    rubric = load_rubric(root / "assessor/rubrics/7A.yaml")
+    rubric = load_rubric(root / "assessor/rubrics/2A.yaml")
     assessor_root = root / "assessor"
-    meets_text = (assessor_root / "examples/7A/meets/01-minimal-pass/EVIDENCE.md").read_text(
+    meets_text = (assessor_root / "examples/2A/meets/01-minimal-pass/EVIDENCE.md").read_text(
         encoding="utf-8"
     )
-    below_text = (assessor_root / "examples/7A/below/01-vague-no-artifacts/EVIDENCE.md").read_text(
+    below_text = (assessor_root / "examples/2A/below/01-vague-no-artifacts/EVIDENCE.md").read_text(
         encoding="utf-8"
     )
     meets_out = run_spacy(rubric, meets_text, assessor_root)

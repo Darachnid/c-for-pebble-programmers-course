@@ -10,7 +10,7 @@ from pathlib import Path
 
 from assessor.paths import assessor_dir, find_course_root
 
-ACTIVITIES = ("7A", "4A")
+ACTIVITIES = ("2A", "3A")
 
 
 def _assess(*args: str, cwd: Path) -> subprocess.CompletedProcess[str]:
@@ -68,55 +68,55 @@ def _check_examples(course_root: Path) -> None:
 
 
 def _check_7a_meets(course_root: Path) -> None:
-    _copy_evidence(course_root, "7A", "meets", "01-minimal-pass")
-    report = _run_submit(course_root, "7A")
+    _copy_evidence(course_root, "2A", "meets", "01-minimal-pass")
+    report = _run_submit(course_root, "2A")
     statuses = _criterion_statuses(report)
     if statuses.get("build_and_run") != "pass":
-        raise AssertionError(f"7A meets: expected build_and_run pass, got {statuses}")
+        raise AssertionError(f"2A meets: expected build_and_run pass, got {statuses}")
     spacy = report.get("spacy_checks") or []
     if spacy and not any(s.get("margin", 0) > 0 for s in spacy):
-        raise AssertionError("7A meets: expected positive spaCy margin vs exemplars")
+        raise AssertionError("2A meets: expected positive spaCy margin vs exemplars")
 
 
 def _check_7a_below(course_root: Path) -> None:
-    _copy_evidence(course_root, "7A", "below", "01-vague-no-artifacts")
-    report = _run_submit(course_root, "7A")
+    _copy_evidence(course_root, "2A", "below", "01-vague-no-artifacts")
+    report = _run_submit(course_root, "2A")
     if report["overall"] == "pass":
-        raise AssertionError("7A below vague: expected overall not pass")
+        raise AssertionError("2A below vague: expected overall not pass")
     statuses = _criterion_statuses(report)
     if statuses.get("build_and_run") == "pass":
-        raise AssertionError("7A below vague: build_and_run should not pass")
+        raise AssertionError("2A below vague: build_and_run should not pass")
 
 
 def _check_4a_meets(course_root: Path) -> None:
-    _copy_evidence(course_root, "4A", "meets", "01-both-projects")
-    report = _run_submit(course_root, "4A")
+    _copy_evidence(course_root, "3A", "meets", "01-both-projects")
+    report = _run_submit(course_root, "3A")
     statuses = _criterion_statuses(report)
     if statuses.get("both_projects") != "pass":
-        raise AssertionError(f"4A meets: both_projects should pass, got {statuses}")
+        raise AssertionError(f"3A meets: both_projects should pass, got {statuses}")
 
 
 def _check_4a_below(course_root: Path) -> None:
-    _copy_evidence(course_root, "4A", "below", "01-one-project-only")
-    report = _run_submit(course_root, "4A")
+    _copy_evidence(course_root, "3A", "below", "01-one-project-only")
+    report = _run_submit(course_root, "3A")
     statuses = _criterion_statuses(report)
     if statuses.get("both_projects") == "pass":
-        raise AssertionError("4A below one-project: both_projects should not pass")
+        raise AssertionError("3A below one-project: both_projects should not pass")
 
 
 def main() -> int:
     course_root = find_course_root()
     print(f"Smoke CLI: course root {course_root}")
     _check_examples(course_root)
-    print("  assess examples 7A, 4A — ok")
+    print("  assess examples 2A, 3A — ok")
     _check_7a_meets(course_root)
-    print("  7A meets exemplar — ok")
+    print("  2A meets exemplar — ok")
     _check_7a_below(course_root)
-    print("  7A below exemplar — ok")
+    print("  2A below exemplar — ok")
     _check_4a_meets(course_root)
-    print("  4A meets exemplar — ok")
+    print("  3A meets exemplar — ok")
     _check_4a_below(course_root)
-    print("  4A below exemplar — ok")
+    print("  3A below exemplar — ok")
     print("Smoke CLI: all checks passed.")
     return 0
 

@@ -6,36 +6,36 @@ The three project families consist of **separately buildable examples**, not a s
 
 | Starter | Implemented before this activity | Student's new task | Evidence in next starter |
 |---|---|---|---|
-| [8A](../../lessons/8A/starter/) | Time-only example | Build two viewable windows | [8C](../../lessons/8C/starter/) launches showing details; Back returns to clock |
-| [8C](../../lessons/8C/starter/) | Two windows, startup preview, Back | Select reopens details; bounded Up/Down | [8K](../../lessons/8K/starter/) has three click handlers and bounds 0–99 |
-| [8K](../../lessons/8K/starter/) | Buttons, bounds and minute ticks | Safe AppTimer with cancellation | [8M](../../lessons/8M/starter/) schedules and cancels a timer |
-| [8M](../../lessons/8M/starter/) | Counter + AppTimer callback count | Save and restore validated settings | No pre-completed next stage; submit your own proof |
+| [12A](../../lessons/12A/starter/) | Time-only example | Build two viewable windows | [27C](../../lessons/27C/starter/) launches showing details; Back returns to clock |
+| [27C](../../lessons/27C/starter/) | Two windows, startup preview, Back | Select reopens details; bounded Up/Down | [37K](../../lessons/37K/starter/) has three click handlers and bounds 0–99 |
+| [37K](../../lessons/37K/starter/) | Buttons, bounds and minute ticks | Safe AppTimer with cancellation | [39M](../../lessons/39M/starter/) schedules and cancels a timer |
+| [39M](../../lessons/39M/starter/) | Counter + AppTimer callback count | Save and restore validated settings | No pre-completed next stage; submit your own proof |
 
-The startup preview in 8C does not demonstrate Select-button navigation (still assigned to 8C). The 8M display counts *timer callbacks*, not necessarily precise elapsed wall time; see [#23](https://github.com/Darachnid/c-for-pebble-programmers-course/issues/23).
+The startup preview in 27C does not demonstrate Select-button navigation (still assigned to 27C). The 39M display counts *timer callbacks*, not necessarily precise elapsed wall time; see [#23](https://github.com/Darachnid/c-for-pebble-programmers-course/issues/23).
 
 ## B — Field Instrument
 
 | Starter | Implemented before this activity | Student's new task | Evidence in next starter |
 |---|---|---|---|
-| [8G](../../lessons/8G/starter/) | Field display shell | Subscribe to XYZ and limit redraws | [8H](../../lessons/8H/starter/) uses latest sample with one accel redraw per clock second |
-| [8H](../../lessons/8H/starter/) | Rate-limited accelerometer | Compass status and calibration | [8I](../../lessons/8I/starter/) distinguishes Unavailable, DataInvalid, Calibrating and Calibrated |
-| [8I](../../lessons/8I/starter/) | XYZ + compass states | Backlight control and ambient-lux research | [8J](../../lessons/8J/starter/) has Up-triggered backlight |
-| [8J](../../lessons/8J/starter/) | XYZ, compass and backlight | Opt-in vibration / off mode | No pre-completed next stage |
+| [30G](../../lessons/30G/starter/) | Field display shell | Subscribe to XYZ and limit redraws | [34H](../../lessons/34H/starter/) uses latest sample with one accel redraw per clock second |
+| [34H](../../lessons/34H/starter/) | Rate-limited accelerometer | Compass status and calibration | [35I](../../lessons/35I/starter/) distinguishes Unavailable, DataInvalid, Calibrating and Calibrated |
+| [35I](../../lessons/35I/starter/) | XYZ + compass states | Backlight control and ambient-lux research | [36J](../../lessons/36J/starter/) has Up-triggered backlight |
+| [36J](../../lessons/36J/starter/) | XYZ, compass and backlight | Opt-in vibration / off mode | No pre-completed next stage |
 
-Rate limiting applies to **accelerometer-driven** draws only; a compass status event can redraw independently. `CompassStatusDataInvalid` means unusable calibration data; `CompassStatusCalibrating` provides usable but refining data. Hardware presence is guarded by `PBL_COMPASS` and requires a physical-watch check. 8I and 8J have *independent Taskwarrior prerequisites*: their sample checkpoint history is not an extra compulsory prerequisite.
+Rate limiting applies to **accelerometer-driven** draws only; a compass status event can redraw independently. `CompassStatusDataInvalid` means unusable calibration data; `CompassStatusCalibrating` provides usable but refining data. Hardware presence is guarded by `PBL_COMPASS` and requires a physical-watch check. 35I and 36J have *independent Taskwarrior prerequisites*: their sample checkpoint history is not an extra compulsory prerequisite.
 
 ## C — Pocket Field Guide
 
 | Starter | Implemented before this activity | Student's new task | Evidence in next starter |
 |---|---|---|---|
-| [8B](../../lessons/8B/starter/) | Basic menu shell | Six scrolling/selection entries | [8D](../../lessons/8D/starter/) displays selected species |
-| [8D](../../lessons/8D/starter/) | Menu/selection | Selection-dependent primitive drawing | [8E](../../lessons/8E/starter/) changes circle radius on selection |
-| [8E](../../lessons/8E/starter/) | Selection-reactive drawing | GPath and movement | [8F](../../lessons/8F/starter/) moves a GPath on selection |
-| [8F](../../lessons/8F/starter/) | Menu + primitives + path | Writable bitmap | [8L](../../lessons/8L/starter/) changes a bitmap on selection |
-| [8L](../../lessons/8L/starter/) | Menu, graphics, bitmap, bundled file | Bounded resource loading | [8N](../../lessons/8N/starter/) reads a resource |
-| [8N](../../lessons/8N/starter/) | Resource pattern and JS skeleton | Two-way AppMessage and offline fallback | Learner's own final artifact |
+| [26B](../../lessons/26B/starter/) | Basic menu shell | Six scrolling/selection entries | [28D](../../lessons/28D/starter/) displays selected species |
+| [28D](../../lessons/28D/starter/) | Menu/selection | Selection-dependent primitive drawing | [29E](../../lessons/29E/starter/) changes circle radius on selection |
+| [29E](../../lessons/29E/starter/) | Selection-reactive drawing | GPath and movement | [33F](../../lessons/33F/starter/) moves a GPath on selection |
+| [33F](../../lessons/33F/starter/) | Menu + primitives + path | Writable bitmap | [38L](../../lessons/38L/starter/) changes a bitmap on selection |
+| [38L](../../lessons/38L/starter/) | Menu, graphics, bitmap, bundled file | Bounded resource loading | [40N](../../lessons/40N/starter/) reads a resource |
+| [40N](../../lessons/40N/starter/) | Resource pattern and JS skeleton | Two-way AppMessage and offline fallback | Learner's own final artifact |
 
-The previously reported counter bound and drawing regressions were repaired in an earlier commit and were preserved here. **Do not use** 8C/debug, 8I/debug or 8L/debug as checkpoints; their faults are intentionally planted.
+The previously reported counter bound and drawing regressions were repaired in an earlier commit and were preserved here. **Do not use** 27C/debug, 35I/debug or 38L/debug as checkpoints; their faults are intentionally planted.
 
 ## How to verify
 

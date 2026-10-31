@@ -28,7 +28,7 @@ Each of the 40 preparatory activities has a primary and supporting competency; t
 
 Pebble SDK 4.33.1, the **Emery emulator**, C build tools, Git, editor, and local source files. Use an actual Pebble Time 2 where sensor calibration, vibration, backlight or physical device behavior must be confirmed; phone communications also need a connected compatible Pebble mobile environment. Do not present an emulator result as physical hardware verification. [Official C reference](https://developer.repebble.com/docs/c/).
 
-**Start here:** [Lesson index](lessons/README.md) · [C readings 4A–4H](curriculum/c-programming/README.md) · [Pebble API track](curriculum/pebble-api/README.md) · [Taskwarrior instructions](taskwarrior/README.md).
+**Start here:** [Lesson index](lessons/README.md) · [C readings 3A–24H](curriculum/c-programming/README.md) · [Pebble API track](curriculum/pebble-api/README.md) · [Taskwarrior instructions](taskwarrior/README.md).
 
 ## Learning method and assessment
 
@@ -45,7 +45,7 @@ Score the activity's **primary and supporting competency** at 0–3 using the co
 
 **Independent-work policy:** Do not use AI-generated source, solutions, code explanations, diagrams or debugging fixes to complete exercises. Consult included starters, official SDK documentation, logs, compiler diagnostics and your own notes. Versioned evidence is required. [Detailed scoring and readiness gates](curriculum/course-design/learning-outcomes-and-assessment.md).
 
-**Optional self-check (pilot):** After you finish selected activities (**7A**, **4A** in v1), you may run the local [`assessor`](assessor/README.md) tool (`assess submit <ID>`) to compare your Git-backed evidence and `EVIDENCE.md` against course criteria and meets/below exemplars. It uses spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.
+**Optional self-check (pilot):** After you finish selected activities (**2A**, **3A** in v1), you may run the local [`assessor`](assessor/README.md) tool (`assess submit <ID>`) to compare your Git-backed evidence and `EVIDENCE.md` against course criteria and meets/below exemplars. It uses spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.
 
 ## Recommended integrated course progression
 
@@ -65,13 +65,13 @@ The sequence **interleaves** C learning with UI work, ideation, algorithm design
 
 | ID / Activity | Time | Primary competency | Supporting competency | Prerequisites |
 |---|---:|---|---|---|
-| [2A — Explore Pebble examples](lessons/2A/) | 20m | Idea Generation | Resource Literacy | None |
-| [7A — Build and run a time-only C watchface](lessons/7A/) | 30m | Development Tools and Workflow | C Programming | None |
-| [4A — Variables, Data Types, and Operators](lessons/4A/) | 120m | C Programming | Debugging and Testing | 7A |
-| [5A — Find and document a Pebble API function](lessons/5A/) | 20m | Resource Literacy | C Programming | 4A |
-| [1A — Change one visual property of a time-only watchface](lessons/1A/) | 30m | UI Design | Resource Literacy | 4A, 5A, 7A |
-| [6A — Diagnose a simple compiler error](lessons/6A/) | 20m | Debugging and Testing | Development Tools and Workflow | 4A, 7A |
-| [7B — Create a Git-based modification workflow](lessons/7B/) | 45m | Development Tools and Workflow | Debugging and Testing | 7A, 1A, 6A |
+| [1A — Explore Pebble examples](lessons/1A/) | 20m | Idea Generation | Resource Literacy | None |
+| [2A — Build and run a time-only C watchface](lessons/2A/) | 30m | Development Tools and Workflow | C Programming | None |
+| [3A — Variables, Data Types, and Operators](lessons/3A/) | 120m | C Programming | Debugging and Testing | 2A |
+| [4A — Find and document a Pebble API function](lessons/4A/) | 20m | Resource Literacy | C Programming | 3A |
+| [5A — Change one visual property of a time-only watchface](lessons/5A/) | 30m | UI Design | Resource Literacy | 3A, 4A, 2A |
+| [6A — Diagnose a simple compiler error](lessons/6A/) | 20m | Debugging and Testing | Development Tools and Workflow | 3A, 2A |
+| [7B — Create a Git-based modification workflow](lessons/7B/) | 45m | Development Tools and Workflow | Debugging and Testing | 2A, 5A, 6A |
 
 ### Phase II — Control flow, code reading and first window
 
@@ -79,15 +79,15 @@ The sequence **interleaves** C learning with UI work, ideation, algorithm design
 
 | ID / Activity | Time | Primary competency | Supporting competency | Prerequisites |
 |---|---:|---|---|---|
-| [4B — Conditional Execution and Decision Making](lessons/4B/) | 120m | C Programming | Algorithmic Thinking | 4A |
-| [4C — Loops and Iteration](lessons/4C/) | 135m | C Programming | Algorithmic Thinking | 4B |
-| [4D — Functions and Program Structure](lessons/4D/) | 150m | C Programming | Algorithmic Thinking | 4C |
-| [3A — Trace the watchface lifecycle](lessons/3A/) | 30m | Algorithmic Thinking | C Programming | 4D, 7A |
-| [8A — Windows and layers](lessons/8A/) | 60m | UI Design | Development Tools and Workflow | 7A, 3A |
-| [1B — Add and style a date TextLayer](lessons/1B/) | 45m | UI Design | C Programming | 1A, 4D, 5A |
-| [5B — Trace an existing feature through source code](lessons/5B/) | 45m | Resource Literacy | Algorithmic Thinking | 3A, 4D, 5A |
-| [3B — Design a font-cycling algorithm](lessons/3B/) | 30m | Algorithmic Thinking | UI Design | 3A, 5B |
-| [2B — Write a two-example remix brief](lessons/2B/) | 30m | Idea Generation | UI Design | 2A, 5B |
+| [8B — Conditional Execution and Decision Making](lessons/8B/) | 120m | C Programming | Algorithmic Thinking | 3A |
+| [9C — Loops and Iteration](lessons/9C/) | 135m | C Programming | Algorithmic Thinking | 8B |
+| [10D — Functions and Program Structure](lessons/10D/) | 150m | C Programming | Algorithmic Thinking | 9C |
+| [11A — Trace the watchface lifecycle](lessons/11A/) | 30m | Algorithmic Thinking | C Programming | 10D, 2A |
+| [12A — Windows and layers](lessons/12A/) | 60m | UI Design | Development Tools and Workflow | 2A, 11A |
+| [13B — Add and style a date TextLayer](lessons/13B/) | 45m | UI Design | C Programming | 5A, 10D, 4A |
+| [14B — Trace an existing feature through source code](lessons/14B/) | 45m | Resource Literacy | Algorithmic Thinking | 11A, 10D, 4A |
+| [15B — Design a font-cycling algorithm](lessons/15B/) | 30m | Algorithmic Thinking | UI Design | 11A, 14B |
+| [16B — Write a two-example remix brief](lessons/16B/) | 30m | Idea Generation | UI Design | 1A, 14B |
 
 ### Phase III — Memory, design, events and interactive foundations
 
@@ -95,20 +95,20 @@ The sequence **interleaves** C learning with UI work, ideation, algorithm design
 
 | ID / Activity | Time | Primary competency | Supporting competency | Prerequisites |
 |---|---:|---|---|---|
-| [4E — Arrays, Strings, and Bounds](lessons/4E/) | 90m | C Programming | Debugging and Testing | 4D |
-| [4F — Pointers, Indirection, and Memory Lifetime](lessons/4F/) | 105m | C Programming | Debugging and Testing | 4E |
-| [4G — Structures, Enums, and Program State](lessons/4G/) | 105m | C Programming | Algorithmic Thinking | 4F |
-| [5C — Research an unfamiliar Pebble capability](lessons/5C/) | 60m | Resource Literacy | C Programming | 4E, 5B |
-| [6B — Diagnose a font-selection boundary bug](lessons/6B/) | 45m | Debugging and Testing | C Programming | 4E, 6A, 3B |
-| [2C — Develop an original Pebble app concept](lessons/2C/) | 60m | Idea Generation | Resource Literacy | 2B, 5C |
-| [3C — Design a state machine for an app](lessons/3C/) | 60m | Algorithmic Thinking | UI Design | 2C, 3B, 4G |
-| [4H — Event-Driven Integration and Application Lifecycle](lessons/4H/) | 150m | C Programming | Development Tools and Workflow | 4G, 3C |
-| [1C — Design a multi-mode Pebble interface](lessons/1C/) | 90m | UI Design | Idea Generation | 1B, 2C, 3C, 4H |
-| [8B — Menus and scrolling](lessons/8B/) | 75m | UI Design | Algorithmic Thinking | 4E, 4H |
-| [8C — Button interactions](lessons/8C/) | 60m | Algorithmic Thinking | C Programming | 8A, 4H |
-| [8D — Custom drawing](lessons/8D/) | 75m | Idea Generation | UI Design | 8B, 4D |
-| [8E — Graphics paths](lessons/8E/) | 75m | Algorithmic Thinking | UI Design | 8D, 4F |
-| [8G — Accelerometer](lessons/8G/) | 90m | C Programming | Resource Literacy | 4H, 5C |
+| [17E — Arrays, Strings, and Bounds](lessons/17E/) | 90m | C Programming | Debugging and Testing | 10D |
+| [18F — Pointers, Indirection, and Memory Lifetime](lessons/18F/) | 105m | C Programming | Debugging and Testing | 17E |
+| [19G — Structures, Enums, and Program State](lessons/19G/) | 105m | C Programming | Algorithmic Thinking | 18F |
+| [20C — Research an unfamiliar Pebble capability](lessons/20C/) | 60m | Resource Literacy | C Programming | 17E, 14B |
+| [21B — Diagnose a font-selection boundary bug](lessons/21B/) | 45m | Debugging and Testing | C Programming | 17E, 6A, 15B |
+| [22C — Develop an original Pebble app concept](lessons/22C/) | 60m | Idea Generation | Resource Literacy | 16B, 20C |
+| [23C — Design a state machine for an app](lessons/23C/) | 60m | Algorithmic Thinking | UI Design | 22C, 15B, 19G |
+| [24H — Event-Driven Integration and Application Lifecycle](lessons/24H/) | 150m | C Programming | Development Tools and Workflow | 19G, 23C |
+| [25C — Design a multi-mode Pebble interface](lessons/25C/) | 90m | UI Design | Idea Generation | 13B, 22C, 23C, 24H |
+| [26B — Menus and scrolling](lessons/26B/) | 75m | UI Design | Algorithmic Thinking | 17E, 24H |
+| [27C — Button interactions](lessons/27C/) | 60m | Algorithmic Thinking | C Programming | 12A, 24H |
+| [28D — Custom drawing](lessons/28D/) | 75m | Idea Generation | UI Design | 26B, 10D |
+| [29E — Graphics paths](lessons/29E/) | 75m | Algorithmic Thinking | UI Design | 28D, 18F |
+| [30G — Accelerometer](lessons/30G/) | 90m | C Programming | Resource Literacy | 24H, 20C |
 
 ### Phase IV — Graphics, hardware, validation and integration
 
@@ -116,16 +116,16 @@ The sequence **interleaves** C learning with UI work, ideation, algorithm design
 
 | ID / Activity | Time | Primary competency | Supporting competency | Prerequisites |
 |---|---:|---|---|---|
-| [7C — Integrate font browsing with persistent selection](lessons/7C/) | 150m | Development Tools and Workflow | Debugging and Testing | 1C, 4H, 5B, 7B |
-| [6C — Diagnose a persistent-state integration bug](lessons/6C/) | 90m | Debugging and Testing | Development Tools and Workflow | 4H, 6B, 7C |
-| [8F — Bitmap manipulation](lessons/8F/) | 90m | C Programming | Debugging and Testing | 8E, 4F |
-| [8H — Magnetometer / compass](lessons/8H/) | 90m | Resource Literacy | C Programming | 8G |
-| [8I — Ambient-light limits and backlight](lessons/8I/) | 45m | Resource Literacy | UI Design | 8G, 5C |
-| [8J — Vibration](lessons/8J/) | 45m | Debugging and Testing | UI Design | 8G, 4H |
-| [8K — App timers](lessons/8K/) | 75m | Debugging and Testing | Algorithmic Thinking | 8C, 4H |
-| [8L — Resource files](lessons/8L/) | 65m | Idea Generation | Resource Literacy | 8F, 5C |
-| [8M — Persistent storage](lessons/8M/) | 75m | Development Tools and Workflow | Debugging and Testing | 8K, 4H |
-| [8N — Phone communication](lessons/8N/) | 120m | Development Tools and Workflow | C Programming | 8L, 4H, 7B |
+| [31C — Integrate font browsing with persistent selection](lessons/31C/) | 150m | Development Tools and Workflow | Debugging and Testing | 25C, 24H, 14B, 7B |
+| [32C — Diagnose a persistent-state integration bug](lessons/32C/) | 90m | Debugging and Testing | Development Tools and Workflow | 24H, 21B, 31C |
+| [33F — Bitmap manipulation](lessons/33F/) | 90m | C Programming | Debugging and Testing | 29E, 18F |
+| [34H — Magnetometer / compass](lessons/34H/) | 90m | Resource Literacy | C Programming | 30G |
+| [35I — Ambient-light limits and backlight](lessons/35I/) | 45m | Resource Literacy | UI Design | 30G, 20C |
+| [36J — Vibration](lessons/36J/) | 45m | Debugging and Testing | UI Design | 30G, 24H |
+| [37K — App timers](lessons/37K/) | 75m | Debugging and Testing | Algorithmic Thinking | 27C, 24H |
+| [38L — Resource files](lessons/38L/) | 65m | Idea Generation | Resource Literacy | 33F, 20C |
+| [39M — Persistent storage](lessons/39M/) | 75m | Development Tools and Workflow | Debugging and Testing | 37K, 24H |
+| [40N — Phone communication](lessons/40N/) | 120m | Development Tools and Workflow | C Programming | 38L, 24H, 7B |
 
 ### Phase V — Independent application capstone
 
@@ -133,30 +133,30 @@ The sequence **interleaves** C learning with UI work, ideation, algorithm design
 
 | ID / Activity | Time | Primary competency | Supporting competency | Prerequisites |
 |---|---:|---|---|---|
-| [9A — Build and demonstrate an original Emery app](lessons/9A/) | 240m | Integrated capstone (all seven competencies) | All seven competencies | 2C, 1C, 6C, 8J, 8M, 8N |
+| [41A — Build and demonstrate an original Emery app](lessons/41A/) | 240m | Integrated capstone (all seven competencies) | All seven competencies | 22C, 25C, 32C, 36J, 39M, 40N |
 
 
 ## Three evolving project strands
 
 | Project | Continuously revised lesson checkpoints | Learning trajectory |
 |---|---|---|
-| **Clock Workshop** | 7A → 8A → 8C → 8K → 8M | Time-only watchface reference → two-window watchapp → button behavior → AppTimer → persisted setting and recovery |
-| **Field Instrument** | 8G → 8H → 8I → 8J | Accelerometer → magnetic heading and calibration → light API limitations → intentional vibration and negative tests |
-| **Pocket Field Guide** | 8B → 8D → 8E → 8F → 8L → 8N | Menu/scrolling → custom drawing → GPath → writable bitmap → raw resource → phone messaging |
+| **Clock Workshop** | 2A → 12A → 27C → 37K → 39M | Time-only watchface reference → two-window watchapp → button behavior → AppTimer → persisted setting and recovery |
+| **Field Instrument** | 30G → 34H → 35I → 36J | Accelerometer → magnetic heading and calibration → light API limitations → intentional vibration and negative tests |
+| **Pocket Field Guide** | 26B → 28D → 29E → 33F → 38L → 40N | Menu/scrolling → custom drawing → GPath → writable bitmap → raw resource → phone messaging |
 
-Each new lesson starts from a *completed prior-stage reference checkpoint*, not a solution to its current exercise. Changes completed in a previous lesson should remain present in later examples. The 7A time-only watchface remains a watchface; the new interactive projects are watchapps. **No dependency is imposed between unrelated project strands unless shared prerequisites truly require it.** See the [API coverage matrix](curriculum/pebble-api/capability-matrix.md).
+Each new lesson starts from a *completed prior-stage reference checkpoint*, not a solution to its current exercise. Changes completed in a previous lesson should remain present in later examples. The 2A time-only watchface remains a watchface; the new interactive projects are watchapps. **No dependency is imposed between unrelated project strands unless shared prerequisites truly require it.** See the [API coverage matrix](curriculum/pebble-api/capability-matrix.md).
 
 ## Reading and exercises
 
-**C/SDK prerequisite policy:** [The 4A–4D framework-scaffolding guide](curriculum/c-programming/sdk-scaffolding.md) explains graphics/timer callbacks already given to novices. These are not hidden prerequisites or additional tasks; 8A/8C/8D/8K assess those APIs later. **Project continuity:** [A/B/C checkpoint matrix](curriculum/pebble-api/checkpoint-continuity.md) identifies behavior each next-stage starter must preserve.
+**C/SDK prerequisite policy:** [The 3A–10D framework-scaffolding guide](curriculum/c-programming/sdk-scaffolding.md) explains graphics/timer callbacks already given to novices. These are not hidden prerequisites or additional tasks; 12A/27C/28D/37K assess those APIs later. **Project continuity:** [A/B/C checkpoint matrix](curriculum/pebble-api/checkpoint-continuity.md) identifies behavior each next-stage starter must preserve.
 
-**4A–4D:** Read the local chapters adapting *Learning C with Pebble* (Jipping, 2016), including the 11 distinct local Chapter 3–6 starter projects. **4E–4H:** Read the original C-focused course notes on arrays, pointers, structs and event-driven lifecycles. **8A–8N:** Consult each lesson's specific C API reference before editing its checkpoint. Keep coding exercises distinct from the written ideation, UI, tracing, resource-research and debugging exercises; none of these are optional simply because they produce no executable code.
+**3A–10D:** Read the local chapters adapting *Learning C with Pebble* (Jipping, 2016), including the 11 distinct local Chapter 3–6 starter projects. **17E–24H:** Read the original C-focused course notes on arrays, pointers, structs and event-driven lifecycles. **12A–40N:** Consult each lesson's specific C API reference before editing its checkpoint. Keep coding exercises distinct from the written ideation, UI, tracing, resource-research and debugging exercises; none of these are optional simply because they produce no executable code.
 
-**Optional debugging challenges:** 8C/debug (button navigation), 8I/debug (bad Light API call), 8L/debug (resource extraction); the original compulsory 6A/6B/6C remain. Optional challenges do not increase the required activity count or estimated total.
+**Optional debugging challenges:** 27C/debug (button navigation), 35I/debug (bad Light API call), 38L/debug (resource extraction); the original compulsory 6A/21B/32C remain. Optional challenges do not increase the required activity count or estimated total.
 
-## Independent demonstration — 9A
+## Independent demonstration — 41A
 
-The capstone implements the original concept developed in 2C and UI groundwork in 1C. You must deliver **a working, original Emery app**, integrating at least two cross-strand capabilities (or an equivalent justified integration), and defend implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven competencies 0–3; **every competency must reach 2+**. [Detailed capstone directions](lessons/9A/).
+The capstone implements the original concept developed in 22C and UI groundwork in 25C. You must deliver **a working, original Emery app**, integrating at least two cross-strand capabilities (or an equivalent justified integration), and defend implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven competencies 0–3; **every competency must reach 2+**. [Detailed capstone directions](lessons/41A/).
 
 ## Course management and validation status
 

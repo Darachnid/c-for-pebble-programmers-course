@@ -10,7 +10,7 @@ from assessor.paths import assessor_dir, find_course_root, rubric_path
 from assessor.report import assess_rubric, format_report_text, save_report
 from assessor.rubric import load_rubric
 
-PILOT_IDS = ("7A", "4A")
+PILOT_IDS = ("2A", "3A")
 
 
 def _activity_id(raw: str) -> str:
@@ -134,12 +134,12 @@ def cmd_examples(args: argparse.Namespace) -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="assess",
-        description="Post-submit evidence assessor (pilot: 7A, 4A). Run only after finishing an activity.",
+        description="Post-submit evidence assessor (pilot: 2A, 3A). Run only after finishing an activity.",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
     p_init = sub.add_parser("init", help="Create submit/<ID>/EVIDENCE.md from template")
-    p_init.add_argument("activity_id", help="Activity id, e.g. 7A or 4A")
+    p_init.add_argument("activity_id", help="Activity id, e.g. 2A or 3A")
     p_init.add_argument("--force", action="store_true", help="Overwrite existing EVIDENCE.md")
     p_init.set_defaults(func=cmd_init)
 

@@ -1,31 +1,31 @@
-# Pebble SDK capability track (8A–8N)
+# Pebble SDK capability track (12A–40N)
 
-14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 9A capstone.
+14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 41A capstone.
 
 | Lab | Subject | Project | Duration | Dependencies |
 |---|---|---|---:|---|
-| [8A](../../lessons/8A/) | Windows and layers | A | 60m | 7A, 3A |
-| [8B](../../lessons/8B/) | Menus and scrolling | C | 75m | 8A, 4E |
-| [8C](../../lessons/8C/) | Button interactions | A | 60m | 8A, 4H |
-| [8D](../../lessons/8D/) | Custom drawing | C | 75m | 8B, 4D |
-| [8E](../../lessons/8E/) | Graphics paths | C | 75m | 8D, 4F |
-| [8F](../../lessons/8F/) | Bitmap manipulation | C | 90m | 8E, 4F |
-| [8G](../../lessons/8G/) | Accelerometer | B | 90m | 8C, 4H |
-| [8H](../../lessons/8H/) | Magnetometer / compass | B | 90m | 8G |
-| [8I](../../lessons/8I/) | Ambient-light limits and backlight | B | 45m | 8H, 5C |
-| [8J](../../lessons/8J/) | Vibration | B | 45m | 8I, 8C |
-| [8K](../../lessons/8K/) | App timers | A | 75m | 8C, 4H |
-| [8L](../../lessons/8L/) | Resource files | C | 65m | 8F, 5C |
-| [8M](../../lessons/8M/) | Persistent storage | A | 75m | 8K, 7C |
-| [8N](../../lessons/8N/) | Phone communication | C | 120m | 8L, 4H, 7B |
+| [12A](../../lessons/12A/) | Windows and layers | A | 60m | 2A, 11A |
+| [26B](../../lessons/26B/) | Menus and scrolling | C | 75m | 12A, 17E |
+| [27C](../../lessons/27C/) | Button interactions | A | 60m | 12A, 24H |
+| [28D](../../lessons/28D/) | Custom drawing | C | 75m | 26B, 10D |
+| [29E](../../lessons/29E/) | Graphics paths | C | 75m | 28D, 18F |
+| [33F](../../lessons/33F/) | Bitmap manipulation | C | 90m | 29E, 18F |
+| [30G](../../lessons/30G/) | Accelerometer | B | 90m | 27C, 24H |
+| [34H](../../lessons/34H/) | Magnetometer / compass | B | 90m | 30G |
+| [35I](../../lessons/35I/) | Ambient-light limits and backlight | B | 45m | 34H, 20C |
+| [36J](../../lessons/36J/) | Vibration | B | 45m | 35I, 27C |
+| [37K](../../lessons/37K/) | App timers | A | 75m | 27C, 24H |
+| [38L](../../lessons/38L/) | Resource files | C | 65m | 33F, 20C |
+| [39M](../../lessons/39M/) | Persistent storage | A | 75m | 37K, 31C |
+| [40N](../../lessons/40N/) | Phone communication | C | 120m | 38L, 24H, 7B |
 
 ## Revisited programs
 
-**A — Clock Workshop:** 7A time-only clock → 8A windows/layers → 8C buttons → 8K timers → 8M persistence.
+**A — Clock Workshop:** 2A time-only clock → 12A windows/layers → 27C buttons → 37K timers → 39M persistence.
 
-**B — Field Instrument:** 8G accelerometer → 8H magnetic heading/compass → 8I backlight → 8J opt-in vibration.
+**B — Field Instrument:** 30G accelerometer → 34H magnetic heading/compass → 35I backlight → 36J opt-in vibration.
 
-**C — Pocket Field Guide:** 8B menus → 8D primitive drawing → 8E graphics paths → 8F mutable bitmap → 8L bundled data → 8N PebbleKit JS phone messaging.
+**C — Pocket Field Guide:** 26B menus → 28D primitive drawing → 29E graphics paths → 33F mutable bitmap → 38L bundled data → 40N PebbleKit JS phone messaging.
 
 All starter directories are independent local builds. A later stage is an *example checkpoint* for previous skills, not the solution to the current assignment. Use [the source-continuity matrix](checkpoint-continuity.md) to distinguish inherited code, current TODOs and optional cross-strand examples. Retain Git diffs, a normal and an edge test, API notes and evidence of cleanup.
 
@@ -35,12 +35,12 @@ All starter directories are independent local builds. A later stage is an *examp
 
 ## Optional fault-finding checkpoints (not extra required tasks)
 
-- [8C button/navigation debugging](../../lessons/8C/debug/) — observable input bug
-- [8I Light API debugging](../../lessons/8I/debug/) — compiler/linker diagnostic
-- [8L raw-resource debugging](../../lessons/8L/debug/) — valid build, incorrect resource content
+- [27C button/navigation debugging](../../lessons/27C/debug/) — observable input bug
+- [35I Light API debugging](../../lessons/35I/debug/) — compiler/linker diagnostic
+- [38L raw-resource debugging](../../lessons/38L/debug/) — valid build, incorrect resource content
 
 All three are separate **intentionally faulty** Emery projects. No answers are included. They should only be attempted after the corresponding capability lab.
 
 ## Competency integration
 
-Each API exercise has a **primary and supporting core competency** and belongs to the [41-activity integrated sequence](../course-design/integrated-sequence.md), not an isolated last phase. Revised prerequisites: **8B = 4E + 4H; 8G = 4H + 5C; 8I = 8G + 5C; 8J = 8G + 4H; 8M = 8K + 4H**. The other project strands are not prerequisites unless essential. Review the [assessment rubric](../course-design/learning-outcomes-and-assessment.md) after each activity.
+Each API exercise has a **primary and supporting core competency** and belongs to the [41-activity integrated sequence](../course-design/integrated-sequence.md), not an isolated last phase. Revised prerequisites: **26B = 17E + 24H; 30G = 24H + 20C; 35I = 30G + 20C; 36J = 30G + 24H; 39M = 37K + 24H**. The other project strands are not prerequisites unless essential. Review the [assessment rubric](../course-design/learning-outcomes-and-assessment.md) after each activity.

@@ -11,36 +11,36 @@ A standalone, time-balanced scheduling table for the existing **40-activity Emer
 
 | Day | Phase | Existing reading | Existing activities / exercises | Reading (min) | Exercises (min) | Own projects (min) | Total (min) |
 | ---: | :--- | :--- | :--- | ---: | ---: | ---: | ---: |
-| 1 | I — Orientation | 2A + 7A guides; begin 4A module | Complete 2A, 7A; begin 4A (bouncing ball) | 35 | 85 | 30 | 150 |
-| 2 | I — Orientation | Finish 4A module; 5A + 1A guides | Finish 4A (orbiting letter); complete 5A, 1A | 15 | 85 | 50 | 150 |
+| 1 | I — Orientation | 1A + 2A guides; begin 3A module | Complete 1A, 2A; begin 3A (bouncing ball) | 35 | 85 | 30 | 150 |
+| 2 | I — Orientation | Finish 3A module; 4A + 5A guides | Finish 3A (orbiting letter); complete 4A, 5A | 15 | 85 | 50 | 150 |
 | 3 | I — Orientation | 6A debugging + 7B workflow guides | Complete 6A, 7B | 10 | 55 | 85 | 150 |
-| 4 | II — Control flow | Read 4B conditionals module | Begin 4B (sweeping seconds) | 30 | 40 | 80 | 150 |
-| 5 | II — Control flow | Finish 4B; begin 4C loops module | Finish 4B (digital clock); begin 4C | 25 | 90 | 35 | 150 |
-| 6 | II — Control flow | Finish 4C; begin 4D functions module | Finish 4C (binary, color grid, screen text); begin 4D | 25 | 95 | 30 | 150 |
-| 7 | II — Control flow | Finish 4D module; 3A guide | Finish 4D projects; complete 3A lifecycle trace | 20 | 110 | 20 | 150 |
-| 8 | II — Control flow | 1B UI + 5B source-reading guides | Complete 1B, 5B | 20 | 70 | 60 | 150 |
-| 9 | II — Control flow | 3B algorithms + 2B remix guides | Complete 3B, 2B | 15 | 45 | 90 | 150 |
-| 10 | III — Data & design | Read 4E arrays/strings module | Complete 4E (word selector) | 30 | 60 | 60 | 150 |
-| 11 | III — Data & design | Read 4F pointers/lifetime module | Complete 4F (coordinate-pointer app) | 35 | 70 | 45 | 150 |
-| 12 | III — Data & design | Read 4G structs/enums module | Complete 4G (mode/state app) | 30 | 75 | 45 | 150 |
-| 13 | III — Data & design | 5C persistence + 6B debugging guides | Complete 5C, 6B | 35 | 70 | 45 | 150 |
-| 14 | III — Data & design | 2C concept + 3C state-machine guides | Complete 2C, 3C | 20 | 100 | 30 | 150 |
-| 15 | III — Data & design | Read 4H callback/lifecycle module | Begin 4H | 30 | 45 | 75 | 150 |
-| 16 | III — Data & design | Finish 4H reading; 1C UI guide | Finish 4H; begin 1C | 20 | 100 | 30 | 150 |
-| 17 | III — Data & design | Review 1C reading and examples | Finish 1C interface design | 10 | 35 | 105 | 150 |
-| 18 | IV — Integration | Read 7C integration instructions | Begin 7C (font browsing + persistence) | 15 | 75 | 60 | 150 |
-| 19 | IV — Integration | Read 6C debugging instructions | Finish 7C; begin 6C | 10 | 95 | 45 | 150 |
-| 20 | IV — Integration | Review 6C diagnostic instructions | Finish 6C (repair and regression tests) | 5 | 40 | 105 | 150 |
-| 21 | V — SDK labs | Read 8A Windows/layers + 8B menu guidance | Complete 8A; begin 8B | 25 | 80 | 45 | 150 |
-| 22 | V — SDK labs | Finish 8B reading; read 8C button guidance | Finish 8B; complete 8C | 25 | 65 | 60 | 150 |
-| 23 | V — SDK labs | Read 8D custom drawing + 8E paths | Complete 8D; begin 8E | 30 | 75 | 45 | 150 |
-| 24 | V — SDK labs | Read 8F bitmap guidance | Finish 8E; begin 8F | 25 | 80 | 45 | 150 |
-| 25 | V — SDK labs | Read 8G accelerometer guidance | Finish 8F; begin 8G | 25 | 80 | 45 | 150 |
-| 26 | V — SDK labs | Read 8H compass guidance | Finish 8G; complete 8H | 30 | 75 | 45 | 150 |
-| 27 | V — SDK labs | Read 8I backlight + 8J vibration guidance | Complete 8I, 8J | 30 | 60 | 60 | 150 |
-| 28 | V — SDK labs | Read 8K timers + 8L resources | Complete 8K; begin 8L | 30 | 75 | 45 | 150 |
-| 29 | V — SDK labs | Read 8M persistence guidance | Finish 8L; complete 8M | 25 | 85 | 40 | 150 |
-| 30 | V — SDK labs | Read 8N phone communication guidance | Complete 8N, including prescribed verification | 30 | 90 | 30 | 150 |
+| 4 | II — Control flow | Read 8B conditionals module | Begin 8B (sweeping seconds) | 30 | 40 | 80 | 150 |
+| 5 | II — Control flow | Finish 8B; begin 9C loops module | Finish 8B (digital clock); begin 9C | 25 | 90 | 35 | 150 |
+| 6 | II — Control flow | Finish 9C; begin 10D functions module | Finish 9C (binary, color grid, screen text); begin 10D | 25 | 95 | 30 | 150 |
+| 7 | II — Control flow | Finish 10D module; 11A guide | Finish 10D projects; complete 11A lifecycle trace | 20 | 110 | 20 | 150 |
+| 8 | II — Control flow | 13B UI + 14B source-reading guides | Complete 13B, 14B | 20 | 70 | 60 | 150 |
+| 9 | II — Control flow | 15B algorithms + 16B remix guides | Complete 15B, 16B | 15 | 45 | 90 | 150 |
+| 10 | III — Data & design | Read 17E arrays/strings module | Complete 17E (word selector) | 30 | 60 | 60 | 150 |
+| 11 | III — Data & design | Read 18F pointers/lifetime module | Complete 18F (coordinate-pointer app) | 35 | 70 | 45 | 150 |
+| 12 | III — Data & design | Read 19G structs/enums module | Complete 19G (mode/state app) | 30 | 75 | 45 | 150 |
+| 13 | III — Data & design | 20C persistence + 21B debugging guides | Complete 20C, 21B | 35 | 70 | 45 | 150 |
+| 14 | III — Data & design | 22C concept + 23C state-machine guides | Complete 22C, 23C | 20 | 100 | 30 | 150 |
+| 15 | III — Data & design | Read 24H callback/lifecycle module | Begin 24H | 30 | 45 | 75 | 150 |
+| 16 | III — Data & design | Finish 24H reading; 25C UI guide | Finish 24H; begin 25C | 20 | 100 | 30 | 150 |
+| 17 | III — Data & design | Review 25C reading and examples | Finish 25C interface design | 10 | 35 | 105 | 150 |
+| 18 | IV — Integration | Read 31C integration instructions | Begin 31C (font browsing + persistence) | 15 | 75 | 60 | 150 |
+| 19 | IV — Integration | Read 32C debugging instructions | Finish 31C; begin 32C | 10 | 95 | 45 | 150 |
+| 20 | IV — Integration | Review 32C diagnostic instructions | Finish 32C (repair and regression tests) | 5 | 40 | 105 | 150 |
+| 21 | V — SDK labs | Read 12A Windows/layers + 26B menu guidance | Complete 12A; begin 26B | 25 | 80 | 45 | 150 |
+| 22 | V — SDK labs | Finish 26B reading; read 27C button guidance | Finish 26B; complete 27C | 25 | 65 | 60 | 150 |
+| 23 | V — SDK labs | Read 28D custom drawing + 29E paths | Complete 28D; begin 29E | 30 | 75 | 45 | 150 |
+| 24 | V — SDK labs | Read 33F bitmap guidance | Finish 29E; begin 33F | 25 | 80 | 45 | 150 |
+| 25 | V — SDK labs | Read 30G accelerometer guidance | Finish 33F; begin 30G | 25 | 80 | 45 | 150 |
+| 26 | V — SDK labs | Read 34H compass guidance | Finish 30G; complete 34H | 30 | 75 | 45 | 150 |
+| 27 | V — SDK labs | Read 35I backlight + 36J vibration guidance | Complete 35I, 36J | 30 | 60 | 60 | 150 |
+| 28 | V — SDK labs | Read 37K timers + 38L resources | Complete 37K; begin 38L | 30 | 75 | 45 | 150 |
+| 29 | V — SDK labs | Read 39M persistence guidance | Finish 38L; complete 39M | 25 | 85 | 40 | 150 |
+| 30 | V — SDK labs | Read 40N phone communication guidance | Complete 40N, including prescribed verification | 30 | 90 | 30 | 150 |
 | **TOTAL** | | | **40 required activities** | **710** | **2205** | **1585** | **4500** |
 
 ## Totals

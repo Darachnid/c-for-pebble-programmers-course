@@ -1,10 +1,10 @@
-# Idea Generation — read alongside 2A, 2B and 2C
+# Idea Generation — read alongside 1A, 16B and 22C
 
 **Goal:** move from observing other programs to defining a feasible original Pebble application. A strong idea is neither a list of features nor a vague slogan; it is a clear user action, a visible result, and a plausible minimum implementation.
 
-## 2A · Observe and vary
+## 1A · Observe and vary
 
-[Local lesson with clock, font browser and storage counter](../../lessons/2A/)
+[Local lesson with clock, font browser and storage counter](../../lessons/1A/)
 
 **Read first.** Separate **behavior** (what the program does) from **implementation** (how it does it) and **context** (who uses it and why). When you see a clock, ask what changes on a tick, what changes on a button press, and what exists after the app closes. These questions expose reusable capabilities: scheduled updates, input, display changes and persistence. Combining capabilities too early makes ideas hard to evaluate.
 
@@ -12,9 +12,9 @@
 
 **Evidence:** five clearly different ideas, one selection and its technical unknown—not code.
 
-## 2B · Remix two complete examples
+## 16B · Remix two complete examples
 
-[Local clock and counter projects](../../lessons/2B/)
+[Local clock and counter projects](../../lessons/16B/)
 
 **Read first.** A remix is not the same as copying two programs together. It requires an **interface between capabilities**. A time display is refreshed by a tick; persistent storage represents state across launches. If combined, decide what information is being saved, when it changes, when it is rendered, and when to load/save it. Two individually working projects can have conflicting global variables, lifecycles and event subscriptions.
 
@@ -22,9 +22,9 @@
 
 **Evidence:** a concise remix brief with the files or functions you inspected and a verification plan. No integration code yet.
 
-## 2C · Select a testable original concept
+## 22C · Select a testable original concept
 
-[Local layout, fonts and storage examples](../../lessons/2C/)
+[Local layout, fonts and storage examples](../../lessons/22C/)
 
 **Read first.** Prioritize **value, feasibility, and learning** separately. A feature can be useful but technologically inaccessible; another can be easy but teach nothing. Define the smallest outcome that could still demonstrate the concept on an Emery emulator. Separate necessary features from attractive extensions. A "minimum viable app" in this course is not necessarily publishable; it is a testable slice that exercises the intended interaction.
 
@@ -34,6 +34,6 @@
 
 ### Idea-quality review
 
-A proposal is ready to move to 3C/1C when a peer can answer: Who is it for? What starts an action? What state changes? What appears on screen? What is the smallest proof? What might fail? Preserve rejected ideas; they are evidence of selection rather than wasted work.
+A proposal is ready to move to 23C/25C when a peer can answer: Who is it for? What starts an action? What state changes? What appears on screen? What is the smallest proof? What might fail? Preserve rejected ideas; they are evidence of selection rather than wasted work.
 
 **Examples stay local:** use [course example families](../README.md), and return to [the syllabus](../../SYLLABUS.md) for prerequisites. No external example is required to complete these lessons.

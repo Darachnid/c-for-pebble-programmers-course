@@ -4,11 +4,11 @@
 
 | Phase | Learning emphasis | IDs in recommended order |
 |---|---|---|
-| I | Orientation, C basics, diagnostics and Git | 2A → 7A → 4A → 5A → 1A → 6A → 7B |
-| II | Control flow, design, and first reusable Windows | 4B → 4C → 4D → 3A → 8A → 1B → 5B → 3B → 2B |
-| III | Memory, state, creativity, and interactive foundations | 4E → 4F → 4G → 5C → 6B → 2C → 3C → 4H → 1C → 8B → 8C → 8D → 8E → 8G |
-| IV | Hardware/graphics integration, validation and persistence | 7C → 6C → 8F → 8H → 8I → 8J → 8K → 8L → 8M → 8N |
-| V | Independent synthesis and competency demonstration | 9A |
+| I | Orientation, C basics, diagnostics and Git | 1A → 2A → 3A → 4A → 5A → 6A → 7B |
+| II | Control flow, design, and first reusable Windows | 8B → 9C → 10D → 11A → 12A → 13B → 14B → 15B → 16B |
+| III | Memory, state, creativity, and interactive foundations | 17E → 18F → 19G → 20C → 21B → 22C → 23C → 24H → 25C → 26B → 27C → 28D → 29E → 30G |
+| IV | Hardware/graphics integration, validation and persistence | 31C → 32C → 33F → 34H → 35I → 36J → 37K → 38L → 39M → 40N |
+| V | Independent synthesis and competency demonstration | 41A |
 
 ## Cross-competency map
 
@@ -16,54 +16,54 @@ Each task has one **primary** and one **supporting** assessment lens; this is no
 
 | Phase | ID | Primary competency | Supporting competency | Dependencies (added labs) |
 |---|---|---|---|---|
-| I | [2A](../../lessons/2A/) | Idea Generation | Resource Literacy | See existing syllabus |
-| I | [7A](../../lessons/7A/) | Development Tools and Workflow | C Programming | See existing syllabus |
-| I | [4A](../../lessons/4A/) | C Programming | Debugging and Testing | See existing syllabus |
-| I | [5A](../../lessons/5A/) | Resource Literacy | C Programming | See existing syllabus |
-| I | [1A](../../lessons/1A/) | UI Design | Resource Literacy | See existing syllabus |
+| I | [1A](../../lessons/1A/) | Idea Generation | Resource Literacy | See existing syllabus |
+| I | [2A](../../lessons/2A/) | Development Tools and Workflow | C Programming | See existing syllabus |
+| I | [3A](../../lessons/3A/) | C Programming | Debugging and Testing | See existing syllabus |
+| I | [4A](../../lessons/4A/) | Resource Literacy | C Programming | See existing syllabus |
+| I | [5A](../../lessons/5A/) | UI Design | Resource Literacy | See existing syllabus |
 | I | [6A](../../lessons/6A/) | Debugging and Testing | Development Tools and Workflow | See existing syllabus |
 | I | [7B](../../lessons/7B/) | Development Tools and Workflow | Debugging and Testing | See existing syllabus |
-| II | [4B](../../lessons/4B/) | C Programming | Algorithmic Thinking | See existing syllabus |
-| II | [4C](../../lessons/4C/) | C Programming | Algorithmic Thinking | See existing syllabus |
-| II | [4D](../../lessons/4D/) | C Programming | Algorithmic Thinking | See existing syllabus |
-| II | [3A](../../lessons/3A/) | Algorithmic Thinking | C Programming | See existing syllabus |
-| II | [8A](../../lessons/8A/) | UI Design | Development Tools and Workflow | 7A, 3A |
-| II | [1B](../../lessons/1B/) | UI Design | C Programming | See existing syllabus |
-| II | [5B](../../lessons/5B/) | Resource Literacy | Algorithmic Thinking | See existing syllabus |
-| II | [3B](../../lessons/3B/) | Algorithmic Thinking | UI Design | See existing syllabus |
-| II | [2B](../../lessons/2B/) | Idea Generation | UI Design | See existing syllabus |
-| III | [4E](../../lessons/4E/) | C Programming | Debugging and Testing | See existing syllabus |
-| III | [4F](../../lessons/4F/) | C Programming | Debugging and Testing | See existing syllabus |
-| III | [4G](../../lessons/4G/) | C Programming | Algorithmic Thinking | See existing syllabus |
-| III | [5C](../../lessons/5C/) | Resource Literacy | C Programming | See existing syllabus |
-| III | [6B](../../lessons/6B/) | Debugging and Testing | C Programming | See existing syllabus |
-| III | [2C](../../lessons/2C/) | Idea Generation | Resource Literacy | See existing syllabus |
-| III | [3C](../../lessons/3C/) | Algorithmic Thinking | UI Design | See existing syllabus |
-| III | [4H](../../lessons/4H/) | C Programming | Development Tools and Workflow | See existing syllabus |
-| III | [1C](../../lessons/1C/) | UI Design | Idea Generation | See existing syllabus |
-| III | [8B](../../lessons/8B/) | UI Design | Algorithmic Thinking | 4E, 4H |
-| III | [8C](../../lessons/8C/) | Algorithmic Thinking | C Programming | 8A, 4H |
-| III | [8D](../../lessons/8D/) | Idea Generation | UI Design | 8B, 4D |
-| III | [8E](../../lessons/8E/) | Algorithmic Thinking | UI Design | 8D, 4F |
-| III | [8G](../../lessons/8G/) | C Programming | Resource Literacy | 4H, 5C |
-| IV | [7C](../../lessons/7C/) | Development Tools and Workflow | Debugging and Testing | See existing syllabus |
-| IV | [6C](../../lessons/6C/) | Debugging and Testing | Development Tools and Workflow | See existing syllabus |
-| IV | [8F](../../lessons/8F/) | C Programming | Debugging and Testing | 8E, 4F |
-| IV | [8H](../../lessons/8H/) | Resource Literacy | C Programming | 8G |
-| IV | [8I](../../lessons/8I/) | Resource Literacy | UI Design | 8G, 5C |
-| IV | [8J](../../lessons/8J/) | Debugging and Testing | UI Design | 8G, 4H |
-| IV | [8K](../../lessons/8K/) | Debugging and Testing | Algorithmic Thinking | 8C, 4H |
-| IV | [8L](../../lessons/8L/) | Idea Generation | Resource Literacy | 8F, 5C |
-| IV | [8M](../../lessons/8M/) | Development Tools and Workflow | Debugging and Testing | 8K, 4H |
-| IV | [8N](../../lessons/8N/) | Development Tools and Workflow | C Programming | 8L, 4H, 7B |
-| V | [9A](../../lessons/9A/) | Integrated: all seven | All seven | 2C, 1C, 6C, 8J, 8M, 8N |
+| II | [8B](../../lessons/8B/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| II | [9C](../../lessons/9C/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| II | [10D](../../lessons/10D/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| II | [11A](../../lessons/11A/) | Algorithmic Thinking | C Programming | See existing syllabus |
+| II | [12A](../../lessons/12A/) | UI Design | Development Tools and Workflow | 2A, 11A |
+| II | [13B](../../lessons/13B/) | UI Design | C Programming | See existing syllabus |
+| II | [14B](../../lessons/14B/) | Resource Literacy | Algorithmic Thinking | See existing syllabus |
+| II | [15B](../../lessons/15B/) | Algorithmic Thinking | UI Design | See existing syllabus |
+| II | [16B](../../lessons/16B/) | Idea Generation | UI Design | See existing syllabus |
+| III | [17E](../../lessons/17E/) | C Programming | Debugging and Testing | See existing syllabus |
+| III | [18F](../../lessons/18F/) | C Programming | Debugging and Testing | See existing syllabus |
+| III | [19G](../../lessons/19G/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| III | [20C](../../lessons/20C/) | Resource Literacy | C Programming | See existing syllabus |
+| III | [21B](../../lessons/21B/) | Debugging and Testing | C Programming | See existing syllabus |
+| III | [22C](../../lessons/22C/) | Idea Generation | Resource Literacy | See existing syllabus |
+| III | [23C](../../lessons/23C/) | Algorithmic Thinking | UI Design | See existing syllabus |
+| III | [24H](../../lessons/24H/) | C Programming | Development Tools and Workflow | See existing syllabus |
+| III | [25C](../../lessons/25C/) | UI Design | Idea Generation | See existing syllabus |
+| III | [26B](../../lessons/26B/) | UI Design | Algorithmic Thinking | 17E, 24H |
+| III | [27C](../../lessons/27C/) | Algorithmic Thinking | C Programming | 12A, 24H |
+| III | [28D](../../lessons/28D/) | Idea Generation | UI Design | 26B, 10D |
+| III | [29E](../../lessons/29E/) | Algorithmic Thinking | UI Design | 28D, 18F |
+| III | [30G](../../lessons/30G/) | C Programming | Resource Literacy | 24H, 20C |
+| IV | [31C](../../lessons/31C/) | Development Tools and Workflow | Debugging and Testing | See existing syllabus |
+| IV | [32C](../../lessons/32C/) | Debugging and Testing | Development Tools and Workflow | See existing syllabus |
+| IV | [33F](../../lessons/33F/) | C Programming | Debugging and Testing | 29E, 18F |
+| IV | [34H](../../lessons/34H/) | Resource Literacy | C Programming | 30G |
+| IV | [35I](../../lessons/35I/) | Resource Literacy | UI Design | 30G, 20C |
+| IV | [36J](../../lessons/36J/) | Debugging and Testing | UI Design | 30G, 24H |
+| IV | [37K](../../lessons/37K/) | Debugging and Testing | Algorithmic Thinking | 27C, 24H |
+| IV | [38L](../../lessons/38L/) | Idea Generation | Resource Literacy | 33F, 20C |
+| IV | [39M](../../lessons/39M/) | Development Tools and Workflow | Debugging and Testing | 37K, 24H |
+| IV | [40N](../../lessons/40N/) | Development Tools and Workflow | C Programming | 38L, 24H, 7B |
+| V | [41A](../../lessons/41A/) | Integrated: all seven | All seven | 22C, 25C, 32C, 36J, 39M, 40N |
 
 ## Conceptual introduction versus advanced application
 
-- **1C** sketches interfaces; **8A** implements window and layer lifecycles. A drawing/design activity can precede the detailed API lab without requiring API mastery.
-- **4H** introduces basic tick/button callbacks and a single persistence pattern; **8C** builds multi-window navigation; **8M** hardens persistence with missing/corrupt data and restart testing.
-- **7C** performs introductory font-selection persistence before **8M** generalizes persistent settings and validation; the later activity does not retroactively become a prerequisite for the earlier one.
-- **8B** begins its own Field Guide project after C data structures and the event-driven C introduction; it has no artificial dependency on the Clock Workshop project 8A.
-- **8G** begins a separate Field Instrument strand and needs callbacks/research skills, not completion of the other project's buttons lab.
+- **25C** sketches interfaces; **12A** implements window and layer lifecycles. A drawing/design activity can precede the detailed API lab without requiring API mastery.
+- **24H** introduces basic tick/button callbacks and a single persistence pattern; **27C** builds multi-window navigation; **39M** hardens persistence with missing/corrupt data and restart testing.
+- **31C** performs introductory font-selection persistence before **39M** generalizes persistent settings and validation; the later activity does not retroactively become a prerequisite for the earlier one.
+- **26B** begins its own Field Guide project after C data structures and the event-driven C introduction; it has no artificial dependency on the Clock Workshop project 12A.
+- **30G** begins a separate Field Instrument strand and needs callbacks/research skills, not completion of the other project's buttons lab.
 
-**Progress checkpoints:** At the end of each phase, use the readiness gate and reflection rubric. The capstone is an original working app, not only the 2C concept or the 1C drawings.
+**Progress checkpoints:** At the end of each phase, use the readiness gate and reflection rubric. The capstone is an original working app, not only the 22C concept or the 25C drawings.

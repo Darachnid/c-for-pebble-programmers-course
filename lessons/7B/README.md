@@ -1,6 +1,6 @@
 # 7B — Create a Git-based modification workflow
 
-**Skill:** Development Tools and Workflow · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 7A, 1A, 6A
+**Skill:** Development Tools and Workflow · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 2A, 5A, 6A
 
 ## Competency checkpoint
 
