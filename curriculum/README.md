@@ -11,6 +11,7 @@ This is a **seven-competency course**, not just a C-language textbook. Read the 
 | Resource Literacy | [Finding and assessing technical evidence](resource-literacy/README.md) | [5A](../lessons/5A/), [5B](../lessons/5B/), [5C](../lessons/5C/) | API note, source trace, justified implementation plan |
 | Debugging and Testing | [Reproduce, isolate and verify](debugging-testing/README.md) | [6A](../lessons/6A/), [6B](../lessons/6B/), [6C](../lessons/6C/) | Symptom, evidence, minimal fix, regression test |
 | Development Tools and Workflow | [Build, branch and integrate](tools-workflow/README.md) | [7A](../lessons/7A/), [7B](../lessons/7B/), [7C](../lessons/7C/) | Emery run, meaningful Git history, integration checklist |
+| **Pebble API capability labs** | [Three cumulative Emery projects](pebble-api/README.md) | [8A–8N](../lessons/README.md#added-api-labs-8a8n) | Windows, drawing, sensors, resources, persistence and phone integration |
 
 ## Three recurring example families
 
