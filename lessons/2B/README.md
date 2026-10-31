@@ -2,6 +2,8 @@
 
 **Skill:** Idea Generation · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 2A, 5B
 
+**Companion reading:** [2B in the idea generation guide](../../curriculum/idea-generation/README.md). Identify the interface between clock updates and persisted data. Use the local starter below; the reading is preparation, not a replacement project.
+
 ## Exact local examples
 
 - [`clock/`](./clock/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

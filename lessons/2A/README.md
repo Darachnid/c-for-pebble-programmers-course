@@ -2,6 +2,8 @@
 
 **Skill:** Idea Generation · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
+**Companion reading:** [2A in the idea generation guide](../../curriculum/idea-generation/README.md). Observe input, state and output before proposing new features. Use the local starter below; the reading is preparation, not a replacement project.
+
 ## Exact local examples
 
 - [`clock/`](./clock/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

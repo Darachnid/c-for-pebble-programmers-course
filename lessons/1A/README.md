@@ -2,6 +2,8 @@
 
 **Skill:** UI Design · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 5A, 7A
 
+**Companion reading:** [1A in the ui design guide](../../curriculum/ui-design/README.md). Before editing, predict how one visual property affects glance readability. Use the local starter below; the reading is preparation, not a replacement project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
