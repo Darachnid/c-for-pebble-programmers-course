@@ -4,7 +4,7 @@ A 21-activity, self-directed **Pebble Time 2 (Emery-only)** C programming course
 
 ## Start here
 
-- [Full syllabus — all 21 activities](SYLLABUS.md)
+- [Full syllabus — all 21 activities](SYLLABUS.md) ([PDF edition](SYLLABUS.pdf))
 - [Local Emery example projects](examples/README.md) — three clean starters plus three deliberately flawed debugging projects
 - [Taskwarrior importer](taskwarrior/README.md) — 21 tasks with estimates, effort, priorities, dependencies, and detailed repository-linked annotations
 
