@@ -1,6 +1,6 @@
 # 8L — Resource files
 
-**Project:** Pocket Field Guide · **Estimate:** 65m · **Prerequisites:** 8F, 5C · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Idea Generation · **Supporting competency:** Resource Literacy · **Estimate:** 65m · **Prerequisites:** 8F, 5C · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Bundle a raw field-note resource and read it with bounded NUL-terminated storage; compare read-only resources and persistent data.
+Design an original field-note data format and explain which information belongs in bundled read-only resources, then implement bounded loading.
 
 ## Evidence-based completion
 
-Raw file is loaded without overflow; truncation and empty cases are considered. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+A justified original content format is loaded, with empty/truncated file handling and clear resource-versus-persistence explanation. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

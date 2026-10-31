@@ -2,6 +2,11 @@
 
 **Skill:** UI Design · **Estimate:** 90m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1B, 2C, 3C, 4H
 
+## Competency checkpoint
+
+**Primary:** UI Design · **Supporting:** Idea Generation. Before editing, predict how the design supports glanceability and button/navigation clarity; then verify on the 200x228 canvas. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+
+
 **Companion reading:** [1C in the ui design guide](../../curriculum/ui-design/README.md). Give every screen a visible hierarchy and every button a defined action. Use the local starter below; the reading is preparation, not a replacement project.
 
 ## Exact local example

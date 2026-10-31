@@ -1,6 +1,6 @@
 # Pebble SDK capability track (8A–8N)
 
-14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These supplement the existing 26 tasks.
+14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 9A capstone.
 
 | Lab | Subject | Project | Duration | Dependencies |
 |---|---|---|---:|---|
@@ -40,3 +40,7 @@ All starter directories are independent local builds. The next lesson's starter 
 - [8L raw-resource debugging](../../lessons/8L/debug/) — valid build, incorrect resource content
 
 All three are separate **intentionally faulty** Emery projects. No answers are included. They should only be attempted after the corresponding capability lab.
+
+## Competency integration
+
+Each API exercise has a **primary and supporting core competency** and belongs to the [41-activity integrated sequence](../course-design/integrated-sequence.md), not an isolated last phase. Revised prerequisites: **8B = 4E + 4H; 8G = 4H + 5C; 8I = 8G + 5C; 8J = 8G + 4H; 8M = 8K + 4H**. The other project strands are not prerequisites unless essential. Review the [assessment rubric](../course-design/learning-outcomes-and-assessment.md) after each activity.

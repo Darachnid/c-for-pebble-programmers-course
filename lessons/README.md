@@ -1,4 +1,4 @@
-# Emery lesson directory — 40 activities
+# Emery lesson directory — 41 activities
 
 Every activity has a numbered folder and an exact local starting project. All seven competencies now have [companion readings](../curriculum/README.md), alongside the [14-lab API track](../curriculum/pebble-api/README.md). All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
 
@@ -53,3 +53,11 @@ The default course uses Emery only. 6A is intentionally compiler-broken, while 6
 | [8N](8N/) | Phone communication | 120m | 8L, 4H, 7B |
 
 All 14 source checkpoints are local, self-contained Emery watchapps. Their progression is explained in [the Pebble API track](../curriculum/pebble-api/README.md).
+
+## Final capstone
+
+| ID | Activity | Time | Depends on | Starting point |
+|---|---|---:|---|---|
+| [9A](9A/) | Build and demonstrate an original Emery app; assess seven competencies | 240m | 2C, 1C, 6C, 8J, 8M, 8N | [Minimal independent C scaffold](9A/starter/) |
+
+**Authoritative order:** [Integrated sequence](../curriculum/course-design/integrated-sequence.md); **mastery:** [Seven competencies and rubric](../curriculum/course-design/learning-outcomes-and-assessment.md).

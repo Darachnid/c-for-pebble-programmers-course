@@ -1,6 +1,6 @@
 # 8E — Graphics paths
 
-**Project:** Pocket Field Guide · **Estimate:** 75m · **Prerequisites:** 8D, 4F · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Algorithmic Thinking · **Supporting competency:** UI Design · **Estimate:** 75m · **Prerequisites:** 8D, 4F · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Build a vertex-based species symbol using GPath; move it on selection and destro
 
 ## Evidence-based completion
 
-A graphics path appears in two positions and ownership/bounds are demonstrated. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+A graphics path appears in two positions and ownership/bounds are demonstrated. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

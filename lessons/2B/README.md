@@ -2,6 +2,11 @@
 
 **Skill:** Idea Generation · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 2A, 5B
 
+## Competency checkpoint
+
+**Primary:** Idea Generation · **Supporting:** UI Design. Before choosing an idea, explicitly compare alternatives against feasibility, user benefit and technical uncertainty. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+
+
 **Companion reading:** [2B in the idea generation guide](../../curriculum/idea-generation/README.md). Identify the interface between clock updates and persisted data. Use the local starter below; the reading is preparation, not a replacement project.
 
 ## Exact local examples

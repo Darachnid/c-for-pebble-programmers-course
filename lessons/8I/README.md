@@ -1,6 +1,6 @@
 # 8I — Ambient-light limits and backlight
 
-**Project:** Field Instrument · **Estimate:** 45m · **Prerequisites:** 8H, 5C · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Resource Literacy · **Supporting competency:** UI Design · **Estimate:** 45m · **Prerequisites:** 8G, 5C · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Add user-triggered backlight interaction. Explicitly distinguish the public back
 
 ## Evidence-based completion
 
-Backlight interaction works and API note explains the ambient-light measurement limitation. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Backlight interaction works and API note explains the ambient-light measurement limitation. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

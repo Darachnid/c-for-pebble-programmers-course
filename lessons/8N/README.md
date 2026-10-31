@@ -1,6 +1,6 @@
 # 8N — Phone communication
 
-**Project:** Pocket Field Guide · **Estimate:** 120m · **Prerequisites:** 8L, 4H, 7B · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Development Tools and Workflow · **Supporting competency:** C Programming · **Estimate:** 120m · **Prerequisites:** 8L, 4H, 7B · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Implement watch-to-phone request and phone-to-watch reply starting from src/js/app.js and the messageKeys manifest; keep offline fallback.
+Implement reproducible two-way AppMessage/PebbleKit JS with watch/phone logs, documented message-key contracts and offline fallback.
 
 ## Evidence-based completion
 
-Two-way log with success, failure and invalid payload behavior; no required continuous connection. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+A verified two-way round trip, failure handling and reproducible setup/log record. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

@@ -2,6 +2,11 @@
 
 **Skill:** Idea Generation · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2B, 5C
 
+## Competency checkpoint
+
+**Primary:** Idea Generation · **Supporting:** Resource Literacy. Before choosing an idea, explicitly compare alternatives against feasibility, user benefit and technical uncertainty. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+
+
 **Companion reading:** [2C in the idea generation guide](../../curriculum/idea-generation/README.md). Compare feasibility and uncertainty before choosing the smallest app. Use the local starter below; the reading is preparation, not a replacement project.
 
 ## Exact local examples

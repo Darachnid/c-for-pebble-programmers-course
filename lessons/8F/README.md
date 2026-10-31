@@ -1,6 +1,6 @@
 # 8F — Bitmap manipulation
 
-**Project:** Pocket Field Guide · **Estimate:** 90m · **Prerequisites:** 8E, 4F · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** C Programming · **Supporting competency:** Debugging and Testing · **Estimate:** 90m · **Prerequisites:** 8E, 4F · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -18,7 +18,7 @@ Create a 24x24 bitmap in memory, safely alter two-color pixels by row stride, an
 
 ## Evidence-based completion
 
-Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

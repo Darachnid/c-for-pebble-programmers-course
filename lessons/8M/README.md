@@ -1,6 +1,6 @@
 # 8M — Persistent storage
 
-**Project:** Clock Workshop · **Estimate:** 75m · **Prerequisites:** 8K, 7C · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Development Tools and Workflow · **Supporting competency:** Debugging and Testing · **Estimate:** 75m · **Prerequisites:** 8K, 4H · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Save Clock Workshop's user-defined setting and restore safely on restart; reset invalid data, do not persist live seconds.
+Version and test persistent Clock Workshop settings with a documented clean/restart/corruption matrix and milestone commits.
 
 ## Evidence-based completion
 
-Persistent, absent and invalid cases all behave as specified. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+Absent, valid, invalid, restart and reset scenarios pass; source and logs are versioned without per-second writes. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 

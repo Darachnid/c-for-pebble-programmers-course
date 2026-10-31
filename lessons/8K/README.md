@@ -1,6 +1,6 @@
 # 8K — App timers
 
-**Project:** Clock Workshop · **Estimate:** 75m · **Prerequisites:** 8C, 4H · **Platform:** Emery only, SDK 4.33.1
+**Primary competency:** Debugging and Testing · **Supporting competency:** Algorithmic Thinking · **Estimate:** 75m · **Prerequisites:** 8C, 4H · **Platform:** Emery, SDK 4.33.1
 
 ## Exact local example
 
@@ -14,11 +14,11 @@ The [starter/](starter/) folder contains a full `package.json`, `wscript`, `src/
 
 ## Activity
 
-Add a one-second elapsed counter to Clock Workshop while retaining minute tick for clock time. Reschedule/cancel safely.
+Investigate re-entrancy and timer-lifetime risks while adding a one-second elapsed counter beside minute tick updates.
 
 ## Evidence-based completion
 
-One running timer, correct elapsed output, and no callback after cleanup. Provide: original code diff, emulator build/run screenshot or log, independent API explanation, a normal test, a boundary/failure test, and a note about subscription/unsubscription or allocation/destruction as appropriate. **No AI-written solutions.**
+One active AppTimer, correct output, canceled teardown, and a rapid-navigation or restart regression test. Score **both primary and supporting competencies at 2 or 3** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). Keep an independent API explanation, original Git diff, running evidence, normal and failure/boundary tests, and a brief reflection. Do not treat emulator-only logs as hardware verification.
 
 ## Run
 
