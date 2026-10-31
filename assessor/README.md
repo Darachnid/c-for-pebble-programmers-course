@@ -66,3 +66,9 @@ pytest assessor/tests
 ```
 
 spaCy tests skip without `en_core_web_md` (`pytest assessor/tests -m "not spacy"` for deterministic-only).
+
+Rigorous spaCy limit tests (margins, phrase gates, known ambiguous exemplars):
+
+```bash
+cd assessor && uv sync --group dev --group model && uv run pytest tests/test_spacy_boundaries.py -v
+```
