@@ -1,0 +1,61 @@
+# Authoritative completion text: lessons/4A/README.md (Completion evidence)
+id: 4A
+lesson_readme: lessons/4A/README.md
+paths:
+  - lessons/4A/starter/**
+  - submit/4A/**
+evidence_template: templates/EVIDENCE.md.tpl
+evidence_sections:
+  - "## Artifact paths"
+  - "## Build and run"
+  - "## Behavior observed"
+  - "## Boundary case tested"
+  - "## Explain in your own words"
+  - "## Source diff"
+spacy:
+  meets_min_margin: 0.04
+  uncertain_band: 0.02
+  exemplar_dirs:
+    meets: examples/4A/meets
+    below: examples/4A/below
+criteria:
+  - id: api_note_complete
+    text: API note with purpose, full signature, argument meanings, return type, and usage example
+    source: lesson
+    deterministic:
+      - kind: regex_in_evidence
+        pattern: "(?i)(void|bool|int|GFont|TextLayer|Window)\\s*\\*?\\s*\\w+\\s*\\("
+      - kind: regex_in_evidence
+        pattern: "(?i)(return|returns|return type)"
+      - kind: regex_in_evidence
+        pattern: "(?i)(argument|parameter|param)"
+      - kind: require_section
+        section: "## Explain in your own words"
+    spacy:
+      required_phrases:
+        - signature
+        - return
+
+  - id: authoritative_source
+    text: Function tied to SDK docs or starter source usage in your own words
+    source: lesson
+    deterministic:
+      - kind: regex_in_evidence
+        pattern: "(?i)(text_layer_set_font|sdk|documentation|developer\\.repebble\\.com|main\\.c)"
+    spacy:
+      required_phrases:
+        - purpose
+        - example
+
+  - id: boundary_and_artifacts
+    text: Boundary case tested and honest artifact paths
+    source: syllabus
+    deterministic:
+      - kind: require_phrase_count
+        phrase: boundary
+        min: 1
+      - kind: regex_in_evidence
+        pattern: "(?i)lessons/4A|submit/4A"
+    spacy:
+      required_phrases:
+        - boundary

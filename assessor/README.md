@@ -1,6 +1,6 @@
 # Course evidence assessor (pilot)
 
-Student-local, post-submit checker for **2A** and **3A**. See [POLICY.md](POLICY.md).
+Student-local, post-submit checker for Phase I activities **1A–5A** (spaCy pilot). See [POLICY.md](POLICY.md).
 
 ## Install
 
@@ -24,8 +24,8 @@ uv run assess init 2A   # from course root: uv run --directory assessor assess �
 
 ```bash
 assess init 2A
-# … complete the lesson, commit changes under lessons/2A/ …
-# … fill submit/2A/EVIDENCE.md …
+# … complete the lesson, commit changes under lesson paths …
+# … fill submit/<ID>/EVIDENCE.md …
 assess diff 2A          # preview git capture
 assess examples 2A      # meets vs below exemplars
 assess submit 2A        # exit 1 if any criterion fails

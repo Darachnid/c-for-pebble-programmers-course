@@ -10,7 +10,23 @@ from pathlib import Path
 
 from assessor.paths import assessor_dir, find_course_root
 
-ACTIVITIES = ("2A", "3A")
+ACTIVITIES = ("1A", "2A", "3A", "4A", "5A")
+
+MEETS_CHECKS: dict[str, tuple[str, str, str]] = {
+    "1A": ("1A", "meets", "01-five-ideas-clock"),
+    "2A": ("2A", "meets", "01-minimal-pass"),
+    "3A": ("3A", "meets", "01-both-projects"),
+    "4A": ("4A", "meets", "01-text-layer-set-font"),
+    "5A": ("5A", "meets", "01-font-change"),
+}
+
+BELOW_CHECKS: dict[str, tuple[str, str, str]] = {
+    "1A": ("1A", "below", "01-two-vague-ideas"),
+    "2A": ("2A", "below", "01-vague-no-artifacts"),
+    "3A": ("3A", "below", "01-one-project-only"),
+    "4A": ("4A", "below", "01-vague-no-signature"),
+    "5A": ("5A", "below", "01-vague-no-visual"),
+}
 
 
 def _assess(*args: str, cwd: Path) -> subprocess.CompletedProcess[str]:
@@ -67,56 +83,77 @@ def _check_examples(course_root: Path) -> None:
             raise AssertionError(f"assess examples {activity_id} failed:\n{proc.stderr}")
 
 
-def _check_7a_meets(course_root: Path) -> None:
-    _copy_evidence(course_root, "2A", "meets", "01-minimal-pass")
-    report = _run_submit(course_root, "2A")
-    statuses = _criterion_statuses(report)
-    if statuses.get("build_and_run") != "pass":
-        raise AssertionError(f"2A meets: expected build_and_run pass, got {statuses}")
+def _positive_spacy_margin(report: dict) -> bool:
     spacy = report.get("spacy_checks") or []
-    if spacy and not any(s.get("margin", 0) > 0 for s in spacy):
-        raise AssertionError("2A meets: expected positive spaCy margin vs exemplars")
+    return bool(spacy and any(s.get("margin", 0) > 0 for s in spacy))
 
 
-def _check_7a_below(course_root: Path) -> None:
-    _copy_evidence(course_root, "2A", "below", "01-vague-no-artifacts")
-    report = _run_submit(course_root, "2A")
-    if report["overall"] == "pass":
-        raise AssertionError("2A below vague: expected overall not pass")
+def _check_meets(course_root: Path, activity_id: str) -> None:
+    aid, tier, name = MEETS_CHECKS[activity_id]
+    _copy_evidence(course_root, aid, tier, name)
+    report = _run_submit(course_root, activity_id)
     statuses = _criterion_statuses(report)
-    if statuses.get("build_and_run") == "pass":
-        raise AssertionError("2A below vague: build_and_run should not pass")
+    if activity_id == "1A":
+        if report["overall"] != "pass":
+            raise AssertionError(f"{activity_id} meets {name}: expected overall pass, got {report['overall']}")
+    elif activity_id == "2A":
+        if statuses.get("build_and_run") != "pass":
+            raise AssertionError(f"{activity_id} meets: build_and_run should pass, got {statuses}")
+        if not _positive_spacy_margin(report):
+            raise AssertionError(f"{activity_id} meets: expected positive spaCy margin vs exemplars")
+    elif activity_id == "3A":
+        if statuses.get("both_projects") != "pass":
+            raise AssertionError(f"{activity_id} meets: both_projects should pass, got {statuses}")
+    elif activity_id == "4A":
+        if statuses.get("api_note_complete") != "pass":
+            raise AssertionError(f"{activity_id} meets: api_note_complete should pass, got {statuses}")
+    elif activity_id == "5A":
+        if statuses.get("build_and_run") != "pass" or statuses.get("one_visual_change") != "pass":
+            raise AssertionError(f"{activity_id} meets: build/visual criteria should pass, got {statuses}")
+        if not _positive_spacy_margin(report):
+            raise AssertionError(f"{activity_id} meets: expected positive spaCy margin vs exemplars")
+    else:
+        if report["overall"] != "pass":
+            raise AssertionError(f"{activity_id} meets {name}: expected overall pass, got {report['overall']}")
 
 
-def _check_4a_meets(course_root: Path) -> None:
-    _copy_evidence(course_root, "3A", "meets", "01-both-projects")
-    report = _run_submit(course_root, "3A")
+def _check_below(course_root: Path, activity_id: str) -> None:
+    aid, tier, name = BELOW_CHECKS[activity_id]
+    _copy_evidence(course_root, aid, tier, name)
+    report = _run_submit(course_root, activity_id)
     statuses = _criterion_statuses(report)
-    if statuses.get("both_projects") != "pass":
-        raise AssertionError(f"3A meets: both_projects should pass, got {statuses}")
-
-
-def _check_4a_below(course_root: Path) -> None:
-    _copy_evidence(course_root, "3A", "below", "01-one-project-only")
-    report = _run_submit(course_root, "3A")
-    statuses = _criterion_statuses(report)
-    if statuses.get("both_projects") == "pass":
-        raise AssertionError("3A below one-project: both_projects should not pass")
+    if activity_id == "1A":
+        if statuses.get("five_ideas_with_api") == "pass":
+            raise AssertionError(f"{activity_id} below {name}: five_ideas_with_api should not pass")
+    elif activity_id == "2A":
+        if report["overall"] == "pass":
+            raise AssertionError(f"{activity_id} below {name}: expected overall not pass")
+        if statuses.get("build_and_run") == "pass":
+            raise AssertionError(f"{activity_id} below vague: build_and_run should not pass")
+    elif activity_id == "3A":
+        if statuses.get("both_projects") == "pass":
+            raise AssertionError(f"{activity_id} below one-project: both_projects should not pass")
+    elif activity_id == "4A":
+        if statuses.get("api_note_complete") == "pass":
+            raise AssertionError(f"{activity_id} below {name}: api_note_complete should not pass")
+    elif activity_id == "5A":
+        if statuses.get("one_visual_change") == "pass":
+            raise AssertionError(f"{activity_id} below {name}: one_visual_change should not pass")
+    elif report["overall"] == "pass":
+        raise AssertionError(f"{activity_id} below {name}: expected overall not pass")
 
 
 def main() -> int:
     course_root = find_course_root()
     print(f"Smoke CLI: course root {course_root}")
     _check_examples(course_root)
-    print("  assess examples 2A, 3A — ok")
-    _check_7a_meets(course_root)
-    print("  2A meets exemplar — ok")
-    _check_7a_below(course_root)
-    print("  2A below exemplar — ok")
-    _check_4a_meets(course_root)
-    print("  3A meets exemplar — ok")
-    _check_4a_below(course_root)
-    print("  3A below exemplar — ok")
+    print(f"  assess examples {', '.join(ACTIVITIES)} — ok")
+    for activity_id in ACTIVITIES:
+        _check_meets(course_root, activity_id)
+        print(f"  {activity_id} meets exemplar — ok")
+    for activity_id in ACTIVITIES:
+        _check_below(course_root, activity_id)
+        print(f"  {activity_id} below exemplar — ok")
     print("Smoke CLI: all checks passed.")
     return 0
 

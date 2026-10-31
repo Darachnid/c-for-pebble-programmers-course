@@ -79,6 +79,20 @@ class TestSpacyMarginSeparation:
         assert meets_m > below_m
         assert meets_m - below_m >= 0.15
 
+    def test_phase1_new_ids_meets_beat_below_anchors(self):
+        for activity_id, meets_name, below_name in (
+            ("1A", "01-five-ideas-clock", "01-two-vague-ideas"),
+            ("4A", "01-text-layer-set-font", "01-vague-no-signature"),
+            ("5A", "01-font-change", "01-vague-no-visual"),
+        ):
+            rubric = load_rubric(_assessor_root() / "rubrics" / f"{activity_id}.yaml")
+            meets_m = _run(activity_id, _load_exemplar(activity_id, "meets", meets_name))[3]
+            below_m = _run(activity_id, _load_exemplar(activity_id, "below", below_name))[3]
+            assert meets_m is not None and below_m is not None
+            assert meets_m > below_m, activity_id
+            assert meets_m >= rubric.meets_min_margin, activity_id
+            assert below_m <= -rubric.meets_min_margin, activity_id
+
 
 @pytest.mark.skipif(not _nlp_available(), reason="en_core_web_md not installed")
 class TestSpacyKnownLimits:

@@ -1,0 +1,62 @@
+# Authoritative completion text: lessons/1A/README.md (Completion evidence)
+id: 1A
+lesson_readme: lessons/1A/README.md
+paths:
+  - lessons/1A/**
+  - submit/1A/**
+evidence_template: templates/EVIDENCE.md.tpl
+evidence_sections:
+  - "## Artifact paths"
+  - "## Build and run"
+  - "## Behavior observed"
+  - "## Boundary case tested"
+  - "## Explain in your own words"
+  - "## Source diff"
+spacy:
+  meets_min_margin: 0.04
+  uncertain_band: 0.02
+  exemplar_dirs:
+    meets: examples/1A/meets
+    below: examples/1A/below
+criteria:
+  - id: five_ideas_with_api
+    text: Five distinct ideas recorded; each describes a possible change and a Pebble API it might need
+    source: lesson
+    deterministic:
+      - kind: require_phrase_count
+        phrase: "idea"
+        min: 5
+      - kind: regex_in_evidence
+        pattern: "(?i)\\bAPI\\b|text_layer|persist_|window_|app_timer"
+      - kind: regex_in_evidence
+        pattern: "(?i)(most interesting|investigate first|top pick|first to explore)"
+    spacy:
+      required_phrases:
+        - idea
+        - API
+
+  - id: local_examples
+    text: Ideas grounded in the included clock, fonts, or storage examples
+    source: lesson
+    deterministic:
+      - kind: regex_in_evidence
+        pattern: "(?i)(clock|fonts|storage|persist|font-selector|time-only)"
+    spacy:
+      required_phrases:
+        - example
+        - variation
+
+  - id: checkpoint_sections
+    text: Competency checkpoint sections completed with a concrete boundary case
+    source: syllabus
+    deterministic:
+      - kind: require_section
+        section: "## Explain in your own words"
+      - kind: require_section
+        section: "## Boundary case tested"
+      - kind: require_phrase_count
+        phrase: boundary
+        min: 1
+    spacy:
+      required_phrases:
+        - feasibility
