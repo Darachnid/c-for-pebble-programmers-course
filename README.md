@@ -67,3 +67,9 @@ This is a **proposal**, not a license grant. See [GitHub's licensing explanation
 All **seven competencies** now have explicit outcomes and evidence criteria; 40 preparatory activities assign a primary and supporting competence, with five primary tasks per non-C competence and ten for C. New [41-activity integrated sequence](curriculum/course-design/integrated-sequence.md) interleaves the original programming exercises and three evolving SDK projects. A required [original-app capstone (41A)](lessons/41A/) assesses all seven. [Read the four-level mastery rubric](curriculum/course-design/learning-outcomes-and-assessment.md).
 
 **Source validation:** Emery manifests and paths have been checked; SDK compilation, emulator execution and physical hardware confirmation remain unverified.
+
+## Ordered lesson IDs (1–41)
+
+The numeric part now gives the **recommended position** of every lesson, while its original letter suffix remains unchanged. For example, **10D precedes 11A**, and **30G precedes 31C**. This is not an alphabetical A-before-B ordering. [Browse the numbered lesson index](lessons/README.md) and [old-to-new migration map](taskwarrior/legacy-id-map.json).
+
+Existing Taskwarrior records are migrated by UUID when you rerun the importer, with a local JSON backup and no loss of completed status or personal notes. Review [migration instructions](taskwarrior/RENUMBERING.md) before importing.

@@ -1,22 +1,22 @@
-# Pebble SDK capability track (12A–40N)
+# Pebble SDK capability track — 14 interleaved lessons
 
-14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 41A capstone.
+14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 41A capstone. The numeric prefixes establish the recommended course order, while the suffix letters are legacy identifiers without sequencing constraints.
 
 | Lab | Subject | Project | Duration | Dependencies |
 |---|---|---|---:|---|
 | [12A](../../lessons/12A/) | Windows and layers | A | 60m | 2A, 11A |
-| [26B](../../lessons/26B/) | Menus and scrolling | C | 75m | 12A, 17E |
+| [26B](../../lessons/26B/) | Menus and scrolling | C | 75m | 17E, 24H |
 | [27C](../../lessons/27C/) | Button interactions | A | 60m | 12A, 24H |
 | [28D](../../lessons/28D/) | Custom drawing | C | 75m | 26B, 10D |
 | [29E](../../lessons/29E/) | Graphics paths | C | 75m | 28D, 18F |
+| [30G](../../lessons/30G/) | Accelerometer | B | 90m | 24H, 20C |
 | [33F](../../lessons/33F/) | Bitmap manipulation | C | 90m | 29E, 18F |
-| [30G](../../lessons/30G/) | Accelerometer | B | 90m | 27C, 24H |
 | [34H](../../lessons/34H/) | Magnetometer / compass | B | 90m | 30G |
-| [35I](../../lessons/35I/) | Ambient-light limits and backlight | B | 45m | 34H, 20C |
-| [36J](../../lessons/36J/) | Vibration | B | 45m | 35I, 27C |
+| [35I](../../lessons/35I/) | Ambient-light limits and backlight | B | 45m | 30G, 20C |
+| [36J](../../lessons/36J/) | Vibration | B | 45m | 30G, 24H |
 | [37K](../../lessons/37K/) | App timers | A | 75m | 27C, 24H |
 | [38L](../../lessons/38L/) | Resource files | C | 65m | 33F, 20C |
-| [39M](../../lessons/39M/) | Persistent storage | A | 75m | 37K, 31C |
+| [39M](../../lessons/39M/) | Persistent storage | A | 75m | 37K, 24H |
 | [40N](../../lessons/40N/) | Phone communication | C | 120m | 38L, 24H, 7B |
 
 ## Revisited programs

@@ -105,27 +105,6 @@
     "supporting_competency": "UI Design"
   },
   {
-    "key": "33F",
-    "description": "33F Bitmap manipulation",
-    "skill": "C Programming",
-    "difficulty": "M",
-    "estimated": "90m",
-    "priority": "M",
-    "depends": [
-      "29E",
-      "18F"
-    ],
-    "instructions": "Create a 24x24 bitmap in memory, safely alter two-color pixels by row stride, and show it in a BitmapLayer.",
-    "done": "Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/BitmapLayer/",
-    "prereq_note": "29E, 18F",
-    "starting_example_title": "Exact in-repository Emery checkpoint 33F",
-    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F/starter",
-    "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
-    "supporting_competency": "Debugging and Testing"
-  },
-  {
     "key": "30G",
     "description": "30G Accelerometer",
     "skill": "C Programming",
@@ -145,6 +124,27 @@
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
     "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
     "supporting_competency": "Resource Literacy"
+  },
+  {
+    "key": "33F",
+    "description": "33F Bitmap manipulation",
+    "skill": "C Programming",
+    "difficulty": "M",
+    "estimated": "90m",
+    "priority": "M",
+    "depends": [
+      "29E",
+      "18F"
+    ],
+    "instructions": "Create a 24x24 bitmap in memory, safely alter two-color pixels by row stride, and show it in a BitmapLayer.",
+    "done": "Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed.",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/BitmapLayer/",
+    "prereq_note": "29E, 18F",
+    "starting_example_title": "Exact in-repository Emery checkpoint 33F",
+    "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F/starter",
+    "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
+    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "supporting_competency": "Debugging and Testing"
   },
   {
     "key": "34H",

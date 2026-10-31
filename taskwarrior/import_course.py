@@ -1137,7 +1137,7 @@ TASKS.sort(key=lambda item: COURSE_SEQUENCE.index(item["key"]))
 # Supplement the legacy course with new numbered capability labs.
 # Preserve the original 26 IDs and every user's recorded completion state.
 from pathlib import Path
-with (Path(__file__).parent / "extension_8_api.json").open(encoding="utf-8") as extension_file:
+with (Path(__file__).parent / "extension_api_labs.json").open(encoding="utf-8") as extension_file:
     TASKS.extend(json.load(extension_file))
 
 # The initial 41 activity IDs (before sequential renumbering) map to the same

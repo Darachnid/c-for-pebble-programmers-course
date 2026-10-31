@@ -1,6 +1,6 @@
-# Complete C Programming Track — 3A through 24H
+# Eight C programming modules interleaved through the course
 
-This track contains eight progressively dependent C programming activities. The earlier 3A–10D chapters preserve the organization and substantial instructional text of Mike Jipping's *Learning C with Pebble* (Chapters 3–6); their eleven book exercise concepts now have local modern Emery-compatible C projects. The later 17E–24H reading modules are original course notes drawing on additional book chapter themes.
+This track contains eight progressively dependent C programming activities. The first four modules (3A, 8B, 9C, 10D) preserve the organization and substantial instructional text of Mike Jipping's *Learning C with Pebble* (Chapters 3–6); their eleven book exercise concepts now have local modern Emery-compatible C projects. The later four modules (17E, 18F, 19G, 24H) are original course notes drawing on additional book chapter themes.
 
 | ID | Topic | Source emphasis | Required local code | Prerequisite |
 |---|---|---|---|---|

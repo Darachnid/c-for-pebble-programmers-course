@@ -20,7 +20,7 @@ sequence = values["COURSE_SEQUENCE"]
 assert len(baseline) == len(sequence) == 26
 assert set(baseline) == set(sequence)
 
-extension = json.loads((ROOT / "taskwarrior/extension_8_api.json").read_text(encoding="utf-8"))
+extension = json.loads((ROOT / "taskwarrior/extension_api_labs.json").read_text(encoding="utf-8"))
 all_tasks = list(baseline.values()) + extension
 ids = [t["key"] for t in all_tasks]
 assert len(ids) == len(set(ids)) == 41, ids
