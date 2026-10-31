@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static guards for *illustrative* cumulative Emery starter checkpoints.
+"""Static guards for *illustrative* cumulative Emery/Gabbro starter checkpoints.
 
 This checks that later starters preserve required source-level patterns and
 that today's assigned API work is still left to the learner. It does NOT

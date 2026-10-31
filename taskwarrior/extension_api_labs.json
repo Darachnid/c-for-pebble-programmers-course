@@ -12,12 +12,12 @@
     ],
     "instructions": "Extend the time-only watchapp with a second Window and root/child layers; trace create/load/unload/destroy.",
     "done": "Both screens can be displayed; illustrate layer hierarchy and clean teardown.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/12A ; SDK https://developer.repebble.com/docs/c/User_Interface/Window/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/12A ; SDK https://developer.repebble.com/docs/c/User_Interface/Window/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "2A, 11A",
     "starting_example_title": "Exact in-repository Emery checkpoint 12A",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/12A/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Development Tools and Workflow"
   },
   {
@@ -33,12 +33,12 @@
     ],
     "instructions": "Build a six-entry scrolling Field Guide menu; implement draw_row and select_click; test the first, middle, and last rows.",
     "done": "Six entries scroll smoothly and selecting a row changes the visible species.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/26B ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/MenuLayer/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/26B ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/MenuLayer/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "17E, 24H",
     "starting_example_title": "Exact in-repository Emery checkpoint 26B",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/26B/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Algorithmic Thinking"
   },
   {
@@ -54,12 +54,12 @@
     ],
     "instructions": "Add Select to open Clock Workshop details and Up/Down to adjust a bounded counter; Back returns via window stack.",
     "done": "Three buttons and Back behave correctly, including minimum/maximum boundary cases.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/27C ; SDK https://developer.repebble.com/docs/c/User_Interface/Clicks/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/27C ; SDK https://developer.repebble.com/docs/c/User_Interface/Clicks/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "12A, 24H",
     "starting_example_title": "Exact in-repository Emery checkpoint 27C",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/27C/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "C Programming"
   },
   {
@@ -75,12 +75,12 @@
     ],
     "instructions": "Compare two original field-symbol designs and justify one for legibility at Emery size. Implement it with primitive drawing and a menu-triggered redraw.",
     "done": "Two original visual alternatives are compared; a chosen symbol redraws on selection and its layout is readable.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/28D ; SDK https://developer.repebble.com/docs/c/Graphics/Drawing_Primitives/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/28D ; SDK https://developer.repebble.com/docs/c/Graphics/Drawing_Primitives/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "26B, 10D",
     "starting_example_title": "Exact in-repository Emery checkpoint 28D",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/28D/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "UI Design"
   },
   {
@@ -96,12 +96,12 @@
     ],
     "instructions": "Build a vertex-based species symbol using GPath; move it on selection and destroy it correctly.",
     "done": "A graphics path appears in two positions and ownership/bounds are demonstrated.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/29E ; SDK https://developer.repebble.com/docs/c/Graphics/Drawing_Paths/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/29E ; SDK https://developer.repebble.com/docs/c/Graphics/Drawing_Paths/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "28D, 18F",
     "starting_example_title": "Exact in-repository Emery checkpoint 29E",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/29E/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "UI Design"
   },
   {
@@ -117,12 +117,12 @@
     ],
     "instructions": "Subscribe to batched XYZ motion samples, rate-limit display and unsubscribe during shutdown.",
     "done": "Hardware data or a documented emulator limitation with sample logs, rate, and cleanup.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/30G ; SDK https://developer.repebble.com/docs/c/Foundation/Event_Service/AccelerometerService/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/30G ; SDK https://developer.repebble.com/docs/c/Foundation/Event_Service/AccelerometerService/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "24H, 20C",
     "starting_example_title": "Exact in-repository Emery checkpoint 30G",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/30G/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Resource Literacy"
   },
   {
@@ -138,12 +138,12 @@
     ],
     "instructions": "Create a 24x24 bitmap in memory, safely alter two-color pixels by row stride, and show it in a BitmapLayer.",
     "done": "Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/BitmapLayer/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F ; SDK https://developer.repebble.com/docs/c/User_Interface/Layers/BitmapLayer/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "29E, 18F",
     "starting_example_title": "Exact in-repository Emery checkpoint 33F",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/33F/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Debugging and Testing"
   },
   {
@@ -158,12 +158,12 @@
     ],
     "instructions": "Add magnetic heading with CompassService; show unavailable/calibrating/valid states and guard unavailable hardware.",
     "done": "Heading/calibration on supported hardware, otherwise a guarded unavailable report.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/34H ; SDK https://developer.repebble.com/docs/c/Foundation/Event_Service/CompassService/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/34H ; SDK https://developer.repebble.com/docs/c/Foundation/Event_Service/CompassService/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "30G",
     "starting_example_title": "Exact in-repository Emery checkpoint 34H",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/34H/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "C Programming"
   },
   {
@@ -179,12 +179,12 @@
     ],
     "instructions": "Add user-triggered backlight interaction. Explicitly distinguish the public backlight API from unavailable raw lux readings.",
     "done": "Backlight interaction works and API note explains the ambient-light measurement limitation.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/35I ; SDK https://developer.repebble.com/docs/c/User_Interface/Light/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/35I ; SDK https://developer.repebble.com/docs/c/User_Interface/Light/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "30G, 20C",
     "starting_example_title": "Exact in-repository Emery checkpoint 35I",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/35I/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "UI Design"
   },
   {
@@ -200,12 +200,12 @@
     ],
     "instructions": "Hypothesize and test false or repeated vibration triggers, then add opt-in feedback for a deliberate user action and an off mode.",
     "done": "A written negative test demonstrates no unintended continuous vibration; deliberate and off states both work.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/36J ; SDK https://developer.repebble.com/docs/c/User_Interface/Vibes/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/36J ; SDK https://developer.repebble.com/docs/c/User_Interface/Vibes/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "30G, 24H",
     "starting_example_title": "Exact in-repository Emery checkpoint 36J",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/36J/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "UI Design"
   },
   {
@@ -221,12 +221,12 @@
     ],
     "instructions": "Investigate re-entrancy and timer-lifetime risks while adding a one-second elapsed counter beside minute tick updates.",
     "done": "One active AppTimer, correct output, canceled teardown, and a rapid-navigation or restart regression test.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/37K ; SDK https://developer.repebble.com/docs/c/Foundation/Timer/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/37K ; SDK https://developer.repebble.com/docs/c/Foundation/Timer/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "27C, 24H",
     "starting_example_title": "Exact in-repository Emery checkpoint 37K",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/37K/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Algorithmic Thinking"
   },
   {
@@ -242,12 +242,12 @@
     ],
     "instructions": "Design an original field-note data format and explain which information belongs in bundled read-only resources, then implement bounded loading.",
     "done": "A justified original content format is loaded, with empty/truncated file handling and clear resource-versus-persistence explanation.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/38L ; SDK https://developer.repebble.com/docs/c/Foundation/Resources/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/38L ; SDK https://developer.repebble.com/docs/c/Foundation/Resources/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "33F, 20C",
     "starting_example_title": "Exact in-repository Emery checkpoint 38L",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/38L/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Resource Literacy"
   },
   {
@@ -263,12 +263,12 @@
     ],
     "instructions": "Version and test persistent Clock Workshop settings with a documented clean/restart/corruption matrix and milestone commits.",
     "done": "Absent, valid, invalid, restart and reset scenarios pass; source and logs are versioned without per-second writes.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/39M ; SDK https://developer.repebble.com/docs/c/Foundation/Storage/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/39M ; SDK https://developer.repebble.com/docs/c/Foundation/Storage/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "37K, 24H",
     "starting_example_title": "Exact in-repository Emery checkpoint 39M",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/39M/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "Debugging and Testing"
   },
   {
@@ -285,12 +285,12 @@
     ],
     "instructions": "Implement reproducible two-way AppMessage/PebbleKit JS with watch/phone logs, documented message-key contracts and offline fallback.",
     "done": "A verified two-way round trip, failure handling and reproducible setup/log record.",
-    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/40N ; SDK https://developer.repebble.com/docs/c/Foundation/AppMessage/",
+    "resources": "Local lesson https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/40N ; SDK https://developer.repebble.com/docs/c/Foundation/AppMessage/ ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "38L, 24H, 7B",
     "starting_example_title": "Exact in-repository Emery checkpoint 40N",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/40N/starter",
     "starting_example_note": "Includes local complete source and build files. Edit a personal working copy; no external example required.",
-    "emery_rule": "Emery Pebble Time 2 only; 200x228; SDK 4.33.1.",
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate.",
     "supporting_competency": "C Programming"
   },
   {
@@ -311,11 +311,11 @@
     ],
     "instructions": "Build an original C watchapp from your 22C concept and 25C design, integrating at least two capabilities from different project strands; deliver code, demo, test evidence and seven-competency self-assessment.",
     "done": "Working original Emery app; each of seven outcomes rated at least 2 under documented rubric and substantiated by artifacts.",
-    "resources": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/41A ; https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment.md",
+    "resources": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/41A ; https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/course-design/learning-outcomes-and-assessment.md ; dual-platform guidance: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/curriculum/dual-platform/README.md",
     "prereq_note": "22C, 25C, 32C, 36J, 39M, 40N",
     "starting_example_title": "Minimal independent app shell",
     "starting_example_url": "https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/41A/starter",
     "starting_example_note": "A blank C application scaffold, NOT a generated solution; use your own 22C/25C design.",
-    "emery_rule": "Emery (Pebble Time 2), 200x228, SDK 4.33.1; hardware evidence distinguished from emulator."
+    "emery_rule": "Both: emery/Time 2 200x228 rectangle and gabbro/Round 2 260x260 circle; build/test each emulator and evaluate circular clipping; physical sensor/touch verification separate."
   }
 ]

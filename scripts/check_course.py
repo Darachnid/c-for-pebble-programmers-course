@@ -54,7 +54,7 @@ for lesson, chapters in {"3A": ["3-1", "3-2"], "8B": ["4-1", "4-2"],
 projects = 0
 for manifest in (ROOT / "lessons").glob("*/*/package.json"):
     cfg = json.loads(manifest.read_text(encoding="utf-8"))
-    assert cfg["pebble"]["targetPlatforms"] == ["emery"], manifest
+    assert cfg["pebble"]["targetPlatforms"] == ["emery", "gabbro"], manifest
     assert (manifest.parent / "wscript").is_file(), manifest
     assert list((manifest.parent / "src").rglob("*.c")), manifest
     projects += 1
@@ -62,4 +62,4 @@ for manifest in (ROOT / "lessons").glob("*/*/package.json"):
 assert (ROOT / "assessor/rubrics/2A.yaml").is_file()
 assert (ROOT / "assessor/rubrics/3A.yaml").is_file()
 assert (ROOT / "SYLLABUS.pdf").is_file()
-print(f"PASS: {len(ids)} sequential lessons, {projects} Emery example projects")
+print(f"PASS: {len(ids)} sequential lessons, {projects} dual-platform example projects")

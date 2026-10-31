@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Emery-only resume-safe importer for the 41-task Pebble C course.
+"""Emery + Gabbro resume-safe importer for the 41-task Pebble C course.
 
-Platform: Pebble Time 2, Emery, 200x228 rectangular display.
-Every starting example is Emery-targeted: verified emery platform in its
-manifest, an Emery-capable contemporary project, or the current C tutorial.
-No legacy Aplite/Basalt/Chalk-only starting examples are assigned.
+Platforms: Pebble Time 2 (emery, 200x228 rectangular) and
+Pebble Round 2 (gabbro, 260x260 circular). Project manifests target both.
+Legacy Aplite/Basalt/Chalk-only examples are not required.
 
 Uses real Taskwarrior UUID dependencies and estimates, priority, difficulty,
 and detailed annotation content. Updates existing imported course annotations
@@ -18,7 +17,7 @@ import subprocess
 import sys
 
 PROJECT = "pebble.course"
-TAGS = ("+pebble", "+course", "+emery")
+TAGS = ("+pebble", "+course", "+emery", "+gabbro")
 
 TASKS = [{'key': '1A',
   'description': '1A Explore Pebble examples',
@@ -45,7 +44,7 @@ TASKS = [{'key': '1A',
                            'the unfiltered legacy examples organization.',
   'emery_rule': 'Emery only (Pebble Time 2; rectangular 200x228, 64 colors). If building code, '
                 'package.json targetPlatforms must include emery and run pebble build then pebble '
-                'install --emulator emery. No round/older-platform testing required.'},
+                'install --emulator emery. Check both Emery and Gabbro; older watches are not targets.'},
  {'key': '2A',
   'description': '2A Build and run a time-only C watchface',
   'skill': 'Development Tools and Workflow',
@@ -1153,6 +1152,15 @@ for _task in TASKS:
     if _task["key"] in FOUNDATION_SUPPORTING:
         _task["supporting_competency"] = FOUNDATION_SUPPORTING[_task["key"]]
 
+# Single activity/UUID across both watch models, never duplicate per target.
+DUAL_PLATFORM_NOTE = ("Time 2 = emery (200x228 rectangle); Round 2 = gabbro "
+                      "(260x260 circle). package.json targets both. Build and "
+                      "inspect each emulator; include a round-edge/controls check. "
+                      "Touch is optional; preserve buttons. Hardware tests are "
+                      "separate and must not be inferred from emulator logs.")
+for _task in TASKS:
+    _task["emery_rule"] = DUAL_PLATFORM_NOTE
+
 SHORT = {"H": "High", "M": "Medium", "L": "Low"}
 
 
@@ -1418,7 +1426,7 @@ def main():
         matched = sum(1 for t in TASKS if t["key"] in known_ids)
         estimated_type = get_config("uda.estimated.type")
         effort_type = get_config("uda.effort.type")
-        print(f"Project: {PROJECT} | Activities: {len(TASKS)} | Target: emery (Pebble Time 2) only")
+        print(f"Project: {PROJECT} | Activities: {len(TASKS)} | Targets: emery + gabbro (Time 2 + Round 2)")
         print(f"Detected existing legacy lessons requiring safe UUID migration: {len(renumber_plan)}")
         print(f"Existing matching tasks: {matched} | New tasks needed: {len(TASKS)-matched}")
         print(f"Estimated UDA: {estimated_type or 'missing (will configure)'}")

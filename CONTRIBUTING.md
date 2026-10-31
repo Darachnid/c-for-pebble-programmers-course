@@ -68,10 +68,14 @@ Then open a PR as in Option A. `git commit` does **not** send anything to GitHub
 ## Course-specific submission checklist
 
 - Identify the affected lesson ID(s). Preserve the 40-activity syllabus, actual prerequisites, and correct local example paths; include source/build files for any new example.
-- Keep runtime examples **Emery-only**: `targetPlatforms: ["emery"]` and SDK 4.33.1. Report build, install, runtime and boundary-case results; if you did not run them, say **not tested**.
+- Keep runtime examples **Emery/Gabbro dual-platform**: `targetPlatforms: ["emery"]` and SDK 4.33.1. Report build, install, runtime and boundary-case results; if you did not run them, say **not tested**.
 - Do **not** spoil the intentionally flawed debugging exercises 6A, 21B, 32C, 27C/debug, 35I/debug or 38L/debug by publishing fixes as starter code. The no-AI-solutions policy applies to doing coursework; contribution authors remain responsible for testing and fact-checking their changes.
 - Avoid checking in generated `build/` folders, passwords, private files, Taskwarrior data, or unrelated edits. `git add .` can collect more than you intend; inspect `git status` first. Do not use `git reset --hard` or force-push when uncertain.
 - Respect copyright: preserve MIT notices in bundled Pebble samples; identify the provenance and license of new text/code/artwork; do not add copied textbook material without permission.
 - A useful PR explains **what problem, what changed, how tested, and what remains unverified**. Screenshots or short logs can help. Never claim compilation has passed without running the SDK.
 
 Questions are welcome as GitHub [Issues](https://github.com/Darachnid/c-for-pebble-programmers-course/issues). The purpose of review is to improve the material, not to test your Git vocabulary.
+
+## Supporting Pebble Round 2
+
+Every C sample should target both `emery` and `gabbro` in its manifest and keep a circular-safe layout. For PRs touching source or visuals, include `pebble build` plus separate Emulator Time 2 and Round 2 screenshots or build/install results, clearly labeled. If a physical device feature is untested, say so. Do not fix intentional exercise bugs as part of platform compatibility changes. [Round 2 checklist](curriculum/dual-platform/README.md).

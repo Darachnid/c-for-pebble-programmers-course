@@ -1,4 +1,4 @@
-# Local Emery-only C examples
+# Local Emery/Gabbro C examples
 
 These **original course-owned** starter projects target **only** `emery` (Pebble Time 2, 200 × 228 pixels). They are intentionally small and have no third-party source-code dependencies.
 
@@ -33,3 +33,7 @@ Study an example, then work on your **own copy**. During debugging exercises, do
 
 The minimal projects here are **not** copies of third-party code. For optional, independent reading, see the [Pebble C watchface tutorial](https://developer.repebble.com/tutorials/watchface-tutorial/part1/), [Pebble Font Browser](https://github.com/pebble-examples/app-font-browser), and [Pebble storage guide](https://developer.repebble.com/guides/events-and-services/persistent-storage/).
 
+
+## Round 2 support
+
+The six baseline example manifests target **both `emery` and `gabbro`**. Inspect typography, clipped corner content and button behavior on both. Compiling for Gabbro does **not** remove the deliberate debugging faults. See the [display-shape guide](../curriculum/dual-platform/README.md).
