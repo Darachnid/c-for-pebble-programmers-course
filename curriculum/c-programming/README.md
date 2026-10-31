@@ -28,3 +28,7 @@ All builds use `targetPlatforms: ["emery"]`, SDK 4.33.1, and `pebble install --e
 ### Evidence of completion
 
 Meet the acceptance criteria in [the syllabus](../../SYLLABUS.md) and in each [lesson README](../../lessons/README.md), show the resulting code or design evidence, and explain the solution without AI assistance.
+
+## Continue into the C SDK
+
+The [14-lab Pebble API track](../pebble-api/README.md) extends this C track with three recurring Emery projects, introducing missing chapters on graphics, sensors, resources and communication.

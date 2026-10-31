@@ -1,4 +1,4 @@
-# Taskwarrior import — 26 Emery course tasks
+# Taskwarrior import — 40 Emery course tasks
 
 Run `python3 taskwarrior/import_course.py` from the repository root and type `CREATE` when prompted.
 
@@ -12,4 +12,6 @@ task project:pebble.course unblocked
 task <ID> info
 ```
 
-Total estimated focused time: **31h 15m** across 26 activities. All projects target Emery.
+Total estimated focused time: **48h 35m** across 26 activities. All projects target Emery.
+
+The 14 added tasks come from [extension_8_api.json](extension_8_api.json), including dependencies and local starter annotations. Run the importer again and confirm with `CREATE`. Existing completions and personal notes are preserved.
