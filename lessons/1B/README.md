@@ -2,6 +2,11 @@
 
 **Skill:** UI Design · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 1A, 4D, 5A
 
+## Competency checkpoint
+
+**Primary:** UI Design · **Supporting:** C Programming. Before editing, predict how the design supports glanceability and button/navigation clarity; then verify on the 200x228 canvas. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+
+
 **Companion reading:** [1B in the ui design guide](../../curriculum/ui-design/README.md). Sketch both text-layer rectangles before choosing their positions. Use the local starter below; the reading is preparation, not a replacement project.
 
 ## Exact local example

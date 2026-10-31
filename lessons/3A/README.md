@@ -2,6 +2,11 @@
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4D, 7A
 
+## Competency checkpoint
+
+**Primary:** Algorithmic Thinking · **Supporting:** C Programming. Before implementation or diagramming, specify inputs, states, output changes and boundary conditions. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+
+
 **Companion reading:** [3A in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Distinguish direct calls from framework-triggered callbacks. Use this lesson's local starter; the reading is preparation, not a completed answer.
 
 ## Exact local example
