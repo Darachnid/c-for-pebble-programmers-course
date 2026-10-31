@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R] /Count 9 >>
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] /Count 7 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -13,451 +13,763 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 5 0 obj
-<< /Length 4002 >>
+<< /Length 7079 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F2 8.2 Tf 45 780 Td (C for Pebble Programmers - Emery syllabus) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Platform: Pebble Time 2 \(emery, 200 x 228 rectangular display\)) Tj ET
-BT /F1 8.2 Tf 45 751 Td (Language: C with the Pebble SDK) Tj ET
-BT /F1 8.2 Tf 45 740 Td (Activities: 21, grouped into seven core skills and four phases) Tj ET
-BT /F1 8.2 Tf 45 728 Td (Total estimated focused time: 19 hours 15 minutes \(actual time may vary\)) Tj ET
-BT /F2 8.2 Tf 45 711 Td (Purpose and approach) Tj ET
-BT /F1 8.2 Tf 45 694 Td (Learn Pebble development by reading, modifying, testing, and eventually remixing small,) Tj ET
-BT /F1 8.2 Tf 45 682 Td (working C examples. Activities are evidence-based: an activity is complete only when its) Tj ET
-BT /F1 8.2 Tf 45 671 Td (observable result or learning artifact satisfies the acceptance criteria and you can) Tj ET
-BT /F1 8.2 Tf 45 660 Td (independently explain how it works.) Tj ET
-BT /F1 8.2 Tf 45 643 Td (No AI during coursework. Do the design, coding, research, troubleshooting, and explanations) Tj ET
-BT /F1 8.2 Tf 45 631 Td (yourself using SDK documentation, the included Emery examples) Tj ET
-BT /F1 8.2 Tf 45 620 Td (\(https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md\),) Tj ET
-BT /F1 8.2 Tf 45 609 Td (compiler diagnostics, logs, emulator, and Git.) Tj ET
-BT /F2 8.2 Tf 45 591 Td (Seven core skills) Tj ET
-BT /F1 8.2 Tf 45 574 Td (1. UI Design - typography, layout, readable screens and interaction states.) Tj ET
-BT /F1 8.2 Tf 45 563 Td (2. Idea Generation - possible applications, creative alternatives and scoped concepts.) Tj ET
-BT /F1 8.2 Tf 45 551 Td (3. Algorithmic Thinking - sequencing, state, pseudocode and transitions.) Tj ET
-BT /F1 8.2 Tf 45 540 Td (4. C Programming - syntax, functions, pointers, callbacks and reusable code.) Tj ET
-BT /F1 8.2 Tf 45 529 Td (5. Resource Literacy - finding and interpreting SDK documentation and examples.) Tj ET
-BT /F1 8.2 Tf 45 518 Td (6. Debugging and Testing - reproducing failures, tracing causes, verifying fixes.) Tj ET
-BT /F1 8.2 Tf 45 506 Td (7. Development Tools and Workflow - SDK builds, Emery emulator, Git and integration.) Tj ET
-BT /F2 8.2 Tf 45 489 Td (Completion standard) Tj ET
-BT /F1 8.2 Tf 45 472 Td (For every activity: \(a\) meet the Done when criteria, \(b\) preserve a verifiable artifact such) Tj ET
-BT /F1 8.2 Tf 45 460 Td (as source code, a successful build, sketches, pseudocode, logs, or a bug report, and \(c\) be) Tj ET
-BT /F1 8.2 Tf 45 449 Td (able to explain your own work. Meeting a technical objective does not require choosing a) Tj ET
-BT /F1 8.2 Tf 45 438 Td (specific aesthetic or app idea.) Tj ET
-BT /F2 8.2 Tf 45 420 Td (Activity IDs and difficulty) Tj ET
-BT /F1 8.2 Tf 45 403 Td (The digit indicates the core skill; A/B/C is low/medium/high within that skill. Tasks are) Tj ET
-BT /F1 8.2 Tf 45 392 Td (taught in dependency order, not strict numeric order. Priority H/M/L is a planning cue, not) Tj ET
-BT /F1 8.2 Tf 45 381 Td (a grade. Times are focused-work estimates, not deadlines.) Tj ET
-BT /F2 8.2 Tf 45 363 Td (Local example library) Tj ET
-BT /F1 8.2 Tf 45 346 Td (Start with lessons/README.md) Tj ET
-BT /F1 8.2 Tf 45 335 Td (\(https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/lessons/README.md\).) Tj ET
-BT /F1 8.2 Tf 45 323 Td (All assigned starter code in this syllabus lives in this repository; external reference) Tj ET
-BT /F1 8.2 Tf 45 312 Td (links are secondary background.) Tj ET
-BT /F2 8.2 Tf 45 289 Td (Phase I: Orientation and first modification) Tj ET
-BT /F2 8.2 Tf 45 271 Td (2A Explore Pebble examples) Tj ET
-BT /F1 8.2 Tf 45 254 Td (Skill: Idea Generation | Estimate: 20m | Difficulty: Low | Priority: High | Prerequisites:) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 1 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.12 0.29 0.40 rg
+BT /F2 15 Tf 43 776 Td (C for Pebble Programmers - Complete Emery Syllabus) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 751 Td (Platform: Pebble Time 2 \(emery, rectangular 200 x 228\)  |  Language: C  |  SDK: 4.33.1  |  Core skills: 7) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 740 Td (|  Required activities: 26  |  Estimated focused time: 31h 15m) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 723 Td (Purpose) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 701 Td (Develop independent capability in UI Design, Idea Generation, Algorithmic Thinking, C Programming,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 690 Td (Resource Literacy, Debugging and Testing, and Development Tools and Workflow. Progress through short,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 679 Td (self-directed, example-based activities with explicit Taskwarrior prerequisites. The C programming track) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 668 Td (has eight activities \(4A-4H\), drawing on Learning C with Pebble and current Emery SDK conventions.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 651 Td (Evidence-based completion) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 629 Td (Each task is complete when \(a\) its stated functionality or written product meets the learning objective,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 618 Td (\(b\) a tangible artifact supports that claim-code, emulator output, API note, pseudocode, sketch, or) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 607 Td (debugging record-and \(c\) the student can independently explain the work. Keep a versioned source diff) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 596 Td (where coding is involved. Attempt normal and boundary cases. Time spent alone is not evidence of mastery.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 579 Td (Independent-work policy: No AI-generated code, answers, diagrams, or debugging solutions during) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 568 Td (activities. Consult the in-repository starter code, SDK documentation, compiler diagnostics, logs and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 557 Td (Git. Future grading arrangements are separate from this syllabus.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 540 Td (C programming progression) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 518 Td (|    Activity    |    Core C subject    |    Local reading    |    Local starting code    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 507 Td (|    4A    |    Variables, Data Types, and Operators    |    Markdown reading    |    Complete Emery) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 496 Td (lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 485 Td (|    4B    |    Conditional Execution and Decision Making    |    Markdown reading    |    Complete Emery) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 474 Td (lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 463 Td (|    4C    |    Loops and Iteration    |    Markdown reading    |    Complete Emery lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 452 Td (|    4D    |    Functions and Program Structure    |    Markdown reading    |    Complete Emery lesson) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 441 Td (|) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 430 Td (|    4E    |    Arrays, Strings, and Bounds    |    Markdown reading    |    Complete Emery lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 419 Td (|    4F    |    Pointers, Indirection, and Memory Lifetime    |    Markdown reading    |    Complete) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 408 Td (Emery lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 397 Td (|    4G    |    Structures, Enums, and Program State    |    Markdown reading    |    Complete Emery) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 386 Td (lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 375 Td (|    4H    |    Event-Driven Integration and Application Lifecycle    |    Markdown reading    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 364 Td (Complete Emery lesson    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 347 Td (Book-based exercises from Chapters 3-6 now have 11 complete, in-repository project starters under) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 336 Td (lessons/4A/projects through lessons/4D/projects. Activities 4E-4H each supply their own independent C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 325 Td (watchapp under lessons/<ID>/starter. The original historical chapter text is preserved in the first four) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 314 Td (readings with necessary Emery updates and links to these local examples.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 297 Td (Recommended phase order and exact dependencies) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 275 Td (Phase I - Orientation and first C expressions) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 255 Td (|    Activity    |    Estimate    |    Difficulty    |    Priority    |    Depends on    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 244 Td (|    2A Explore Pebble examples    |    20m    |    Low    |    High    |    None    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 233 Td (|    7A Build and run a time-only C watchface    |    30m    |    Low    |    High    |    None    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 222 Td (|    4A Variables, Data Types, and Operators    |    120m    |    Low    |    High    |    7A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 211 Td (|    5A Find and document a Pebble API function    |    20m    |    Low    |    High    |    4A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 200 Td (|    1A Change one visual property of a time-only watchface    |    30m    |    Low    |    High    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 189 Td (4A, 5A, 7A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 178 Td (|    6A Diagnose a simple compiler error    |    20m    |    Low    |    High    |    4A, 7A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 167 Td (|    7B Create a Git-based modification workflow    |    45m    |    Medium    |    High    |    7A, 1A,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 156 Td (6A    |) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 139 Td (Phase II - Control flow, functions and interaction) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 119 Td (|    Activity    |    Estimate    |    Difficulty    |    Priority    |    Depends on    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 108 Td (|    4B Conditional Execution and Decision Making    |    120m    |    Medium    |    High    |    4A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 97 Td (|) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 86 Td (|    4C Loops and Iteration    |    135m    |    Medium    |    High    |    4B    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 75 Td (|    4D Functions and Program Structure    |    150m    |    Medium    |    High    |    4C    |) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 1 / 7) Tj ET
 endstream
 endobj
 6 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
-<< /Length 3964 >>
+<< /Length 6538 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (None) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 751 Td (sons/2A) Tj ET
-BT /F1 8.2 Tf 45 734 Td (Do: Browse only the included Emery-targeted projects under examples/, initially time-only,) Tj ET
-BT /F1 8.2 Tf 45 722 Td (font-selector, and persist-counter. Choose one and brainstorm five creative variations;) Tj ET
-BT /F1 8.2 Tf 45 711 Td (describe what changes and what new API each might require. Do not browse or solve the) Tj ET
-BT /F1 8.2 Tf 45 700 Td (debugging challenges yet.) Tj ET
-BT /F1 8.2 Tf 45 682 Td (Done when: Five distinct ideas are recorded, each describes a possible change, and one idea) Tj ET
-BT /F1 8.2 Tf 45 671 Td (is marked as the most interesting to investigate.) Tj ET
-BT /F2 8.2 Tf 45 654 Td (7A Build and run a time-only C watchface) Tj ET
-BT /F1 8.2 Tf 45 637 Td (Skill: Development Tools and Workflow | Estimate: 30m | Difficulty: Low | Priority: High |) Tj ET
-BT /F1 8.2 Tf 45 625 Td (Prerequisites: None) Tj ET
-BT /F1 8.2 Tf 45 608 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 597 Td (sons/7A) Tj ET
-BT /F1 8.2 Tf 45 579 Td (Do: Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json) Tj ET
-BT /F1 8.2 Tf 45 568 Td (targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP) Tj ET
-BT /F1 8.2 Tf 45 557 Td (before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time) Tj ET
-BT /F1 8.2 Tf 45 545 Td (updates and only one TextLayer exists. Identify project structure and build output.) Tj ET
-BT /F1 8.2 Tf 45 528 Td (Done when: The project builds and runs in the emulator, displays the current time, updates) Tj ET
-BT /F1 8.2 Tf 45 517 Td (by minute, and has no date TextLayer.) Tj ET
-BT /F2 8.2 Tf 45 500 Td (4A Annotate the time-only watchface code) Tj ET
-BT /F1 8.2 Tf 45 482 Td (Skill: C Programming | Estimate: 45m | Difficulty: Low | Priority: High | Prerequisites: 7A) Tj ET
-BT /F1 8.2 Tf 45 465 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 454 Td (sons/4A) Tj ET
-BT /F1 8.2 Tf 45 436 Td (Do: Use your time-only watchface source. In your own notes, annotate the variable) Tj ET
-BT /F1 8.2 Tf 45 425 Td (declarations, data types, pointers, function calls, arguments, and callback registrations.) Tj ET
-BT /F1 8.2 Tf 45 414 Td (For each function, state its responsibility. Mark which calls happen directly and which) Tj ET
-BT /F1 8.2 Tf 45 402 Td (functions Pebble calls as callbacks. Do not use AI to explain or write the annotations.) Tj ET
-BT /F1 8.2 Tf 45 385 Td (Done when: Your notes explain the key declarations and each function's role, and distinguish) Tj ET
-BT /F1 8.2 Tf 45 374 Td (direct calls from callbacks.) Tj ET
-BT /F2 8.2 Tf 45 357 Td (5A Find and document a Pebble API function) Tj ET
-BT /F1 8.2 Tf 45 339 Td (Skill: Resource Literacy | Estimate: 20m | Difficulty: Low | Priority: High | Prerequisites:) Tj ET
-BT /F1 8.2 Tf 45 328 Td (4A) Tj ET
-BT /F1 8.2 Tf 45 311 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 299 Td (sons/5A) Tj ET
-BT /F1 8.2 Tf 45 282 Td (Do: Find the SDK documentation for text_layer_set_font\(\) or another function used by your) Tj ET
-BT /F1 8.2 Tf 45 271 Td (watchface. Record what it does, its full function signature, the type and purpose of each) Tj ET
-BT /F1 8.2 Tf 45 259 Td (argument, its return type, and one example of where it is used. Write the explanation in) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 2 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 776 Td (|    3A Trace the watchface lifecycle    |    30m    |    Low    |    High    |    4D, 7A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 765 Td (|    1B Add and style a date TextLayer    |    45m    |    Medium    |    Medium    |    1A, 4D, 5A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 754 Td (|    5B Trace an existing feature through source code    |    45m    |    Medium    |    Medium    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 743 Td (3A, 4D, 5A    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 732 Td (|    3B Design a font-cycling algorithm    |    30m    |    Medium    |    Medium    |    3A, 5B    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 721 Td (|    2B Write a two-example remix brief    |    30m    |    Medium    |    Medium    |    2A, 5B    |) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 704 Td (Phase III - Data, memory, state and original design) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 684 Td (|    Activity    |    Estimate    |    Difficulty    |    Priority    |    Depends on    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 673 Td (|    4E Arrays, Strings, and Bounds    |    90m    |    Medium    |    High    |    4D    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 662 Td (|    4F Pointers, Indirection, and Memory Lifetime    |    105m    |    High    |    High    |    4E    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 651 Td (|    4G Structures, Enums, and Program State    |    105m    |    High    |    Medium    |    4F    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 640 Td (|    5C Research an unfamiliar Pebble capability    |    60m    |    High    |    Medium    |    4E, 5B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 629 Td (|) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 618 Td (|    6B Diagnose a font-selection boundary bug    |    45m    |    Medium    |    Medium    |    4E, 6A,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 607 Td (3B    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 596 Td (|    2C Develop an original Pebble app concept    |    60m    |    High    |    Medium    |    2B, 5C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 585 Td (|) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 574 Td (|    3C Design a state machine for an app    |    60m    |    High    |    Medium    |    2C, 3B, 4G    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 563 Td (|    4H Event-Driven Integration and Application Lifecycle    |    150m    |    High    |    Medium    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 552 Td (4G, 3C    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 541 Td (|    1C Design a multi-mode Pebble interface    |    90m    |    High    |    Medium    |    1B, 2C, 3C,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 530 Td (4H    |) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 513 Td (Phase IV - Integration and independent verification) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 493 Td (|    Activity    |    Estimate    |    Difficulty    |    Priority    |    Depends on    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 482 Td (|    7C Integrate font browsing with persistent selection    |    150m    |    High    |    Medium    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 471 Td (1C, 4H, 5B, 7B    |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 460 Td (|    6C Diagnose a persistent-state integration bug    |    90m    |    High    |    Low    |    4H, 6B,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 449 Td (7C    |) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 432 Td (Detailed activities) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 410 Td (Phase I - Orientation and first C expressions) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 390 Td (2A - Explore Pebble examples) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 372 Td (Skill: Idea Generation  |  Time: 20m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: None) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 355 Td (Exact starter and directions: lessons/2A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 338 Td (Do: Inspect the three included Emery-only projects under lessons/2A. Brainstorm five modifications and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 327 Td (note what SDK feature each might require. No coding or debugging-project spoilers.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 310 Td (Complete when: Five distinct ideas are recorded, each describes a possible change, and one idea is marked) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 299 Td (as the most interesting to investigate.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 282 Td (7A - Build and run a time-only C watchface) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 264 Td (Skill: Development Tools and Workflow  |  Time: 30m  |  Difficulty: Low  |  Priority: High  |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 253 Td (Prerequisites: None) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 236 Td (Exact starter and directions: lessons/7A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 219 Td (Do: Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 208 Td (targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP before Adding the) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 197 Td (Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 186 Td (exists. Identify project structure and build output.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 169 Td (Complete when: The project builds and runs in the emulator, displays the current time, updates by minute,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 158 Td (and has no date TextLayer.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 141 Td (4A - Variables, Data Types, and Operators) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 123 Td (Skill: C Programming  |  Time: 120m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: 7A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 106 Td (Exact starter and directions: lessons/4A/. Reading: 4A module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 89 Td (Do: Read variables, types, operators and casts. Complete the bouncing ball and orbiting-letter projects,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 78 Td (modifying expressions and interpreting their behavior.) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 2 / 7) Tj ET
 endstream
 endobj
 8 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
-<< /Length 3732 >>
+<< /Length 5809 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (your own words.) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Done when: A concise API note contains purpose, signature, argument meanings, return type,) Tj ET
-BT /F1 8.2 Tf 45 751 Td (and a usage example.) Tj ET
-BT /F2 8.2 Tf 45 734 Td (3A Trace the watchface lifecycle) Tj ET
-BT /F1 8.2 Tf 45 716 Td (Skill: Algorithmic Thinking | Estimate: 30m | Difficulty: Low | Priority: High |) Tj ET
-BT /F1 8.2 Tf 45 705 Td (Prerequisites: 4A, 7A) Tj ET
-BT /F1 8.2 Tf 45 688 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 676 Td (sons/3A) Tj ET
-BT /F1 8.2 Tf 45 659 Td (Do: Draw the execution flow for the time-only watchface. Include main\(\), init\(\),) Tj ET
-BT /F1 8.2 Tf 45 648 Td (window_stack_push\(\), main_window_load\(\), update_time\(\), tick_handler\(\), app_event_loop\(\),) Tj ET
-BT /F1 8.2 Tf 45 637 Td (main_window_unload\(\), and deinit\(\) where applicable. Show which functions call other) Tj ET
-BT /F1 8.2 Tf 45 625 Td (functions and which are callbacks. Show the separate path for a minute tick after startup.) Tj ET
-BT /F1 8.2 Tf 45 608 Td (Done when: A flow diagram shows startup, initial display, minute updates, and cleanup, with) Tj ET
-BT /F1 8.2 Tf 45 597 Td (direct calls distinguished from callbacks.) Tj ET
-BT /F2 8.2 Tf 45 579 Td (1A Change one visual property of a time-only watchface) Tj ET
-BT /F1 8.2 Tf 45 562 Td (Skill: UI Design | Estimate: 30m | Difficulty: Low | Priority: High | Prerequisites: 4A, 5A,) Tj ET
-BT /F1 8.2 Tf 45 551 Td (7A) Tj ET
-BT /F1 8.2 Tf 45 533 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 522 Td (sons/1A) Tj ET
-BT /F1 8.2 Tf 45 505 Td (Do: Start from the time-only checkpoint of the C watchface tutorial: the code after) Tj ET
-BT /F1 8.2 Tf 45 494 Td ('Displaying the Time' and before 'Adding the Date'. Choose exactly one visual property to) Tj ET
-BT /F1 8.2 Tf 45 482 Td (change: font, position, alignment, text color, or background color. Make the change, build,) Tj ET
-BT /F1 8.2 Tf 45 471 Td (and inspect it in the emulator. Keep the time working and do not add the date or other) Tj ET
-BT /F1 8.2 Tf 45 460 Td (functionality.) Tj ET
-BT /F1 8.2 Tf 45 442 Td (Done when: The app builds and runs, the time still updates, and one intentional visual) Tj ET
-BT /F1 8.2 Tf 45 431 Td (change is visible. The watchface still has no date layer.) Tj ET
-BT /F2 8.2 Tf 45 414 Td (6A Diagnose a simple compiler error) Tj ET
-BT /F1 8.2 Tf 45 396 Td (Skill: Debugging and Testing | Estimate: 20m | Difficulty: Low | Priority: High |) Tj ET
-BT /F1 8.2 Tf 45 385 Td (Prerequisites: 4A, 7A) Tj ET
-BT /F1 8.2 Tf 45 368 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 357 Td (sons/6A) Tj ET
-BT /F1 8.2 Tf 45 339 Td (Do: Start from the deliberately flawed examples/debug-6a project. Run pebble build; capture) Tj ET
-BT /F1 8.2 Tf 45 328 Td (the first compiler diagnostic; identify and correct the single syntax fault; rebuild and run) Tj ET
-BT /F1 8.2 Tf 45 317 Td (on emery. The original clean time-only example is for comparison AFTER the diagnosis.) Tj ET
-BT /F1 8.2 Tf 45 299 Td (Done when: You can show the original error, identify its cause, fix it, and produce a) Tj ET
-BT /F1 8.2 Tf 45 288 Td (successful build.) Tj ET
-BT /F2 8.2 Tf 45 265 Td (Phase II: Reading, interaction, and remixing) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 3 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 776 Td (Complete when: Demonstrate both Emery apps, explain types and arithmetic, and supply code diffs plus) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 765 Td (boundary tests.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 748 Td (5A - Find and document a Pebble API function) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 730 Td (Skill: Resource Literacy  |  Time: 20m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: 4A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 713 Td (Exact starter and directions: lessons/5A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 696 Td (Do: Find the SDK documentation for text_layer_set_font\(\) or another function used by your watchface.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 685 Td (Record what it does, its full function signature, the type and purpose of each argument, its return type,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 674 Td (and one example of where it is used. Write the explanation in your own words.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 657 Td (Complete when: A concise API note contains purpose, signature, argument meanings, return type, and a) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 646 Td (usage example.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 629 Td (1A - Change one visual property of a time-only watchface) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 611 Td (Skill: UI Design  |  Time: 30m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: 4A, 5A, 7A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 594 Td (Exact starter and directions: lessons/1A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 577 Td (Do: Use lessons/1A/starter with only one time TextLayer. Change exactly one of font, color, alignment or) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 566 Td (position; verify that the clock still updates.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 549 Td (Complete when: The app builds and runs, the time still updates, and one intentional visual change is) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 538 Td (visible. The watchface still has no date layer.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 521 Td (6A - Diagnose a simple compiler error) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 503 Td (Skill: Debugging and Testing  |  Time: 20m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: 4A,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 492 Td (7A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 475 Td (Exact starter and directions: lessons/6A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 458 Td (Do: Use the deliberately flawed local lessons/6A/starter project. Capture the first compiler diagnostic,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 447 Td (make the minimal syntax correction, then build and run on Emery.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 430 Td (Complete when: You can show the original error, identify its cause, fix it, and produce a successful) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 419 Td (build.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 402 Td (7B - Create a Git-based modification workflow) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 384 Td (Skill: Development Tools and Workflow  |  Time: 45m  |  Difficulty: Medium  |  Priority: High  |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 373 Td (Prerequisites: 7A, 1A, 6A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 356 Td (Exact starter and directions: lessons/7B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 339 Td (Do: Make a personal Git branch or working copy of lessons/7B/starter, commit a baseline, change one) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 328 Td (visual property, build/test and commit the improvement.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 311 Td (Complete when: The repository has a baseline commit and a modification commit, the app builds, and you) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 300 Td (have inspected the diff or demonstrated how to restore the baseline.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 283 Td (Phase II - Control flow, functions and interaction) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 263 Td (4B - Conditional Execution and Decision Making) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 245 Td (Skill: C Programming  |  Time: 120m  |  Difficulty: Medium  |  Priority: High  |  Prerequisites: 4A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 228 Td (Exact starter and directions: lessons/4B/. Reading: 4B module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 211 Td (Do: Read if/else, switch, logical operators and short-circuiting. Complete the sweeping-seconds and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 200 Td (digital-clock decision exercises.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 183 Td (Complete when: Two modified Emery builds plus an explanation of each branch and tests at decision) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 172 Td (boundaries.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 155 Td (4C - Loops and Iteration) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 137 Td (Skill: C Programming  |  Time: 135m  |  Difficulty: Medium  |  Priority: High  |  Prerequisites: 4B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 120 Td (Exact starter and directions: lessons/4C/. Reading: 4C module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 103 Td (Do: Study for, while, do/while and nested loops. Complete decimal-to-binary, color-grid replacement and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 92 Td (screen-filling text exercises.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 75 Td (Complete when: All three exercises run on Emery; the loop bounds and termination conditions are explained) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 3 / 7) Tj ET
 endstream
 endobj
 10 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
 endobj
 11 0 obj
-<< /Length 3864 >>
+<< /Length 5864 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F2 8.2 Tf 45 774 Td (7B Create a Git-based modification workflow) Tj ET
-BT /F1 8.2 Tf 45 756 Td (Skill: Development Tools and Workflow | Estimate: 45m | Difficulty: Medium | Priority: High) Tj ET
-BT /F1 8.2 Tf 45 745 Td (| Prerequisites: 7A, 1A, 6A) Tj ET
-BT /F1 8.2 Tf 45 728 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 716 Td (sons/7B) Tj ET
-BT /F1 8.2 Tf 45 699 Td (Do: Create your own working copy of the example; do not edit the reference repository in) Tj ET
-BT /F1 8.2 Tf 45 688 Td (place. Initialize or use a Git repository, commit the known-good starting point, make one) Tj ET
-BT /F1 8.2 Tf 45 676 Td (small visual modification, build and test it, then commit the working change with a) Tj ET
-BT /F1 8.2 Tf 45 665 Td (meaningful message. Confirm you can inspect the diff and return to the earlier version.) Tj ET
-BT /F1 8.2 Tf 45 648 Td (Done when: The repository has a baseline commit and a modification commit, the app builds,) Tj ET
-BT /F1 8.2 Tf 45 637 Td (and you have inspected the diff or demonstrated how to restore the baseline.) Tj ET
-BT /F2 8.2 Tf 45 619 Td (5B Trace an existing feature through source code) Tj ET
-BT /F1 8.2 Tf 45 602 Td (Skill: Resource Literacy | Estimate: 45m | Difficulty: Medium | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 591 Td (Prerequisites: 3A, 4A, 5A) Tj ET
-BT /F1 8.2 Tf 45 573 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 562 Td (sons/5B) Tj ET
-BT /F1 8.2 Tf 45 545 Td (Do: Open the Font Browser example. Find where button input is registered or handled,) Tj ET
-BT /F1 8.2 Tf 45 533 Td (identify the state that changes, and follow the code until the display is updated. Use the) Tj ET
-BT /F1 8.2 Tf 45 522 Td (README and SDK docs to look up unfamiliar APIs. Write down the file/function names and draw) Tj ET
-BT /F1 8.2 Tf 45 511 Td (the input -> state change -> display update path.) Tj ET
-BT /F1 8.2 Tf 45 494 Td (Done when: Your notes identify the input handling, changed state, display update, and the) Tj ET
-BT /F1 8.2 Tf 45 482 Td (relevant source locations and documentation.) Tj ET
-BT /F2 8.2 Tf 45 465 Td (1B Add and style a date TextLayer) Tj ET
-BT /F1 8.2 Tf 45 448 Td (Skill: UI Design | Estimate: 45m | Difficulty: Medium | Priority: Medium | Prerequisites:) Tj ET
-BT /F1 8.2 Tf 45 436 Td (1A, 4A, 5A) Tj ET
-BT /F1 8.2 Tf 45 419 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 408 Td (sons/1B) Tj ET
-BT /F1 8.2 Tf 45 390 Td (Do: From YOUR time-only emery code, follow the Adding the Date section of the current C) Tj ET
-BT /F1 8.2 Tf 45 379 Td (tutorial to create, style, position, update, and unload a second TextLayer. Arrange time and) Tj ET
-BT /F1 8.2 Tf 45 368 Td (date for the Emery 200x228 screen. Build and install on emery. Do not switch to a completed) Tj ET
-BT /F1 8.2 Tf 45 357 Td (repository.) Tj ET
-BT /F1 8.2 Tf 45 339 Td (Done when: The watchface displays both time and date, both update correctly, and you can) Tj ET
-BT /F1 8.2 Tf 45 328 Td (explain how the date layer is created, styled, attached, updated, and destroyed.) Tj ET
-BT /F2 8.2 Tf 45 311 Td (3B Design a font-cycling algorithm) Tj ET
-BT /F1 8.2 Tf 45 293 Td (Skill: Algorithmic Thinking | Estimate: 30m | Difficulty: Medium | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 282 Td (Prerequisites: 3A, 5B) Tj ET
-BT /F1 8.2 Tf 45 265 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 4 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 776 Td (and verified.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 759 Td (4D - Functions and Program Structure) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 741 Td (Skill: C Programming  |  Time: 150m  |  Difficulty: Medium  |  Priority: High  |  Prerequisites: 4C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 724 Td (Exact starter and directions: lessons/4D/. Reading: 4D module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 707 Td (Do: Study signatures, parameters, return values, callbacks and recursion. Complete the clock-helper,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 696 Td (bit-pattern, rectangle and concentric-circle projects.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 679 Td (Complete when: Four project artifacts show correct function contracts, a terminating recursive function) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 668 Td (and a working build.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 651 Td (3A - Trace the watchface lifecycle) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 633 Td (Skill: Algorithmic Thinking  |  Time: 30m  |  Difficulty: Low  |  Priority: High  |  Prerequisites: 4D,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 622 Td (7A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 605 Td (Exact starter and directions: lessons/3A/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 588 Td (Do: Draw the execution flow for the time-only watchface. Include main\(\), init\(\), window_stack_push\(\),) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 577 Td (main_window_load\(\), update_time\(\), tick_handler\(\), app_event_loop\(\), main_window_unload\(\), and deinit\(\)) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 566 Td (where applicable. Show which functions call other functions and which are callbacks. Show the separate) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 555 Td (path for a minute tick after startup.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 538 Td (Complete when: A flow diagram shows startup, initial display, minute updates, and cleanup, with direct) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 527 Td (calls distinguished from callbacks.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 510 Td (1B - Add and style a date TextLayer) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 492 Td (Skill: UI Design  |  Time: 45m  |  Difficulty: Medium  |  Priority: Medium  |  Prerequisites: 1A, 4D, 5A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 475 Td (Exact starter and directions: lessons/1B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 458 Td (Do: Start from the time-only watchface in lessons/1B/starter and add a separate date TextLayer, observing) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 447 Td (creation, layout, minute updates and cleanup on Emery.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 430 Td (Complete when: The watchface displays both time and date, both update correctly, and you can explain how) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 419 Td (the date layer is created, styled, attached, updated, and destroyed.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 402 Td (5B - Trace an existing feature through source code) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 384 Td (Skill: Resource Literacy  |  Time: 45m  |  Difficulty: Medium  |  Priority: Medium  |  Prerequisites: 3A,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 373 Td (4D, 5A) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 356 Td (Exact starter and directions: lessons/5B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 339 Td (Do: Inspect the local lessons/5B/starter font selector. Trace the Up/Down event from callback through) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 328 Td (index update to apply_font; document API signatures and state updates.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 311 Td (Complete when: Your notes identify the input handling, changed state, display update, and the relevant) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 300 Td (source locations and documentation.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 283 Td (3B - Design a font-cycling algorithm) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 265 Td (Skill: Algorithmic Thinking  |  Time: 30m  |  Difficulty: Medium  |  Priority: Medium  |  Prerequisites:) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 254 Td (3A, 5B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 237 Td (Exact starter and directions: lessons/3B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 220 Td (Do: Using the local lessons/3B/starter font selector, write original pseudocode for moving through fonts) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 209 Td (in both directions, including first/last and a one-item edge case.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 192 Td (Complete when: Pseudocode and a small flowchart cover both directions, normal selection, and boundary) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 181 Td (cases.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 164 Td (2B - Write a two-example remix brief) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 146 Td (Skill: Idea Generation  |  Time: 30m  |  Difficulty: Medium  |  Priority: Medium  |  Prerequisites: 2A,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 135 Td (5B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 118 Td (Exact starter and directions: lessons/2B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 101 Td (Do: Choose components from the two complete local projects in lessons/2B, write a remix brief with core) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 90 Td (behavior, sources, minimal implementation and technical unknowns.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 73 Td (Complete when: A one-page brief explains the purpose, source features, minimal version, and one or more) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 4 / 7) Tj ET
 endstream
 endobj
 12 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
 endobj
 13 0 obj
-<< /Length 3908 >>
+<< /Length 5574 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (sons/3B) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Do: Before editing code, write pseudocode for cycling through a list of fonts in both) Tj ET
-BT /F1 8.2 Tf 45 751 Td (directions. Define how the selected font is represented, what Up and Down do, whether the) Tj ET
-BT /F1 8.2 Tf 45 740 Td (list wraps at either end, and how the screen is refreshed. Work through the first item, last) Tj ET
-BT /F1 8.2 Tf 45 728 Td (item, and a one-item list. Keep this as an algorithm-design exercise; do not implement it) Tj ET
-BT /F1 8.2 Tf 45 717 Td (yet.) Tj ET
-BT /F1 8.2 Tf 45 700 Td (Done when: Pseudocode and a small flowchart cover both directions, normal selection, and) Tj ET
-BT /F1 8.2 Tf 45 688 Td (boundary cases.) Tj ET
-BT /F2 8.2 Tf 45 671 Td (2B Write a two-example remix brief) Tj ET
-BT /F1 8.2 Tf 45 654 Td (Skill: Idea Generation | Estimate: 30m | Difficulty: Medium | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 643 Td (Prerequisites: 2A, 5B) Tj ET
-BT /F1 8.2 Tf 45 625 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 614 Td (sons/2B) Tj ET
-BT /F1 8.2 Tf 45 597 Td (Do: Select two examples from the included examples/ folder \(such as time-only and) Tj ET
-BT /F1 8.2 Tf 45 585 Td (persist-counter\). Describe a possible new application using an element from each. State its) Tj ET
-BT /F1 8.2 Tf 45 574 Td (purpose, the elements to borrow, the smallest working version and a technical uncertainty.) Tj ET
-BT /F1 8.2 Tf 45 563 Td (Do not implement yet.) Tj ET
-BT /F1 8.2 Tf 45 545 Td (Done when: A one-page brief explains the purpose, source features, minimal version, and one) Tj ET
-BT /F1 8.2 Tf 45 534 Td (or more technical questions to investigate.) Tj ET
-BT /F2 8.2 Tf 45 517 Td (4B Modify the Font Browser) Tj ET
-BT /F1 8.2 Tf 45 500 Td (Skill: C Programming | Estimate: 120m | Difficulty: Medium | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 488 Td (Prerequisites: 3B, 5B, 7B) Tj ET
-BT /F1 8.2 Tf 45 471 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 460 Td (sons/4B) Tj ET
-BT /F1 8.2 Tf 45 442 Td (Do: Start from the working local Emery font-selector watchapp. Trace its input handler,) Tj ET
-BT /F1 8.2 Tf 45 431 Td (index state, and apply_font function; add one extension you design yourself \(e.g., index) Tj ET
-BT /F1 8.2 Tf 45 420 Td (indicator or extra preview\), committing and testing after each change. This is a watchapp,) Tj ET
-BT /F1 8.2 Tf 45 408 Td (so Up/Down are available.) Tj ET
-BT /F1 8.2 Tf 45 391 Td (Done when: Your modified app builds and runs, the original font browsing still works, and) Tj ET
-BT /F1 8.2 Tf 45 380 Td (your added feature is visible and tested.) Tj ET
-BT /F2 8.2 Tf 45 363 Td (6B Diagnose a font-selection boundary bug) Tj ET
-BT /F1 8.2 Tf 45 345 Td (Skill: Debugging and Testing | Estimate: 45m | Difficulty: Medium | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 334 Td (Prerequisites: 4B, 6A) Tj ET
-BT /F1 8.2 Tf 45 317 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 305 Td (sons/6B) Tj ET
-BT /F1 8.2 Tf 45 288 Td (Do: Use the provided deliberately flawed examples/debug-6b project. It compiles but) Tj ET
-BT /F1 8.2 Tf 45 277 Td (navigation behaves incorrectly. Reproduce four successive Up and Down presses, collect the) Tj ET
-BT /F1 8.2 Tf 45 265 Td (included APP_LOG index traces with pebble logs --emulator emery, locate the wrong) Tj ET
-BT /F1 8.2 Tf 45 254 Td (transition, apply a minimal fix and verify both boundaries. Compare with the clean example) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 5 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 776 Td (technical questions to investigate.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 759 Td (Phase III - Data, memory, state and original design) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 739 Td (4E - Arrays, Strings, and Bounds) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 721 Td (Skill: C Programming  |  Time: 90m  |  Difficulty: Medium  |  Priority: High  |  Prerequisites: 4D) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 704 Td (Exact starter and directions: lessons/4E/. Reading: 4E module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 687 Td (Do: Read arrays, indices, strings and bounded buffers. Extend the Emery word-selector starter to six) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 676 Td (choices and test wraparound and long labels.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 659 Td (Complete when: Build works; selections wrap correctly, strings remain terminated and storage is valid) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 648 Td (throughout display lifetime.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 631 Td (4F - Pointers, Indirection, and Memory Lifetime) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 613 Td (Skill: C Programming  |  Time: 105m  |  Difficulty: High  |  Priority: High  |  Prerequisites: 4E) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 596 Td (Exact starter and directions: lessons/4F/. Reading: 4F module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 579 Td (Do: Read pointer parameters, indirection, ownership and lifetime. Extend the coordinate-pointer app with) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 568 Td (a safe helper, and document Pebble resource cleanup.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 551 Td (Complete when: Working application, pointer trace, NULL handling and ownership/lifetime explanation.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 534 Td (4G - Structures, Enums, and Program State) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 516 Td (Skill: C Programming  |  Time: 105m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites: 4F) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 499 Td (Exact starter and directions: lessons/4G/. Reading: 4G module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 482 Td (Do: Read structs, enums, static scope and state transitions. Extend the local mode app with PAUSED and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 471 Td (mode-specific behavior.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 454 Td (Complete when: Mode transition table plus running app demonstrating valid transitions, protected) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 443 Td (operations and fallback handling.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 426 Td (5C - Research an unfamiliar Pebble capability) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 408 Td (Skill: Resource Literacy  |  Time: 60m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites: 4E,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 397 Td (5B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 380 Td (Exact starter and directions: lessons/5C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 363 Td (Do: Research persistence from lessons/5C/starter, trace persist_exists/read/write and write an) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 352 Td (implementation plan using the current SDK documentation.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 335 Td (Complete when: A technical note names the capability, links the documentation and example, lists relevant) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 324 Td (APIs and constraints, and proposes implementation steps.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 307 Td (6B - Diagnose a font-selection boundary bug) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 289 Td (Skill: Debugging and Testing  |  Time: 45m  |  Difficulty: Medium  |  Priority: Medium  |  Prerequisites:) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 278 Td (4E, 6A, 3B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 261 Td (Exact starter and directions: lessons/6B/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 244 Td (Do: Use lessons/6B/starter with its deliberate index bug. Reproduce Up/Down behavior, inspect APP_LOG) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 233 Td (index traces, fix the faulty transition and retest every boundary.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 216 Td (Complete when: The bug is reproducible, the cause is explained, and tests show that cycling works) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 205 Td (correctly at both ends of the list.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 188 Td (2C - Develop an original Pebble app concept) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 170 Td (Skill: Idea Generation  |  Time: 60m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites: 2B, 5C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 153 Td (Exact starter and directions: lessons/2C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 136 Td (Do: Inspect the three complete local Emery examples in lessons/2C and develop three original ideas;) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 125 Td (compare feasibility, select one and write a minimal specification.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 108 Td (Complete when: Three ideas are compared and one has a concise specification for purpose, interaction,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 97 Td (minimum version, and technical uncertainty.) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 5 / 7) Tj ET
 endstream
 endobj
 14 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
 endobj
 15 0 obj
-<< /Length 3647 >>
+<< /Length 5708 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (only after debugging.) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Done when: The bug is reproducible, the cause is explained, and tests show that cycling) Tj ET
-BT /F1 8.2 Tf 45 751 Td (works correctly at both ends of the list.) Tj ET
-BT /F2 8.2 Tf 45 728 Td (Phase III: Independent research and design) Tj ET
-BT /F2 8.2 Tf 45 710 Td (5C Research an unfamiliar Pebble capability) Tj ET
-BT /F1 8.2 Tf 45 693 Td (Skill: Resource Literacy | Estimate: 60m | Difficulty: High | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 682 Td (Prerequisites: 5B) Tj ET
-BT /F1 8.2 Tf 45 664 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 653 Td (sons/5C) Tj ET
-BT /F1 8.2 Tf 45 636 Td (Do: Study the local Emery persist-counter app. Identify how it checks for saved data, reads) Tj ET
-BT /F1 8.2 Tf 45 625 Td (it at startup, and writes changes. Research the SDK's persistence functions using official) Tj ET
-BT /F1 8.2 Tf 45 613 Td (documentation, and write an implementation plan to reuse the pattern in another app; no) Tj ET
-BT /F1 8.2 Tf 45 602 Td (copy-and-paste integration yet.) Tj ET
-BT /F1 8.2 Tf 45 585 Td (Done when: A technical note names the capability, links the documentation and example, lists) Tj ET
-BT /F1 8.2 Tf 45 573 Td (relevant APIs and constraints, and proposes implementation steps.) Tj ET
-BT /F2 8.2 Tf 45 556 Td (2C Develop an original Pebble app concept) Tj ET
-BT /F1 8.2 Tf 45 539 Td (Skill: Idea Generation | Estimate: 60m | Difficulty: High | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 527 Td (Prerequisites: 2B, 5C) Tj ET
-BT /F1 8.2 Tf 45 510 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 499 Td (sons/2C) Tj ET
-BT /F1 8.2 Tf 45 482 Td (Do: Use the included examples/ collection as inspiration. Propose three original Pebble Time) Tj ET
-BT /F1 8.2 Tf 45 470 Td (2 applications based on your interests. Compare feasibility and learning value; write a) Tj ET
-BT /F1 8.2 Tf 45 459 Td (minimal specification for one without committing to build it.) Tj ET
-BT /F1 8.2 Tf 45 442 Td (Done when: Three ideas are compared and one has a concise specification for purpose,) Tj ET
-BT /F1 8.2 Tf 45 430 Td (interaction, minimum version, and technical uncertainty.) Tj ET
-BT /F2 8.2 Tf 45 413 Td (3C Design a state machine for an app) Tj ET
-BT /F1 8.2 Tf 45 396 Td (Skill: Algorithmic Thinking | Estimate: 60m | Difficulty: High | Priority: Medium |) Tj ET
-BT /F1 8.2 Tf 45 384 Td (Prerequisites: 2C, 3B, 4B) Tj ET
-BT /F1 8.2 Tf 45 367 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 356 Td (sons/3C) Tj ET
-BT /F1 8.2 Tf 45 339 Td (Do: Use your original emery app concept or the Emery Touch Tone watchapp as an input-pattern) Tj ET
-BT /F1 8.2 Tf 45 327 Td (reference. Enumerate states, transitions, button press behavior, screen changes, and edge) Tj ET
-BT /F1 8.2 Tf 45 316 Td (cases. Create a state diagram and table. Plan for Emery input and display only.) Tj ET
-BT /F1 8.2 Tf 45 299 Td (Done when: A state diagram and transition table describe all main states, triggers,) Tj ET
-BT /F1 8.2 Tf 45 287 Td (resulting states, and visible responses, including important edge cases.) Tj ET
-BT /F2 8.2 Tf 45 270 Td (1C Design a multi-mode Pebble interface) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 6 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 776 Td (3C - Design a state machine for an app) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 758 Td (Skill: Algorithmic Thinking  |  Time: 60m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites:) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 747 Td (2C, 3B, 4G) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 730 Td (Exact starter and directions: lessons/3C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 713 Td (Do: Use lessons/3C/starter and your 2C app concept to specify a state machine: states, inputs,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 702 Td (transitions, visible outputs, default cases and invalid events.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 685 Td (Complete when: A state diagram and transition table describe all main states, triggers, resulting states,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 674 Td (and visible responses, including important edge cases.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 657 Td (4H - Event-Driven Integration and Application Lifecycle) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 639 Td (Skill: C Programming  |  Time: 150m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites: 4G, 3C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 622 Td (Exact starter and directions: lessons/4H/. Reading: 4H module.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 605 Td (Do: Read callback lifecycle, event subscriptions and persistence. Extend the local app with a second mode) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 594 Td (and show event-driven updates and correct cleanup.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 577 Td (Complete when: Emery program demonstrates button/tick callbacks, persisted state, mode-dependent actions) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 566 Td (and safe teardown.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 549 Td (1C - Design a multi-mode Pebble interface) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 531 Td (Skill: UI Design  |  Time: 90m  |  Difficulty: High  |  Priority: Medium  |  Prerequisites: 1B, 2C, 3C,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 520 Td (4H) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 503 Td (Exact starter and directions: lessons/1C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 486 Td (Do: Use lessons/1C/starter \(the licensed Simplicity C layout\) to sketch multiple Emery screens/modes,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 475 Td (navigation and button outcomes for your own concept.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 458 Td (Complete when: A set of labeled sketches covers every main state, navigation between states, button) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 447 Td (outcomes, and screen-size considerations.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 10.5 Tf 43 430 Td (Phase IV - Integration and independent verification) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 410 Td (7C - Integrate font browsing with persistent selection) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 392 Td (Skill: Development Tools and Workflow  |  Time: 150m  |  Difficulty: High  |  Priority: Medium  |) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 381 Td (Prerequisites: 1C, 4H, 5B, 7B) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 364 Td (Exact starter and directions: lessons/7C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 347 Td (Do: Combine the two complete but separate projects in lessons/7C \(font selector and persistent counter\).) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 336 Td (Implement saved font selection yourself, validate indices and verify restart behavior.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 319 Td (Complete when: The combined app builds, font navigation works, the selected font survives a restart,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 308 Td (invalid or absent stored values are handled safely, and Git records the work.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 9 Tf 43 291 Td (6C - Diagnose a persistent-state integration bug) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 273 Td (Skill: Debugging and Testing  |  Time: 90m  |  Difficulty: High  |  Priority: Low  |  Prerequisites: 4H,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 262 Td (6B, 7C) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 245 Td (Exact starter and directions: lessons/6C/.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 228 Td (Do: Use lessons/6C/starter with its deliberate persistence fault. Select a nondefault font, restart,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 217 Td (trace save/restore logs, correct the mismatch and retest.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 200 Td (Complete when: A reproducible bug report records expected and actual behavior, the cause is explained,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 189 Td (and the fix passes fresh-start, selection, and restart tests.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 172 Td (Activity types) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 150 Td (Capability Labs: Isolate one technique \(e.g., TextLayers, iteration, button callbacks, arrays,) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 139 Td (persistence, or state\) and test what it enables.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 122 Td (Remix challenges \(optional extension levels\): Modify one feature  customize several  borrow a feature) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 111 Td (combine two projects  combine three  create an original application. Remix work supplements rather than) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 100 Td (replaces the 26 required activities.) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 6 / 7) Tj ET
 endstream
 endobj
 16 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
 endobj
 17 0 obj
-<< /Length 3806 >>
+<< /Length 2805 >>
 stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 774 Td (Skill: UI Design | Estimate: 90m | Difficulty: High | Priority: Medium | Prerequisites: 1B,) Tj ET
-BT /F1 8.2 Tf 45 762 Td (2C, 3C, 4B) Tj ET
-BT /F1 8.2 Tf 45 745 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 734 Td (sons/1C) Tj ET
-BT /F1 8.2 Tf 45 716 Td (Do: Using your concept from 2C and the state diagram from 3C, draw each interface mode for) Tj ET
-BT /F1 8.2 Tf 45 705 Td (the Emery 200x228 rectangular screen. Use layouts from the included simple examples as) Tj ET
-BT /F1 8.2 Tf 45 694 Td (starting references, but develop your own visual hierarchy and navigation.) Tj ET
-BT /F1 8.2 Tf 45 676 Td (Done when: A set of labeled sketches covers every main state, navigation between states,) Tj ET
-BT /F1 8.2 Tf 45 665 Td (button outcomes, and screen-size considerations.) Tj ET
-BT /F2 8.2 Tf 45 648 Td (4C Refactor font selection into a reusable component) Tj ET
-BT /F1 8.2 Tf 45 631 Td (Skill: C Programming | Estimate: 90m | Difficulty: High | Priority: Medium | Prerequisites:) Tj ET
-BT /F1 8.2 Tf 45 619 Td (3B, 4B, 5C) Tj ET
-BT /F1 8.2 Tf 45 602 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 591 Td (sons/4C) Tj ET
-BT /F1 8.2 Tf 45 573 Td (Do: Using your emery-compatible Font Browser implementation, refactor selected font state) Tj ET
-BT /F1 8.2 Tf 45 562 Td (and update logic into reusable functions without duplicating cases. Use current C watchface) Tj ET
-BT /F1 8.2 Tf 45 551 Td (custom font tutorial Part 2 if you add font resources. Confirm correct loading/unloading.) Tj ET
-BT /F1 8.2 Tf 45 539 Td (Build, install, and test on emery exclusively.) Tj ET
-BT /F1 8.2 Tf 45 522 Td (Done when: Font selection uses a reusable function and organized data, both navigation) Tj ET
-BT /F1 8.2 Tf 45 511 Td (directions work, and any allocated font resources are cleaned up correctly.) Tj ET
-BT /F2 8.2 Tf 45 488 Td (Phase IV: Integration and verification) Tj ET
-BT /F2 8.2 Tf 45 470 Td (7C Integrate font browsing with persistent selection) Tj ET
-BT /F1 8.2 Tf 45 453 Td (Skill: Development Tools and Workflow | Estimate: 150m | Difficulty: High | Priority: Medium) Tj ET
-BT /F1 8.2 Tf 45 442 Td (| Prerequisites: 2C, 4C, 5B, 7B) Tj ET
-BT /F1 8.2 Tf 45 424 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-BT /F1 8.2 Tf 45 413 Td (sons/7C) Tj ET
-BT /F1 8.2 Tf 45 396 Td (Do: Start with the local clean font-selector project and the local persist-counter) Tj ET
-BT /F1 8.2 Tf 45 384 Td (reference. Add persistent selection to your own font app, saving its font index and) Tj ET
-BT /F1 8.2 Tf 45 373 Td (restoring it on startup, with a safe default for missing/out-of-range values. Build and test) Tj ET
-BT /F1 8.2 Tf 45 362 Td (on Emery; do not simply copy the integrated debugging sample.) Tj ET
-BT /F1 8.2 Tf 45 345 Td (Done when: The combined app builds, font navigation works, the selected font survives a) Tj ET
-BT /F1 8.2 Tf 45 333 Td (restart, invalid or absent stored values are handled safely, and Git records the work.) Tj ET
-BT /F2 8.2 Tf 45 316 Td (6C Diagnose a persistent-state integration bug) Tj ET
-BT /F1 8.2 Tf 45 299 Td (Skill: Debugging and Testing | Estimate: 90m | Difficulty: High | Priority: Low |) Tj ET
-BT /F1 8.2 Tf 45 287 Td (Prerequisites: 4C, 6B, 7C) Tj ET
-BT /F1 8.2 Tf 45 270 Td (Starting example: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/les) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 7 of 9) Tj ET
+0.13 0.28 0.39 rg
+BT /F2 12 Tf 43 807 Td (C FOR PEBBLE PROGRAMMERS  |  EMERY COURSE) Tj ET
+0.13 0.45 0.60 RG 0.8 w 43 794 m 569 794 l S
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 776 Td (Working with local examples) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 754 Td (Each lesson has its own folder and a README with exact instructions. Book projects have separate) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 743 Td (package.json, wscript, and src/c/main.c files. Use pebble build, pebble install --emulator emery, and) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 732 Td (pebble logs --emulator emery from the project directory.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 715 Td (Debugging exercises: 6A initially fails compilation with a deliberate syntax flaw; 6B compiles but has) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 704 Td (incorrect font-navigation logic; 6C compiles but restores the wrong stored value. Read diagnostics to) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 693 Td (identify the problem. Solutions are withheld.) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 676 Td (Taskwarrior tracking) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 654 Td (Import or update with taskwarrior/import_course.py. The importer matches existing task IDs and preserves) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 643 Td (completion status and personal annotations while refreshing dependencies, estimates and course-generated) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 632 Td (directions.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 615 Td (sh) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 604 Td (python3 taskwarrior/import_course.py) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 593 Td (task project:pebble.course list) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 582 Td (task project:pebble.course unblocked) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 571 Td (task <ID> info) Tj ET
+0.12 0.29 0.40 rg
+BT /F2 12 Tf 43 548 Td (References) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 526 Td (Jipping, M. \(2016\). Learning C with Pebble. GitBook. Source-derived text is clearly marked in the) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 515 Td (associated learning modules.) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 498 Td (Official C SDK documentation: https://developer.repebble.com/docs/c/) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 481 Td (Compatibility note: The C samples are authored/port-adapted for Emery, but the Pebble SDK was not) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 470 Td (available for automated compilation in this environment. Students must validate builds with SDK 4.33.1) Tj ET
+0.11 0.13 0.17 rg
+BT /F1 8.2 Tf 43 459 Td (and the Emery emulator.) Tj ET
+0.74 0.78 0.81 RG 0.5 w 43 41 m 569 41 l S
+0.30 0.38 0.44 rg
+BT /F1 7.2 Tf 43 28 Td (github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
+BT /F1 8 Tf 495 28 Td (Page 7 / 7) Tj ET
 endstream
 endobj
 18 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R >>
 endobj
-19 0 obj
-<< /Length 3868 >>
-stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (sons/6C) Tj ET
-BT /F1 8.2 Tf 45 762 Td (Do: Use the deliberately flawed examples/debug-6c project. Select a nondefault font, exit,) Tj ET
-BT /F1 8.2 Tf 45 751 Td (reopen; document the discrepancy. Inspect the provided startup and selection logs; trace) Tj ET
-BT /F1 8.2 Tf 45 740 Td (storage write/read behavior; fix the single persistence defect and test fresh install plus) Tj ET
-BT /F1 8.2 Tf 45 728 Td (repeated restarts. Do not consult a clean integrated implementation before diagnosing.) Tj ET
-BT /F1 8.2 Tf 45 711 Td (Done when: A reproducible bug report records expected and actual behavior, the cause is) Tj ET
-BT /F1 8.2 Tf 45 700 Td (explained, and the fix passes fresh-start, selection, and restart tests.) Tj ET
-BT /F2 8.2 Tf 45 682 Td (Dependencies and tracking) Tj ET
-BT /F1 8.2 Tf 45 665 Td (Real Taskwarrior depends: relationships are created by taskwarrior/import_course.py) Tj ET
-BT /F1 8.2 Tf 45 654 Td (\(https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/taskwarrior/import_c) Tj ET
-BT /F1 8.2 Tf 45 643 Td (ourse.py\). After importing, use:) Tj ET
-BT /F1 8.2 Tf 45 625 Td (sh) Tj ET
-BT /F1 8.2 Tf 45 614 Td (task project:pebble.course list) Tj ET
-BT /F1 8.2 Tf 45 603 Td (task project:pebble.course unblocked) Tj ET
-BT /F1 8.2 Tf 45 591 Td (task <ID> info) Tj ET
-BT /F1 8.2 Tf 45 568 Td (The importer uses the course IDs to avoid duplicating already imported activities;) Tj ET
-BT /F1 8.2 Tf 45 557 Td (course-generated annotations are refreshed to point to this repository.) Tj ET
-BT /F2 8.2 Tf 45 539 Td (Optional remix levels) Tj ET
-BT /F1 8.2 Tf 45 522 Td (1. Modify one detail in a single example.) Tj ET
-BT /F1 8.2 Tf 45 511 Td (2. Customize several details in one example.) Tj ET
-BT /F1 8.2 Tf 45 500 Td (3. Borrow one feature from another example.) Tj ET
-BT /F1 8.2 Tf 45 488 Td (4. Combine the functionality of two examples.) Tj ET
-BT /F1 8.2 Tf 45 477 Td (5. Combine selected functionality from three examples.) Tj ET
-BT /F1 8.2 Tf 45 466 Td (6. Assemble components into an application with an original purpose.) Tj ET
-BT /F1 8.2 Tf 45 448 Td (The 21 activities are the required core; later remix levels can be pursued independently.) Tj ET
-BT /F2 8.2 Tf 45 431 Td (Reference information) Tj ET
-BT /F1 8.2 Tf 45 414 Td (- Pebble SDK documentation \(https://developer.repebble.com/docs/c/\)) Tj ET
-BT /F1 8.2 Tf 45 402 Td (- Official C watchface tutorial) Tj ET
-BT /F1 8.2 Tf 45 391 Td (\(https://developer.repebble.com/tutorials/watchface-tutorial/part1/\)) Tj ET
-BT /F1 8.2 Tf 45 380 Td (- Persistent-storage API guide) Tj ET
-BT /F1 8.2 Tf 45 369 Td (\(https://developer.repebble.com/guides/events-and-services/persistent-storage/\)) Tj ET
-BT /F1 8.2 Tf 45 351 Td (All examples were written specifically for this course and are Emery-targeted. A local SDK) Tj ET
-BT /F1 8.2 Tf 45 340 Td (build has not been run by the course publisher; always verify in your own emulator.) Tj ET
-BT /F2 8.2 Tf 45 317 Td (Self-contained lesson starters) Tj ET
-BT /F1 8.2 Tf 45 299 Td (Each activity now has an exact starter folder at lessons/<ID>/) Tj ET
-BT /F1 8.2 Tf 45 288 Td (\(https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons\) with its) Tj ET
-BT /F1 8.2 Tf 45 277 Td (own C source, manifest, build script and lesson instructions. Relevant licensed SDK source) Tj ET
-BT /F1 8.2 Tf 45 265 Td (samples are copied into the lesson folder, and their license is retained. The local examples) Tj ET
-BT /F1 8.2 Tf 45 254 Td (are authoritative; external links provide optional background rather than required source) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 8 of 9) Tj ET
-endstream
-endobj
-20 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 19 0 R >>
-endobj
-21 0 obj
-<< /Length 299 >>
-stream
-BT /F2 12 Tf 45 806 Td (C FOR PEBBLE PROGRAMMERS - EMERY \(2026\)) Tj ET
-0.8 w 45 795 m 567 795 l S
-BT /F1 8.2 Tf 45 780 Td (material.) Tj ET
-0.6 w 45 38 m 567 38 l S
-BT /F1 7 Tf 45 26 Td (https://github.com/Darachnid/c-for-pebble-programmers-course) Tj ET
-BT /F1 8 Tf 492 26 Td (Page 9 of 9) Tj ET
-endstream
-endobj
-22 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 21 0 R >>
-endobj
 xref
-0 23
+0 19
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000176 00000 n 
-0000000246 00000 n 
-0000000321 00000 n 
-0000004374 00000 n 
-0000004510 00000 n 
-0000008525 00000 n 
-0000008661 00000 n 
-0000012444 00000 n 
-0000012581 00000 n 
-0000016497 00000 n 
-0000016635 00000 n 
-0000020595 00000 n 
-0000020733 00000 n 
-0000024432 00000 n 
-0000024570 00000 n 
-0000028428 00000 n 
-0000028566 00000 n 
-0000032486 00000 n 
-0000032624 00000 n 
-0000032974 00000 n 
+0000000162 00000 n 
+0000000232 00000 n 
+0000000307 00000 n 
+0000007437 00000 n 
+0000007573 00000 n 
+0000014162 00000 n 
+0000014298 00000 n 
+0000020158 00000 n 
+0000020295 00000 n 
+0000026211 00000 n 
+0000026349 00000 n 
+0000031975 00000 n 
+0000032113 00000 n 
+0000037873 00000 n 
+0000038011 00000 n 
+0000040868 00000 n 
 trailer
-<< /Size 23 /Root 1 0 R >>
+<< /Size 19 /Root 1 0 R >>
 startxref
-33112
+41006
 %%EOF
