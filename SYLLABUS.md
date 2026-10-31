@@ -12,6 +12,8 @@ Each task is complete when (a) its stated functionality or written product meets
 
 **Independent-work policy:** No AI-generated code, answers, diagrams, or debugging solutions during activities. Consult the in-repository starter code, SDK documentation, compiler diagnostics, logs and Git. Future grading arrangements are separate from this syllabus.
 
+**Optional self-check (pilot):** After you finish selected activities (**7A**, **4A** in v1), you may run the local [`assessor`](assessor/README.md) tool (`assess submit <ID>`) to compare your Git-backed evidence and `EVIDENCE.md` against course criteria and meets/below exemplars. It uses spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.
+
 ## Guided materials for all seven competencies
 
 Section 4 is not the whole course. The seven skills remain distinct and equally important *as competencies*, even though the eight C coding activities take more time. Each other skill now has a dedicated, progressively structured A–C reading, linked to its existing activities and local examples.
