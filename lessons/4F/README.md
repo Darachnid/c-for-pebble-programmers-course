@@ -1,0 +1,26 @@
+# 4F — Pointers, Indirection, and Memory Lifetime
+
+**Skill:** C Programming · **Estimate:** 105m · **Difficulty:** High · **Priority:** High · **Prerequisites:** 4E
+
+**Read:** [4F learning module](../../curriculum/c-programming/4F-pointers-memory.md)
+
+**Use exactly:** [starter/](starter/) — an original Pebble SDK C watchapp targeting only Emery (200 × 228).
+
+## Assignment
+
+Rewrite the coordinate update using an output pointer, add a second pointer-based helper, and document what memory each pointer points to and who owns the TextLayer. Deliberately test NULL using a helper, then restore safe code.
+
+## Evidence-based completion
+
+Use addresses and pointer parameters safely and understand ownership of Pebble UI resources. Submit: working Emery build, source diff, brief explanation of your solution, normal-case and boundary-case tests, and the required diagrams/notes where assigned.
+
+## Running
+
+```sh
+cd lessons/4F/starter
+pebble build
+pebble install --emulator emery
+pebble logs --emulator emery
+```
+
+Do not rely on AI to write the exercise or provide an answer key. The included C starter intentionally provides the existing SDK scaffolding but not your requested extension.
