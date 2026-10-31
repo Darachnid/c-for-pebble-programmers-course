@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 
 /* Independent persistence pattern for integration activity 31C.
    Up increments, Down resets; value survives watchapp restart. */
@@ -44,8 +45,9 @@ static void click_config_provider(void *context) {
 static void main_window_load(Window *window) {
   Layer *root = window_get_root_layer(window);
   GRect bounds = layer_get_bounds(root);
-  s_title = text_layer_create(GRect(0, 44, bounds.size.w, 36));
-  s_count_layer = text_layer_create(GRect(0, 87, bounds.size.w, 70));
+  GRect safe = course_content_rect(bounds);
+  s_title = text_layer_create(GRect(safe.origin.x,safe.origin.y+safe.size.h/5,safe.size.w,36));
+  s_count_layer = text_layer_create(GRect(safe.origin.x,safe.origin.y+safe.size.h/2,safe.size.w,70));
   text_layer_set_text(s_title, "Up +1 / Down reset");
   text_layer_set_text_alignment(s_title, GTextAlignmentCenter);
   text_layer_set_text_alignment(s_count_layer, GTextAlignmentCenter);

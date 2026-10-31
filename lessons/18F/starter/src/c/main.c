@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 static Window *s_window;
 static TextLayer *s_label;
 static int s_x=24, s_y=18;
@@ -27,7 +28,8 @@ static void click_config(void *c) {
 }
 static void on_load(Window *w) {
  GRect b=layer_get_bounds(window_get_root_layer(w));
- s_label=text_layer_create(GRect(0,70,b.size.w,80));
+ GRect safe=course_content_rect(b);
+ s_label=text_layer_create(GRect(safe.origin.x,safe.origin.y+(safe.size.h-80)/2,safe.size.w,80));
  text_layer_set_text_alignment(s_label,GTextAlignmentCenter);
  text_layer_set_font(s_label,fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
  layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_label));
