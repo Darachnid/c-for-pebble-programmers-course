@@ -4,8 +4,9 @@ static Window *s_window;
 static Layer *s_canvas;
 
 static void fill_screen(GContext *ctx,GRect bounds) {
+  /* The center-top label remains within Round 2's circular pixel area. */
   /* TODO: repeat the message in a grid using for/while loops. */
-  graphics_draw_text(ctx, "PEBBLE", fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD), GRect(6,4,126,28), GTextOverflowModeTrailingEllipsis, GTextAlignmentCenter, NULL);
+  graphics_draw_text(ctx, "PEBBLE", fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD), GRect(bounds.size.w/2-66,bounds.size.h/2-105,132,28), GTextOverflowModeTrailingEllipsis, GTextAlignmentCenter, NULL);
 }
 static void canvas_update(Layer *layer, GContext *ctx) {
   GRect bounds = layer_get_bounds(layer);
