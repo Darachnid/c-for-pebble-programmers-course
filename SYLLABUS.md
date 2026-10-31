@@ -56,7 +56,7 @@ Score the activity's **primary and supporting competency** at 0–3 using the co
 
 **Independent-work policy:** Do not use AI-generated source, solutions, code explanations, diagrams or debugging fixes to complete exercises. Consult included starters, official SDK documentation, logs, compiler diagnostics and your own notes. Versioned evidence is required. [Detailed scoring and readiness gates](curriculum/course-design/learning-outcomes-and-assessment.md).
 
-**Optional self-check (pilot):** After you finish selected activities (**2A**, **3A** in v1), you may run the local [`assessor`](assessor/README.md) tool (`assess submit <ID>`) to compare your Git-backed evidence and `EVIDENCE.md` against course criteria and meets/below exemplars. It uses spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.
+**Optional self-check (pilot):** After you finish Phase I activities (**1A** through **5A**), you may run the local [`assessor`](assessor/README.md) tool (`assess submit <ID>`) to compare your Git-backed evidence and `EVIDENCE.md` against course criteria and meets/below exemplars. It uses spaCy, not generative AI, does not help during exercises, and does not mark Taskwarrior tasks complete.
 
 ## Recommended integrated course progression
 

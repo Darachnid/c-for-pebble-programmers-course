@@ -10,7 +10,7 @@ from assessor.paths import assessor_dir, find_course_root, rubric_path
 from assessor.report import assess_rubric, format_report_text, save_report
 from assessor.rubric import load_rubric
 
-PILOT_IDS = ("2A", "3A")
+PILOT_IDS = ("1A", "2A", "3A", "4A", "5A")
 
 
 def _activity_id(raw: str) -> str:
