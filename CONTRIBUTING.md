@@ -67,9 +67,9 @@ Then open a PR as in Option A. `git commit` does **not** send anything to GitHub
 
 ## Course-specific submission checklist
 
-- Identify the affected lesson ID(s). Preserve the 26-activity syllabus, actual prerequisites, and correct local example paths; include source/build files for any new example.
+- Identify the affected lesson ID(s). Preserve the 40-activity syllabus, actual prerequisites, and correct local example paths; include source/build files for any new example.
 - Keep runtime examples **Emery-only**: `targetPlatforms: ["emery"]` and SDK 4.33.1. Report build, install, runtime and boundary-case results; if you did not run them, say **not tested**.
-- Do **not** spoil the intentionally flawed debugging exercises 6A, 6B or 6C by publishing fixes as starter code. The no-AI-solutions policy applies to doing coursework; contribution authors remain responsible for testing and fact-checking their changes.
+- Do **not** spoil the intentionally flawed debugging exercises 6A, 6B, 6C, 8C/debug, 8I/debug or 8L/debug by publishing fixes as starter code. The no-AI-solutions policy applies to doing coursework; contribution authors remain responsible for testing and fact-checking their changes.
 - Avoid checking in generated `build/` folders, passwords, private files, Taskwarrior data, or unrelated edits. `git add .` can collect more than you intend; inspect `git status` first. Do not use `git reset --hard` or force-push when uncertain.
 - Respect copyright: preserve MIT notices in bundled Pebble samples; identify the provenance and license of new text/code/artwork; do not add copied textbook material without permission.
 - A useful PR explains **what problem, what changed, how tested, and what remains unverified**. Screenshots or short logs can help. Never claim compilation has passed without running the SDK.

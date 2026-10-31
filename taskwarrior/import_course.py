@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emery-only resume-safe importer for the 26-task Pebble C course.
+"""Emery-only resume-safe importer for the 40-task Pebble C course.
 
 Platform: Pebble Time 2, Emery, 200x228 rectangular display.
 Every starting example is Emery-targeted: verified emery platform in its
@@ -1133,6 +1133,12 @@ for item in TASKS:
 for key in ("4D", "4E", "4F", "4G", "4H"):
     TASKS.append(dict(COURSE_V2[key]))
 TASKS.sort(key=lambda item: COURSE_SEQUENCE.index(item["key"]))
+
+# Supplement the legacy course with new numbered capability labs.
+# Preserve the original 26 IDs and every user's recorded completion state.
+from pathlib import Path
+with (Path(__file__).parent / "extension_8_api.json").open(encoding="utf-8") as extension_file:
+    TASKS.extend(json.load(extension_file))
 
 SHORT = {"H": "High", "M": "Medium", "L": "Low"}
 

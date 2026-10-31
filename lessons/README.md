@@ -1,6 +1,6 @@
-# Emery lesson directory — 26 activities
+# Emery lesson directory — 40 activities
 
-Every activity has a numbered folder and an exact local starting project. Read the [all-skills curriculum index](../curriculum/README.md) and the relevant guide before beginning each A–C lesson in competencies 1–3 and 5–7. All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
+Every activity has a numbered folder and an exact local starting project. All seven competencies now have [companion readings](../curriculum/README.md), alongside the [14-lab API track](../curriculum/pebble-api/README.md). All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
 
 | ID | Activity | Time | Depends on | Source |
 |---|---|---:|---|---|
@@ -32,3 +32,24 @@ Every activity has a numbered folder and an exact local starting project. Read t
 | [6C](6C/) | Diagnose a persistent-state integration bug | 90m | 4H, 6B, 7C | [Local lesson](6C/) |
 
 The default course uses Emery only. 6A is intentionally compiler-broken, while 6B and 6C contain deliberate runtime faults. No answers are supplied. Use `pebble build` followed by `pebble install --emulator emery` from each project directory.
+
+## Added API labs (8A–8N)
+
+| Lesson | Topic | Time | Prerequisites |
+|---|---|---:|---|
+| [8A](8A/) | Windows and layers | 60m | 7A, 3A |
+| [8B](8B/) | Menus and scrolling | 75m | 8A, 4E |
+| [8C](8C/) | Button interactions | 60m | 8A, 4H |
+| [8D](8D/) | Custom drawing | 75m | 8B, 4D |
+| [8E](8E/) | Graphics paths | 75m | 8D, 4F |
+| [8F](8F/) | Bitmap manipulation | 90m | 8E, 4F |
+| [8G](8G/) | Accelerometer | 90m | 8C, 4H |
+| [8H](8H/) | Magnetometer / compass | 90m | 8G |
+| [8I](8I/) | Ambient-light limits and backlight | 45m | 8H, 5C |
+| [8J](8J/) | Vibration | 45m | 8I, 8C |
+| [8K](8K/) | App timers | 75m | 8C, 4H |
+| [8L](8L/) | Resource files | 65m | 8F, 5C |
+| [8M](8M/) | Persistent storage | 75m | 8K, 7C |
+| [8N](8N/) | Phone communication | 120m | 8L, 4H, 7B |
+
+All 14 source checkpoints are local, self-contained Emery watchapps. Their progression is explained in [the Pebble API track](../curriculum/pebble-api/README.md).

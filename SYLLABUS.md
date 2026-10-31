@@ -1,6 +1,6 @@
 # C for Pebble Programmers — Complete Emery Syllabus
 
-**Platform:** Pebble Time 2 (`emery`, rectangular 200 × 228) · **Language:** C · **SDK:** 4.33.1 · **Core skills:** 7 · **Required activities:** 26 · **Estimated focused time:** 31h 15m
+**Platform:** Pebble Time 2 (`emery`, rectangular 200 × 228) · **Language:** C · **SDK:** 4.33.1 · **Core skills:** 7 · **Required activities:** 40 · **Estimated focused time:** 48h 35m
 
 ## Purpose
 
@@ -11,7 +11,6 @@ Develop independent capability in **UI Design, Idea Generation, Algorithmic Thin
 Each task is complete when (a) its stated functionality or written product meets the learning objective, (b) a tangible artifact supports that claim—code, emulator output, API note, pseudocode, sketch, or debugging record—and (c) the student can independently explain the work. Keep a versioned source diff where coding is involved. Attempt normal and boundary cases. Time spent alone is not evidence of mastery.
 
 **Independent-work policy:** No AI-generated code, answers, diagrams, or debugging solutions during activities. Consult the in-repository starter code, SDK documentation, compiler diagnostics, logs and Git. Future grading arrangements are separate from this syllabus.
-
 
 ## Guided materials for all seven competencies
 
@@ -26,10 +25,11 @@ Section 4 is not the whole course. The seven skills remain distinct and equally 
 | Resource Literacy | [API contracts, source reading, research](curriculum/resource-literacy/README.md) | [5A](lessons/5A/), [5B](lessons/5B/), [5C](lessons/5C/) | 2h 05m | Documented evidence, implementation plan |
 | Debugging and Testing | [Reproduction, diagnosis, regression](curriculum/debugging-testing/README.md) | [6A](lessons/6A/), [6B](lessons/6B/), [6C](lessons/6C/) | 2h 35m | Before/after logs, minimal fix, tests |
 | Development Tools and Workflow | [Build, Git, integration](curriculum/tools-workflow/README.md) | [7A](lessons/7A/), [7B](lessons/7B/), [7C](lessons/7C/) | 3h 45m | Reproducible build, commits, integration |
+| **Cross-cutting Pebble APIs** | [14 cumulative capability labs](curriculum/pebble-api/README.md) | [8A–8N](curriculum/pebble-api/README.md) | 17h 20m | Three revisited Emery project families and API verification |
 
 **Course-wide practice loop:** Predict → examine the **lesson-local** source → make a change or complete the written artifact → verify normal and boundary cases → explain and record evidence. A design sketch is assessed as design evidence, not as a C build; code work must be tested on `emery`.
 
-**Revisited example families:** The **time-only clock** underpins 7A, 1A, 1B, 3A and 5A; the **font browser** underpins 5B, 3B, 6B and the final integration; the **persistent counter** underpins 2B, 5C and 7C/6C. These are related lesson-local versions, not one continuously edited original project. The existing 26 tasks, prerequisites and time estimates are preserved.
+**Revisited example families:** The **time-only clock** underpins 7A, 1A, 1B, 3A and 5A; the **font browser** underpins 5B, 3B, 6B and the final integration; the **persistent counter** underpins 2B, 5C and 7C/6C. These are related lesson-local versions, not one continuously edited original project. The original 26 foundational activities plus the 14 new Pebble SDK capability labs remain 40 tasks. Their existing prerequisites and time estimates are preserved.
 
 See the [learning-materials index](curriculum/README.md) for the guide-to-lesson map and [contribution instructions](CONTRIBUTING.md) for Git help.
 
@@ -366,6 +366,168 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Complete when:** A reproducible bug report records expected and actual behavior, the cause is explained, and the fix passes fresh-start, selection, and restart tests.
 
+### Phase V — Three cumulative Emery capability projects
+
+Fourteen new required lessons extend the curriculum with Windows, menus, button handling, graphics, sensors, resources, and phone communication. These are **watchapps** (unlike the original time-only watchface) to permit direct button interaction. Use [the three-project progression](curriculum/pebble-api/README.md) and [original chapter crosswalk](curriculum/pebble-api/capability-matrix.md).
+
+| Lesson | Topic | Duration | Depends on |
+|---|---|---:|---|
+| [8A](lessons/8A/) | Windows and layers | 60m | 7A, 3A |
+| [8B](lessons/8B/) | Menus and scrolling | 75m | 8A, 4E |
+| [8C](lessons/8C/) | Button interactions | 60m | 8A, 4H |
+| [8D](lessons/8D/) | Custom drawing | 75m | 8B, 4D |
+| [8E](lessons/8E/) | Graphics paths | 75m | 8D, 4F |
+| [8F](lessons/8F/) | Bitmap manipulation | 90m | 8E, 4F |
+| [8G](lessons/8G/) | Accelerometer | 90m | 8C, 4H |
+| [8H](lessons/8H/) | Magnetometer / compass | 90m | 8G |
+| [8I](lessons/8I/) | Ambient-light limits and backlight | 45m | 8H, 5C |
+| [8J](lessons/8J/) | Vibration | 45m | 8I, 8C |
+| [8K](lessons/8K/) | App timers | 75m | 8C, 4H |
+| [8L](lessons/8L/) | Resource files | 65m | 8F, 5C |
+| [8M](lessons/8M/) | Persistent storage | 75m | 8K, 7C |
+| [8N](lessons/8N/) | Phone communication | 120m | 8L, 4H, 7B |
+
+#### 8A — Windows and layers
+
+**Skill:** C Programming / SDK Lab · **Time:** 60m · **Prerequisites:** 7A, 3A
+
+**Exact starting project:** [lessons/8A/starter/](lessons/8A/starter/) and [activity instructions](lessons/8A/README.md).
+
+**Do:** Extend the time-only watchapp with a second Window and root/child layers; trace create/load/unload/destroy.
+
+**Complete when:** Both screens can be displayed; illustrate layer hierarchy and clean teardown.
+
+#### 8B — Menus and scrolling
+
+**Skill:** C Programming / SDK Lab · **Time:** 75m · **Prerequisites:** 8A, 4E
+
+**Exact starting project:** [lessons/8B/starter/](lessons/8B/starter/) and [activity instructions](lessons/8B/README.md).
+
+**Do:** Build a six-entry scrolling Field Guide menu; implement draw_row and select_click; test the first, middle, and last rows.
+
+**Complete when:** Six entries scroll smoothly and selecting a row changes the visible species.
+
+#### 8C — Button interactions
+
+**Skill:** C Programming / SDK Lab · **Time:** 60m · **Prerequisites:** 8A, 4H
+
+**Exact starting project:** [lessons/8C/starter/](lessons/8C/starter/) and [activity instructions](lessons/8C/README.md).
+
+**Do:** Add Select to open Clock Workshop details and Up/Down to adjust a bounded counter; Back returns via window stack.
+
+**Complete when:** Three buttons and Back behave correctly, including minimum/maximum boundary cases.
+
+#### 8D — Custom drawing
+
+**Skill:** C Programming / SDK Lab · **Time:** 75m · **Prerequisites:** 8B, 4D
+
+**Exact starting project:** [lessons/8D/starter/](lessons/8D/starter/) and [activity instructions](lessons/8D/README.md).
+
+**Do:** Use a custom Field Guide Layer to draw a symbol using primitives; change its output on a menu selection and mark dirty.
+
+**Complete when:** A visible non-clipped drawing changes on demand and you can explain the drawing callback.
+
+#### 8E — Graphics paths
+
+**Skill:** C Programming / SDK Lab · **Time:** 75m · **Prerequisites:** 8D, 4F
+
+**Exact starting project:** [lessons/8E/starter/](lessons/8E/starter/) and [activity instructions](lessons/8E/README.md).
+
+**Do:** Build a vertex-based species symbol using GPath; move it on selection and destroy it correctly.
+
+**Complete when:** A graphics path appears in two positions and ownership/bounds are demonstrated.
+
+#### 8F — Bitmap manipulation
+
+**Skill:** C Programming / SDK Lab · **Time:** 90m · **Prerequisites:** 8E, 4F
+
+**Exact starting project:** [lessons/8F/starter/](lessons/8F/starter/) and [activity instructions](lessons/8F/README.md).
+
+**Do:** Create a 24x24 bitmap in memory, safely alter two-color pixels by row stride, and show it in a BitmapLayer.
+
+**Complete when:** Pixels visibly change with no out-of-bounds writes; bitmap and layer are freed.
+
+#### 8G — Accelerometer
+
+**Skill:** C Programming / SDK Lab · **Time:** 90m · **Prerequisites:** 8C, 4H
+
+**Exact starting project:** [lessons/8G/starter/](lessons/8G/starter/) and [activity instructions](lessons/8G/README.md).
+
+**Do:** Subscribe to batched XYZ motion samples, rate-limit display and unsubscribe during shutdown.
+
+**Complete when:** Hardware data or a documented emulator limitation with sample logs, rate, and cleanup.
+
+#### 8H — Magnetometer / compass
+
+**Skill:** C Programming / SDK Lab · **Time:** 90m · **Prerequisites:** 8G
+
+**Exact starting project:** [lessons/8H/starter/](lessons/8H/starter/) and [activity instructions](lessons/8H/README.md).
+
+**Do:** Add magnetic heading with CompassService; show unavailable/calibrating/valid states and guard unavailable hardware.
+
+**Complete when:** Heading/calibration on supported hardware, otherwise a guarded unavailable report.
+
+#### 8I — Ambient-light limits and backlight
+
+**Skill:** C Programming / SDK Lab · **Time:** 45m · **Prerequisites:** 8H, 5C
+
+**Exact starting project:** [lessons/8I/starter/](lessons/8I/starter/) and [activity instructions](lessons/8I/README.md).
+
+**Do:** Add user-triggered backlight interaction. Explicitly distinguish the public backlight API from unavailable raw lux readings.
+
+**Complete when:** Backlight interaction works and API note explains the ambient-light measurement limitation.
+
+#### 8J — Vibration
+
+**Skill:** C Programming / SDK Lab · **Time:** 45m · **Prerequisites:** 8I, 8C
+
+**Exact starting project:** [lessons/8J/starter/](lessons/8J/starter/) and [activity instructions](lessons/8J/README.md).
+
+**Do:** Add optional vibration to a deliberate user action; never vibrate on startup or continuously for sensor data.
+
+**Complete when:** Explicit trigger and off mode are demonstrated; no repeated unintended feedback.
+
+#### 8K — App timers
+
+**Skill:** C Programming / SDK Lab · **Time:** 75m · **Prerequisites:** 8C, 4H
+
+**Exact starting project:** [lessons/8K/starter/](lessons/8K/starter/) and [activity instructions](lessons/8K/README.md).
+
+**Do:** Add a one-second elapsed counter to Clock Workshop while retaining minute tick for clock time. Reschedule/cancel safely.
+
+**Complete when:** One running timer, correct elapsed output, and no callback after cleanup.
+
+#### 8L — Resource files
+
+**Skill:** C Programming / SDK Lab · **Time:** 65m · **Prerequisites:** 8F, 5C
+
+**Exact starting project:** [lessons/8L/starter/](lessons/8L/starter/) and [activity instructions](lessons/8L/README.md).
+
+**Do:** Bundle a raw field-note resource and read it with bounded NUL-terminated storage; compare read-only resources and persistent data.
+
+**Complete when:** Raw file is loaded without overflow; truncation and empty cases are considered.
+
+#### 8M — Persistent storage
+
+**Skill:** C Programming / SDK Lab · **Time:** 75m · **Prerequisites:** 8K, 7C
+
+**Exact starting project:** [lessons/8M/starter/](lessons/8M/starter/) and [activity instructions](lessons/8M/README.md).
+
+**Do:** Save Clock Workshop's user-defined setting and restore safely on restart; reset invalid data, do not persist live seconds.
+
+**Complete when:** Persistent, absent and invalid cases all behave as specified.
+
+#### 8N — Phone communication
+
+**Skill:** C Programming / SDK Lab · **Time:** 120m · **Prerequisites:** 8L, 4H, 7B
+
+**Exact starting project:** [lessons/8N/starter/](lessons/8N/starter/) and [activity instructions](lessons/8N/README.md).
+
+**Do:** Implement watch-to-phone request and phone-to-watch reply starting from src/js/app.js and the messageKeys manifest; keep offline fallback.
+
+**Complete when:** Two-way log with success, failure and invalid payload behavior; no required continuous connection.
+
+
 ## Activity types
 
 **Capability Labs:** Isolate one technique (e.g., TextLayers, iteration, button callbacks, arrays, persistence, or state) and test what it enables.
@@ -391,7 +553,7 @@ task <ID> info
 
 ## Format and permissions
 
-This Markdown file is canonical. [The PDF](SYLLABUS.pdf) is an older snapshot pending regeneration. Book-derived text in readings 4A–4D must be reviewed for permissions before any new whole-repository content license is chosen; see [README license options](README.md#license-options-not-yet-selected).
+The Markdown syllabus is canonical. [The PDF](SYLLABUS.pdf) covers 40 activities but precedes the new non-C companion-reading links. Review book-derived text in readings 4A–4D for rights/permissions before applying a blanket license; see [README license options](README.md#license-options-not-yet-selected) and [beginner contributing guide](CONTRIBUTING.md).
 
 ## References
 
@@ -400,3 +562,5 @@ Jipping, M. (2016). *Learning C with Pebble*. GitBook. Source-derived text is cl
 Official C SDK documentation: https://developer.repebble.com/docs/c/
 
 **Compatibility note:** The C samples are authored/port-adapted for Emery, but the Pebble SDK was not available for automated compilation in this environment. Students must validate builds with SDK 4.33.1 and the Emery emulator.
+
+**Edition note:** `SYLLABUS.pdf` has been regenerated to include the 40-activity course.

@@ -29,4 +29,6 @@ The three families are **related examples, not guaranteed step-by-step snapshots
 3. **Verify:** run on `emery` when coding, including a normal and boundary case; for design/research, validate against requirements and primary documentation.
 4. **Explain and record:** save the artifact, a short explanation, and a source diff or citation trail. Completion requires evidence, not just elapsed time.
 
+**Additional cumulative track:** Clock Workshop (8A/8C/8K/8M), Field Instrument (8G–8J), and Pocket Field Guide (8B/8D–8F/8L/8N) extend these foundational methods to platform capabilities. All 14 checkpoints retain independent local starters. They are part of the 40-activity syllabus, not extra optional material.
+
 The [syllabus](../SYLLABUS.md) defines timing, prerequisites and acceptance criteria. [Lesson folders](../lessons/README.md) contain the actual source. The [PDF snapshot](../SYLLABUS.pdf) may lag behind the canonical Markdown syllabus until regenerated.
