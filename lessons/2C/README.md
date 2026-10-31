@@ -1,6 +1,6 @@
 # 2C — Develop an original Pebble app concept
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Idea Generation · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2B, 5C
 
 ## Exact local examples
 

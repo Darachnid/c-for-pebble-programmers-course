@@ -1,6 +1,6 @@
 # 1C — Design a multi-mode Pebble interface
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** UI Design · **Estimate:** 90m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1B, 2C, 3C, 4H
 
 ## Exact local example
 

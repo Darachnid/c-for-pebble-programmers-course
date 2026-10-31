@@ -1,6 +1,6 @@
 # 1B — Add and style a date TextLayer
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** UI Design · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 1A, 4D, 5A
 
 ## Exact local example
 

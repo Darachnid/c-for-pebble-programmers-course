@@ -1,6 +1,6 @@
 # 2B — Write a two-example remix brief
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Idea Generation · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 2A, 5B
 
 ## Exact local examples
 

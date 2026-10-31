@@ -1,6 +1,6 @@
 # 2A — Explore Pebble examples
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Idea Generation · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
 ## Exact local examples
 

@@ -1,6 +1,6 @@
 # 3A — Trace the watchface lifecycle
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4D, 7A
 
 ## Exact local example
 

@@ -1,6 +1,6 @@
 # 3C — Design a state machine for an app
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Algorithmic Thinking · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2C, 3B, 4G
 
 ## Exact local example
 
@@ -10,7 +10,7 @@ Use the local example as a reference. Make your own decisions and retain the evi
 
 ## Your task
 
-Use your original emery app concept or the Emery Touch Tone watchapp as an input-pattern reference. Enumerate states, transitions, button press behavior, screen changes, and edge cases. Create a state diagram and table. Plan for Emery input and display only.
+Use your original emery app concept or the included local font-selector watchapp as an input-pattern reference. Enumerate states, transitions, button press behavior, screen changes, and edge cases. Create a state diagram and table. Plan for Emery input and display only.
 
 ## Completion evidence
 

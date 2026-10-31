@@ -1,6 +1,6 @@
 # 3B — Design a font-cycling algorithm
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 5B
 
 ## Exact local example
 

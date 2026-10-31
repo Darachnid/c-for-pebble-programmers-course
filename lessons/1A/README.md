@@ -1,6 +1,6 @@
 # 1A — Change one visual property of a time-only watchface
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** UI Design · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 5A, 7A
 
 ## Exact local example
 
