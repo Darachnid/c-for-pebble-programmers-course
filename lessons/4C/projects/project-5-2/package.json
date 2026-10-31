@@ -1,0 +1,20 @@
+{
+  "name": "emery-c-project-5-2",
+  "version": "1.0.0",
+  "private": true,
+  "author": "C for Pebble Programmers Course",
+  "pebble": {
+    "displayName": "Project 5.2",
+    "uuid": "c0dec0de-2000-4000-8000-000000000356",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
