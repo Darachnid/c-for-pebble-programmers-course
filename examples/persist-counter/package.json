@@ -1,0 +1,20 @@
+{
+  "name": "pebble-course-persist-counter",
+  "version": "1.0.0",
+  "private": true,
+  "author": "C for Pebble Programmers Course",
+  "pebble": {
+    "displayName": "persist counter",
+    "uuid": "e24a41a6-26e7-4a67-b960-faaa11000003",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}

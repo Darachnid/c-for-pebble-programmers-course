@@ -1,0 +1,20 @@
+{
+  "name": "pebble-course-debug-6b",
+  "version": "1.0.0",
+  "private": true,
+  "author": "C for Pebble Programmers Course",
+  "pebble": {
+    "displayName": "debug 6b",
+    "uuid": "e24a41a6-26e7-4a67-b960-faaa11000005",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
