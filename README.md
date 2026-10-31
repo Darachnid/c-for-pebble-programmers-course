@@ -60,7 +60,7 @@ This is a **proposal**, not a license grant. See [GitHub's licensing explanation
 
 ## Syllabus formats
 
-[SYLLABUS.md](SYLLABUS.md) is the up-to-date authoritative syllabus. [SYLLABUS.pdf](SYLLABUS.pdf) covers the 41 activities but **has not yet been regenerated** with the newest companion-reading links. The Markdown version should be used for current assignments and links.
+[SYLLABUS.md](SYLLABUS.md) is the up-to-date authoritative syllabus. [SYLLABUS.pdf](SYLLABUS.pdf) has been regenerated for the 41-activity syllabus, including the recent assessor note. The Markdown version remains the authoritative editable edition, with local links to full companion readings.
 
 ## Pedagogical redesign
 
