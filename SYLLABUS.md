@@ -31,7 +31,7 @@ The digit indicates the core skill; A/B/C is low/medium/high within that skill. 
 
 ## Local example library
 
-Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md). All assigned starter code in this syllabus lives in this repository; external reference links are secondary background.
+Start with [lessons/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/lessons/README.md). All assigned starter code in this syllabus lives in this repository; external reference links are secondary background.
 
 
 ## Phase I: Orientation and first modification
@@ -40,7 +40,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Idea Generation · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
-**Starting example:** [examples/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md)
+**Starting example:** [Complete local starter — lessons/2A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A)
 
 **Do:** Browse only the included Emery-targeted projects under examples/, initially time-only, font-selector, and persist-counter. Choose one and brainstorm five creative variations; describe what changes and what new API each might require. Do not browse or solve the debugging challenges yet.
 
@@ -50,7 +50,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Development Tools and Workflow · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/7A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7A)
 
 **Do:** Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.
 
@@ -60,7 +60,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** C Programming · **Estimate:** 45m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 7A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/4A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4A)
 
 **Do:** Use your time-only watchface source. In your own notes, annotate the variable declarations, data types, pointers, function calls, arguments, and callback registrations. For each function, state its responsibility. Mark which calls happen directly and which functions Pebble calls as callbacks. Do not use AI to explain or write the annotations.
 
@@ -70,7 +70,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/5A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A)
 
 **Do:** Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.
 
@@ -80,7 +80,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/3A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A)
 
 **Do:** Draw the execution flow for the time-only watchface. Include main(), init(), window_stack_push(), main_window_load(), update_time(), tick_handler(), app_event_loop(), main_window_unload(), and deinit() where applicable. Show which functions call other functions and which are callbacks. Show the separate path for a minute tick after startup.
 
@@ -90,7 +90,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** UI Design · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 5A, 7A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/1A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A)
 
 **Do:** Start from the time-only checkpoint of the C watchface tutorial: the code after 'Displaying the Time' and before 'Adding the Date'. Choose exactly one visual property to change: font, position, alignment, text color, or background color. Make the change, build, and inspect it in the emulator. Keep the time working and do not add the date or other functionality.
 
@@ -100,7 +100,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
-**Starting example:** [examples/debug-6a/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/debug-6a/README.md)
+**Starting example:** [Complete local starter — lessons/6A](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A)
 
 **Do:** Start from the deliberately flawed examples/debug-6a project. Run pebble build; capture the first compiler diagnostic; identify and correct the single syntax fault; rebuild and run on emery. The original clean time-only example is for comparison AFTER the diagnosis.
 
@@ -113,7 +113,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Development Tools and Workflow · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 7A, 1A, 6A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/7B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B)
 
 **Do:** Create your own working copy of the example; do not edit the reference repository in place. Initialize or use a Git repository, commit the known-good starting point, make one small visual modification, build and test it, then commit the working change with a meaningful message. Confirm you can inspect the diff and return to the earlier version.
 
@@ -123,7 +123,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Resource Literacy · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 4A, 5A
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/5B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5B)
 
 **Do:** Open the Font Browser example. Find where button input is registered or handled, identify the state that changes, and follow the code until the display is updated. Use the README and SDK docs to look up unfamiliar APIs. Write down the file/function names and draw the input -> state change -> display update path.
 
@@ -133,7 +133,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** UI Design · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 1A, 4A, 5A
 
-**Starting example:** [examples/time-only/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/time-only/README.md)
+**Starting example:** [Complete local starter — lessons/1B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1B)
 
 **Do:** From YOUR time-only emery code, follow the Adding the Date section of the current C tutorial to create, style, position, update, and unload a second TextLayer. Arrange time and date for the Emery 200x228 screen. Build and install on emery. Do not switch to a completed repository.
 
@@ -143,7 +143,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 5B
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/3B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3B)
 
 **Do:** Before editing code, write pseudocode for cycling through a list of fonts in both directions. Define how the selected font is represented, what Up and Down do, whether the list wraps at either end, and how the screen is refreshed. Work through the first item, last item, and a one-item list. Keep this as an algorithm-design exercise; do not implement it yet.
 
@@ -153,7 +153,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Idea Generation · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 2A, 5B
 
-**Starting example:** [examples/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md)
+**Starting example:** [Complete local starter — lessons/2B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2B)
 
 **Do:** Select two examples from the included examples/ folder (such as time-only and persist-counter). Describe a possible new application using an element from each. State its purpose, the elements to borrow, the smallest working version and a technical uncertainty. Do not implement yet.
 
@@ -163,7 +163,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** C Programming · **Estimate:** 120m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3B, 5B, 7B
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/4B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4B)
 
 **Do:** Start from the working local Emery font-selector watchapp. Trace its input handler, index state, and apply_font function; add one extension you design yourself (e.g., index indicator or extra preview), committing and testing after each change. This is a watchapp, so Up/Down are available.
 
@@ -173,7 +173,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Debugging and Testing · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 4B, 6A
 
-**Starting example:** [examples/debug-6b/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/debug-6b/README.md)
+**Starting example:** [Complete local starter — lessons/6B](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6B)
 
 **Do:** Use the provided deliberately flawed examples/debug-6b project. It compiles but navigation behaves incorrectly. Reproduce four successive Up and Down presses, collect the included APP_LOG index traces with pebble logs --emulator emery, locate the wrong transition, apply a minimal fix and verify both boundaries. Compare with the clean example only after debugging.
 
@@ -186,7 +186,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Resource Literacy · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 5B
 
-**Starting example:** [examples/persist-counter/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/persist-counter/README.md)
+**Starting example:** [Complete local starter — lessons/5C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5C)
 
 **Do:** Study the local Emery persist-counter app. Identify how it checks for saved data, reads it at startup, and writes changes. Research the SDK's persistence functions using official documentation, and write an implementation plan to reuse the pattern in another app; no copy-and-paste integration yet.
 
@@ -196,7 +196,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Idea Generation · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2B, 5C
 
-**Starting example:** [examples/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md)
+**Starting example:** [Complete local starter — lessons/2C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2C)
 
 **Do:** Use the included examples/ collection as inspiration. Propose three original Pebble Time 2 applications based on your interests. Compare feasibility and learning value; write a minimal specification for one without committing to build it.
 
@@ -206,7 +206,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Algorithmic Thinking · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2C, 3B, 4B
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/3C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3C)
 
 **Do:** Use your original emery app concept or the Emery Touch Tone watchapp as an input-pattern reference. Enumerate states, transitions, button press behavior, screen changes, and edge cases. Create a state diagram and table. Plan for Emery input and display only.
 
@@ -216,7 +216,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** UI Design · **Estimate:** 90m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1B, 2C, 3C, 4B
 
-**Starting example:** [examples/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/README.md)
+**Starting example:** [Complete local starter — lessons/1C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1C)
 
 **Do:** Using your concept from 2C and the state diagram from 3C, draw each interface mode for the Emery 200x228 rectangular screen. Use layouts from the included simple examples as starting references, but develop your own visual hierarchy and navigation.
 
@@ -226,7 +226,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** C Programming · **Estimate:** 90m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 3B, 4B, 5C
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/4C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/4C)
 
 **Do:** Using your emery-compatible Font Browser implementation, refactor selected font state and update logic into reusable functions without duplicating cases. Use current C watchface custom font tutorial Part 2 if you add font resources. Confirm correct loading/unloading. Build, install, and test on emery exclusively.
 
@@ -239,7 +239,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Development Tools and Workflow · **Estimate:** 150m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2C, 4C, 5B, 7B
 
-**Starting example:** [examples/font-selector/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/font-selector/README.md)
+**Starting example:** [Complete local starter — lessons/7C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7C)
 
 **Do:** Start with the local clean font-selector project and the local persist-counter reference. Add persistent selection to your own font app, saving its font index and restoring it on startup, with a safe default for missing/out-of-range values. Build and test on Emery; do not simply copy the integrated debugging sample.
 
@@ -249,7 +249,7 @@ Start with [examples/README.md](https://github.com/Darachnid/c-for-pebble-progra
 
 **Skill:** Debugging and Testing · **Estimate:** 90m · **Difficulty:** High · **Priority:** Low · **Prerequisites:** 4C, 6B, 7C
 
-**Starting example:** [examples/debug-6c/README.md](https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/examples/debug-6c/README.md)
+**Starting example:** [Complete local starter — lessons/6C](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6C)
 
 **Do:** Use the deliberately flawed examples/debug-6c project. Select a nondefault font, exit, reopen; document the discrepancy. Inspect the provided startup and selection logs; trace storage write/read behavior; fix the single persistence defect and test fresh install plus repeated restarts. Do not consult a clean integrated implementation before diagnosing.
 
@@ -286,3 +286,7 @@ The 21 activities are the required core; later remix levels can be pursued indep
 
 All examples were written specifically for this course and are Emery-targeted. **A local SDK build has not been run by the course publisher; always verify in your own emulator.**
 
+
+## Self-contained lesson starters
+
+Each activity now has an exact starter folder at [`lessons/<ID>/`](https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons) with its own C source, manifest, build script and lesson instructions. Relevant licensed SDK source samples are copied into the lesson folder, and their license is retained. The local examples are authoritative; external links provide optional background rather than required source material.

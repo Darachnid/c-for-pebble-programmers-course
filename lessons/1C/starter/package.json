@@ -1,0 +1,20 @@
+{
+  "name": "course-lessons-1c-starter",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Pebble Technology (original MIT source; adapted manifest)",
+  "pebble": {
+    "displayName": "lessons 1C starter",
+    "uuid": "c0dec0de-2000-4000-8000-000000000023",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}

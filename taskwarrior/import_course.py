@@ -546,7 +546,29 @@ TASKS = [{'key': '2A',
 # Repository-first reference mapping. The original lesson data remains intact, but
 # every course task now points to its version-controlled in-repository starter.
 COURSE_REPO = "https://github.com/Darachnid/c-for-pebble-programmers-course"
-COURSE_EXAMPLES = {"2A":"examples/README.md","7A":"examples/time-only/README.md","4A":"examples/time-only/README.md","5A":"examples/time-only/README.md","3A":"examples/time-only/README.md","1A":"examples/time-only/README.md","6A":"examples/debug-6a/README.md","7B":"examples/time-only/README.md","5B":"examples/font-selector/README.md","1B":"examples/time-only/README.md","3B":"examples/font-selector/README.md","2B":"examples/README.md","4B":"examples/font-selector/README.md","6B":"examples/debug-6b/README.md","5C":"examples/persist-counter/README.md","2C":"examples/README.md","3C":"examples/font-selector/README.md","1C":"examples/README.md","4C":"examples/font-selector/README.md","7C":"examples/font-selector/README.md","6C":"examples/debug-6c/README.md"}
+COURSE_EXAMPLES = {
+  "2A": "lessons/2A/README.md",
+  "7A": "lessons/7A/README.md",
+  "4A": "lessons/4A/README.md",
+  "5A": "lessons/5A/README.md",
+  "3A": "lessons/3A/README.md",
+  "1A": "lessons/1A/README.md",
+  "6A": "lessons/6A/README.md",
+  "7B": "lessons/7B/README.md",
+  "5B": "lessons/5B/README.md",
+  "1B": "lessons/1B/README.md",
+  "3B": "lessons/3B/README.md",
+  "2B": "lessons/2B/README.md",
+  "4B": "lessons/4B/README.md",
+  "6B": "lessons/6B/README.md",
+  "5C": "lessons/5C/README.md",
+  "2C": "lessons/2C/README.md",
+  "3C": "lessons/3C/README.md",
+  "1C": "lessons/1C/README.md",
+  "4C": "lessons/4C/README.md",
+  "7C": "lessons/7C/README.md",
+  "6C": "lessons/6C/README.md"
+}
 COURSE_OVERRIDES = {"2A":"Browse only the included Emery-targeted projects under examples/, initially time-only, font-selector, and persist-counter. Choose one and brainstorm five creative variations; describe what changes and what new API each might require. Do not browse or solve the debugging challenges yet.","6A":"Start from the deliberately flawed examples/debug-6a project. Run pebble build; capture the first compiler diagnostic; identify and correct the single syntax fault; rebuild and run on emery. The original clean time-only example is for comparison AFTER the diagnosis.","2B":"Select two examples from the included examples/ folder (such as time-only and persist-counter). Describe a possible new application using an element from each. State its purpose, the elements to borrow, the smallest working version and a technical uncertainty. Do not implement yet.","4B":"Start from the working local Emery font-selector watchapp. Trace its input handler, index state, and apply_font function; add one extension you design yourself (e.g., index indicator or extra preview), committing and testing after each change. This is a watchapp, so Up/Down are available.","6B":"Use the provided deliberately flawed examples/debug-6b project. It compiles but navigation behaves incorrectly. Reproduce four successive Up and Down presses, collect the included APP_LOG index traces with pebble logs --emulator emery, locate the wrong transition, apply a minimal fix and verify both boundaries. Compare with the clean example only after debugging.","5C":"Study the local Emery persist-counter app. Identify how it checks for saved data, reads it at startup, and writes changes. Research the SDK's persistence functions using official documentation, and write an implementation plan to reuse the pattern in another app; no copy-and-paste integration yet.","2C":"Use the included examples/ collection as inspiration. Propose three original Pebble Time 2 applications based on your interests. Compare feasibility and learning value; write a minimal specification for one without committing to build it.","1C":"Using your concept from 2C and the state diagram from 3C, draw each interface mode for the Emery 200x228 rectangular screen. Use layouts from the included simple examples as starting references, but develop your own visual hierarchy and navigation.","7C":"Start with the local clean font-selector project and the local persist-counter reference. Add persistent selection to your own font app, saving its font index and restoring it on startup, with a safe default for missing/out-of-range values. Build and test on Emery; do not simply copy the integrated debugging sample.","6C":"Use the deliberately flawed examples/debug-6c project. Select a nondefault font, exit, reopen; document the discrepancy. Inspect the provided startup and selection logs; trace storage write/read behavior; fix the single persistence defect and test fresh install plus repeated restarts. Do not consult a clean integrated implementation before diagnosing."}
 for lesson in TASKS:
     key = lesson["key"]
@@ -565,6 +587,25 @@ for lesson in TASKS:
     )
     if key in COURSE_OVERRIDES:
         lesson["instructions"] = COURSE_OVERRIDES[key]
+
+# Lesson-specific repo links supersede the old shared example links.
+for lesson in TASKS:
+    key = lesson["key"]
+    lesson["starting_example_title"] = "Exact local starter for lesson " + key
+    lesson["starting_example_url"] = COURSE_REPO + "/tree/main/lessons/" + key
+    lesson["starting_example_note"] = (
+        "Read lessons/" + key + "/README.md. All required example code is "
+        "included in this lesson folder, including both source apps when needed."
+    )
+    lesson["resources"] = (
+        "Exact in-repository example: " + lesson["starting_example_url"] +
+        " ; instructions: " + COURSE_REPO + "/blob/main/lessons/" + key +
+        "/README.md ; syllabus: " + COURSE_REPO + "/blob/main/SYLLABUS.md"
+    )
+    lesson["instructions"] = (
+        "Open lessons/" + key + "/README.md and use its local source. " +
+        lesson["instructions"]
+    )
 
 SHORT = {"H": "High", "M": "Medium", "L": "Low"}
 
