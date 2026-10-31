@@ -2,6 +2,11 @@
 
 **Core skill:** C Programming · **Time:** 120m · **Difficulty:** Low · **Priority:** High · **Dependencies:** 7A
 
+## Competency checkpoint
+
+**Primary:** C Programming · **Supporting:** Debugging and Testing. Explain which C data/functions produce the behavior, identify ownership or bounds as relevant, and verify a failing/edge case. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
+
+
 ## Reading
 
 [**Complete 4A reading module**](../../curriculum/c-programming/4A-variables-data-types-operators.md).

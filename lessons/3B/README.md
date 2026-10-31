@@ -2,6 +2,11 @@
 
 **Skill:** Algorithmic Thinking · **Estimate:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 5B
 
+## Competency checkpoint
+
+**Primary:** Algorithmic Thinking · **Supporting:** UI Design. Predict state or loop behavior and test normal and boundary transitions with your own diagram or trace. Demonstrate the stated lesson outcome and explain your supporting skill; self-score **both** at 0–3 with the [common mastery rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This is the assessment lens for the existing lesson, not another exercise.
+
+
 **Companion reading:** [3B in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Define wrapping rules and trace both ends of the selector. Use this lesson's local starter; the reading is preparation, not a completed answer.
 
 ## Exact local example
