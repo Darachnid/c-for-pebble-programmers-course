@@ -33,3 +33,7 @@ The three families are **related examples, not guaranteed step-by-step snapshots
 **Additional cumulative track:** Clock Workshop (12A/27C/37K/39M), Field Instrument (30G–36J), and Pocket Field Guide (26B/28D–33F/38L/40N) extend these foundational methods to platform capabilities. All 14 checkpoints retain independent local starters. They are part of the 40-activity syllabus, not extra optional material.
 
 The [syllabus](../SYLLABUS.md) defines timing, prerequisites and acceptance criteria. [Lesson folders](../lessons/README.md) contain the actual source. The [PDF snapshot](../SYLLABUS.pdf) may lag behind the canonical Markdown syllabus until regenerated.
+
+## Two supported watch platforms
+
+All 41 activities now apply to both Pebble Time 2 (`emery`) and Pebble Round 2 (`gabbro`). The seven core competencies and course structure are unchanged. Read the [Emery/Gabbro compatibility and testing guide](dual-platform/README.md) for circular-safe layouts, optional touch and dual-emulator evidence.

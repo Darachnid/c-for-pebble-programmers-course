@@ -1,6 +1,6 @@
 # Pebble SDK capability track — 14 interleaved lessons
 
-14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery-only watchapps**. These complement the original 26 tasks and precede the 41A capstone. The numeric prefixes establish the recommended course order, while the suffix letters are legacy identifiers without sequencing constraints.
+14 additional labs, 1040 minutes (17h 20m), with **three cumulative Emery/Gabbro watchapps**. These complement the original 26 tasks and precede the 41A capstone. The numeric prefixes establish the recommended course order, while the suffix letters are legacy identifiers without sequencing constraints.
 
 | Lab | Subject | Project | Duration | Dependencies |
 |---|---|---|---:|---|
@@ -27,7 +27,7 @@
 
 **C — Pocket Field Guide:** 26B menus → 28D primitive drawing → 29E graphics paths → 33F mutable bitmap → 38L bundled data → 40N PebbleKit JS phone messaging.
 
-All starter directories are independent local builds. A later stage is an *example checkpoint* for previous skills, not the solution to the current assignment. Use [the source-continuity matrix](checkpoint-continuity.md) to distinguish inherited code, current TODOs and optional cross-strand examples. Retain Git diffs, a normal and an edge test, API notes and evidence of cleanup.
+All starter directories target both platforms and are independent local builds. A later stage is an *example checkpoint* for previous skills, not the solution to the current assignment. Use [the source-continuity matrix](checkpoint-continuity.md) to distinguish inherited code, current TODOs and optional cross-strand examples. Retain Git diffs, a normal and an edge test, API notes and evidence of cleanup.
 
 **Caveats:** Watchfaces cannot receive click events; all 8X code is watchapp code. Compass requires `PBL_COMPASS` and calibration; the Light API does not expose ambient lux. No actual Emery device, phone link or SDK compilation was available in this editing session. The source is authored for SDK 4.33.1 but needs compilation/field verification.
 
@@ -44,3 +44,7 @@ All three are separate **intentionally faulty** Emery projects. No answers are i
 ## Competency integration
 
 Each API exercise has a **primary and supporting core competency** and belongs to the [41-activity integrated sequence](../course-design/integrated-sequence.md), not an isolated last phase. Revised prerequisites: **26B = 17E + 24H; 30G = 24H + 20C; 35I = 30G + 20C; 36J = 30G + 24H; 39M = 37K + 24H**. The other project strands are not prerequisites unless essential. Review the [assessment rubric](../course-design/learning-outcomes-and-assessment.md) after each activity.
+
+## Round 2 geometry and touch
+
+For every recurring project, the local starter now includes a conservative circular-safe `course_display.h` and `PBL_ROUND` handling without completing the learner's current API assignment. Compare Time 2's rectangular interface to Round 2's circular one. Buttons are retained on both watches; optional touch may be disabled by the user. [Full guide](../dual-platform/README.md).

@@ -1,12 +1,12 @@
 # Learning outcomes, assessment, and readiness gates
 
-This is a **self-directed Emery-only C programming course**, not a university credit course. It develops seven mutually reinforcing competencies through a cumulative set of C and SDK tasks. The [integrated course map](integrated-sequence.md) and [API project track](../pebble-api/README.md) provide the next steps.
+This is a **self-directed Emery/Gabbro C programming course**, not a university credit course. It develops seven mutually reinforcing competencies through a cumulative set of C and SDK tasks. The [integrated course map](integrated-sequence.md) and [API project track](../pebble-api/README.md) provide the next steps.
 
 ## Seven measurable outcomes
 
 | Competency | Observable outcome | Primary-competency labs |
 |---|---|---|
-| **UI Design** | Design readable, navigable interfaces for Emery's 200×228 display, justify layout and interaction choices, and implement feedback and accessible states. | 5A, 13B, 25C, 12A, 26B |
+| **UI Design** | Design readable, navigable interfaces for Emery's 200×228 rectangle and Gabbro's 260×260 circle, justify layout and interaction choices, and implement feedback and accessible states. | 5A, 13B, 25C, 12A, 26B |
 | **Idea Generation** | Generate alternatives, identify feasible constraints, remix examples ethically, and make a justified design choice for a real user or use case. | 1A, 16B, 22C, 28D, 38L |
 | **Algorithmic Thinking** | Represent transformations, loops, state machines, and event sequences with pseudocode/diagrams and verify boundary cases. | 11A, 15B, 23C, 27C, 29E |
 | **C Programming** | Read/write well-scoped C with validated data, memory lifetimes, callbacks, and structured state. | 3A–24H, 33F, 30G |
@@ -60,3 +60,7 @@ Assess each of the seven competencies, 0–3, using evidence below. Pass = **at 
 | Development Tools and Workflow | Versioned commits, reproducible build instructions, app demo and evidence directory. |
 
 The capstone selects **at least two capabilities from different recurring projects** (or provides a justified integrated alternative), and implements them in a new application—rather than copying a fully finished checkpoint. Do not start it until the relevant prerequisite tasks are complete.
+
+## Cross-platform evidence (same seven competencies)
+
+UI Design now explicitly includes testing circular safe areas and rectangular layouts; Resource Literacy includes `PBL_ROUND` and runtime touch/feature availability; Debugging and Testing includes inspecting both emulator outputs. Do **not** add a new grade, lesson or capstone requirement beyond the existing rubric—record two-platform evidence within the same deliverables. Where hardware is unavailable, mark that test pending instead of reporting it as passed. See [the dual-platform guide](../dual-platform/README.md).

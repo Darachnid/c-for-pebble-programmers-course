@@ -1,4 +1,4 @@
-# Taskwarrior import — 41 Emery course tasks
+# Taskwarrior import — 41 Emery/Gabbro course tasks
 
 Run `python3 taskwarrior/import_course.py` from the repository root and type `CREATE` when prompted.
 
@@ -12,7 +12,7 @@ task project:pebble.course unblocked
 task <ID> info
 ```
 
-Total estimated focused time: **52h 35m** across 26 activities. All projects target Emery.
+Total estimated focused time: **52h 35m** across 41 activities. All C projects target Emery and Gabbro.
 
 The 15 added tasks come from [extension_api_labs.json](extension_api_labs.json), including dependencies and local starter annotations. Run the importer again and confirm with `CREATE`. Existing completions and personal notes are preserved.
 
@@ -23,3 +23,7 @@ The extension catalog now includes 12A–40N plus 41A. All 41 records carry **pr
 ## ID migration (existing Taskwarrior users)
 
 The numeric prefixes now mean **course position**, not skill category; letters retain their original suffixes without an A-before-B requirement. Running `python3 taskwarrior/import_course.py` will offer an in-place UUID migration from the old IDs and make a local gitignored backup before changes. Read [RENUMBERING.md](RENUMBERING.md) and inspect [legacy-id-map.json](legacy-id-map.json).
+
+## Both watches, same tasks
+
+The existing Taskwarrior task IDs and UUID migration are unchanged. Each task now carries a dual-platform note; it is **one task per lesson**, not a duplicate task per watch. When completing C work, record separate Emery and Gabbro emulator observations; designs/research compare both shapes within their existing evidence. No Round 2-only subtask is added. [Dual-platform guidance](../curriculum/dual-platform/README.md).

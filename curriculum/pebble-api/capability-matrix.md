@@ -20,3 +20,7 @@
 **Meaning of covered:** a lesson, local starter, acceptance criterion and testing plan exist. Not a claim that the student's work or SDK compilation has succeeded.
 
 **Compatibility:** CompassService not raw magnetometer samples; backlight API rather than ambient lux; phone messaging needs PebbleKit JS and connected phone for true round trip; sensor data may not emulate accurately.
+
+## Added platform dimension
+
+Every API lab now applies on both `emery` and `gabbro`. UI and drawing labs verify round-screen clipping/coordinate behavior; sensor labs distinguish physical capabilities and API access; phone communication and storage remain the same C learning objective. Touch is a **conditional interaction mode**, not another required activity. See [dual-platform behavior](../dual-platform/README.md).

@@ -1,10 +1,10 @@
-# C for Pebble Programmers — Emery course syllabus
+# C for Pebble Programmers — Emery and Gabbro course syllabus
 
-**Version:** revised 41-activity self-directed syllabus · **Target:** Pebble Time 2 (Emery, 200 × 228) · **Language:** C · **SDK:** 4.33.1 · **Focused study estimate:** **52h 35m** · **Schedule:** self-paced with prerequisite gates.
+**Version:** revised 41-activity self-directed syllabus · **Targets:** Pebble Time 2 (Emery, 200 × 228 rectangle) **and** Pebble Round 2 (Gabbro, 260 × 260 circle) · **Language:** C · **SDK:** 4.33.1 · **Focused study estimate:** **52h 35m** · **Schedule:** self-paced with prerequisite gates.
 
 ## Course purpose
 
-Learn to design, implement, understand, test and independently extend Pebble apps. This is **not merely a catalog of SDK functions**: the technical capabilities support seven essential competencies, revisited throughout the course. You progress from a time-only watchface to three evolving watchapps and finally to an independently conceived and built app. No university enrollment, attendance, grade, or fixed deadline is implied.
+Learn to design, implement, understand, test and independently extend Pebble apps. This is **not merely a catalog of SDK functions**: the technical capabilities support seven essential competencies, revisited throughout the course. You progress from a time-only watchface to three evolving dual-platform watchapps and finally to an independently conceived and built app. No university enrollment, attendance, grade, or fixed deadline is implied.
 
 ## Seven learning outcomes
 
@@ -12,7 +12,7 @@ By the end of the course, demonstrate all seven abilities independently:
 
 | Core competency | Measurable outcome |
 |---|---|
-| **UI Design** | Create legible Emery layouts, navigate between screens, and communicate states and actions clearly. |
+| **UI Design** | Create legible rectangular Emery and circular Gabbro layouts, navigate between screens, and communicate states and actions clearly. |
 | **Idea Generation** | Develop alternatives, evaluate constraints, and justify an original app concept or representation. |
 | **Algorithmic Thinking** | Trace execution, specify state/loop logic, and validate state transitions and boundary conditions. |
 | **C Programming** | Write and explain C data/control flow, pointers, callback functions, object ownership, and resource safety. |
@@ -26,9 +26,20 @@ Each of the 40 preparatory activities has a primary and supporting competency; t
 
 ## What you need
 
-Pebble SDK 4.33.1, the **Emery emulator**, C build tools, Git, editor, and local source files. Use an actual Pebble Time 2 where sensor calibration, vibration, backlight or physical device behavior must be confirmed; phone communications also need a connected compatible Pebble mobile environment. Do not present an emulator result as physical hardware verification. [Official C reference](https://developer.repebble.com/docs/c/).
+Pebble SDK 4.33.1, the **Emery and Gabbro emulators**, C build tools, Git, editor, and local source files. Use the actual Time 2 or Round 2 corresponding to each hardware claim where sensor calibration, vibration, backlight or physical device behavior must be confirmed; phone communications also need a connected compatible Pebble mobile environment. Do not present an emulator result as physical hardware verification. [Official C reference](https://developer.repebble.com/docs/c/).
 
-**Start here:** [Lesson index](lessons/README.md) · [C readings 3A–24H](curriculum/c-programming/README.md) · [Pebble API track](curriculum/pebble-api/README.md) · [Taskwarrior instructions](taskwarrior/README.md).
+**Start here:** [Dual-platform field guide](curriculum/dual-platform/README.md) · [Lesson index](lessons/README.md) · [C readings 3A–24H](curriculum/c-programming/README.md) · [Pebble API track](curriculum/pebble-api/README.md) · [Taskwarrior instructions](taskwarrior/README.md).
+
+## Two-platform requirements (no new lessons)
+
+| | Time 2 | Round 2 |
+|---|---|---|
+| SDK target | `emery` | `gabbro` |
+| Display | 200×228 rectangle | 260×260 circle |
+| Display/layout test | Text alignment and edge margins | Inset menu/text controls, no clipping at circular edges |
+| Input | Four buttons; optional touch in watchapps | Four buttons; optional touch in watchapps |
+
+**One C codebase, two built targets.** Every local project manifest contains `targetPlatforms: ["emery", "gabbro"]`. For each C exercise, build once and install/check separately with `pebble install --emulator emery` and `pebble install --emulator gabbro`; retain both platform results and avoid claiming physical-device validation from a simulator. For design/readings, account for the two shapes **within the existing exercise**, not as a new assignment. The SDK supports `PBL_ROUND`, dimension-aware layer bounds, and `PBL_TOUCH`, but touch must remain optional when disabled. The conservative safe-area helper included in recurring projects prevents Gabbro corner clipping. This maintains **41 activities, seven competencies and 52h 35m** of scheduled focused study. [Full platform guide](curriculum/dual-platform/README.md).
 
 ## Learning method and assessment
 
@@ -156,7 +167,7 @@ Each new lesson starts from a *completed prior-stage reference checkpoint*, not 
 
 ## Independent demonstration — 41A
 
-The capstone implements the original concept developed in 22C and UI groundwork in 25C. You must deliver **a working, original Emery app**, integrating at least two cross-strand capabilities (or an equivalent justified integration), and defend implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven competencies 0–3; **every competency must reach 2+**. [Detailed capstone directions](lessons/41A/).
+The capstone implements the original concept developed in 22C and UI groundwork in 25C. You must deliver **a working, original app targeting both Emery and Gabbro**, integrating at least two cross-strand capabilities (or an equivalent justified integration), and defend implementation decisions with source references, normal/failure tests, Git history and a demo. Score each of the seven competencies 0–3; **every competency must reach 2+**. [Detailed capstone directions](lessons/41A/).
 
 ## Course management and validation status
 

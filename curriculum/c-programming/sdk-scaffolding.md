@@ -1,4 +1,4 @@
-# Pebble SDK scaffolding for C Programming 3A–10D
+# Pebble SDK scaffolding for C Programming 3A–10D (Emery and Gabbro)
 
 This is a **short primer**, not an extra activity or a prerequisite to all 8X API labs. It explains framework operations already present in the **local** C exercises, so the learner can concentrate on variables, decisions, loops and functions instead of having to understand graphics and timers immediately.
 
@@ -58,3 +58,7 @@ The framework calls handlers **later** in response to events. Registering a call
 There is **no extra Taskwarrior requirement** to master the later API labs before 3A. This explicit distinction keeps the C course beginner-accessible, while subsequent 12A/27C/28D/37K lessons teach how the previously provided framework itself works.
 
 The reference projects are Emery-targeted but have not all been independently build-tested using SDK 4.33.1; report SDK compatibility failures rather than treating them as part of a C variable exercise.
+
+## Round 2 support without changing the C exercise
+
+Use both `emery` and `gabbro` manifests. A 260×260 round panel is not equivalent to a rectangular 260×260 content surface; preexisting SDK scaffolding must center draw regions or use the supplied `course_display.h` square-safe helper before students apply C concepts. Study [the dual-platform guide](../dual-platform/README.md). No new syntax/graphics API is being assigned to early C exercises: the C fundamentals remain the assessed work.

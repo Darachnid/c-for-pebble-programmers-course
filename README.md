@@ -1,6 +1,6 @@
 # C for Pebble Programmers Course
 
-A self-directed, **41-activity**, **Emery-only** C programming course: seven developer competencies and an eight-module C track (3A–24H), with real dependency links and evidence-based completion.
+A self-directed, **41-activity**, **Emery + Gabbro** C programming course: seven developer competencies and an eight-module C track (3A–24H), with real dependency links and evidence-based completion.
 
 **Estimated focused time:** 52h 35m. No prescribed calendar deadlines.
 
@@ -14,12 +14,13 @@ A self-directed, **41-activity**, **Emery-only** C programming course: seven dev
 
 ## Examples and assignments
 
-Every lesson begins from source included in this repository. The original C textbook exercises in Chapters 3–6 have **eleven working-intended, Emery-targeted starter projects** with TODOs (not finished solutions). For example:
+Every lesson begins from source included in this repository. All local C projects target **both** `emery` and `gabbro`. The original C textbook exercises in Chapters 3–6 have **eleven working-intended, Emery/Gabbro-targeted starter projects** with TODOs (not finished solutions). For example:
 
 ```sh
 cd lessons/3A/projects/project-3-2
 pebble build
 pebble install --emulator emery
+pebble install --emulator gabbro
 ```
 
 17E–24H additionally include complete base watchapps under `lessons/<ID>/starter`. The watchapps are deliberately simple so you can investigate and extend them yourself.
@@ -28,11 +29,11 @@ The developer skills remain UI Design, Idea Generation, Algorithmic Thinking, C 
 
 **No AI-generated solutions during exercises.** Use the included source, SDK docs, compiler messages, emulator and Git; preserve evidence of your own work.
 
-**Build verification:** Source and manifests have been checked for Emery; compilation on the Pebble SDK remains to be performed on a configured development machine.
+**Build verification:** Manifests target both Emery and Gabbro and key starters include shape-aware layouts. Actual SDK compilation, emulator runs and physical hardware tests remain to be performed on a configured machine.
 
 ## New: recurring Pebble API projects
 
-Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressively on **three Emery watchapps**: Clock Workshop (windows/buttons/timers/persistence), Field Instrument (accelerometer/compass/backlight/vibration), and Pocket Field Guide (menus/drawing/paths/bitmaps/resources/phone messages). Consult the [chapter coverage matrix](curriculum/pebble-api/capability-matrix.md). Every activity includes its own local starter project.
+Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressively on **three Emery/Gabbro watchapps**: Clock Workshop (windows/buttons/timers/persistence), Field Instrument (accelerometer/compass/backlight/vibration), and Pocket Field Guide (menus/drawing/paths/bitmaps/resources/phone messages). Consult the [chapter coverage matrix](curriculum/pebble-api/capability-matrix.md). Every activity includes its own local starter project.
 
 **Syllabus editions:** Both files cover the 41 activities. The Markdown now also includes companion-reading links introduced after the latest PDF generation.
 
@@ -40,7 +41,7 @@ Fourteen new [capability labs](curriculum/pebble-api/README.md) build progressiv
 
 **No Git experience needed.** To suggest a documentation edit: (1) sign in to GitHub; (2) click **Fork** on this repository to make your own copy; (3) open the file in your fork and click the pencil icon; (4) **Commit changes** on a new branch; (5) click **Contribute → Open pull request** and explain the change. A pull request is a proposal: it does not directly overwrite the course. Report testing and preserve the intentional faults in debugging lessons.
 
-For C or larger changes, clone your fork, make a named branch, build and install the local example on `emery`, commit and push the change, then open a pull request. The **[complete beginner guide](CONTRIBUTING.md)** explains every Git term, browser click and terminal command.
+For C or larger changes, clone your fork, make a named branch, build and install the local example on both `emery` and `gabbro`, commit and push the change, then open a pull request. The **[complete beginner guide](CONTRIBUTING.md)** explains every Git term, browser click and terminal command.
 
 ## License options (not yet selected)
 
@@ -73,3 +74,7 @@ All **seven competencies** now have explicit outcomes and evidence criteria; 40 
 The numeric part now gives the **recommended position** of every lesson, while its original letter suffix remains unchanged. For example, **10D precedes 11A**, and **30G precedes 31C**. This is not an alphabetical A-before-B ordering. [Browse the numbered lesson index](lessons/README.md) and [old-to-new migration map](taskwarrior/legacy-id-map.json).
 
 Existing Taskwarrior records are migrated by UUID when you rerun the importer, with a local JSON backup and no loss of completed status or personal notes. Review [migration instructions](taskwarrior/RENUMBERING.md) before importing.
+
+## Pebble Round 2 / Gabbro support
+
+The same 41-lesson curriculum now covers **Pebble Time 2 (Emery, 200×228 rectangle) and Pebble Round 2 (Gabbro, 260×260 circle)**. All included project manifests advertise both platforms, and the recurring starter applications use circular-safe content areas. The three projects and seven competencies remain unchanged. Study [two-platform layout, testing, touch and sensor differences](curriculum/dual-platform/README.md) before running C exercises on Gabbro. Check **both** emulators; Round 2's 260×260 resolution is not a full rectangular content area. [Static audit](scripts/check_dual_platform.py) · [one-project build/install smoke test](scripts/test_dual_platform.sh).

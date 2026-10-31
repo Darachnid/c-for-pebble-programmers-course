@@ -50,3 +50,7 @@ In the reading column, use the **existing local module, companion guide or API r
 - Physical hardware-dependent checks should be marked pending when not verified; do not invent emulator results.
 - Use a personal Git branch/copy, retain independent work evidence, and do not rely on AI-generated exercise solutions.
 
+
+## Device coverage during the same 30 days
+
+Use the existing reading/exercise minutes to check both targets. For coding lessons, building both binaries and checking circular/rectangular UIs are **part of the same activity**; the 41 lesson IDs, order and planned duration are unchanged. Hardware-only behavior remains pending until physically tested on the relevant watch. The optional personal-project time can be used as overflow if dual-platform checks take longer than estimated. [Platform checklist](curriculum/dual-platform/README.md).

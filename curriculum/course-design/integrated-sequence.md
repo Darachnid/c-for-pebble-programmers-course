@@ -67,3 +67,7 @@ Each task has one **primary** and one **supporting** assessment lens; this is no
 - **30G** begins a separate Field Instrument strand and needs callbacks/research skills, not completion of the other project's buttons lab.
 
 **Progress checkpoints:** At the end of each phase, use the readiness gate and reflection rubric. The capstone is an original working app, not only the 22C concept or the 25C drawings.
+
+## Display shape integration
+
+Every numeric prefix still gives the learning order, and the suffix does not impose an alphabetic prerequisite. Implement the same activity on Time 2 (`emery`) and Round 2 (`gabbro`) using the [circular-vs-rectangular development guide](../dual-platform/README.md). The phase structure, dependency graph and 41 lesson IDs are unchanged.
