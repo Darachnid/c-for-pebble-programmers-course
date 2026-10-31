@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 /* Clock Workshop, snapshot A1. Prior stages are included; extend this one. */
 static Window *s_main, *s_detail;
 static TextLayer *s_time, *s_status, *s_detail_text;
@@ -17,8 +18,11 @@ static void tick(struct tm *t,TimeUnits u){(void)t;(void)u;refresh();}
 
 static void load_main(Window *w){
  Layer *root=window_get_root_layer(w); GRect b=layer_get_bounds(root);
- s_time=text_layer_create(GRect(0,50,b.size.w,65));
- s_status=text_layer_create(GRect(8,132,b.size.w-16,45));
+ GRect safe=course_content_rect(b);
+ s_time=text_layer_create(GRect(safe.origin.x,
+     safe.origin.y + safe.size.h/5, safe.size.w, 65));
+ s_status=text_layer_create(GRect(safe.origin.x,
+     safe.origin.y + (safe.size.h*3)/4, safe.size.w, 36));
  text_layer_set_text_alignment(s_time,GTextAlignmentCenter);
  text_layer_set_text_alignment(s_status,GTextAlignmentCenter);
  text_layer_set_font(s_time,fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
@@ -28,7 +32,9 @@ static void load_main(Window *w){
 static void unload_main(Window *w){(void)w;text_layer_destroy(s_status);text_layer_destroy(s_time);}
 static void load_detail(Window *w){
  GRect b=layer_get_bounds(window_get_root_layer(w));
- s_detail_text=text_layer_create(GRect(6,68,b.size.w-12,80));
+ GRect safe=course_content_rect(b);
+ s_detail_text=text_layer_create(GRect(safe.origin.x,
+     safe.origin.y + (safe.size.h-80)/2, safe.size.w, 80));
  text_layer_set_text(s_detail_text,"Clock details\nBack to return");
  text_layer_set_text_alignment(s_detail_text,GTextAlignmentCenter);
  layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_detail_text));
