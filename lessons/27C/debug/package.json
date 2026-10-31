@@ -8,7 +8,8 @@
     "uuid": "c0dec0de-8000-4000-8000-000000000101",
     "sdkVersion": "3",
     "targetPlatforms": [
-      "emery"
+      "emery",
+      "gabbro"
     ],
     "watchapp": {
       "watchface": false
