@@ -87,7 +87,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Inspect the three included Emery-only projects under lessons/2A. Brainstorm five modifications and note what SDK feature each might require. No coding or debugging-project spoilers.
 
-**Complete when:** 
+**Complete when:** Five distinct ideas are recorded, each describes a possible change, and one idea is marked as the most interesting to investigate.
 
 #### 7A — Build and run a time-only C watchface
 
@@ -95,9 +95,9 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Exact starter and directions:** [lessons/7A/](lessons/7A/).
 
-**Do:** 
+**Do:** Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.
 
-**Complete when:** 
+**Complete when:** The project builds and runs in the emulator, displays the current time, updates by minute, and has no date TextLayer.
 
 #### 4A — Variables, Data Types, and Operators
 
@@ -115,9 +115,9 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Exact starter and directions:** [lessons/5A/](lessons/5A/).
 
-**Do:** 
+**Do:** Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.
 
-**Complete when:** 
+**Complete when:** A concise API note contains purpose, signature, argument meanings, return type, and a usage example.
 
 #### 1A — Change one visual property of a time-only watchface
 
@@ -127,7 +127,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use lessons/1A/starter with only one time TextLayer. Change exactly one of font, color, alignment or position; verify that the clock still updates.
 
-**Complete when:** 
+**Complete when:** The app builds and runs, the time still updates, and one intentional visual change is visible. The watchface still has no date layer.
 
 #### 6A — Diagnose a simple compiler error
 
@@ -137,7 +137,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use the deliberately flawed local lessons/6A/starter project. Capture the first compiler diagnostic, make the minimal syntax correction, then build and run on Emery.
 
-**Complete when:** 
+**Complete when:** You can show the original error, identify its cause, fix it, and produce a successful build.
 
 #### 7B — Create a Git-based modification workflow
 
@@ -147,7 +147,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Make a personal Git branch or working copy of lessons/7B/starter, commit a baseline, change one visual property, build/test and commit the improvement.
 
-**Complete when:** 
+**Complete when:** The repository has a baseline commit and a modification commit, the app builds, and you have inspected the diff or demonstrated how to restore the baseline.
 
 ### Phase II — Control flow, functions and interaction
 
@@ -187,9 +187,9 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Exact starter and directions:** [lessons/3A/](lessons/3A/).
 
-**Do:** 
+**Do:** Draw the execution flow for the time-only watchface. Include main(), init(), window_stack_push(), main_window_load(), update_time(), tick_handler(), app_event_loop(), main_window_unload(), and deinit() where applicable. Show which functions call other functions and which are callbacks. Show the separate path for a minute tick after startup.
 
-**Complete when:** 
+**Complete when:** A flow diagram shows startup, initial display, minute updates, and cleanup, with direct calls distinguished from callbacks.
 
 #### 1B — Add and style a date TextLayer
 
@@ -199,7 +199,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Start from the time-only watchface in lessons/1B/starter and add a separate date TextLayer, observing creation, layout, minute updates and cleanup on Emery.
 
-**Complete when:** 
+**Complete when:** The watchface displays both time and date, both update correctly, and you can explain how the date layer is created, styled, attached, updated, and destroyed.
 
 #### 5B — Trace an existing feature through source code
 
@@ -209,7 +209,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Inspect the local lessons/5B/starter font selector. Trace the Up/Down event from callback through index update to apply_font; document API signatures and state updates.
 
-**Complete when:** 
+**Complete when:** Your notes identify the input handling, changed state, display update, and the relevant source locations and documentation.
 
 #### 3B — Design a font-cycling algorithm
 
@@ -219,7 +219,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Using the local lessons/3B/starter font selector, write original pseudocode for moving through fonts in both directions, including first/last and a one-item edge case.
 
-**Complete when:** 
+**Complete when:** Pseudocode and a small flowchart cover both directions, normal selection, and boundary cases.
 
 #### 2B — Write a two-example remix brief
 
@@ -229,7 +229,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Choose components from the two complete local projects in lessons/2B, write a remix brief with core behavior, sources, minimal implementation and technical unknowns.
 
-**Complete when:** 
+**Complete when:** A one-page brief explains the purpose, source features, minimal version, and one or more technical questions to investigate.
 
 ### Phase III — Data, memory, state and original design
 
@@ -271,7 +271,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Research persistence from lessons/5C/starter, trace persist_exists/read/write and write an implementation plan using the current SDK documentation.
 
-**Complete when:** 
+**Complete when:** A technical note names the capability, links the documentation and example, lists relevant APIs and constraints, and proposes implementation steps.
 
 #### 6B — Diagnose a font-selection boundary bug
 
@@ -281,7 +281,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use lessons/6B/starter with its deliberate index bug. Reproduce Up/Down behavior, inspect APP_LOG index traces, fix the faulty transition and retest every boundary.
 
-**Complete when:** 
+**Complete when:** The bug is reproducible, the cause is explained, and tests show that cycling works correctly at both ends of the list.
 
 #### 2C — Develop an original Pebble app concept
 
@@ -291,7 +291,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Inspect the three complete local Emery examples in lessons/2C and develop three original ideas; compare feasibility, select one and write a minimal specification.
 
-**Complete when:** 
+**Complete when:** Three ideas are compared and one has a concise specification for purpose, interaction, minimum version, and technical uncertainty.
 
 #### 3C — Design a state machine for an app
 
@@ -301,7 +301,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use lessons/3C/starter and your 2C app concept to specify a state machine: states, inputs, transitions, visible outputs, default cases and invalid events.
 
-**Complete when:** 
+**Complete when:** A state diagram and transition table describe all main states, triggers, resulting states, and visible responses, including important edge cases.
 
 #### 4H — Event-Driven Integration and Application Lifecycle
 
@@ -321,7 +321,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use lessons/1C/starter (the licensed Simplicity C layout) to sketch multiple Emery screens/modes, navigation and button outcomes for your own concept.
 
-**Complete when:** 
+**Complete when:** A set of labeled sketches covers every main state, navigation between states, button outcomes, and screen-size considerations.
 
 ### Phase IV — Integration and independent verification
 
@@ -333,7 +333,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Combine the two complete but separate projects in lessons/7C (font selector and persistent counter). Implement saved font selection yourself, validate indices and verify restart behavior.
 
-**Complete when:** 
+**Complete when:** The combined app builds, font navigation works, the selected font survives a restart, invalid or absent stored values are handled safely, and Git records the work.
 
 #### 6C — Diagnose a persistent-state integration bug
 
@@ -343,7 +343,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Do:** Use lessons/6C/starter with its deliberate persistence fault. Select a nondefault font, restart, trace save/restore logs, correct the mismatch and retest.
 
-**Complete when:** 
+**Complete when:** A reproducible bug report records expected and actual behavior, the cause is explained, and the fix passes fresh-start, selection, and restart tests.
 
 ## Activity types
 

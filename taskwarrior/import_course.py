@@ -618,7 +618,7 @@ COURSE_V2 = {
     "priority": "H",
     "depends": [],
     "instructions": "Inspect the three included Emery-only projects under lessons/2A. Brainstorm five modifications and note what SDK feature each might require. No coding or debugging-project spoilers.",
-    "done": "",
+    "done": "Five distinct ideas are recorded, each describes a possible change, and one idea is marked as the most interesting to investigate.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "None",
     "starting_example_title": "Lesson 2A: exact local Emery starter(s)",
@@ -634,8 +634,8 @@ COURSE_V2 = {
     "estimated": "30m",
     "priority": "H",
     "depends": [],
-    "instructions": "",
-    "done": "",
+    "instructions": "Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to [\"emery\"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.",
+    "done": "The project builds and runs in the emulator, displays the current time, updates by minute, and has no date TextLayer.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "None",
     "starting_example_title": "Lesson 7A: exact local Emery starter(s)",
@@ -672,8 +672,8 @@ COURSE_V2 = {
     "depends": [
       "4A"
     ],
-    "instructions": "",
-    "done": "",
+    "instructions": "Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.",
+    "done": "A concise API note contains purpose, signature, argument meanings, return type, and a usage example.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4A",
     "starting_example_title": "Lesson 5A: exact local Emery starter(s)",
@@ -694,7 +694,7 @@ COURSE_V2 = {
       "7A"
     ],
     "instructions": "Use lessons/1A/starter with only one time TextLayer. Change exactly one of font, color, alignment or position; verify that the clock still updates.",
-    "done": "",
+    "done": "The app builds and runs, the time still updates, and one intentional visual change is visible. The watchface still has no date layer.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4A, 5A, 7A",
     "starting_example_title": "Lesson 1A: exact local Emery starter(s)",
@@ -714,7 +714,7 @@ COURSE_V2 = {
       "7A"
     ],
     "instructions": "Use the deliberately flawed local lessons/6A/starter project. Capture the first compiler diagnostic, make the minimal syntax correction, then build and run on Emery.",
-    "done": "",
+    "done": "You can show the original error, identify its cause, fix it, and produce a successful build.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4A, 7A",
     "starting_example_title": "Lesson 6A: exact local Emery starter(s)",
@@ -735,7 +735,7 @@ COURSE_V2 = {
       "6A"
     ],
     "instructions": "Make a personal Git branch or working copy of lessons/7B/starter, commit a baseline, change one visual property, build/test and commit the improvement.",
-    "done": "",
+    "done": "The repository has a baseline commit and a modification commit, the app builds, and you have inspected the diff or demonstrated how to restore the baseline.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "7A, 1A, 6A",
     "starting_example_title": "Lesson 7B: exact local Emery starter(s)",
@@ -811,8 +811,8 @@ COURSE_V2 = {
       "4D",
       "7A"
     ],
-    "instructions": "",
-    "done": "",
+    "instructions": "Draw the execution flow for the time-only watchface. Include main(), init(), window_stack_push(), main_window_load(), update_time(), tick_handler(), app_event_loop(), main_window_unload(), and deinit() where applicable. Show which functions call other functions and which are callbacks. Show the separate path for a minute tick after startup.",
+    "done": "A flow diagram shows startup, initial display, minute updates, and cleanup, with direct calls distinguished from callbacks.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3A ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4D, 7A",
     "starting_example_title": "Lesson 3A: exact local Emery starter(s)",
@@ -833,7 +833,7 @@ COURSE_V2 = {
       "5A"
     ],
     "instructions": "Start from the time-only watchface in lessons/1B/starter and add a separate date TextLayer, observing creation, layout, minute updates and cleanup on Emery.",
-    "done": "",
+    "done": "The watchface displays both time and date, both update correctly, and you can explain how the date layer is created, styled, attached, updated, and destroyed.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "1A, 4D, 5A",
     "starting_example_title": "Lesson 1B: exact local Emery starter(s)",
@@ -854,7 +854,7 @@ COURSE_V2 = {
       "5A"
     ],
     "instructions": "Inspect the local lessons/5B/starter font selector. Trace the Up/Down event from callback through index update to apply_font; document API signatures and state updates.",
-    "done": "",
+    "done": "Your notes identify the input handling, changed state, display update, and the relevant source locations and documentation.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "3A, 4D, 5A",
     "starting_example_title": "Lesson 5B: exact local Emery starter(s)",
@@ -874,7 +874,7 @@ COURSE_V2 = {
       "5B"
     ],
     "instructions": "Using the local lessons/3B/starter font selector, write original pseudocode for moving through fonts in both directions, including first/last and a one-item edge case.",
-    "done": "",
+    "done": "Pseudocode and a small flowchart cover both directions, normal selection, and boundary cases.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "3A, 5B",
     "starting_example_title": "Lesson 3B: exact local Emery starter(s)",
@@ -894,7 +894,7 @@ COURSE_V2 = {
       "5B"
     ],
     "instructions": "Choose components from the two complete local projects in lessons/2B, write a remix brief with core behavior, sources, minimal implementation and technical unknowns.",
-    "done": "",
+    "done": "A one-page brief explains the purpose, source features, minimal version, and one or more technical questions to investigate.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "2A, 5B",
     "starting_example_title": "Lesson 2B: exact local Emery starter(s)",
@@ -971,7 +971,7 @@ COURSE_V2 = {
       "5B"
     ],
     "instructions": "Research persistence from lessons/5C/starter, trace persist_exists/read/write and write an implementation plan using the current SDK documentation.",
-    "done": "",
+    "done": "A technical note names the capability, links the documentation and example, lists relevant APIs and constraints, and proposes implementation steps.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/5C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4E, 5B",
     "starting_example_title": "Lesson 5C: exact local Emery starter(s)",
@@ -992,7 +992,7 @@ COURSE_V2 = {
       "3B"
     ],
     "instructions": "Use lessons/6B/starter with its deliberate index bug. Reproduce Up/Down behavior, inspect APP_LOG index traces, fix the faulty transition and retest every boundary.",
-    "done": "",
+    "done": "The bug is reproducible, the cause is explained, and tests show that cycling works correctly at both ends of the list.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6B ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4E, 6A, 3B",
     "starting_example_title": "Lesson 6B: exact local Emery starter(s)",
@@ -1012,7 +1012,7 @@ COURSE_V2 = {
       "5C"
     ],
     "instructions": "Inspect the three complete local Emery examples in lessons/2C and develop three original ideas; compare feasibility, select one and write a minimal specification.",
-    "done": "",
+    "done": "Three ideas are compared and one has a concise specification for purpose, interaction, minimum version, and technical uncertainty.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/2C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "2B, 5C",
     "starting_example_title": "Lesson 2C: exact local Emery starter(s)",
@@ -1033,7 +1033,7 @@ COURSE_V2 = {
       "4G"
     ],
     "instructions": "Use lessons/3C/starter and your 2C app concept to specify a state machine: states, inputs, transitions, visible outputs, default cases and invalid events.",
-    "done": "",
+    "done": "A state diagram and transition table describe all main states, triggers, resulting states, and visible responses, including important edge cases.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/3C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "2C, 3B, 4G",
     "starting_example_title": "Lesson 3C: exact local Emery starter(s)",
@@ -1075,7 +1075,7 @@ COURSE_V2 = {
       "4H"
     ],
     "instructions": "Use lessons/1C/starter (the licensed Simplicity C layout) to sketch multiple Emery screens/modes, navigation and button outcomes for your own concept.",
-    "done": "",
+    "done": "A set of labeled sketches covers every main state, navigation between states, button outcomes, and screen-size considerations.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/1C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "1B, 2C, 3C, 4H",
     "starting_example_title": "Lesson 1C: exact local Emery starter(s)",
@@ -1097,7 +1097,7 @@ COURSE_V2 = {
       "7B"
     ],
     "instructions": "Combine the two complete but separate projects in lessons/7C (font selector and persistent counter). Implement saved font selection yourself, validate indices and verify restart behavior.",
-    "done": "",
+    "done": "The combined app builds, font navigation works, the selected font survives a restart, invalid or absent stored values are handled safely, and Git records the work.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/7C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "1C, 4H, 5B, 7B",
     "starting_example_title": "Lesson 7C: exact local Emery starter(s)",
@@ -1118,7 +1118,7 @@ COURSE_V2 = {
       "7C"
     ],
     "instructions": "Use lessons/6C/starter with its deliberate persistence fault. Select a nondefault font, restart, trace save/restore logs, correct the mismatch and retest.",
-    "done": "",
+    "done": "A reproducible bug report records expected and actual behavior, the cause is explained, and the fix passes fresh-start, selection, and restart tests.",
     "resources": "Local complete lesson: https://github.com/Darachnid/c-for-pebble-programmers-course/tree/main/lessons/6C ; curriculum: https://github.com/Darachnid/c-for-pebble-programmers-course/blob/main/SYLLABUS.md",
     "prereq_note": "4H, 6B, 7C",
     "starting_example_title": "Lesson 6C: exact local Emery starter(s)",
