@@ -1,6 +1,6 @@
 # Emery lesson directory — 26 activities
 
-Every activity has a numbered folder and an exact local starting project. All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
+Every activity has a numbered folder and an exact local starting project. Read the [all-skills curriculum index](../curriculum/README.md) and the relevant guide before beginning each A–C lesson in competencies 1–3 and 5–7. All C programming exercises, including the old Chapter 3–6 examples, are now self-contained under **lessons/4A through lessons/4H**.
 
 | ID | Activity | Time | Depends on | Source |
 |---|---|---:|---|---|

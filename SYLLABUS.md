@@ -12,6 +12,27 @@ Each task is complete when (a) its stated functionality or written product meets
 
 **Independent-work policy:** No AI-generated code, answers, diagrams, or debugging solutions during activities. Consult the in-repository starter code, SDK documentation, compiler diagnostics, logs and Git. Future grading arrangements are separate from this syllabus.
 
+
+## Guided materials for all seven competencies
+
+Section 4 is not the whole course. The seven skills remain distinct and equally important *as competencies*, even though the eight C coding activities take more time. Each other skill now has a dedicated, progressively structured A–C reading, linked to its existing activities and local examples.
+
+| Skill | Preparation reading | Activities | Estimated focused time | Evidence type |
+|---|---|---|---:|---|
+| UI Design | [Visual hierarchy, TextLayers, navigation](curriculum/ui-design/README.md) | [1A](lessons/1A/), [1B](lessons/1B/), [1C](lessons/1C/) | 2h 45m | Annotated screenshots and mode sketches |
+| Idea Generation | [Explore, remix, specify](curriculum/idea-generation/README.md) | [2A](lessons/2A/), [2B](lessons/2B/), [2C](lessons/2C/) | 1h 50m | Idea inventory, remix brief, viable concept |
+| Algorithmic Thinking | [Call traces, boundary logic, states](curriculum/algorithmic-thinking/README.md) | [3A](lessons/3A/), [3B](lessons/3B/), [3C](lessons/3C/) | 2h | Trace, pseudocode, transition table |
+| C Programming | [Eight C chapters](curriculum/c-programming/README.md) | [4A–4H](#c-programming-progression) | 16h 15m | Build, diff, boundary tests |
+| Resource Literacy | [API contracts, source reading, research](curriculum/resource-literacy/README.md) | [5A](lessons/5A/), [5B](lessons/5B/), [5C](lessons/5C/) | 2h 05m | Documented evidence, implementation plan |
+| Debugging and Testing | [Reproduction, diagnosis, regression](curriculum/debugging-testing/README.md) | [6A](lessons/6A/), [6B](lessons/6B/), [6C](lessons/6C/) | 2h 35m | Before/after logs, minimal fix, tests |
+| Development Tools and Workflow | [Build, Git, integration](curriculum/tools-workflow/README.md) | [7A](lessons/7A/), [7B](lessons/7B/), [7C](lessons/7C/) | 3h 45m | Reproducible build, commits, integration |
+
+**Course-wide practice loop:** Predict → examine the **lesson-local** source → make a change or complete the written artifact → verify normal and boundary cases → explain and record evidence. A design sketch is assessed as design evidence, not as a C build; code work must be tested on `emery`.
+
+**Revisited example families:** The **time-only clock** underpins 7A, 1A, 1B, 3A and 5A; the **font browser** underpins 5B, 3B, 6B and the final integration; the **persistent counter** underpins 2B, 5C and 7C/6C. These are related lesson-local versions, not one continuously edited original project. The existing 26 tasks, prerequisites and time estimates are preserved.
+
+See the [learning-materials index](curriculum/README.md) for the guide-to-lesson map and [contribution instructions](CONTRIBUTING.md) for Git help.
+
 ## C programming progression
 
 | Activity | Core C subject | Local reading | Local starting code |
@@ -83,7 +104,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Idea Generation · **Time:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
-**Exact starter and directions:** [lessons/2A/](lessons/2A/).
+**Exact starter and directions:** [lessons/2A/](lessons/2A/). **Reading:** [Idea Generation guide, section 2A](curriculum/idea-generation/README.md).
 
 **Do:** Inspect the three included Emery-only projects under lessons/2A. Brainstorm five modifications and note what SDK feature each might require. No coding or debugging-project spoilers.
 
@@ -93,7 +114,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Development Tools and Workflow · **Time:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
-**Exact starter and directions:** [lessons/7A/](lessons/7A/).
+**Exact starter and directions:** [lessons/7A/](lessons/7A/). **Reading:** [Development Tools and Workflow guide, section 7A](curriculum/tools-workflow/README.md).
 
 **Do:** Create a new C project with the CURRENT watchface tutorial for SDK 4. Set package.json targetPlatforms to ["emery"]. Follow the tutorial through Displaying the Time and STOP before Adding the Date. Run pebble build then pebble install --emulator emery; confirm time updates and only one TextLayer exists. Identify project structure and build output.
 
@@ -113,7 +134,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Resource Literacy · **Time:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
 
-**Exact starter and directions:** [lessons/5A/](lessons/5A/).
+**Exact starter and directions:** [lessons/5A/](lessons/5A/). **Reading:** [Resource Literacy guide, section 5A](curriculum/resource-literacy/README.md).
 
 **Do:** Find the SDK documentation for text_layer_set_font() or another function used by your watchface. Record what it does, its full function signature, the type and purpose of each argument, its return type, and one example of where it is used. Write the explanation in your own words.
 
@@ -123,7 +144,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** UI Design · **Time:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 5A, 7A
 
-**Exact starter and directions:** [lessons/1A/](lessons/1A/).
+**Exact starter and directions:** [lessons/1A/](lessons/1A/). **Reading:** [UI Design guide, section 1A](curriculum/ui-design/README.md).
 
 **Do:** Use lessons/1A/starter with only one time TextLayer. Change exactly one of font, color, alignment or position; verify that the clock still updates.
 
@@ -133,7 +154,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Debugging and Testing · **Time:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
-**Exact starter and directions:** [lessons/6A/](lessons/6A/).
+**Exact starter and directions:** [lessons/6A/](lessons/6A/). **Reading:** [Debugging and Testing guide, section 6A](curriculum/debugging-testing/README.md).
 
 **Do:** Use the deliberately flawed local lessons/6A/starter project. Capture the first compiler diagnostic, make the minimal syntax correction, then build and run on Emery.
 
@@ -143,7 +164,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Development Tools and Workflow · **Time:** 45m · **Difficulty:** Medium · **Priority:** High · **Prerequisites:** 7A, 1A, 6A
 
-**Exact starter and directions:** [lessons/7B/](lessons/7B/).
+**Exact starter and directions:** [lessons/7B/](lessons/7B/). **Reading:** [Development Tools and Workflow guide, section 7B](curriculum/tools-workflow/README.md).
 
 **Do:** Make a personal Git branch or working copy of lessons/7B/starter, commit a baseline, change one visual property, build/test and commit the improvement.
 
@@ -185,7 +206,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Algorithmic Thinking · **Time:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4D, 7A
 
-**Exact starter and directions:** [lessons/3A/](lessons/3A/).
+**Exact starter and directions:** [lessons/3A/](lessons/3A/). **Reading:** [Algorithmic Thinking guide, section 3A](curriculum/algorithmic-thinking/README.md).
 
 **Do:** Draw the execution flow for the time-only watchface. Include main(), init(), window_stack_push(), main_window_load(), update_time(), tick_handler(), app_event_loop(), main_window_unload(), and deinit() where applicable. Show which functions call other functions and which are callbacks. Show the separate path for a minute tick after startup.
 
@@ -195,7 +216,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** UI Design · **Time:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 1A, 4D, 5A
 
-**Exact starter and directions:** [lessons/1B/](lessons/1B/).
+**Exact starter and directions:** [lessons/1B/](lessons/1B/). **Reading:** [UI Design guide, section 1B](curriculum/ui-design/README.md).
 
 **Do:** Start from the time-only watchface in lessons/1B/starter and add a separate date TextLayer, observing creation, layout, minute updates and cleanup on Emery.
 
@@ -205,7 +226,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Resource Literacy · **Time:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 4D, 5A
 
-**Exact starter and directions:** [lessons/5B/](lessons/5B/).
+**Exact starter and directions:** [lessons/5B/](lessons/5B/). **Reading:** [Resource Literacy guide, section 5B](curriculum/resource-literacy/README.md).
 
 **Do:** Inspect the local lessons/5B/starter font selector. Trace the Up/Down event from callback through index update to apply_font; document API signatures and state updates.
 
@@ -215,7 +236,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Algorithmic Thinking · **Time:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 3A, 5B
 
-**Exact starter and directions:** [lessons/3B/](lessons/3B/).
+**Exact starter and directions:** [lessons/3B/](lessons/3B/). **Reading:** [Algorithmic Thinking guide, section 3B](curriculum/algorithmic-thinking/README.md).
 
 **Do:** Using the local lessons/3B/starter font selector, write original pseudocode for moving through fonts in both directions, including first/last and a one-item edge case.
 
@@ -225,7 +246,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Idea Generation · **Time:** 30m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 2A, 5B
 
-**Exact starter and directions:** [lessons/2B/](lessons/2B/).
+**Exact starter and directions:** [lessons/2B/](lessons/2B/). **Reading:** [Idea Generation guide, section 2B](curriculum/idea-generation/README.md).
 
 **Do:** Choose components from the two complete local projects in lessons/2B, write a remix brief with core behavior, sources, minimal implementation and technical unknowns.
 
@@ -267,7 +288,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Resource Literacy · **Time:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 4E, 5B
 
-**Exact starter and directions:** [lessons/5C/](lessons/5C/).
+**Exact starter and directions:** [lessons/5C/](lessons/5C/). **Reading:** [Resource Literacy guide, section 5C](curriculum/resource-literacy/README.md).
 
 **Do:** Research persistence from lessons/5C/starter, trace persist_exists/read/write and write an implementation plan using the current SDK documentation.
 
@@ -277,7 +298,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Debugging and Testing · **Time:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 4E, 6A, 3B
 
-**Exact starter and directions:** [lessons/6B/](lessons/6B/).
+**Exact starter and directions:** [lessons/6B/](lessons/6B/). **Reading:** [Debugging and Testing guide, section 6B](curriculum/debugging-testing/README.md).
 
 **Do:** Use lessons/6B/starter with its deliberate index bug. Reproduce Up/Down behavior, inspect APP_LOG index traces, fix the faulty transition and retest every boundary.
 
@@ -287,7 +308,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Idea Generation · **Time:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2B, 5C
 
-**Exact starter and directions:** [lessons/2C/](lessons/2C/).
+**Exact starter and directions:** [lessons/2C/](lessons/2C/). **Reading:** [Idea Generation guide, section 2C](curriculum/idea-generation/README.md).
 
 **Do:** Inspect the three complete local Emery examples in lessons/2C and develop three original ideas; compare feasibility, select one and write a minimal specification.
 
@@ -297,7 +318,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Algorithmic Thinking · **Time:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2C, 3B, 4G
 
-**Exact starter and directions:** [lessons/3C/](lessons/3C/).
+**Exact starter and directions:** [lessons/3C/](lessons/3C/). **Reading:** [Algorithmic Thinking guide, section 3C](curriculum/algorithmic-thinking/README.md).
 
 **Do:** Use lessons/3C/starter and your 2C app concept to specify a state machine: states, inputs, transitions, visible outputs, default cases and invalid events.
 
@@ -317,7 +338,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** UI Design · **Time:** 90m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1B, 2C, 3C, 4H
 
-**Exact starter and directions:** [lessons/1C/](lessons/1C/).
+**Exact starter and directions:** [lessons/1C/](lessons/1C/). **Reading:** [UI Design guide, section 1C](curriculum/ui-design/README.md).
 
 **Do:** Use lessons/1C/starter (the licensed Simplicity C layout) to sketch multiple Emery screens/modes, navigation and button outcomes for your own concept.
 
@@ -329,7 +350,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Development Tools and Workflow · **Time:** 150m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1C, 4H, 5B, 7B
 
-**Exact starter and directions:** [lessons/7C/](lessons/7C/).
+**Exact starter and directions:** [lessons/7C/](lessons/7C/). **Reading:** [Development Tools and Workflow guide, section 7C](curriculum/tools-workflow/README.md).
 
 **Do:** Combine the two complete but separate projects in lessons/7C (font selector and persistent counter). Implement saved font selection yourself, validate indices and verify restart behavior.
 
@@ -339,7 +360,7 @@ Book-based exercises from Chapters 3–6 now have **11 complete, in-repository p
 
 **Skill:** Debugging and Testing · **Time:** 90m · **Difficulty:** High · **Priority:** Low · **Prerequisites:** 4H, 6B, 7C
 
-**Exact starter and directions:** [lessons/6C/](lessons/6C/).
+**Exact starter and directions:** [lessons/6C/](lessons/6C/). **Reading:** [Debugging and Testing guide, section 6C](curriculum/debugging-testing/README.md).
 
 **Do:** Use lessons/6C/starter with its deliberate persistence fault. Select a nondefault font, restart, trace save/restore logs, correct the mismatch and retest.
 
@@ -367,6 +388,10 @@ task project:pebble.course list
 task project:pebble.course unblocked
 task <ID> info
 ```
+
+## Format and permissions
+
+This Markdown file is canonical. [The PDF](SYLLABUS.pdf) is an older snapshot pending regeneration. Book-derived text in readings 4A–4D must be reviewed for permissions before any new whole-repository content license is chosen; see [README license options](README.md#license-options-not-yet-selected).
 
 ## References
 
