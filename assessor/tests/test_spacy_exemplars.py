@@ -35,3 +35,5 @@ def test_meets_exemplar_beats_below_on_margin():
     below_margin = below_out[0].margin
     assert meets_margin is not None and below_margin is not None
     assert meets_margin > below_margin
+    assert meets_margin >= rubric.meets_min_margin
+    assert below_margin <= -rubric.meets_min_margin
