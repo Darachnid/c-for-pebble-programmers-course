@@ -23,6 +23,14 @@
 
 ---
 
+## Self-contained Emery project starters
+
+- [**Project 5.1** — starter, README, and C source](../../lessons/4C/projects/project-5-1/)
+- [**Project 5.2** — starter, README, and C source](../../lessons/4C/projects/project-5-2/)
+- [**Project 5.3** — starter, README, and C source](../../lessons/4C/projects/project-5-3/)
+
+These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+
 As you invent solutions for various programming challenges, there will be many times when you must execute a statement many times.  This kind of iterative code is very common and C provides several choices on how to execute statements in a loop. 
 
 In this chapter, we examine how C supports statement iteration via looping structures.  Loops provide a way to repeat blocks of code and to control that repetition.  We will also briefly consider the goto statement, an infamous programming feature that was around before C was invented.  
@@ -381,7 +389,7 @@ For a chapter on loops, we need exercises that demonstrate how loops might be us
 
 #### Project 5.1 ####
 
-Let's start with Project 5.1.  **Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 5-1 is assigned; the exercise specification below is retained. Run the project and see what it displays on the Pebble.  It generates a random decimal number and displays that number.  There's a second number that displays, but it's just a set of zeroes.
+Let's start with Project 5.1.  [**Local Project 5.1 starter and instructions**](../../lessons/4C/projects/project-5-1/) Run the project and see what it displays on the Pebble.  It generates a random decimal number and displays that number.  There's a second number that displays, but it's just a set of zeroes.
 
 Instead of zeroes, display the random decimal number in binary.  To do this, we will need a loop that will iterate over the following steps:
 
@@ -395,11 +403,11 @@ In the `rand2bin.c` file, locate the `update_display` function.  There is a decl
 
 Make sure you add comments to your code and add your name.
 
-You can find the answers and implementations for the code **Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 5.2 ####
 
-Now let's look at Project 5.2.  **Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 5-2 is assigned; the exercise specification below is retained. This project displays that image on the Pebble screen.  Locate the function near the top of the file named `replace_colors`.  It is empty; there is no code between the curly braces. Your job is to use FOR loops to iterate through every pixel in the image, detect if the pixel matches the old color, and if it does, replace it with the new color.  
+Now let's look at Project 5.2.  [**Local Project 5.2 starter and instructions**](../../lessons/4C/projects/project-5-2/) This project displays that image on the Pebble screen.  Locate the function near the top of the file named `replace_colors`.  It is empty; there is no code between the curly braces. Your job is to use FOR loops to iterate through every pixel in the image, detect if the pixel matches the old color, and if it does, replace it with the new color.  
 
 This image holds correct changes.
 
@@ -424,11 +432,11 @@ You can check to see if two colors are equal like this:
 
 The key here is to use a nested for loop to examine all the pixels (in two dimensions).  
 
-You can find an implementation for this project **Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 5.3 ####
 
-Let's do one more project.  **Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 5-3 is assigned; the exercise specification below is retained.  This code displays a message at the top left of the Pebble screen.  There is a function called `fill_screen` that only displays a single message.
+Let's do one more project.  [**Local Project 5.3 starter and instructions**](../../lessons/4C/projects/project-5-3/)  This code displays a message at the top left of the Pebble screen.  There is a function called `fill_screen` that only displays a single message.
 
 You are to rewrite the `fill_screen` function so that it completely fills the Pebble screen with a message repeated over and over.  See the image below for an example.
 
@@ -445,4 +453,4 @@ You should be able to use two loops, one for the row and one for the column.  Ho
 
 Now that you have used two loops, can you rewrite the code using only one loop?
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review..
+No completed answer is provided. Submit a working project with the evidence described in its README..

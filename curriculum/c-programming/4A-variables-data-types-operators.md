@@ -23,6 +23,13 @@
 
 ---
 
+## Self-contained Emery project starters
+
+- [**Project 3.1** — starter, README, and C source](../../lessons/4A/projects/project-3-1/)
+- [**Project 3.2** — starter, README, and C source](../../lessons/4A/projects/project-3-2/)
+
+These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+
 As we use high level programming languages to write our programs, we learn that programming languages specialize in *abstraction*.  Abstraction is a way of hiding irrelevant detail and focusing on the things that matter.  Programming languages focus our attention on algorithms and the data we need to power those algorithms, ignoring the actual details of making those algorithms work on specific CPU architectures.
 
 We start looking at the C programming language by working with abstractions of computer memory.  *Variables* are abstractions of memory words; when we work with variables, we are really working with memory.  But the gory details of *how* we are working with memory are hidden and we are left with the niceties that we get in C.  
@@ -622,7 +629,7 @@ For this course, project starters are kept inside this repository rather than im
 
 #### Project 3.1 ####
 
-**Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 3-1 is assigned; the exercise specification below is retained.  once the local Emery starter is available, build and run it using the Pebble CLI.  It implements a simple program with a ball bouncing up and down on the Pebble's display.  
+[**Local Project 3.1 starter and instructions**](../../lessons/4A/projects/project-3-1/)  build and run the linked local project using the Pebble CLI.  It implements a simple program with a ball bouncing up and down on the Pebble's display.  
 
 
 
@@ -672,11 +679,11 @@ The code in these functions are run when the top and bottom buttons are pressed,
 <li> Finally, add some comments to the file to claim the code as your own and to identify what you have done!
 </ol>
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 3.2 ####
 
-Now let's start a new project.  **Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 3-2 is assigned; the exercise specification below is retained., import Project 3.2 into local Pebble SDK/CLI workflow and run it.  You should get a letter traveling around a circle on the Pebble's display.  
+Now let's start a new project.  [**Local Project 3.2 starter and instructions**](../../lessons/4A/projects/project-3-2/). Build and run the linked local project on Emery.  You should get a letter traveling around a circle on the Pebble's display.  
 
 This code is a great example of expressions and of floating points vs integer computation.  The main code we want to pay attention to is in the function `move_letter()`:
 
@@ -705,4 +712,4 @@ The computations of `position_x` and `position_y` need some explanation.  When w
 
 1. Add comments to the code to claim the code and to explain what it does.
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.

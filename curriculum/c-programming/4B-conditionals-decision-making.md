@@ -23,6 +23,13 @@
 
 ---
 
+## Self-contained Emery project starters
+
+- [**Project 4.1** — starter, README, and C source](../../lessons/4B/projects/project-4-1/)
+- [**Project 4.2** — starter, README, and C source](../../lessons/4B/projects/project-4-2/)
+
+These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+
 There is a theorem in programming language theory that states that there are only three types of statements needed for programming.  In a 1966 paper, Corrado Böhm and Giuseppe Jacopini show that we only need sequential execution, conditional execution of statements, and looping repeated execution of statements to write a program. 
 
 We have already described sequential execution in a C program in Chapter 3.  In this chapter, we will discuss conditional execution and its various forms.  We will discuss loops and iteration in Chapter 5.
@@ -506,7 +513,7 @@ The exercises for this chapter have you working with projects that implement clo
 
 #### Project 4.1 #### 
 
-**Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 4-1 is assigned; the exercise specification below is retained.
+[**Local Project 4.1 starter and instructions**](../../lessons/4B/projects/project-4-1/)
 This application implements a second hand that sweeps in a circle and displays the numbers on a clock at 5 second intervals.  Run the application, then work through the following questions and challenges.
 
 1. Add comments that explain the use of `second % 5 == 0` in the if statement in the `mark_the_second` function. 
@@ -524,11 +531,11 @@ This application implements a second hand that sweeps in a circle and displays t
 
 1. Finally, claim the code by putting your name and the date in the header comments.  
 
-You can find the answers and implementations for the assignments **Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 4.2 ####
 
-Now let's examine Project 4.2; **Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 4-2 is assigned; the exercise specification below is retained..
+Now let's examine Project 4.2; [**Local Project 4.2 starter and instructions**](../../lessons/4B/projects/project-4-2/).
 
 This application puts time on the Pebble screen as text.  It's a simple program that updates once per second.  Most of the work is done in the `handle_tick` function, shown below:
 
@@ -564,4 +571,4 @@ We will make changes in this code by focusing on the `handle_tick` function.  Wo
 
 1. Finally, claim the code by putting your name and the date in the header comments.  
 
-You can find the implementations for the assignments **Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.

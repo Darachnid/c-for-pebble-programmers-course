@@ -23,6 +23,15 @@
 
 ---
 
+## Self-contained Emery project starters
+
+- [**Project 6.1** — starter, README, and C source](../../lessons/4D/projects/project-6-1/)
+- [**Project 6.2** — starter, README, and C source](../../lessons/4D/projects/project-6-2/)
+- [**Project 6.3** — starter, README, and C source](../../lessons/4D/projects/project-6-3/)
+- [**Project 6.4** — starter, README, and C source](../../lessons/4D/projects/project-6-4/)
+
+These are newly authored Emery-only implementations of the **exercise concepts**, not byte-identical copies of the 2016 projects. Historic line numbers, screenshots and variable names in the preserved text may differ; use each linked project's README and TODOs as the authoritative implementation instructions. Each project can be built independently and does not need an external download.
+
 Abstraction is one of the most powerful tools used by a software developer.  We have seen basic abstractions already: variables are abstractions of memory and statements are abstractions of machine instructions.  When we use abstractions, we want to see the big picture, to use something that just works, and we want to ignore the details of how it works. 
 
 Abstraction is at the heart of why we use functions.  Functions give us perhaps the most power we have had yet to use abstraction to our liking.  
@@ -469,13 +478,16 @@ Finally, using functions makes your program more modular.  Modularity is a prope
 
 #### Project 6.1 ####
 
-We started this chapter talking about changes to Project 4.1 from Chapter 4.  For this project exercise, actually make those changes and get the resulting code to run.  **Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.  Given the walk through in that "Basics" section, you should be able to create something with functions easily.
+[**Local Emery Project 6.1 starter**](../../lessons/4D/projects/project-6-1/) — clock function refactoring, with a fully buildable starting project.
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+
+We started this chapter talking about changes to Project 4.1 from Chapter 4.  For this project exercise, actually make those changes and get the resulting code to run.  No completed answer is provided. Submit a working project with the evidence described in its README.  Given the walk through in that "Basics" section, you should be able to create something with functions easily.
+
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 6.2 ####
 
-**Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 6-2 is assigned; the exercise specification below is retained.  This code will display a pattern, as depicted by bits in a string.  In this starting code for Project 6.2, the string "111101111101111" can be broken into 5 rows of 3 bits each, which can be displayed like this:
+[**Local Project 6.2 starter and instructions**](../../lessons/4D/projects/project-6-2/)  This code will display a pattern, as depicted by bits in a string.  In this starting code for Project 6.2, the string "111101111101111" can be broken into 5 rows of 3 bits each, which can be displayed like this:
 
 
 
@@ -492,11 +504,11 @@ Make the following changes to the code:
 
 Finish this project by placing comments at the beginning of the code that identifies the code by project and adds your name.
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 6.3 ####
 
-**Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 6-3 is assigned; the exercise specification below is retained.  This project asks you to work with drawing text.
+[**Local Project 6.3 starter and instructions**](../../lessons/4D/projects/project-6-3/)  This project asks you to work with drawing text.
 
 Examine the starting code for this project.  In its current state, the code will not run, because `graphics_layer_update_callback` calls a function that you must define that is currently not in the code.  The initial code calls this function `fill_the_rectangle` and sends it two parameters: width and height.
 
@@ -518,11 +530,11 @@ The `GSize` data type is a struct (we will see these in Chapter 10); you can acc
 
 Add comments at the beginning of the code that identifies the code by project and adds your name.
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
 
 #### Project 6.4 ####
 
-**Local Emery starter:** The historical hosted-IDE import link has been removed. The equivalent local project starter must be added to this repository before Project 6-4 is assigned; the exercise specification below is retained. 
+[**Local Project 6.4 starter and instructions**](../../lessons/4D/projects/project-6-4/) 
 
 This program draws concentric circles on the Pebble screen. The original composition was designed for a round display; Emery is rectangular (200 × 228). Examine the code, then adapt the center and bounds to Emery rather than assuming a round screen.  The function `draw_circles` draws the concentric circles by using a for loop.
 
@@ -534,4 +546,4 @@ Your job is to remove the for loop, but draw the same screen by using recursion.
 
 When you are done, claim the code by adding comments to identify you and the project.
 
-**Course adaptation:** The original answer-project link is not carried forward. Keep the work independent and submit the required evidence for review.
+No completed answer is provided. Submit a working project with the evidence described in its README.
