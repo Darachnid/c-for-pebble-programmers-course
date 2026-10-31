@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 /* 41A: intentionally minimal independent-app shell.
  * There is no application solution here: develop your own spec from 22C / 25C. */
 static Window *s_window;
@@ -6,7 +7,8 @@ static TextLayer *s_label;
 static void load(Window *window) {
  Layer *root=window_get_root_layer(window);
  GRect bounds=layer_get_bounds(root);
- s_label=text_layer_create(GRect(6,70,bounds.size.w-12,80));
+ GRect safe=course_content_rect(bounds);
+ s_label=text_layer_create(GRect(safe.origin.x,safe.origin.y+(safe.size.h-80)/2,safe.size.w,80));
  text_layer_set_text(s_label,"Independent App\nImplement your own concept");
  text_layer_set_text_alignment(s_label,GTextAlignmentCenter);
  layer_add_child(root,text_layer_get_layer(s_label));

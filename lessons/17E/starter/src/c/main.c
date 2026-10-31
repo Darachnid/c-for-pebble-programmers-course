@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 #define ITEM_COUNT 4
 static const char *s_words[ITEM_COUNT]={"BIRDS","FISH","TREES","CLOUDS"};
 static int s_selected=0;
@@ -27,7 +28,8 @@ static void click_config(void *c) {
 }
 static void on_load(Window *w) {
   GRect b=layer_get_bounds(window_get_root_layer(w));
-  s_label=text_layer_create(GRect(10,85,b.size.w-20,60));
+  GRect safe=course_content_rect(b);
+  s_label=text_layer_create(GRect(safe.origin.x, safe.origin.y+(safe.size.h-60)/2, safe.size.w,60));
   text_layer_set_text_alignment(s_label,GTextAlignmentCenter);
   text_layer_set_font(s_label,fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_label));

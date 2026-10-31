@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 #define STORAGE_KEY 19
 static Window *s_window;
 static TextLayer *s_status;
@@ -29,7 +30,8 @@ static void tick_handler(struct tm *tm_now,TimeUnits changed) {
 }
 static void on_load(Window *w) {
  GRect b=layer_get_bounds(window_get_root_layer(w));
- s_status=text_layer_create(GRect(4,75,b.size.w-8,75));
+ GRect safe=course_content_rect(b);
+ s_status=text_layer_create(GRect(safe.origin.x,safe.origin.y+(safe.size.h-75)/2,safe.size.w,75));
  text_layer_set_text_alignment(s_status,GTextAlignmentCenter);
  text_layer_set_font(s_status,fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
  layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_status));

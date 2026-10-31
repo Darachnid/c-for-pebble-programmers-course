@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 
 /* Emery font explorer; Up/Down selects among four SDK system fonts.
    Project normal. Diagnostics log the selected index. */
@@ -53,8 +54,9 @@ static void click_config_provider(void *context) {
 static void main_window_load(Window *window) {
   Layer *root = window_get_root_layer(window);
   GRect bounds = layer_get_bounds(root);
-  s_sample = text_layer_create(GRect(0, 60, bounds.size.w, 78));
-  s_title = text_layer_create(GRect(0, 145, bounds.size.w, 42));
+  GRect safe = course_content_rect(bounds);
+  s_sample = text_layer_create(GRect(safe.origin.x, safe.origin.y+safe.size.h/6, safe.size.w,78));
+  s_title = text_layer_create(GRect(safe.origin.x, safe.origin.y+safe.size.h*3/4, safe.size.w,42));
   text_layer_set_background_color(s_sample, GColorClear);
   text_layer_set_background_color(s_title, GColorClear);
   text_layer_set_text_color(s_sample, GColorBlack);

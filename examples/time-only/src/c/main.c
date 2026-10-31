@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 
 /* Time-only watchface. Stop here before the date exercise (13B). */
 static Window *s_main_window;
@@ -22,7 +23,8 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
 static void main_window_load(Window *window) {
   Layer *root = window_get_root_layer(window);
   GRect bounds = layer_get_bounds(root);
-  s_time_layer = text_layer_create(GRect(0, 75, bounds.size.w, 60));
+  GRect safe = course_content_rect(bounds);
+  s_time_layer = text_layer_create(GRect(safe.origin.x, safe.origin.y+(safe.size.h-60)/2, safe.size.w, 60));
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_font(s_time_layer,

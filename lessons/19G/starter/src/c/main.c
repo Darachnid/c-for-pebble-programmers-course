@@ -1,4 +1,5 @@
 #include <pebble.h>
+#include "course_display.h"
 typedef enum { MODE_VIEW=0, MODE_EDIT=1, MODE_HELP=2 } AppMode;
 typedef struct {AppMode mode; int score; bool active;} AppState;
 static AppState s_state={MODE_VIEW,0,true};
@@ -25,7 +26,8 @@ static void click_config(void *c) {
 }
 static void on_load(Window *w) {
  GRect b=layer_get_bounds(window_get_root_layer(w));
- s_label=text_layer_create(GRect(0,80,b.size.w,65));
+ GRect safe=course_content_rect(b);
+ s_label=text_layer_create(GRect(safe.origin.x,safe.origin.y+(safe.size.h-65)/2,safe.size.w,65));
  text_layer_set_font(s_label,fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
  text_layer_set_text_alignment(s_label,GTextAlignmentCenter);
  layer_add_child(window_get_root_layer(w),text_layer_get_layer(s_label));
