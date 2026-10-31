@@ -1,38 +1,42 @@
-# 1A — Change one visual property of a time-only watchface
+# 1A — Explore Pebble examples
 
-**Skill:** UI Design · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 5A, 7A
+**Skill:** Idea Generation · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
 ## Competency checkpoint
 
-**Primary:** UI Design · **Supporting:** Resource Literacy. Before editing, predict how the design supports glanceability and button/navigation clarity; then verify on the 200x228 canvas. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
+**Primary:** Idea Generation · **Supporting:** Resource Literacy. Before choosing an idea, explicitly compare alternatives against feasibility, user benefit and technical uncertainty. After the activity, provide evidence for the stated completion criterion, explain the supporting competency in your own words, and self-score **both** using the [four-level rubric](../../curriculum/course-design/learning-outcomes-and-assessment.md). This checkpoint clarifies how the existing assignment is assessed; it does not add a new exercise.
 
 
-**Companion reading:** [1A in the ui design guide](../../curriculum/ui-design/README.md). Before editing, predict how one visual property affects glance readability. Use the local starter below; the reading is preparation, not a replacement project.
+**Companion reading:** [1A in the idea generation guide](../../curriculum/idea-generation/README.md). Observe input, state and output before proposing new features. Use the local starter below; the reading is preparation, not a replacement project.
 
-## Exact local example
+## Exact local examples
 
-- [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
+- [`clock/`](./clock/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.
+- [`fonts/`](./fonts/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.
+- [`storage/`](./storage/) — Independent Emery counter showing the Pebble persist_exists/read/write API.
 
-Change exactly one visual property. The source contains no date TextLayer; that feature belongs to lesson 1B.
+Three locally stored, self-contained projects to inspect; no external examples are needed.
 
 ## Your task
 
-Start from the time-only checkpoint of the C watchface tutorial: the code after 'Displaying the Time' and before 'Adding the Date'. Choose exactly one visual property to change: font, position, alignment, text color, or background color. Make the change, build, and inspect it in the emulator. Keep the time working and do not add the date or other functionality.
+Browse only the included Emery-targeted projects under examples/, initially time-only, font-selector, and persist-counter. Choose one and brainstorm five creative variations; describe what changes and what new API each might require. Do not browse or solve the debugging challenges yet.
 
 ## Completion evidence
 
-The app builds and runs, the time still updates, and one intentional visual change is visible. The watchface still has no date layer.
+Five distinct ideas are recorded, each describes a possible change, and one idea is marked as the most interesting to investigate.
 
 ## Build the starter
 
 From the repository root:
 
 ```sh
-cd lessons/1A/starter
+cd lessons/1A/clock
 pebble build
 pebble install --emulator emery
 pebble logs --emulator emery
 ```
+
+Each included subdirectory is a **separate complete C project**. Run its commands from that subdirectory; it is not an already integrated answer.
 
 ## Source and permissions
 

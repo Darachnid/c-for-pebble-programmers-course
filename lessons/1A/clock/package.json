@@ -1,0 +1,20 @@
+{
+  "name": "course-lessons-2a-clock",
+  "version": "1.0.0",
+  "private": true,
+  "author": "C for Pebble Programmers Course",
+  "pebble": {
+    "displayName": "lessons 1A clock",
+    "uuid": "c0dec0de-2000-4000-8000-000000000001",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
