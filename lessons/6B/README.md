@@ -1,6 +1,6 @@
 # 6B — Diagnose a font-selection boundary bug
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Debugging and Testing · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 4E, 6A, 3B
 
 ## Exact local example
 
@@ -10,7 +10,7 @@ Use the APP_LOG index traces to investigate incorrect Up navigation. Compile suc
 
 ## Your task
 
-Use the provided deliberately flawed examples/debug-6b project. It compiles but navigation behaves incorrectly. Reproduce four successive Up and Down presses, collect the included APP_LOG index traces with pebble logs --emulator emery, locate the wrong transition, apply a minimal fix and verify both boundaries. Compare with the clean example only after debugging.
+Use the provided deliberately flawed lessons/6B/starter project. It compiles but navigation behaves incorrectly. Reproduce four successive Up and Down presses, collect the included APP_LOG index traces with pebble logs --emulator emery, locate the wrong transition, apply a minimal fix and verify both boundaries. Compare with the clean example only after debugging.
 
 ## Completion evidence
 

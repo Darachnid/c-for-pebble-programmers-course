@@ -1,6 +1,6 @@
 # 6A — Diagnose a simple compiler error
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Debugging and Testing · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A, 7A
 
 ## Exact local example
 
@@ -10,7 +10,7 @@ Compile, capture the first compiler diagnostic, identify a syntax error, make th
 
 ## Your task
 
-Start from the deliberately flawed examples/debug-6a project. Run pebble build; capture the first compiler diagnostic; identify and correct the single syntax fault; rebuild and run on emery. The original clean time-only example is for comparison AFTER the diagnosis.
+Start from the deliberately flawed lessons/6A/starter project. Run pebble build; capture the first compiler diagnostic; identify and correct the single syntax fault; rebuild and run on emery. The original clean time-only example is for comparison AFTER the diagnosis.
 
 ## Completion evidence
 

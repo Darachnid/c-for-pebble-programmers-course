@@ -1,6 +1,6 @@
 # 5A — Find and document a Pebble API function
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
 
 ## Exact local example
 

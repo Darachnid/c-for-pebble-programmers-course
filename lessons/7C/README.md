@@ -1,6 +1,6 @@
 # 7C — Integrate font browsing with persistent selection
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Development Tools and Workflow · **Estimate:** 150m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1C, 4H, 5B, 7B
 
 ## Exact local examples
 

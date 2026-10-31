@@ -1,6 +1,6 @@
 # 7A — Build and run a time-only C watchface
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Development Tools and Workflow · **Estimate:** 30m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** None
 
 ## Exact local example
 

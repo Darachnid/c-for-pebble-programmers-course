@@ -1,6 +1,6 @@
 # 5C — Research an unfamiliar Pebble capability
 
-**Skill:**  · **Estimate:**  · **Difficulty:**  · **Priority:**  · **Prerequisites:** 
+**Skill:** Resource Literacy · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 4E, 5B
 
 ## Exact local example
 
