@@ -2,10 +2,11 @@
 /* Original Emery-only teaching starter. Complete the TODOs yourself. */
 static Window *s_window;
 static Layer *s_canvas;
-static int s_degrees=0, s_radius=66; static AppTimer *s_timer;
+static int s_degrees=0, s_radius=66, s_speed=2;
+static AppTimer *s_timer;
 static void timer_callback(void *context) {
   (void)context;
-  s_degrees = (s_degrees + 2) % 360;
+  s_degrees = (s_degrees + s_speed) % 360;
   layer_mark_dirty(s_canvas);
   s_timer=app_timer_register(60, timer_callback, NULL);
 }
@@ -22,6 +23,24 @@ static void canvas_update(Layer *layer, GContext *ctx) {
 }
 
 
+static void up_click_handler(ClickRecognizerRef recognizer, void *context) {
+  (void)recognizer; (void)context;
+  /* TODO: make letter advance by a greater angle; optionally change letter. */
+}
+static void down_click_handler(ClickRecognizerRef recognizer, void *context) {
+  (void)recognizer; (void)context;
+  /* TODO: make letter advance by a smaller angle; optionally change letter. */
+}
+static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
+  (void)recognizer; (void)context;
+  /* TODO: define and toggle an orbit direction. */
+}
+static void click_config(void *context) {
+  (void)context;
+  window_single_click_subscribe(BUTTON_ID_UP, up_click_handler);
+  window_single_click_subscribe(BUTTON_ID_DOWN, down_click_handler);
+  window_single_click_subscribe(BUTTON_ID_SELECT, select_click_handler);
+}
 static void window_load(Window *window) {
   Layer *root = window_get_root_layer(window);
   s_canvas = layer_create(layer_get_bounds(root));
@@ -39,6 +58,7 @@ static void init(void) {
     .load = window_load, .unload = window_unload
   });
   
+  window_set_click_config_provider(s_window, click_config);
   window_stack_push(s_window, true);
   
 }
