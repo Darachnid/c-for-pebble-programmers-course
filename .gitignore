@@ -1,6 +1,7 @@
 # Student-local assessor artifacts (not for pull requests)
 submit/
 .assessor/
+assessor/benchmark/reports/
 
 # Python
 .venv/

@@ -75,4 +75,8 @@ cd assessor && uv sync --group dev --group model && uv run pytest tests/test_spa
 
 ## Dual-platform scope of this pilot
 
-The existing post-submit assessor pilots (2A and 3A) began with Emery-focused evidence checks. **A passing assessor report is not a certification of Gabbro compilation, circular layout, touch handling or real hardware behavior.** Keep additional Time 2 and Round 2 evidence in the same EVIDENCE.md or attached logs, and check both platforms manually against the [course's dual-platform acceptance guidance](../curriculum/dual-platform/README.md). Do not submit during exercises or allow automated assessment to generate source solutions.
+The post-submit assessor pilot (Phase I **1A–5A**) began with Emery-focused evidence checks. **A passing assessor report is not a certification of Gabbro compilation, circular layout, touch handling or real hardware behavior.** Keep additional Time 2 and Round 2 evidence in the same EVIDENCE.md or attached logs, and check both platforms manually against the [course's dual-platform acceptance guidance](../curriculum/dual-platform/README.md). Do not submit during exercises or allow automated assessment to generate source solutions.
+
+## Backend comparison (maintainers)
+
+**Compare spaCy vs Ollama** on the shared fixture corpus: see [BENCHMARK.md](BENCHMARK.md) and `bash assessor/scripts/compare_backends.sh` from the repo root.
