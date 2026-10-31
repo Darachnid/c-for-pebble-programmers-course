@@ -2,6 +2,8 @@
 
 **Skill:** Resource Literacy · **Estimate:** 20m · **Difficulty:** Low · **Priority:** High · **Prerequisites:** 4A
 
+**Companion reading:** [5A in the resource literacy guide](../../curriculum/resource-literacy/README.md). Record the API function contract and local usage in your own words. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — One-text-layer Emery watchface; time only. It intentionally does not include a date.

@@ -2,6 +2,8 @@
 
 **Skill:** Algorithmic Thinking · **Estimate:** 60m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 2C, 3B, 4G
 
+**Companion reading:** [3C in the algorithmic thinking guide](../../curriculum/algorithmic-thinking/README.md). Express every supported state/event pair in a transition table. Use this lesson's local starter; the reading is preparation, not a completed answer.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.
