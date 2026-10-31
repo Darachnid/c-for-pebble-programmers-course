@@ -2,6 +2,8 @@
 
 **Skill:** Development Tools and Workflow · **Estimate:** 150m · **Difficulty:** High · **Priority:** Medium · **Prerequisites:** 1C, 4H, 5B, 7B
 
+**Companion reading:** [7C in the tools workflow guide](../../curriculum/tools-workflow/README.md). Integrate checkpoints incrementally and test persistence after reopening. Complete the assignment using its provided local Emery project.
+
 ## Exact local examples
 
 - [`fonts/`](./fonts/) — Independent Emery font-selection watchapp with Up/Down click handlers and APP_LOG diagnostics.

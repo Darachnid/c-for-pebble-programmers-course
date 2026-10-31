@@ -2,6 +2,8 @@
 
 **Skill:** Debugging and Testing · **Estimate:** 90m · **Difficulty:** High · **Priority:** Low · **Prerequisites:** 4H, 6B, 7C
 
+**Companion reading:** [6C in the debugging testing guide](../../curriculum/debugging-testing/README.md). Test fresh start, save and restart separately; no spoiler is provided here. Complete the assignment using its provided local Emery project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Compiling font selection/persistence C source with deliberate restart-state defect.

@@ -2,6 +2,8 @@
 
 **Skill:** Debugging and Testing · **Estimate:** 45m · **Difficulty:** Medium · **Priority:** Medium · **Prerequisites:** 4E, 6A, 3B
 
+**Companion reading:** [6B in the debugging testing guide](../../curriculum/debugging-testing/README.md). Use reproducible button sequences and index logs; the deliberate bug is not identified here. Complete the assignment using its provided local Emery project.
+
 ## Exact local example
 
 - [`starter/`](./starter/) — Compiling interactive font-selection C source with deliberate selection logic defect.
