@@ -41,3 +41,7 @@
 - **Event provenance:** what caused this callback and when?
 
 Use these when designing arrays (17E), enum states (19G), event handling (24H), and regression tests (21B/32C). [Course index](../README.md).
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).

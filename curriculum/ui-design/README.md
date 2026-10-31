@@ -47,3 +47,7 @@
 - Can you explain **why** a design changed rather than merely stating what changed?
 
 **Further reading:** [Pebble C SDK documentation](https://developer.repebble.com/docs/c/) for `TextLayer`, `Window`, `Layer` and button click configuration. The [course-wide index](../README.md) connects design to algorithms and implementation.
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).

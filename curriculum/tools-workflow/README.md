@@ -49,3 +49,7 @@ git log --oneline -5
 ```
 
 **Common errors:** wrong working directory; editing the starter instead of a copy; accidentally staging `build/`; ignoring compile warnings; assuming tests pass just because Git accepts the commit; forgetting to check first-launch behavior. Use the [syllabus](../../SYLLABUS.md) for assessment and [CONTRIBUTING.md](../../CONTRIBUTING.md) for publishing to GitHub.
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).

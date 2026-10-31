@@ -72,3 +72,7 @@ Rigorous spaCy limit tests (margins, phrase gates, known ambiguous exemplars):
 ```bash
 cd assessor && uv sync --group dev --group model && uv run pytest tests/test_spacy_boundaries.py -v
 ```
+
+## Dual-platform scope of this pilot
+
+The existing post-submit assessor pilots (2A and 3A) began with Emery-focused evidence checks. **A passing assessor report is not a certification of Gabbro compilation, circular layout, touch handling or real hardware behavior.** Keep additional Time 2 and Round 2 evidence in the same EVIDENCE.md or attached logs, and check both platforms manually against the [course's dual-platform acceptance guidance](../curriculum/dual-platform/README.md). Do not submit during exercises or allow automated assessment to generate source solutions.

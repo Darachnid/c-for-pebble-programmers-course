@@ -35,3 +35,7 @@
 ### Source evaluation checklist
 
 Prefer current official SDK docs for API guarantees; consult bundled examples for usage; use compiler logs and emulator runs for actual behavior. Write down SDK version (4.33.1), target (`emery`) and when a source applies to a different device or older SDK. If sources disagree, record the discrepancy instead of silently choosing one. [Course index](../README.md).
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).

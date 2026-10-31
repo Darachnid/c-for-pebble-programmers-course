@@ -37,3 +37,7 @@
 A proposal is ready to move to 23C/25C when a peer can answer: Who is it for? What starts an action? What state changes? What appears on screen? What is the smallest proof? What might fail? Preserve rejected ideas; they are evidence of selection rather than wasted work.
 
 **Examples stay local:** use [course example families](../README.md), and return to [the syllabus](../../SYLLABUS.md) for prerequisites. No external example is required to complete these lessons.
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).

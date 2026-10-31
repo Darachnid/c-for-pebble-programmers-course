@@ -45,3 +45,7 @@
 `Environment: SDK 4.33.1 / emery | Expected | Observed | Steps | Evidence | Hypothesis | Minimal change | Tests after fix | Remaining uncertainty`
 
 Never include answers/spoilers for these lessons in a general curriculum pull request. Link back to [course overview](../README.md) and [lesson index](../../lessons/README.md).
+
+## Pebble Round 2 alongside Time 2
+
+Carry the **same competency** across a 200×228 rectangular Emery display and a 260×260 circular Gabbro display. Use existing examples and exercises, not extra assignments. When assessing UI/ideation/algorithms, consider the different readable region; when researching APIs or debugging, compare official feature support and each platform's emulator output. A two-target build is not a physical sensor test. See [the shared platform guide](../dual-platform/README.md).
