@@ -1,0 +1,22 @@
+name: Cumulative project continuity (static)
+on:
+  push:
+    paths:
+      - "lessons/**"
+      - "curriculum/c-programming/sdk-scaffolding.md"
+      - "curriculum/pebble-api/checkpoint-continuity.md"
+      - "scripts/check_project_continuity.py"
+      - ".github/workflows/project-continuity.yml"
+  pull_request:
+jobs:
+  continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check script syntax
+        run: python3 -m py_compile scripts/check_project_continuity.py
+      - name: Check cross-lesson source snapshots and unsolved assignments
+        run: python3 scripts/check_project_continuity.py
