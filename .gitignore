@@ -1,0 +1,11 @@
+# Student-local assessor artifacts (not for pull requests)
+submit/
+.assessor/
+
+# Python
+.venv/
+assessor/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/

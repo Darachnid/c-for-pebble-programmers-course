@@ -1,0 +1,61 @@
+# Authoritative completion text: lessons/4A/README.md (Completion criteria)
+# taskwarrior/import_course.py still lists legacy 4A "annotate watchface" — ignore for assessment.
+id: 4A
+lesson_readme: lessons/4A/README.md
+paths:
+  - lessons/4A/projects/project-3-1/**
+  - lessons/4A/projects/project-3-2/**
+evidence_template: templates/EVIDENCE.md.tpl
+evidence_sections:
+  - "## Artifact paths"
+  - "## Build and run"
+  - "## Behavior observed"
+  - "## Boundary case tested"
+  - "## Explain in your own words"
+  - "## Source diff"
+spacy:
+  meets_min_margin: 0.04
+  uncertain_band: 0.02
+  exemplar_dirs:
+    meets: examples/4A/meets
+    below: examples/4A/below
+criteria:
+  - id: both_projects
+    text: Finish project-3-1 and project-3-2 with emulator behavior demonstrated
+    source: lesson
+    deterministic:
+      - kind: require_phrase_count
+        phrase: project-3-1
+        min: 1
+      - kind: require_phrase_count
+        phrase: project-3-2
+        min: 1
+      - kind: regex_in_evidence
+        pattern: "(?i)emulator|pebble install"
+    spacy:
+      required_phrases:
+        - project-3-1
+        - project-3-2
+
+  - id: c_feature_and_diff
+    text: Source diff plus brief explanation of the C feature you applied
+    source: lesson
+    deterministic:
+      - kind: regex_in_evidence
+        pattern: "(?i)diff|git|changed|modified"
+      - kind: require_section
+        section: "## Explain in your own words"
+    spacy:
+      required_phrases:
+        - variable
+
+  - id: boundary_cases
+    text: At least one boundary case tested per exercise
+    source: lesson
+    deterministic:
+      - kind: require_phrase_count
+        phrase: boundary
+        min: 2
+    spacy:
+      required_phrases:
+        - boundary

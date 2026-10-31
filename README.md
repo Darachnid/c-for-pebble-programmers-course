@@ -10,6 +10,7 @@ A self-directed, **41-activity**, **Emery-only** C programming course: seven dev
 - [All 41 lesson folders and local examples](lessons/README.md)
 - [Learning materials for all seven competencies and the API labs](curriculum/README.md) (including [C modules](curriculum/c-programming/README.md))
 - [Taskwarrior importer](taskwarrior/README.md)
+- [Optional post-submit evidence assessor](assessor/README.md) (pilot: **7A**, **4A**; run only after you finish an activity)
 
 ## Examples and assignments
 
