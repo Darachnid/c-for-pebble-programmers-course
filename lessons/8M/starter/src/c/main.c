@@ -17,7 +17,7 @@ static void timer_cb(void *ctx) {
  (void)ctx;s_timer=NULL;++s_elapsed;refresh();
  s_timer=app_timer_register(1000,timer_cb,NULL);
 }
-static void up(ClickRecognizerRef r,void *c){(void)r;(void)c;++s_count;refresh();}
+static void up(ClickRecognizerRef r,void *c){(void)r;(void)c;if(s_count<99)++s_count;refresh();}
 static void down(ClickRecognizerRef r,void *c){(void)r;(void)c;if(s_count>0)--s_count;refresh();}
 static void select(ClickRecognizerRef r,void *c){(void)r;(void)c;window_stack_push(s_detail,true);}
 static void clicks(void *c){(void)c;
