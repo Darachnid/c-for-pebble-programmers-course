@@ -11,15 +11,20 @@ The `assess` CLI is a **post-submit self-check** for evidence you already produc
 
 ## What it is not
 
-- Not a tutor, hint engine, or code generator.
+- Not a tutor, hint engine, or code generator during exercises.
 - Not a substitute for the syllabus **independent-work** rule (no AI during activities).
 - Not connected to Taskwarrior: it does **not** mark tasks `done`.
 - Exemplars show **evidence shape**, not answers to copy.
 
-## Technology
+## Technology (Ollama branch)
 
-v1 uses **deterministic checks** (Git paths, patterns) and **spaCy** similarity to authored exemplars. It does **not** call generative LLMs.
+v1 on this branch uses:
+
+1. **Deterministic checks** (Git paths, regex, light diff heuristics).
+2. **Local Ollama** (default model `llama3.2`, override with `--model` or `ASSESSOR_OLLAMA_MODEL`) to map your evidence and diff excerpts to rubric criteria, calibrated by meets/below exemplars in the prompt.
+
+The model runs on **your machine** only; nothing is uploaded to a cloud grader.
 
 ## Privacy
 
-Reports are written under `.assessor/reports/` in your clone (gitignored by default). Nothing is uploaded.
+Reports are written under `.assessor/reports/` in your clone (gitignored by default).

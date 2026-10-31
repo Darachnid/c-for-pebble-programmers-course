@@ -6,8 +6,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from assessor.bundle import SubmitBundle
-from assessor.checks_deterministic import CheckOutcome, criterion_deterministic_status, run_deterministic
-from assessor.checks_spacy import SpacyOutcome, run_spacy
+from assessor.checks_deterministic import criterion_deterministic_status, run_deterministic
+from assessor.checks_llm import run_llm
+from assessor.ollama_client import OllamaConfig
 from assessor.rubric import Rubric
 
 
@@ -19,7 +20,6 @@ class CriterionResult:
     messages: list[str] = field(default_factory=list)
     closest_meets: str | None = None
     closest_below: str | None = None
-    margin: float | None = None
 
 
 @dataclass
@@ -27,9 +27,10 @@ class AssessmentReport:
     activity_id: str
     timestamp: str
     overall: str  # pass | fail | uncertain
+    ollama_model: str | None = None
     criteria: list[CriterionResult] = field(default_factory=list)
     deterministic_checks: list[dict] = field(default_factory=list)
-    spacy_checks: list[dict] = field(default_factory=list)
+    llm_checks: list[dict] = field(default_factory=list)
 
 
 def _merge_status(*statuses: str | None) -> str:
@@ -43,25 +44,32 @@ def _merge_status(*statuses: str | None) -> str:
     return "pass"
 
 
-def assess_rubric(rubric: Rubric, bundle: SubmitBundle, assessor_root: Path) -> AssessmentReport:
+def assess_rubric(
+    rubric: Rubric,
+    bundle: SubmitBundle,
+    assessor_root: Path,
+    ollama: OllamaConfig,
+) -> AssessmentReport:
     det_outcomes = run_deterministic(rubric, bundle)
-    spacy_outcomes = run_spacy(rubric, bundle.combined_text_for_spacy, assessor_root)
+    llm_outcomes = run_llm(rubric, bundle, assessor_root, ollama)
 
-    spacy_by_id = {o.criterion_id: o for o in spacy_outcomes}
+    llm_by_id = {o.criterion_id: o for o in llm_outcomes}
     criteria_results: list[CriterionResult] = []
 
     for criterion in rubric.criteria:
         det_status = criterion_deterministic_status(criterion.id, det_outcomes)
-        spacy_o = spacy_by_id.get(criterion.id)
-        spacy_status = spacy_o.status if spacy_o else None
-        status = _merge_status(det_status, spacy_status)
+        llm_o = llm_by_id.get(criterion.id)
+        llm_status = llm_o.status if llm_o else None
+        if not criterion.llm_assess:
+            llm_status = None
+        status = _merge_status(det_status, llm_status)
 
         messages: list[str] = []
         for o in det_outcomes:
             if o.criterion_id == criterion.id:
                 messages.append(o.message)
-        if spacy_o:
-            messages.append(spacy_o.message)
+        if llm_o:
+            messages.append(f"[LLM] {llm_o.message}")
 
         criteria_results.append(
             CriterionResult(
@@ -69,9 +77,8 @@ def assess_rubric(rubric: Rubric, bundle: SubmitBundle, assessor_root: Path) -> 
                 text=criterion.text,
                 status=status,
                 messages=messages,
-                closest_meets=spacy_o.closest_meets if spacy_o else None,
-                closest_below=spacy_o.closest_below if spacy_o else None,
-                margin=spacy_o.margin if spacy_o else None,
+                closest_meets=llm_o.closest_meets if llm_o else None,
+                closest_below=llm_o.closest_below if llm_o else None,
             )
         )
 
@@ -81,9 +88,10 @@ def assess_rubric(rubric: Rubric, bundle: SubmitBundle, assessor_root: Path) -> 
         activity_id=rubric.id,
         timestamp=datetime.now(timezone.utc).isoformat(),
         overall=overall,
+        ollama_model=ollama.model,
         criteria=criteria_results,
         deterministic_checks=[asdict(o) for o in det_outcomes],
-        spacy_checks=[asdict(o) for o in spacy_outcomes],
+        llm_checks=[asdict(o) for o in llm_outcomes],
     )
 
 
@@ -96,9 +104,10 @@ def save_report(course_root: Path, report: AssessmentReport) -> Path:
         "activity_id": report.activity_id,
         "timestamp": report.timestamp,
         "overall": report.overall,
+        "ollama_model": report.ollama_model,
         "criteria": [asdict(c) for c in report.criteria],
         "deterministic_checks": report.deterministic_checks,
-        "spacy_checks": report.spacy_checks,
+        "llm_checks": report.llm_checks,
     }
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     return path
@@ -107,8 +116,10 @@ def save_report(course_root: Path, report: AssessmentReport) -> Path:
 def format_report_text(report: AssessmentReport) -> str:
     lines = [
         f"Assessment: {report.activity_id} — {report.overall.upper()}",
-        "",
     ]
+    if report.ollama_model:
+        lines.append(f"Ollama model: {report.ollama_model}")
+    lines.append("")
     for c in report.criteria:
         lines.append(f"[{c.status.upper()}] {c.id}: {c.text}")
         for msg in c.messages:

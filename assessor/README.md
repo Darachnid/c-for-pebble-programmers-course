@@ -1,22 +1,37 @@
-# Course evidence assessor (pilot)
+# Course evidence assessor (pilot, Ollama)
 
 Student-local, post-submit checker for **7A** and **4A**. See [POLICY.md](POLICY.md).
+
+## Prerequisites
+
+- [Ollama](https://ollama.com/) running locally
+- A pulled model (default **`llama3.2`**):
+
+```bash
+ollama serve   # if not already running
+ollama pull llama3.2
+```
+
+Environment (optional):
+
+| Variable | Default |
+|----------|---------|
+| `OLLAMA_HOST` | `http://127.0.0.1:11434` |
+| `ASSESSOR_OLLAMA_MODEL` | `llama3.2` |
+| `ASSESSOR_OLLAMA_TIMEOUT` | `120` (seconds) |
 
 ## Install
 
 From the course repository root:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ./assessor
-python -m spacy download en_core_web_md
 ```
 
-With [uv](https://docs.astral.sh/uv/) (recommended on some Linux setups):
+With [uv](https://docs.astral.sh/uv/):
 
 ```bash
-cd assessor && uv sync --group dev --group model
+cd assessor && uv sync --group dev
 uv run assess init 7A   # from course root: uv run --directory assessor assess …
 ```
 
@@ -26,43 +41,38 @@ uv run assess init 7A   # from course root: uv run --directory assessor assess �
 assess init 7A
 # … complete the lesson, commit changes under lessons/7A/ …
 # … fill submit/7A/EVIDENCE.md …
-assess diff 7A          # preview git capture
-assess examples 7A      # meets vs below exemplars
-assess submit 7A        # exit 1 if any criterion fails
+assess diff 7A
+assess examples 7A
+assess submit 7A
+# or: assess submit 7A --model mistral
 ```
 
-Optional: save `submit/7A/build.log` for stronger build evidence.
+Optional: `submit/7A/build.log` for build excerpts in the LLM prompt.
 
 ## Commands
 
 | Command | Description |
 |---------|-------------|
 | `assess init <ID>` | Create `submit/<ID>/EVIDENCE.md` from template |
-| `assess diff <ID>` | Show paths, commits, truncated diff (no scoring) |
-| `assess examples <ID>` | List `examples/<ID>/meets` and `below` folders |
-| `assess submit <ID>` | Run rubric; save JSON under `.assessor/reports/` |
+| `assess diff <ID>` | Preview git capture (no scoring) |
+| `assess examples <ID>` | List meets vs below exemplar folders |
+| `assess submit <ID>` | Deterministic gates + **Ollama** rubric pass |
 
-`--baseline <git-ref>` on `diff` and `submit` compares against a ref instead of the working tree.
-
-## Maintainer note
-
-[`scripts/check_course.py`](../scripts/check_course.py) still validates a 26-activity Taskwarrior import; syllabus lists 40 activities. Reconciling that metadata is separate from this pilot.
+`--baseline <git-ref>`, `--model`, `--ollama-url`, `--json` on submit.
 
 ## Tests
-
-**Full smoke** (pytest + exemplar CLI checks):
 
 ```bash
 bash assessor/scripts/smoke.sh
 ```
 
-With `uv`, the script runs `uv sync --group dev --group model` inside `assessor/` first.
-
-**Unit tests only:**
+- **pytest** always (includes mocked Ollama unit test).
+- **CLI exemplar submit** runs only if Ollama responds at `OLLAMA_HOST`.
 
 ```bash
-pip install -e "./assessor[dev]"
-pytest assessor/tests
+cd assessor && uv sync --group dev && uv run pytest tests -v
 ```
 
-spaCy tests skip without `en_core_web_md` (`pytest assessor/tests -m "not spacy"` for deterministic-only).
+## Maintainer note
+
+[`scripts/check_course.py`](../scripts/check_course.py) Taskwarrior activity count may differ from the syllabus; unrelated to this pilot.

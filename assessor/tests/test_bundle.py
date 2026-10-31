@@ -27,7 +27,7 @@ def test_count_textlayer_create_in_diff():
     assert count_textlayer_create_in_diff(diff) == 2
 
 
-def test_combined_text_for_spacy():
+def test_combined_text_for_assessment():
     b = SubmitBundle(
         activity_id="7A",
         course_root=Path("/tmp"),
@@ -37,4 +37,4 @@ def test_combined_text_for_spacy():
         log_oneline="",
         build_log_text="BUILD OK",
     )
-    assert "BUILD OK" in b.combined_text_for_spacy
+    assert "BUILD OK" in b.combined_text_for_assessment
