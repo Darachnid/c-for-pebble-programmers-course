@@ -51,3 +51,7 @@ The tmux status line shows the current activity id and title.
 ## Assessment coverage
 
 The terminal wizard guides **all 41 exercises**. Activities 1A–5A retain automated rubrics; activities 6A–41A use lesson-specific completion criteria, prompted evidence, and explicit learner sign-off. The wizard does **not** automatically verify or grade these later exercises. Physical device and emulator testing remain your responsibility.
+
+## Tailored evidence worksheets
+
+Each activity has questions matched to its required artifacts. Debugging activities collect diagnosis and regression results, design activities collect diagrams and rationale, and programming activities collect implementation and relevant tests. Boundary testing is not imposed on non-executable tasks. The first five activities retain their existing automated rubric structure.

@@ -375,7 +375,7 @@ def load_manifest(assessor_root: Path) -> CourseManifest:
         folder = course_root / "lessons" / f"{int(aid[:-1]):02d}{aid[-1]}"
         if not folder.is_dir():
             raise FileNotFoundError(f"Missing lesson directory: {folder}")
-        projects = sorted(folder.glob("*/package.json"))
+        projects = sorted(folder.rglob("package.json"), key=lambda p: (len(p.parts), str(p)))
         workdir = projects[0].parent if projects else folder
         activities[aid] = Activity(
             id=aid, title=title.strip(),

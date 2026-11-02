@@ -1,4 +1,4 @@
-# Terminal course driver — Phase I (extend sequence for all 41 later).
+# Terminal course driver — 41-activity wizard: graded pilot 1A–5A, tailored learner review 6A–41A.
 version: 1
 sequence:
   - 1A
@@ -21,7 +21,7 @@ activities:
         prompt: "What you saw in the clock, fonts, or storage examples."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "One normal case and one boundary (e.g. comparing ideas by feasibility)."
+        prompt: "Compare the feasibility or limitations of your ideas; a runtime boundary test is not required."
       - key: explain
         section: "## Explain in your own words"
         prompt: >
@@ -75,7 +75,7 @@ activities:
         prompt: "Optional — starter behavior if you ran the build."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "One boundary from SDK docs or usage (e.g. invalid input)."
+        prompt: "Describe a documented API constraint or usage limitation. No runtime boundary test is required."
       - key: explain
         section: "## Explain in your own words"
         prompt: "API note — purpose, signature, args, return type, usage example."

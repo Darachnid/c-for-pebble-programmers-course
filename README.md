@@ -31,6 +31,6 @@ Use **Ctrl-b**, then an arrow key, to switch panes. Use **Ctrl-b**, then **d**, 
 
 Your evidence is saved in `submit/<ID>/EVIDENCE.md`; completed exercises are tracked in `.course/progress.json`. Both are local and gitignored. You can correct an unsuccessful submission and try again.
 
-**Wizard coverage:** all **41 activities (1A–41A)**. Lessons 1A–5A have automated assessment; lessons 6A–41A guide evidence collection and require learner-confirmed completion rather than automated grading. [Lesson directory](lessons/README.md).
+**Wizard coverage:** all **41 activities (1A–41A)**. Lessons 1A–5A have automated assessment; lessons 6A–41A use distinct, lesson-specific evidence questions and learner-confirmed completion rather than automated grading. [Lesson directory](lessons/README.md).
 
 For setup details or troubleshooting, see the [wizard guide](COURSE-TERMINAL.md). For the complete curriculum, see the [syllabus](SYLLABUS.md).
