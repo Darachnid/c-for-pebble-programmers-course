@@ -18,15 +18,13 @@ activities:
     user_fields:
       - key: behavior
         section: "## Behavior observed"
-        prompt: "What you saw in the clock, fonts, or storage examples."
+        prompt: "Clock, font, and storage examples: Identify which provided examples you inspected and the behavior or SDK API each suggests."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "Compare the feasibility or limitations of your ideas; a runtime boundary test is not required."
+        prompt: "Feasibility comparison: Compare feasibility, user value, and technical uncertainties of your alternatives. No executable boundary case is needed."
       - key: explain
         section: "## Explain in your own words"
-        prompt: >
-          Five distinct ideas (each: change + API), one marked most interesting;
-          mention example, variation, and feasibility in your own words.
+        prompt: "Five ideas and choice: Describe five distinct variations, name the relevant API for each, and identify the most interesting idea to investigate."
 
   2A:
     title: Build and run a time-only C watchface
@@ -37,13 +35,13 @@ activities:
     user_fields:
       - key: behavior
         section: "## Behavior observed"
-        prompt: "Time display, minute updates, single TextLayer, no date layer."
+        prompt: "Time-only watchface: Report one TextLayer, the time display, and the successful build and Emery/Gabbro emulator observations."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "Normal read + boundary (e.g. minute rollover)."
+        prompt: "Minute rollover: Record an observed minute tick or rollover; explain whether the time updated as expected."
       - key: explain
         section: "## Explain in your own words"
-        prompt: "Brief workflow explanation (build, emulator, time-only checkpoint)."
+        prompt: "Build workflow: Explain project structure, build/install steps, and why the date TextLayer is absent."
 
   3A:
     title: Variables, Data Types, and Operators
@@ -55,13 +53,13 @@ activities:
     user_fields:
       - key: behavior
         section: "## Behavior observed"
-        prompt: "Behavior of project-3-1 and project-3-2 on the emulator."
+        prompt: "Two C projects: Describe the observed output of project-3-1 and project-3-2 and the variable/operator changes you made."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "At least one boundary case per project."
+        prompt: "Project edge cases: Record relevant boundary or unusual inputs for both projects and what happened."
       - key: explain
         section: "## Explain in your own words"
-        prompt: "C feature you applied and what changed in each project."
+        prompt: "C concepts applied: Explain the types, expressions, and operations used and link each to its result."
 
   4A:
     title: Find and document a Pebble API function
@@ -72,13 +70,13 @@ activities:
     user_fields:
       - key: behavior
         section: "## Behavior observed"
-        prompt: "Optional — starter behavior if you ran the build."
+        prompt: "API source and example: Provide the SDK documentation URL and show where the selected function is used. Running an emulator is optional."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "Describe a documented API constraint or usage limitation. No runtime boundary test is required."
+        prompt: "API constraints: Describe parameter limitations, preconditions, or other documented constraints; no runtime boundary test is required."
       - key: explain
         section: "## Explain in your own words"
-        prompt: "API note — purpose, signature, args, return type, usage example."
+        prompt: "Function reference note: Record the function's purpose, full signature, parameters, return type, and one usage example in your own words."
 
   5A:
     title: Change one visual property of a time-only watchface
@@ -89,10 +87,10 @@ activities:
     user_fields:
       - key: behavior
         section: "## Behavior observed"
-        prompt: "One visual change; time still updates; no date TextLayer."
+        prompt: "Single visual change: Identify the one changed visual property, what you observed on the watchface, and confirmation that time updates and no date layer was added."
       - key: boundary
         section: "## Boundary case tested"
-        prompt: "Normal glance + one edge case you tested."
+        prompt: "Glanceability check: Report legibility and an appropriate display or time-update edge case."
       - key: explain
         section: "## Explain in your own words"
-        prompt: "Which visual property you changed and why (glanceability)."
+        prompt: "UI rationale: Explain why that font, color, alignment, position, or background change improves or changes glanceability."
