@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
+import re
 
 
 @dataclass
@@ -64,9 +65,35 @@ def load_manifest(assessor_root: Path) -> CourseManifest:
             user_fields=fields,
             pebble_notes=raw.get("pebble_notes"),
         )
+    # Fill the remaining activities from the authoritative, ordered lesson index.
+    # Existing Phase I definitions (and their assessor rubrics) are preserved.
+    course_root = assessor_root.parent
+    index = (course_root / "lessons" / "README.md").read_text(encoding="utf-8")
+    for match in re.finditer(r"^\\| \\[(\\d+[A-Z])\\]\\([^)]+\\) \\| ([^|]+) \\|[^|]+\\| ([^|]+) \\|", index, re.MULTILINE):
+        aid, title, depends = match.groups()
+        if aid in activities:
+            continue
+        folder = course_root / "lessons" / f"{int(aid[:-1]):02d}{aid[-1]}"
+        if not folder.is_dir():
+            raise FileNotFoundError(f"Missing lesson directory: {folder}")
+        projects = sorted(folder.glob("*/package.json"))
+        workdir = projects[0].parent if projects else folder
+        activities[aid] = Activity(
+            id=aid, title=title.strip(),
+            depends=re.findall(r"\\d+[A-Z]", depends),
+            lesson_readme=str((folder / "README.md").relative_to(course_root)),
+            pebble_workdir=str(workdir.relative_to(course_root)),
+            assessor_rubric=None,
+            user_fields=[
+                UserField("behavior", "## Behavior observed", "Describe what you did and the artifacts produced."),
+                UserField("boundary", "## Boundary case tested", "Record normal and edge-case tests, or explain why this activity is non-executable."),
+                UserField("explain", "## Explain in your own words", "Explain how each lesson completion criterion was met."),
+            ],
+        )
+    sequence = list(data["sequence"]) + [aid for aid in activities if aid not in data["sequence"]]
     return CourseManifest(
         version=int(data.get("version", 1)),
-        sequence=list(data["sequence"]),
+        sequence=sequence,
         activities=activities,
     )
 

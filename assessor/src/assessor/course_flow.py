@@ -1,4 +1,4 @@
-"""Terminal-first course driver — Phase I activities via one flow."""
+"""Terminal-first course driver — 41-lesson course activities via one flow."""
 from __future__ import annotations
 
 import argparse
@@ -74,6 +74,7 @@ def _print_pebble_hints(course_root: Path, activity) -> None:
     print(f"  cd {course_root / activity.pebble_workdir}")
     print("  pebble build")
     print("  pebble install --emulator emery")
+    print("  pebble install --emulator gabbro")
     if activity.pebble_notes:
         print(f"\n  {activity.pebble_notes}")
     if not (wd / "package.json").is_file():
@@ -103,7 +104,7 @@ def print_progress(course_root: Path) -> None:
     manifest = load_manifest(assessor_dir(course_root))
     progress = Progress.load(progress_path(course_root))
     nxt = next_unblocked(manifest, progress)
-    print("Phase I progress\n")
+    print("41-lesson course progress\n")
     for aid in manifest.sequence:
         act = manifest.activity(aid)
         if aid in progress.completed:
@@ -128,6 +129,37 @@ def _wait_for_pebble(course_root: Path, activity, *, inside_tmux: bool) -> None:
     _print_pebble_hints(course_root, activity)
 
 
+def _run_self_review(course_root: Path, activity, *, inside_tmux: bool) -> None:
+    """Self-review for exercises without an automated assessor."""
+    criterion = lesson_completion_line(course_root, activity.lesson_readme)
+    print(f"\\n=== {activity.id} — {activity.title} ===")
+    print(f"Completion criteria: {criterion or 'See the lesson README.'}")
+    print("Learner review only; no automatic grade or device verification.")
+    _wait_for_pebble(course_root, activity, inside_tmux=inside_tmux)
+    path = course_root / "submit" / activity.id / "EVIDENCE.md"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        print(f"Existing evidence found: {path.relative_to(course_root)}")
+        if input("Reuse this evidence? [yes/no]: ").strip().lower() == "yes":
+            if input("Confirm all lesson requirements are met? [yes/no]: ").strip().lower() == "yes":
+                return
+    while True:
+        values = _capture_user_fields(activity)
+        contents = f"# {activity.id} — {activity.title}\\n\\n## Completion criteria\\n\\n{criterion or 'See the lesson README.'}\\n\\n"
+        for field in activity.user_fields:
+            contents += f"{field.section}\\n\\n{values[field.key]}\\n\\n"
+        path.write_text(contents, encoding="utf-8")
+        print(f"Evidence saved: {path.relative_to(course_root)}")
+        if not all(v.strip() for v in values.values()):
+            print("All evidence fields need an answer.")
+            continue
+        answer = input("Have you completed ALL criteria and documented your actual work? [yes/revise]: ").strip().lower()
+        if answer == "yes":
+            with path.open("a", encoding="utf-8") as f:
+                f.write("## Completion confirmation\\n\\nLearner confirmed completion; not automatically graded.\\n")
+            return
+
+
 def _run_until_pass(
     course_root: Path,
     activity_id: str,
@@ -138,8 +170,9 @@ def _run_until_pass(
     manifest = load_manifest(assessor_dir(course_root))
     activity = manifest.activity(activity_id)
     if not activity.assessor_rubric:
-        raise SystemExit(f"{activity_id} has no assessor rubric in this manifest.")
+        return _run_self_review(course_root, activity, inside_tmux=inside_tmux)
     rubric = load_rubric(rubric_path(course_root, activity_id))
+    rubric.paths = [p.replace(f"lessons/{activity_id}/", f"lessons/{int(activity_id[:-1]):02d}{activity_id[-1]}/") for p in rubric.paths]
     completion = lesson_completion_line(course_root, activity.lesson_readme)
     print(f"\n=== {activity_id} — {activity.title} ===\n")
     if completion:
@@ -178,7 +211,7 @@ def run_course_loop(
     baseline: str | None = None,
     inside_tmux: bool = False,
 ) -> int:
-    """Walk every remaining Phase I activity in this process."""
+    """Walk every remaining 41-lesson course activity in this process."""
     manifest = load_manifest(assessor_dir(course_root))
     validate_manifest(course_root, manifest)
     first = True
@@ -188,7 +221,7 @@ def run_course_loop(
             activity_id = next_unblocked(manifest, progress)
             print_progress(course_root)
             if activity_id is None:
-                print("Phase I is complete. This session can stay open.")
+                print("41-lesson course is complete. This session can stay open.")
                 input("Press Enter to leave the wizard...")
                 return 0
             activity = manifest.activity(activity_id)
@@ -255,7 +288,7 @@ def _course_root_from_env() -> Path:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="course",
-        description="Open the Phase I course in tmux. This is the only learner command.",
+        description="Open the 41-lesson course course in tmux. This is the only learner command.",
     )
     parser.add_argument("--inside-tmux", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument("--no-tmux", action="store_true", help=argparse.SUPPRESS)
