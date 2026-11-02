@@ -132,7 +132,7 @@ def _wait_for_pebble(course_root: Path, activity, *, inside_tmux: bool) -> None:
 def _run_self_review(course_root: Path, activity, *, inside_tmux: bool) -> None:
     """Self-review for exercises without an automated assessor."""
     criterion = lesson_completion_line(course_root, activity.lesson_readme)
-    print(f"\\n=== {activity.id} — {activity.title} ===")
+    print(f"\n=== {activity.id} — {activity.title} ===")
     print(f"Completion criteria: {criterion or 'See the lesson README.'}")
     print("Learner review only; no automatic grade or device verification.")
     _wait_for_pebble(course_root, activity, inside_tmux=inside_tmux)
@@ -145,9 +145,9 @@ def _run_self_review(course_root: Path, activity, *, inside_tmux: bool) -> None:
                 return
     while True:
         values = _capture_user_fields(activity)
-        contents = f"# {activity.id} — {activity.title}\\n\\n## Completion criteria\\n\\n{criterion or 'See the lesson README.'}\\n\\n"
+        contents = f"# {activity.id} — {activity.title}\n\n## Completion criteria\n\n{criterion or 'See the lesson README.'}\n\n"
         for field in activity.user_fields:
-            contents += f"{field.section}\\n\\n{values[field.key]}\\n\\n"
+            contents += f"{field.section}\n\n{values[field.key]}\n\n"
         path.write_text(contents, encoding="utf-8")
         print(f"Evidence saved: {path.relative_to(course_root)}")
         if not all(v.strip() for v in values.values()):
@@ -156,7 +156,7 @@ def _run_self_review(course_root: Path, activity, *, inside_tmux: bool) -> None:
         answer = input("Have you completed ALL criteria and documented your actual work? [yes/revise]: ").strip().lower()
         if answer == "yes":
             with path.open("a", encoding="utf-8") as f:
-                f.write("## Completion confirmation\\n\\nLearner confirmed completion; not automatically graded.\\n")
+                f.write("## Completion confirmation\n\nLearner confirmed completion; not automatically graded.\n")
             return
 
 
