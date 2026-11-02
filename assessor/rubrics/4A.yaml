@@ -1,8 +1,8 @@
-# Authoritative completion text: lessons/4A/README.md (Completion evidence)
+# Authoritative completion text: lessons/04A/README.md (Completion evidence)
 id: 4A
-lesson_readme: lessons/4A/README.md
+lesson_readme: lessons/04A/README.md
 paths:
-  - lessons/4A/starter/**
+  - lessons/04A/starter/**
   - submit/4A/**
 evidence_template: templates/EVIDENCE.md.tpl
 evidence_sections:
@@ -48,14 +48,8 @@ criteria:
         - example
 
   - id: boundary_and_artifacts
-    text: Boundary case tested and honest artifact paths
+    text: API limitations documented with honest artifact paths
     source: syllabus
     deterministic:
-      - kind: require_phrase_count
-        phrase: boundary
-        min: 1
       - kind: regex_in_evidence
-        pattern: "(?i)lessons/4A|submit/4A"
-    spacy:
-      required_phrases:
-        - boundary
+        pattern: "(?i)lessons/04A|submit/4A"

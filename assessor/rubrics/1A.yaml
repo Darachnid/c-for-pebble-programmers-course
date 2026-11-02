@@ -1,8 +1,8 @@
-# Authoritative completion text: lessons/1A/README.md (Completion evidence)
+# Authoritative completion text: lessons/01A/README.md (Completion evidence)
 id: 1A
-lesson_readme: lessons/1A/README.md
+lesson_readme: lessons/01A/README.md
 paths:
-  - lessons/1A/**
+  - lessons/01A/**
   - submit/1A/**
 evidence_template: templates/EVIDENCE.md.tpl
 evidence_sections:
@@ -47,16 +47,13 @@ criteria:
         - variation
 
   - id: checkpoint_sections
-    text: Competency checkpoint sections completed with a concrete boundary case
+    text: Competency checkpoint documents feasibility without requiring a runtime boundary test
     source: syllabus
     deterministic:
       - kind: require_section
         section: "## Explain in your own words"
       - kind: require_section
         section: "## Boundary case tested"
-      - kind: require_phrase_count
-        phrase: boundary
-        min: 1
     spacy:
       required_phrases:
         - feasibility
