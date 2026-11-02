@@ -47,7 +47,7 @@ def cmd_init(args: argparse.Namespace) -> int:
     print("\nGit will watch these paths on submit:")
     for p in rubric.paths:
         print(f"  {p}")
-    print(f"\nNext: complete the activity, fill EVIDENCE.md, then: assess submit {activity_id}")
+    print(f"\nNext: assess wizard {activity_id}  (guided)  or  assess submit {activity_id}")
     return 0
 
 
@@ -103,6 +103,24 @@ def cmd_submit(args: argparse.Namespace) -> int:
     return 1 if report.overall == "fail" else 0
 
 
+def cmd_wizard(args: argparse.Namespace) -> int:
+    from assessor.wizard import run_wizard
+
+    course_root = find_course_root()
+    activity_id = _activity_id(args.activity_id)
+    try:
+        return run_wizard(
+            course_root,
+            activity_id,
+            baseline=args.baseline,
+            force_init=args.force,
+            skip_submit=args.skip_submit,
+        )
+    except KeyboardInterrupt:
+        print("\nWizard cancelled.", file=sys.stderr)
+        return 130
+
+
 def cmd_examples(args: argparse.Namespace) -> int:
     course_root = find_course_root()
     activity_id = _activity_id(args.activity_id)
@@ -134,7 +152,11 @@ def cmd_examples(args: argparse.Namespace) -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="assess",
-        description="Post-submit evidence assessor (pilot: 2A, 3A). Run only after finishing an activity.",
+        description=(
+            "Post-submit evidence assessor (pilot: "
+            + ", ".join(PILOT_IDS)
+            + "). Run only after finishing an activity."
+        ),
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -161,6 +183,21 @@ def main(argv: list[str] | None = None) -> int:
     p_ex = sub.add_parser("examples", help="List meets vs below exemplar folders")
     p_ex.add_argument("activity_id")
     p_ex.set_defaults(func=cmd_examples)
+
+    p_wiz = sub.add_parser(
+        "wizard",
+        help="Guided flow: lesson criteria → EVIDENCE.md sections → submit",
+    )
+    p_wiz.add_argument("activity_id", help="Activity id, e.g. 1A")
+    p_wiz.add_argument("--force", action="store_true", help="Recreate EVIDENCE.md from template")
+    p_wiz.add_argument(
+        "--skip-submit",
+        action="store_true",
+        help="Save evidence only; do not run assess submit",
+    )
+    p_wiz.add_argument("--baseline", default=None, help="Git ref for diff preview/submit")
+    p_wiz.set_defaults(func=cmd_wizard)
+
 
     args = parser.parse_args(argv)
     return args.func(args)

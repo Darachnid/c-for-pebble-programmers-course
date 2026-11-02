@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Terminal course driver — Phase I (1A–5A). See COURSE-TERMINAL.md.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+export PEBBLE_COURSE_ROOT="${PEBBLE_COURSE_ROOT:-$ROOT}"
+exec uv run --directory "${ROOT}/assessor" python -m assessor.course_flow "$@"

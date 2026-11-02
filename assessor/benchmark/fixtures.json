@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "fixtures": [
+    {
+      "id": "7A_meets_01",
+      "activity_id": "7A",
+      "evidence_path": "examples/7A/meets/01-minimal-pass/EVIDENCE.md",
+      "gold_tier": "meets",
+      "bundle_overrides": {
+        "diff_text": "+  s_layer = text_layer_create(bounds);\n",
+        "changed_files": ["lessons/7A/starter/src/c/main.c"],
+        "log_oneline": "abc1237 7A work"
+      }
+    },
+    {
+      "id": "7A_meets_02",
+      "activity_id": "7A",
+      "evidence_path": "examples/7A/meets/02-with-build-log/EVIDENCE.md",
+      "gold_tier": "meets",
+      "bundle_overrides": {
+        "diff_text": "+  s_layer = text_layer_create(bounds);\n",
+        "changed_files": ["lessons/7A/starter/src/c/main.c"]
+      }
+    },
+    {
+      "id": "7A_below_01",
+      "activity_id": "7A",
+      "evidence_path": "examples/7A/below/01-vague-no-artifacts/EVIDENCE.md",
+      "gold_tier": "below",
+      "bundle_overrides": {
+        "diff_text": "",
+        "changed_files": []
+      }
+    },
+    {
+      "id": "7A_below_02",
+      "activity_id": "7A",
+      "evidence_path": "examples/7A/below/02-date-layer-added/EVIDENCE.md",
+      "gold_tier": "below",
+      "bundle_overrides": {
+        "diff_text": "+  s_layer = text_layer_create(bounds);\n+  s_date = text_layer_create(d2);\n",
+        "changed_files": ["lessons/7A/starter/src/c/main.c"]
+      }
+    },
+    {
+      "id": "4A_meets_01",
+      "activity_id": "4A",
+      "evidence_path": "examples/4A/meets/01-both-projects/EVIDENCE.md",
+      "gold_tier": "meets",
+      "bundle_overrides": {
+        "diff_text": "+ int x = 1;\n",
+        "changed_files": [
+          "lessons/4A/projects/project-3-1/src/c/main.c",
+          "lessons/4A/projects/project-3-2/src/c/main.c"
+        ]
+      }
+    },
+    {
+      "id": "4A_meets_02",
+      "activity_id": "4A",
+      "evidence_path": "examples/4A/meets/02-concrete-features/EVIDENCE.md",
+      "gold_tier": "meets",
+      "bundle_overrides": {
+        "diff_text": "+ int y = 2;\n",
+        "changed_files": [
+          "lessons/4A/projects/project-3-1/src/c/main.c",
+          "lessons/4A/projects/project-3-2/src/c/main.c"
+        ]
+      }
+    },
+    {
+      "id": "4A_below_01",
+      "activity_id": "4A",
+      "evidence_path": "examples/4A/below/01-one-project-only/EVIDENCE.md",
+      "gold_tier": "below",
+      "bundle_overrides": {
+        "diff_text": "+ int z;\n",
+        "changed_files": ["lessons/4A/projects/project-3-1/src/c/main.c"]
+      }
+    },
+    {
+      "id": "4A_below_02",
+      "activity_id": "4A",
+      "evidence_path": "examples/4A/below/02-parrots-reading/EVIDENCE.md",
+      "gold_tier": "below",
+      "bundle_overrides": {
+        "diff_text": "",
+        "changed_files": []
+      }
+    },
+    {
+      "id": "7A_keyword_stuff",
+      "activity_id": "7A",
+      "gold_tier": "synthetic",
+      "notes": "Keyword stuffing — spaCy should not pass all criteria",
+      "evidence_inline": "## Artifact paths\n\nlessons/7A\n## Build and run\n\npebble build emery emulator\n## Behavior observed\n\nTextLayer minute\n## Boundary case tested\n\nboundary boundary\n## Explain in your own words\n\nbuild emery emulator TextLayer minute boundary\n## Source diff\n\ngit diff\n",
+      "bundle_overrides": {
+        "diff_text": "+  s_layer = text_layer_create(bounds);\n",
+        "changed_files": ["lessons/7A/starter/src/c/main.c"]
+      }
+    },
+    {
+      "id": "7A_missing_emery",
+      "activity_id": "7A",
+      "gold_tier": "synthetic",
+      "notes": "Phrase gate: missing emery",
+      "evidence_inline": "## Artifact paths\n\nx\n## Build and run\n\npebble build success in emulator\n## Behavior observed\n\nTextLayer updates each minute\n## Boundary case tested\n\nboundary\n## Explain in your own words\n\nok\n## Source diff\n\ngit\n",
+      "bundle_overrides": {
+        "diff_text": "+  s_layer = text_layer_create(bounds);\n",
+        "changed_files": ["lessons/7A/starter/src/c/main.c"]
+      }
+    },
+    {
+      "id": "7A_empty",
+      "activity_id": "7A",
+      "gold_tier": "synthetic",
+      "notes": "Empty sections",
+      "evidence_inline": "## Artifact paths\n\n\n## Build and run\n\n\n## Behavior observed\n\n\n## Boundary case tested\n\n\n## Explain in your own words\n\n\n## Source diff\n\n",
+      "bundle_overrides": {
+        "diff_text": "",
+        "changed_files": []
+      }
+    }
+  ]
+}

@@ -59,7 +59,19 @@ for manifest in (ROOT / "lessons").glob("*/*/package.json"):
     assert list((manifest.parent / "src").rglob("*.c")), manifest
     projects += 1
 
-assert (ROOT / "assessor/rubrics/2A.yaml").is_file()
-assert (ROOT / "assessor/rubrics/3A.yaml").is_file()
+for _aid in ("1A", "2A", "3A", "4A", "5A"):
+    assert (ROOT / "assessor/rubrics" / f"{_aid}.yaml").is_file(), _aid
 assert (ROOT / "SYLLABUS.pdf").is_file()
+
+import sys
+
+sys.path.insert(0, str(ROOT / "assessor" / "src"))
+from assessor.course_manifest import load_manifest, validate_manifest
+
+_manifest = load_manifest(ROOT / "assessor")
+validate_manifest(ROOT, _manifest)
+for _aid in _manifest.sequence:
+    _rub = _manifest.activities[_aid].assessor_rubric
+    assert _rub and (ROOT / "assessor" / _rub).is_file(), _aid
+
 print(f"PASS: {len(ids)} sequential lessons, {projects} dual-platform example projects")

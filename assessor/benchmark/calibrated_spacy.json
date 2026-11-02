@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "backend": "spacy",
+    "model": "en_core_web_md"
+  },
+  "backend": "spacy",
+  "generated_from": "2026-10-31T17:50:17.145038+00:00",
+  "fixtures": {
+    "7A_meets_01": {
+      "build_and_run": "pass",
+      "time_only_face": "pass",
+      "workflow_artifacts": "pass"
+    },
+    "7A_meets_02": {
+      "build_and_run": "pass",
+      "time_only_face": "pass",
+      "workflow_artifacts": "pass"
+    },
+    "7A_below_01": {
+      "build_and_run": "fail",
+      "time_only_face": "fail",
+      "workflow_artifacts": "fail"
+    },
+    "7A_below_02": {
+      "build_and_run": "uncertain",
+      "time_only_face": "fail",
+      "workflow_artifacts": "uncertain"
+    },
+    "4A_meets_01": {
+      "both_projects": "pass",
+      "c_feature_and_diff": "fail",
+      "boundary_cases": "pass"
+    },
+    "4A_meets_02": {
+      "both_projects": "uncertain",
+      "c_feature_and_diff": "uncertain",
+      "boundary_cases": "uncertain"
+    },
+    "4A_below_01": {
+      "both_projects": "fail",
+      "c_feature_and_diff": "fail",
+      "boundary_cases": "fail"
+    },
+    "4A_below_02": {
+      "both_projects": "uncertain",
+      "c_feature_and_diff": "uncertain",
+      "boundary_cases": "uncertain"
+    },
+    "7A_keyword_stuff": {
+      "build_and_run": "uncertain",
+      "time_only_face": "uncertain",
+      "workflow_artifacts": "uncertain"
+    },
+    "7A_missing_emery": {
+      "build_and_run": "fail",
+      "time_only_face": "fail",
+      "workflow_artifacts": "fail"
+    },
+    "7A_empty": {
+      "build_and_run": "fail",
+      "time_only_face": "fail",
+      "workflow_artifacts": "fail"
+    }
+  }
+}

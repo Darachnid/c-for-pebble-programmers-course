@@ -1,0 +1,26 @@
+name: Assessor benchmark
+
+on:
+  push:
+    paths:
+      - "assessor/benchmark/**"
+      - "assessor/scripts/compare_backends.sh"
+      - "assessor/tests/test_compare_report.py"
+      - ".github/workflows/assessor-benchmark.yml"
+  pull_request:
+    paths:
+      - "assessor/benchmark/**"
+      - "assessor/scripts/compare_backends.sh"
+      - "assessor/tests/test_compare_report.py"
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Compare report unit tests
+        working-directory: assessor
+        run: |
+          uv sync --group dev
+          uv run pytest tests/test_compare_report.py tests/test_rubric_load.py -q
