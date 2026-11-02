@@ -18,6 +18,7 @@ dev = ["pytest>=7.0"]
 
 [project.scripts]
 assess = "assessor.cli:main"
+course = "assessor.course_flow:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

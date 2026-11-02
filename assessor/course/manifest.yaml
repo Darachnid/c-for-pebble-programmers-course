@@ -1,0 +1,98 @@
+# Terminal course driver — Phase I (extend sequence for all 41 later).
+version: 1
+sequence:
+  - 1A
+  - 2A
+  - 3A
+  - 4A
+  - 5A
+
+activities:
+  1A:
+    title: Explore Pebble examples
+    depends: []
+    lesson_readme: lessons/1A/README.md
+    pebble_workdir: lessons/1A/clock
+    pebble_notes: "Also inspect lessons/1A/fonts and lessons/1A/storage (separate projects)."
+    assessor_rubric: rubrics/1A.yaml
+    user_fields:
+      - key: behavior
+        section: "## Behavior observed"
+        prompt: "What you saw in the clock, fonts, or storage examples."
+      - key: boundary
+        section: "## Boundary case tested"
+        prompt: "One normal case and one boundary (e.g. comparing ideas by feasibility)."
+      - key: explain
+        section: "## Explain in your own words"
+        prompt: >
+          Five distinct ideas (each: change + API), one marked most interesting;
+          mention example, variation, and feasibility in your own words.
+
+  2A:
+    title: Build and run a time-only C watchface
+    depends: []
+    lesson_readme: lessons/2A/README.md
+    pebble_workdir: lessons/2A/starter
+    assessor_rubric: rubrics/2A.yaml
+    user_fields:
+      - key: behavior
+        section: "## Behavior observed"
+        prompt: "Time display, minute updates, single TextLayer, no date layer."
+      - key: boundary
+        section: "## Boundary case tested"
+        prompt: "Normal read + boundary (e.g. minute rollover)."
+      - key: explain
+        section: "## Explain in your own words"
+        prompt: "Brief workflow explanation (build, emulator, time-only checkpoint)."
+
+  3A:
+    title: Variables, Data Types, and Operators
+    depends: [2A]
+    lesson_readme: lessons/3A/README.md
+    pebble_workdir: lessons/3A/projects/project-3-1
+    pebble_notes: "Repeat build/run for lessons/3A/projects/project-3-2."
+    assessor_rubric: rubrics/3A.yaml
+    user_fields:
+      - key: behavior
+        section: "## Behavior observed"
+        prompt: "Behavior of project-3-1 and project-3-2 on the emulator."
+      - key: boundary
+        section: "## Boundary case tested"
+        prompt: "At least one boundary case per project."
+      - key: explain
+        section: "## Explain in your own words"
+        prompt: "C feature you applied and what changed in each project."
+
+  4A:
+    title: Find and document a Pebble API function
+    depends: [3A]
+    lesson_readme: lessons/4A/README.md
+    pebble_workdir: lessons/4A/starter
+    assessor_rubric: rubrics/4A.yaml
+    user_fields:
+      - key: behavior
+        section: "## Behavior observed"
+        prompt: "Optional — starter behavior if you ran the build."
+      - key: boundary
+        section: "## Boundary case tested"
+        prompt: "One boundary from SDK docs or usage (e.g. invalid input)."
+      - key: explain
+        section: "## Explain in your own words"
+        prompt: "API note — purpose, signature, args, return type, usage example."
+
+  5A:
+    title: Change one visual property of a time-only watchface
+    depends: [3A, 4A, 2A]
+    lesson_readme: lessons/5A/README.md
+    pebble_workdir: lessons/5A/starter
+    assessor_rubric: rubrics/5A.yaml
+    user_fields:
+      - key: behavior
+        section: "## Behavior observed"
+        prompt: "One visual change; time still updates; no date TextLayer."
+      - key: boundary
+        section: "## Boundary case tested"
+        prompt: "Normal glance + one edge case you tested."
+      - key: explain
+        section: "## Explain in your own words"
+        prompt: "Which visual property you changed and why (glanceability)."

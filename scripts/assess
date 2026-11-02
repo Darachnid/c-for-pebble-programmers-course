@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Run the course assessor from anywhere; cwd for git/evidence is always the repo root.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+# Use python -m (not the `assess` console script) so a broken course-root .venv cannot hijack uv.
+exec uv run --directory "${ROOT}/assessor" python -m assessor.cli "$@"
