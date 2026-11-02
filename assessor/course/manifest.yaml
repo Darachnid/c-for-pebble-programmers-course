@@ -11,9 +11,9 @@ activities:
   1A:
     title: Explore Pebble examples
     depends: []
-    lesson_readme: lessons/1A/README.md
-    pebble_workdir: lessons/1A/clock
-    pebble_notes: "Also inspect lessons/1A/fonts and lessons/1A/storage (separate projects)."
+    lesson_readme: lessons/01A/README.md
+    pebble_workdir: lessons/01A/clock
+    pebble_notes: "Also inspect lessons/01A/fonts and lessons/01A/storage (separate projects)."
     assessor_rubric: rubrics/1A.yaml
     user_fields:
       - key: behavior
@@ -31,8 +31,8 @@ activities:
   2A:
     title: Build and run a time-only C watchface
     depends: []
-    lesson_readme: lessons/2A/README.md
-    pebble_workdir: lessons/2A/starter
+    lesson_readme: lessons/02A/README.md
+    pebble_workdir: lessons/02A/starter
     assessor_rubric: rubrics/2A.yaml
     user_fields:
       - key: behavior
@@ -48,9 +48,9 @@ activities:
   3A:
     title: Variables, Data Types, and Operators
     depends: [2A]
-    lesson_readme: lessons/3A/README.md
-    pebble_workdir: lessons/3A/projects/project-3-1
-    pebble_notes: "Repeat build/run for lessons/3A/projects/project-3-2."
+    lesson_readme: lessons/03A/README.md
+    pebble_workdir: lessons/03A/projects/project-3-1
+    pebble_notes: "Repeat build/run for lessons/03A/projects/project-3-2."
     assessor_rubric: rubrics/3A.yaml
     user_fields:
       - key: behavior
@@ -66,8 +66,8 @@ activities:
   4A:
     title: Find and document a Pebble API function
     depends: [3A]
-    lesson_readme: lessons/4A/README.md
-    pebble_workdir: lessons/4A/starter
+    lesson_readme: lessons/04A/README.md
+    pebble_workdir: lessons/04A/starter
     assessor_rubric: rubrics/4A.yaml
     user_fields:
       - key: behavior
@@ -83,8 +83,8 @@ activities:
   5A:
     title: Change one visual property of a time-only watchface
     depends: [3A, 4A, 2A]
-    lesson_readme: lessons/5A/README.md
-    pebble_workdir: lessons/5A/starter
+    lesson_readme: lessons/05A/README.md
+    pebble_workdir: lessons/05A/starter
     assessor_rubric: rubrics/5A.yaml
     user_fields:
       - key: behavior

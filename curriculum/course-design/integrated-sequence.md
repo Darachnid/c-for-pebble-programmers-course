@@ -16,15 +16,15 @@ Each task has one **primary** and one **supporting** assessment lens; this is no
 
 | Phase | ID | Primary competency | Supporting competency | Dependencies (added labs) |
 |---|---|---|---|---|
-| I | [1A](../../lessons/1A/) | Idea Generation | Resource Literacy | See existing syllabus |
-| I | [2A](../../lessons/2A/) | Development Tools and Workflow | C Programming | See existing syllabus |
-| I | [3A](../../lessons/3A/) | C Programming | Debugging and Testing | See existing syllabus |
-| I | [4A](../../lessons/4A/) | Resource Literacy | C Programming | See existing syllabus |
-| I | [5A](../../lessons/5A/) | UI Design | Resource Literacy | See existing syllabus |
-| I | [6A](../../lessons/6A/) | Debugging and Testing | Development Tools and Workflow | See existing syllabus |
-| I | [7B](../../lessons/7B/) | Development Tools and Workflow | Debugging and Testing | See existing syllabus |
-| II | [8B](../../lessons/8B/) | C Programming | Algorithmic Thinking | See existing syllabus |
-| II | [9C](../../lessons/9C/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| I | [1A](../../lessons/01A/) | Idea Generation | Resource Literacy | See existing syllabus |
+| I | [2A](../../lessons/02A/) | Development Tools and Workflow | C Programming | See existing syllabus |
+| I | [3A](../../lessons/03A/) | C Programming | Debugging and Testing | See existing syllabus |
+| I | [4A](../../lessons/04A/) | Resource Literacy | C Programming | See existing syllabus |
+| I | [5A](../../lessons/05A/) | UI Design | Resource Literacy | See existing syllabus |
+| I | [6A](../../lessons/06A/) | Debugging and Testing | Development Tools and Workflow | See existing syllabus |
+| I | [7B](../../lessons/07B/) | Development Tools and Workflow | Debugging and Testing | See existing syllabus |
+| II | [8B](../../lessons/08B/) | C Programming | Algorithmic Thinking | See existing syllabus |
+| II | [9C](../../lessons/09C/) | C Programming | Algorithmic Thinking | See existing syllabus |
 | II | [10D](../../lessons/10D/) | C Programming | Algorithmic Thinking | See existing syllabus |
 | II | [11A](../../lessons/11A/) | Algorithmic Thinking | C Programming | See existing syllabus |
 | II | [12A](../../lessons/12A/) | UI Design | Development Tools and Workflow | 2A, 11A |

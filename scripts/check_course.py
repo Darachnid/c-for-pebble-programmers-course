@@ -30,7 +30,7 @@ for id_, t in by_id.items():
     assert re.fullmatch(r"\d+[A-Z]", id_), id_
     assert t["description"].split(" ", 1)[0] == id_, id_
     assert t["done"] and t["instructions"], id_
-    assert (ROOT / "lessons" / id_ / "README.md").is_file(), id_
+    assert (ROOT / "lessons" / (f"{int(id_[:-1]):02d}{id_[-1]}") / "README.md").is_file(), id_
     for dep in t["depends"]:
         assert dep in by_id and int(re.match(r"^\d+", dep).group()) < int(re.match(r"^\d+", id_).group()), (id_, dep)
 
@@ -49,7 +49,7 @@ for lesson in modules:
 for lesson, chapters in {"3A": ["3-1", "3-2"], "8B": ["4-1", "4-2"],
                          "9C": ["5-1", "5-2", "5-3"], "10D": ["6-1", "6-2", "6-3", "6-4"]}.items():
     for chapter in chapters:
-        assert (ROOT / "lessons" / lesson / "projects" / ("project-" + chapter) / "src/c/main.c").is_file()
+        assert (ROOT / "lessons" / (f"{int(lesson[:-1]):02d}{lesson[-1]}") / "projects" / ("project-" + chapter) / "src/c/main.c").is_file()
 
 projects = 0
 for manifest in (ROOT / "lessons").glob("*/*/package.json"):

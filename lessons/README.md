@@ -4,15 +4,15 @@ Every activity has a numbered folder and an exact local starting project. All se
 
 | ID | Activity | Time | Depends on | Reading or exact starter |
 |---|---|---:|---|---|
-| [1A](1A/) | Explore Pebble examples | 20m | None | [Lesson folder](1A/) |
-| [2A](2A/) | Build and run a time-only C watchface | 30m | None | [Lesson folder](2A/) |
-| [3A](3A/) | Variables, Data Types, and Operators | 120m | 2A | [C module](../curriculum/c-programming/3A-variables-data-types-operators.md) |
-| [4A](4A/) | Find and document a Pebble API function | 20m | 3A | [Lesson folder](4A/) |
-| [5A](5A/) | Change one visual property of a time-only watchface | 30m | 3A, 4A, 2A | [Lesson folder](5A/) |
-| [6A](6A/) | Diagnose a simple compiler error | 20m | 3A, 2A | [Lesson folder](6A/) |
-| [7B](7B/) | Create a Git-based modification workflow | 45m | 2A, 5A, 6A | [Lesson folder](7B/) |
-| [8B](8B/) | Conditional Execution and Decision Making | 120m | 3A | [C module](../curriculum/c-programming/8B-conditionals-decision-making.md) |
-| [9C](9C/) | Loops and Iteration | 135m | 8B | [C module](../curriculum/c-programming/9C-loops-iteration.md) |
+| [1A](01A/) | Explore Pebble examples | 20m | None | [Lesson folder](01A/) |
+| [2A](02A/) | Build and run a time-only C watchface | 30m | None | [Lesson folder](02A/) |
+| [3A](03A/) | Variables, Data Types, and Operators | 120m | 2A | [C module](../curriculum/c-programming/3A-variables-data-types-operators.md) |
+| [4A](04A/) | Find and document a Pebble API function | 20m | 3A | [Lesson folder](04A/) |
+| [5A](05A/) | Change one visual property of a time-only watchface | 30m | 3A, 4A, 2A | [Lesson folder](05A/) |
+| [6A](06A/) | Diagnose a simple compiler error | 20m | 3A, 2A | [Lesson folder](06A/) |
+| [7B](07B/) | Create a Git-based modification workflow | 45m | 2A, 5A, 6A | [Lesson folder](07B/) |
+| [8B](08B/) | Conditional Execution and Decision Making | 120m | 3A | [C module](../curriculum/c-programming/8B-conditionals-decision-making.md) |
+| [9C](09C/) | Loops and Iteration | 135m | 8B | [C module](../curriculum/c-programming/9C-loops-iteration.md) |
 | [10D](10D/) | Functions and Program Structure | 150m | 9C | [C module](../curriculum/c-programming/10D-functions-program-structure.md) |
 | [11A](11A/) | Trace the watchface lifecycle | 30m | 10D, 2A | [Lesson folder](11A/) |
 | [12A](12A/) | Windows and layers | 60m | 2A, 11A | [Lesson folder](12A/) |
